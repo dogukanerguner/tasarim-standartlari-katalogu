@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<style>
+html,body{margin:0;padding:0;background:#12100e}
+a{color:inherit;text-decoration:none}
+a:hover{color:#e8b93c}
+@keyframes pulseRing{0%{transform:scale(.9);opacity:.9}70%{transform:scale(1.5);opacity:0}100%{opacity:0}}
+@keyframes tick{0%,100%{transform:scale(1)}40%{transform:scale(1.18)}}
+</style>
+</helmet>
+<div style="background:#12100e;color:#f4f1ea;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;min-height:100vh;padding-bottom:52px">
+  <div style="display:flex;align-items:center;justify-content:space-between;padding:16px 44px;border-bottom:1px solid rgba(244,241,234,.18)">
+    <a href="Katalog.dc.html" style="font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase">← Katalog</a>
+    <span style="font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#e8b93c">44 · Davranış tasarımı</span>
+  </div>
+
+  <div style="display:grid;grid-template-columns:400px 1fr;gap:52px;padding:44px 44px 0;align-items:start">
+    <div>
+      <h1 style="font-size:46px;font-weight:600;line-height:1.06;letter-spacing:-.03em;margin:0 0 18px;text-wrap:balance">İnsanlar deneyimi ortalamasıyla değil, zirvesiyle ve sonuyla hatırlar</h1>
+      <p style="font-size:16px;line-height:1.65;color:rgba(244,241,234,.72);margin:0 0 26px">Bir uygulamanın 200 ekranı olabilir; hafızada kalan ikisidir. En yoğun duygunun yaşandığı an ve son an. Mikro etkileşimler tam da bu iki noktaya yerleştirilir.</p>
+
+      <div style="border-top:1px solid rgba(244,241,234,.35);padding-top:16px;margin-bottom:18px">
+        <div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#e8b93c;margin-bottom:8px">Zirve–son kuralı</div>
+        <div style="font-size:15px;line-height:1.6">Kaydetme, gönderme ve tamamlama anlarına bütçe ayırın. Ortadaki adımlar sessiz kalabilir.</div>
+      </div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:16px;margin-bottom:18px">
+        <div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#e8b93c;margin-bottom:8px">Estetik–kullanılabilirlik etkisi</div>
+        <div style="font-size:15px;line-height:1.6">Güzel görünen arayüz daha kullanışlı sanılır ve küçük hatalar affedilir. Bu, kötü akışı kurtarmaz — ama iyi akışı güçlendirir.</div>
+      </div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:16px">
+        <div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#e8b93c;margin-bottom:8px">Haptik dili</div>
+        <div style="font-size:15px;line-height:1.6">Hafif titreşim: seçim. Orta: onay. Çift darbe: hata. Titreşimi ödül dağıtır gibi kullanmayın; anlamı tükenir.</div>
+      </div>
+    </div>
+
+    <div style="display:flex;gap:32px;align-items:flex-start">
+      <div>
+        <div style="position:relative;width:300px;height:640px;border-radius:44px;background:#000;padding:9px;box-shadow:0 24px 50px rgba(0,0,0,.5)">
+          <div style="position:relative;width:100%;height:100%;border-radius:36px;overflow:hidden;background:#1b1815;display:flex;flex-direction:column;align-items:center">
+            <div style="width:100%;display:flex;justify-content:space-between;padding:14px 20px 0;font-size:12px;font-weight:600"><span>9:41</span><span style="letter-spacing:.12em">▮▮▮ ⬤</span></div>
+            <div style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:0 28px;text-align:center">
+              <div style="position:relative;width:120px;height:120px;margin-bottom:26px">
+                <div style="position:absolute;inset:0;border-radius:50%;border:2px solid #4ade8a;animation:pulseRing 2.6s ease-out infinite"></div>
+                <div style="position:absolute;inset:0;border-radius:50%;background:#4ade8a;color:#12100e;display:flex;align-items:center;justify-content:center;font-size:52px;font-weight:700;animation:tick 2.6s ease-in-out infinite">✓</div>
+              </div>
+              <div style="font-size:24px;font-weight:600;letter-spacing:-.02em;margin-bottom:10px">Transfer tamamlandı</div>
+              <div style="font-size:15px;line-height:1.6;color:rgba(244,241,234,.65)">₺2.400 · Ayşe Y.<br />Hesabına saniyeler içinde geçecek.</div>
+              <div style="margin-top:22px;display:flex;gap:8px;align-items:center;font-size:12.5px;color:rgba(244,241,234,.5)">
+                <span style="width:7px;height:7px;border-radius:50%;background:#4ade8a"></span>
+                <span>orta şiddette titreşim · 180 ms</span>
+              </div>
+            </div>
+            <div style="width:100%;padding:0 24px 26px;display:flex;flex-direction:column;gap:10px">
+              <div style="background:#f4f1ea;color:#12100e;border-radius:14px;padding:15px;text-align:center;font-size:15.5px;font-weight:600">Dekontu paylaş</div>
+              <div style="border:1px solid rgba(244,241,234,.28);border-radius:14px;padding:15px;text-align:center;font-size:15.5px">Ana ekrana dön</div>
+            </div>
+          </div>
+        </div>
+        <div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:rgba(244,241,234,.45);margin-top:12px;text-align:center">A · zirve anı</div>
+      </div>
+
+      <div style="flex:1;max-width:520px">
+        <div style="border:1px solid rgba(244,241,234,.35);padding:22px;margin-bottom:18px">
+          <div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#e8b93c;margin-bottom:16px">Süre bütçesi</div>
+          <div style="display:flex;flex-direction:column;gap:12px">
+            <div><div style="display:flex;justify-content:space-between;font-size:14px;margin-bottom:6px"><span>Dokunma tepkisi</span><span style="color:#e8b93c">≤ 100 ms</span></div><div style="height:7px;background:rgba(244,241,234,.14)"><div style="width:10%;height:100%;background:#e8b93c"></div></div></div>
+            <div><div style="display:flex;justify-content:space-between;font-size:14px;margin-bottom:6px"><span>Katman geçişi</span><span style="color:#e8b93c">250—300 ms</span></div><div style="height:7px;background:rgba(244,241,234,.14)"><div style="width:30%;height:100%;background:#e8b93c"></div></div></div>
+            <div><div style="display:flex;justify-content:space-between;font-size:14px;margin-bottom:6px"><span>Sistem cevabı</span><span style="color:#e8b93c">≤ 400 ms</span></div><div style="height:7px;background:rgba(244,241,234,.14)"><div style="width:40%;height:100%;background:#e8b93c"></div></div></div>
+            <div><div style="display:flex;justify-content:space-between;font-size:14px;margin-bottom:6px"><span>Kutlama animasyonu</span><span style="color:#e8b93c">≤ 900 ms</span></div><div style="height:7px;background:rgba(244,241,234,.14)"><div style="width:90%;height:100%;background:#e8b93c"></div></div></div>
+          </div>
+          <div style="font-size:13.5px;line-height:1.6;color:rgba(244,241,234,.6);margin-top:16px">1 saniyeyi geçen her kutlama, ikinci kullanımda engel hâline gelir. Atlanabilir olmalıdır.</div>
+        </div>
+
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+          <div style="border:1px solid rgba(244,241,234,.18);padding:20px">
+            <div style="font-size:16px;font-weight:600;margin-bottom:7px">İyimser arayüz</div>
+            <div style="font-size:14px;line-height:1.6;color:rgba(244,241,234,.7)">Beğeni anında görünür, sunucu sonra onaylar. Beklemeyi gizlemek, hızlandırmaktan ucuzdur.</div>
+          </div>
+          <div style="border:1px solid rgba(244,241,234,.18);padding:20px">
+            <div style="font-size:16px;font-weight:600;margin-bottom:7px">Hata da bir andır</div>
+            <div style="font-size:14px;line-height:1.6;color:rgba(244,241,234,.7)">Sert kırmızı uyarı yerine ne yapılacağını söyleyen tek cümle; sonu iyi biten deneyim iyi hatırlanır.</div>
+          </div>
+          <div style="border:1px solid rgba(244,241,234,.18);padding:20px">
+            <div style="font-size:16px;font-weight:600;margin-bottom:7px">Hareket duyarlılığı</div>
+            <div style="font-size:14px;line-height:1.6;color:rgba(244,241,234,.7)">Sistem “hareketi azalt” diyorsa animasyon sönümlenmeli; erişilebilirlik burada da geçerlidir.</div>
+          </div>
+          <div style="border:1px solid rgba(244,241,234,.18);padding:20px">
+            <div style="font-size:16px;font-weight:600;margin-bottom:7px">Sessiz varsayılan</div>
+            <div style="font-size:14px;line-height:1.6;color:rgba(244,241,234,.7)">Ses ve titreşim kapatılabilir olmalı; toplu taşımada açılan bir uygulama utandırmamalı.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="margin:44px 44px 0;border-top:1px solid rgba(244,241,234,.3);padding-top:16px;display:flex;justify-content:space-between;font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:rgba(244,241,234,.45)">
+    <span>Mikro Etkileşim, Haptik &amp; Zirve–Son</span><span>Kahneman · estetik–kullanılabilirlik</span>
+  </div>
+</div>
+
+<div data-prompt-block="1" style="background:#17160f;color:#f4f1ea;font-family:ui-monospace,'SF Mono',Menlo,monospace;padding:40px 44px 46px">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid rgba(244,241,234,.3);padding-bottom:12px;margin-bottom:26px">
+    <span style="font-size:12px;letter-spacing:.18em;text-transform:uppercase">Tasarım promptu — 44 — Mikro Etkileşim</span>
+    <span style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;opacity:.45">seçip kopyalayın</span>
+  </div>
+  <div style="display:grid;grid-template-columns:1.5fr 1fr;gap:40px;align-items:start">
+    <div>
+      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:10px">İngilizce prompt · detaylı</div>
+      <div style="font-size:13.5px;line-height:1.9;background:rgba(244,241,234,.06);border:1px solid rgba(244,241,234,.22);padding:20px;user-select:all">Design a dark mobile study page about microinteractions. Ink background (#12100e) with amber annotation labels. A phone shows a transfer-success peak moment: a 120px green circle with a large checkmark, an expanding pulse ring behind it, a confirmation headline, amount and recipient, and a haptic note reading 'orta şiddette titreşim · 180 ms'. Beside it, a timing budget chart with four labelled bars (100ms tap, 250-300ms transition, 400ms system response, 900ms celebration) and four cards on optimistic UI, error moments, reduced motion and silent defaults.</div>
+      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin:22px 0 8px">Türkçe brief</div>
+      <div style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;line-height:1.7;opacity:.85">Zirve–son kuralını, haptik dilini ve animasyon süre bütçesini gösteren mikro etkileşim çalışması.</div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:16px">
+      <div>
+        <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:10px">Palet</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px"><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#12100e;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#12100e</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#f4f1ea;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#f4f1ea</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#e8b93c;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#e8b93c</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#4ade8a;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#4ade8a</span></div></div>
+      </div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Tipografi</div><div style="font-size:13px;line-height:1.6;opacity:.9">Helvetica Neue 600 + monospace etiketler</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Düzen</div><div style="font-size:13px;line-height:1.6;opacity:.9">Koyu sahne, telefon + süre bütçesi grafiği</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Hareket</div><div style="font-size:13px;line-height:1.6;opacity:.9">2.6 sn nabız halkası, 180ms haptik</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Kaçınılacaklar</div><div style="font-size:13px;line-height:1.6;opacity:.9">1 sn üstü atlanamayan kutlama, aşırı titreşim</div></div>
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

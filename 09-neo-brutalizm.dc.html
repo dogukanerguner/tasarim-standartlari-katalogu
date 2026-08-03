@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+<style>
+html,body{margin:0;padding:0;background:#f5e9c9}
+a{color:inherit;text-decoration:none}
+a:hover{color:#0b0b0b;background:#ffe94d}
+</style>
+</helmet>
+<div style="background:#f5e9c9;color:#0b0b0b;font-family:'Space Grotesk',Helvetica,Arial,sans-serif;min-height:100vh;padding:0 26px 44px">
+  <div style="display:flex;align-items:center;justify-content:space-between;background:#fff;border:3px solid #0b0b0b;box-shadow:6px 6px 0 #0b0b0b;padding:12px 18px;margin:20px 0 26px">
+    <a href="Katalog.dc.html" style="font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:-.01em">← katalog</a>
+    <div style="display:flex;gap:8px">
+      <span style="border:2px solid #0b0b0b;background:#a8e6a1;padding:5px 12px;font-size:12px;font-weight:700;text-transform:uppercase">özellikler</span>
+      <span style="border:2px solid #0b0b0b;background:#a1d4ff;padding:5px 12px;font-size:12px;font-weight:700;text-transform:uppercase">fiyat</span>
+      <span style="border:2px solid #0b0b0b;background:#ffb1d8;padding:5px 12px;font-size:12px;font-weight:700;text-transform:uppercase">giriş</span>
+    </div>
+  </div>
+
+  <div style="display:grid;grid-template-columns:1.35fr 1fr;gap:22px;align-items:start">
+    <div style="background:#ffe94d;border:3px solid #0b0b0b;box-shadow:10px 10px 0 #0b0b0b;padding:34px">
+      <div style="display:inline-block;background:#0b0b0b;color:#ffe94d;font-size:12px;font-weight:700;text-transform:uppercase;padding:5px 10px;margin-bottom:20px">v2 çıktı, evet gerçekten</div>
+      <h1 style="font-size:70px;font-weight:700;line-height:.94;letter-spacing:-.035em;margin:0 0 18px;text-transform:uppercase">Ürününü<br />sat, geri<br />kalanı bize<br />bırak</h1>
+      <p style="font-size:16px;line-height:1.5;margin:0 0 26px;max-width:34ch;font-weight:500">Ödeme, dosya teslimi ve vergi. Üç sıkıcı iş, tek bir kutu.</p>
+      <div style="display:flex;gap:14px;align-items:center">
+        <span style="background:#0b0b0b;color:#fff;border:3px solid #0b0b0b;box-shadow:5px 5px 0 #ffb1d8;padding:13px 24px;font-size:15px;font-weight:700;text-transform:uppercase">hemen kur</span>
+        <span style="text-decoration:underline;font-size:14px;font-weight:500">ücret? %2 + kahve</span>
+      </div>
+    </div>
+
+    <div style="display:flex;flex-direction:column;gap:22px">
+      <div style="background:#a1d4ff;border:3px solid #0b0b0b;box-shadow:8px 8px 0 #0b0b0b;padding:22px">
+        <div style="font-size:44px;font-weight:700;letter-spacing:-.03em;line-height:1">₺812K</div>
+        <div style="font-size:13px;font-weight:500;margin-top:4px">bu hafta satıcılara ödedik</div>
+      </div>
+      <div style="background:#fff;border:3px solid #0b0b0b;box-shadow:8px 8px 0 #0b0b0b;padding:0;overflow:hidden">
+        <div style="border-bottom:3px solid #0b0b0b;padding:10px 16px;font-size:12px;font-weight:700;text-transform:uppercase;background:#a8e6a1">son satışlar</div>
+        <div style="display:flex;justify-content:space-between;padding:11px 16px;border-bottom:2px solid #0b0b0b;font-size:13px;font-weight:500"><span>Font paketi</span><span>₺240</span></div>
+        <div style="display:flex;justify-content:space-between;padding:11px 16px;border-bottom:2px solid #0b0b0b;font-size:13px;font-weight:500"><span>Ses kütüphanesi</span><span>₺1.100</span></div>
+        <div style="display:flex;justify-content:space-between;padding:11px 16px;font-size:13px;font-weight:500"><span>Not şablonu</span><span>₺95</span></div>
+      </div>
+      <div style="background:#ffb1d8;border:3px solid #0b0b0b;box-shadow:8px 8px 0 #0b0b0b;padding:18px;font-size:15px;font-weight:700;line-height:1.35;text-transform:uppercase">gölgeler sahte<br />değil, sadece sert</div>
+    </div>
+  </div>
+
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:26px">
+    <div style="background:#fff;border:3px solid #0b0b0b;box-shadow:7px 7px 0 #0b0b0b;padding:22px">
+      <div style="width:34px;height:34px;border:3px solid #0b0b0b;background:#ffe94d;margin-bottom:14px"></div>
+      <div style="font-size:19px;font-weight:700;text-transform:uppercase;margin-bottom:7px">tek tık</div>
+      <div style="font-size:14px;line-height:1.5;font-weight:500">Kayıt yok, onay maili yok, bekleme yok.</div>
+    </div>
+    <div style="background:#fff;border:3px solid #0b0b0b;box-shadow:7px 7px 0 #0b0b0b;padding:22px">
+      <div style="width:34px;height:34px;border-radius:50%;border:3px solid #0b0b0b;background:#a1d4ff;margin-bottom:14px"></div>
+      <div style="font-size:19px;font-weight:700;text-transform:uppercase;margin-bottom:7px">açık ücret</div>
+      <div style="font-size:14px;line-height:1.5;font-weight:500">Küçük yazı yok, dipnot yok, sürpriz yok.</div>
+    </div>
+    <div style="background:#0b0b0b;color:#f5e9c9;border:3px solid #0b0b0b;box-shadow:7px 7px 0 #a8e6a1;padding:22px">
+      <div style="width:34px;height:34px;border:3px solid #f5e9c9;background:#ffb1d8;margin-bottom:14px;transform:rotate(45deg)"></div>
+      <div style="font-size:19px;font-weight:700;text-transform:uppercase;margin-bottom:7px">gerçek destek</div>
+      <div style="font-size:14px;line-height:1.5;font-weight:500">Yazınca insan cevap veriyor. Ortalama 4 saat.</div>
+    </div>
+  </div>
+
+  <div style="display:flex;justify-content:space-between;margin-top:28px;padding-top:14px;border-top:3px solid #0b0b0b;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.04em">
+    <span>Neo-Brütalizm</span><span style="opacity:.55">Figma / Gumroad ekolü</span>
+  </div>
+</div>
+
+<div data-prompt-block="1" style="background:#17160f;color:#f4f1ea;font-family:ui-monospace,'SF Mono',Menlo,monospace;padding:40px 44px 46px">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid rgba(244,241,234,.3);padding-bottom:12px;margin-bottom:26px">
+    <span style="font-size:12px;letter-spacing:.18em;text-transform:uppercase">Tasarım promptu — 09 — Neo-Brütalizm</span>
+    <span style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;opacity:.45">seçip kopyalayın</span>
+  </div>
+  <div style="display:grid;grid-template-columns:1.5fr 1fr;gap:40px;align-items:start">
+    <div>
+      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:10px">İngilizce prompt · detaylı</div>
+      <div style="font-size:13.5px;line-height:1.9;background:rgba(244,241,234,.06);border:1px solid rgba(244,241,234,.22);padding:20px;user-select:all">Design a creator-payments landing page in neo-brutalist style. Cream background (#f5e9c9), 3px pure black borders on everything, and hard offset shadows (6—10px, no blur) in black and accent colors. A yellow hero block with a 70px uppercase bold headline, plus stacked side cards in sky blue, pink and white. Pill nav chips in pastel colors with black borders. Buttons are chunky with colored drop shadows. Type is Space Grotesk 700, tight and loud, and nothing is subtle.</div>
+      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin:22px 0 8px">Türkçe brief</div>
+      <div style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;line-height:1.7;opacity:.85">Kalın siyah çerçeveler, sert ofset gölgeler ve pastel-neon bloklarla kurulmuş çiğ ve samimi ürün sayfası.</div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:16px">
+      <div>
+        <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:10px">Palet</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px"><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#f5e9c9;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#f5e9c9</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#0b0b0b;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#0b0b0b</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#ffe94d;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#ffe94d</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#a1d4ff;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#a1d4ff</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#ffb1d8;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#ffb1d8</span></div></div>
+      </div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Tipografi</div><div style="font-size:13px;line-height:1.6;opacity:.9">Space Grotesk 700, büyük harf, sıkı aralık</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Düzen</div><div style="font-size:13px;line-height:1.6;opacity:.9">Blok ızgara, 3px çerçeve, 5-10px sert gölge</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Hareket</div><div style="font-size:13px;line-height:1.6;opacity:.9">Hover'da gölge kayması (2-3px)</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Kaçınılacaklar</div><div style="font-size:13px;line-height:1.6;opacity:.9">Bulanık gölge, düşük kontrast, ince tipografi</div></div>
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

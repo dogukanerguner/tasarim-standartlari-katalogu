@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<style>
+html,body{margin:0;padding:0;background:#efece5}
+a{color:inherit;text-decoration:none}
+a:hover{color:#a8442c}
+</style>
+</helmet>
+<div style="background:#efece5;color:#17160f;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;min-height:100vh;padding-bottom:52px">
+  <div style="display:flex;align-items:center;justify-content:space-between;padding:16px 44px;border-bottom:1px solid #17160f">
+    <a href="Katalog.dc.html" style="font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase">← Katalog</a>
+    <span style="font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#a8442c">38 · Mobil arayüz yapıları</span>
+  </div>
+
+  <div style="display:grid;grid-template-columns:400px 1fr;gap:52px;padding:44px 44px 0;align-items:start">
+    <div>
+      <h1 style="font-size:46px;font-weight:600;line-height:1.06;letter-spacing:-.03em;margin:0 0 18px;text-wrap:balance">Kullanıcıyı bulunduğu yerden koparmayın</h1>
+      <p style="font-size:16px;line-height:1.65;color:#5b564c;margin:0 0 26px">Alt sayfa, arkadaki bağlamı görünür bırakır. Kullanıcı nereden geldiğini unutmaz, geri dönüşün ücretsiz olduğunu bilir — bu yüzden daha cesur davranır.</p>
+
+      <div style="border-top:1px solid #17160f;padding-top:16px;margin-bottom:18px">
+        <div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#a8442c;margin-bottom:8px">Bağlam sürekliliği</div>
+        <div style="font-size:15px;line-height:1.6">Tam ekran geçiş, zihinsel modeli sıfırlar. Yarı yükseklikteki katman ise “aynı yerdeyim, üstüne bir şey açıldı” der.</div>
+      </div>
+      <div style="border-top:1px solid rgba(23,22,15,.25);padding-top:16px;margin-bottom:18px">
+        <div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#a8442c;margin-bottom:8px">Doherty eşiği</div>
+        <div style="font-size:15px;line-height:1.6">Sistem 400 ms içinde cevap verirse kullanıcı akışta kalır. Katman animasyonu 250—300 ms bandında tutulur.</div>
+      </div>
+      <div style="border-top:1px solid rgba(23,22,15,.25);padding-top:16px">
+        <div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#a8442c;margin-bottom:8px">Geri çıkış maliyeti</div>
+        <div style="font-size:15px;line-height:1.6">Kapatma her zaman üç yolla mümkün olmalı: aşağı sürükleme, dışarı dokunma ve görünür kapat düğmesi.</div>
+      </div>
+    </div>
+
+    <div style="display:flex;gap:32px;align-items:flex-start">
+      <div>
+        <div style="position:relative;width:300px;height:640px;border-radius:44px;background:#17160f;padding:9px;box-shadow:0 24px 50px rgba(23,22,15,.22)">
+          <div style="position:relative;width:100%;height:100%;border-radius:36px;overflow:hidden;background:#f2efe8">
+            <div style="display:flex;justify-content:space-between;padding:14px 20px 0;font-size:12px;font-weight:600"><span>9:41</span><span style="letter-spacing:.12em">▮▮▮ ⬤</span></div>
+            <div style="padding:20px 20px 0;filter:blur(1.2px);opacity:.55">
+              <div style="font-size:22px;font-weight:600;letter-spacing:-.02em;margin-bottom:14px">Yakınımdaki kafeler</div>
+              <div style="height:150px;border-radius:16px;background:repeating-linear-gradient(45deg,#e2ded4 0 10px,#eae7df 10px 20px);margin-bottom:12px"></div>
+              <div style="display:flex;gap:10px;align-items:center;margin-bottom:10px"><span style="width:44px;height:44px;border-radius:10px;background:#e2ded4"></span><span style="font-size:14px">Kuzey Kahve · 240 m</span></div>
+              <div style="display:flex;gap:10px;align-items:center"><span style="width:44px;height:44px;border-radius:10px;background:#e2ded4"></span><span style="font-size:14px">Sokak Başı · 410 m</span></div>
+            </div>
+            <div style="position:absolute;inset:0;background:rgba(23,22,15,.32)"></div>
+            <div style="position:absolute;left:0;right:0;bottom:0;height:400px;background:#fbfaf7;border-radius:26px 26px 0 0;box-shadow:0 -14px 40px rgba(23,22,15,.28);display:flex;flex-direction:column">
+              <div style="display:flex;justify-content:center;padding:10px 0 4px"><span style="width:38px;height:5px;border-radius:999px;background:#d8d3c8"></span></div>
+              <div style="padding:10px 20px 0;display:flex;justify-content:space-between;align-items:center">
+                <span style="font-size:19px;font-weight:600;letter-spacing:-.015em">Kuzey Kahve</span>
+                <span style="width:28px;height:28px;border-radius:50%;background:#efece5;display:flex;align-items:center;justify-content:center;font-size:14px">✕</span>
+              </div>
+              <div style="padding:6px 20px 0;font-size:13px;color:#6d675c">Açık · 22:00'a kadar · 240 m</div>
+              <div style="padding:16px 20px 0;display:flex;gap:8px">
+                <span style="border:1px solid #ded9cf;border-radius:999px;padding:6px 12px;font-size:12.5px">☕ filtre</span>
+                <span style="border:1px solid #ded9cf;border-radius:999px;padding:6px 12px;font-size:12.5px">🔌 priz</span>
+                <span style="border:1px solid #ded9cf;border-radius:999px;padding:6px 12px;font-size:12.5px">🐕 evcil</span>
+              </div>
+              <div style="flex:1;padding:16px 20px 0">
+                <div style="display:flex;justify-content:space-between;padding:9px 0;border-bottom:1px solid #eae7df;font-size:14px"><span>Filtre kahve</span><span>₺85</span></div>
+                <div style="display:flex;justify-content:space-between;padding:9px 0;border-bottom:1px solid #eae7df;font-size:14px"><span>Cortado</span><span>₺95</span></div>
+                <div style="display:flex;justify-content:space-between;padding:9px 0;font-size:14px"><span>Tarçınlı çörek</span><span>₺70</span></div>
+              </div>
+              <div style="padding:12px 20px 24px;display:flex;gap:10px">
+                <div style="flex:1;background:#17160f;color:#fbfaf7;border-radius:14px;padding:14px;text-align:center;font-size:15px;font-weight:600">Yol tarifi</div>
+                <div style="width:52px;border:1px solid #ded9cf;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:18px">♥</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#8b857a;margin-top:12px;text-align:center">A · yarı katman</div>
+      </div>
+
+      <div>
+        <div style="position:relative;width:300px;height:640px;border-radius:44px;background:#17160f;padding:9px;box-shadow:0 24px 50px rgba(23,22,15,.22)">
+          <div style="position:relative;width:100%;height:100%;border-radius:36px;overflow:hidden;background:#f2efe8">
+            <div style="display:flex;justify-content:space-between;padding:14px 20px 0;font-size:12px;font-weight:600"><span>9:41</span><span style="letter-spacing:.12em">▮▮▮ ⬤</span></div>
+            <div style="position:absolute;inset:0;background:rgba(23,22,15,.45)"></div>
+            <div style="position:absolute;left:22px;right:22px;top:190px;background:#fbfaf7;border-radius:20px;padding:24px 22px;box-shadow:0 22px 50px rgba(23,22,15,.4);text-align:center">
+              <div style="font-size:19px;font-weight:600;letter-spacing:-.015em;margin-bottom:10px">Kaydı silmek istiyor musun?</div>
+              <div style="font-size:14px;line-height:1.6;color:#6d675c;margin-bottom:20px">Bu işlem geri alınamaz. 14 not ve 3 fotoğraf kalıcı olarak silinecek.</div>
+              <div style="background:#b03428;color:#fff;border-radius:13px;padding:14px;font-size:15px;font-weight:600;margin-bottom:9px">Kalıcı olarak sil</div>
+              <div style="border:1px solid #ded9cf;border-radius:13px;padding:14px;font-size:15px;font-weight:600">Vazgeç</div>
+            </div>
+            <div style="position:absolute;left:22px;right:22px;bottom:26px;font-size:12px;line-height:1.55;color:rgba(251,250,247,.7);text-align:center">Yıkıcı eylemler modal ister: kullanıcı kazara kaydıramaz, bilinçli seçim yapmak zorundadır.</div>
+          </div>
+        </div>
+        <div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#8b857a;margin-top:12px;text-align:center">B · engelleyici modal</div>
+      </div>
+
+      <div style="flex:1;max-width:330px;display:flex;flex-direction:column;gap:16px">
+        <div style="border:1px solid #17160f;background:#f7f5f0;padding:20px">
+          <div style="font-size:16px;font-weight:600;margin-bottom:7px">Hangisi ne zaman</div>
+          <div style="font-size:14px;line-height:1.65;color:#5b564c">Alt sayfa: keşif, filtre, detay. Modal: onay, hata, geri alınamaz karar. Tam ekran: uzun form ve odak işi.</div>
+        </div>
+        <div style="border:1px solid #e0dcd2;background:#f7f5f0;padding:20px">
+          <div style="font-size:16px;font-weight:600;margin-bottom:7px">Katman derinliği</div>
+          <div style="font-size:14px;line-height:1.65;color:#5b564c">İkiden fazla üst üste katman açılmamalı. Üçüncü katman gerekiyorsa akış yanlış kurulmuştur.</div>
+        </div>
+        <div style="border:1px solid #e0dcd2;background:#f7f5f0;padding:20px">
+          <div style="font-size:16px;font-weight:600;margin-bottom:7px">Tutamak görünür olsun</div>
+          <div style="font-size:14px;line-height:1.65;color:#5b564c">Üstteki küçük çubuk yalnızca süs değildir; sürüklenebilirliğin tek görsel işaretidir.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="margin:44px 44px 0;border-top:1px solid #17160f;padding-top:16px;display:flex;justify-content:space-between;font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#8b857a">
+    <span>Alt Sayfa &amp; Katman Yönetimi</span><span>Bağlam sürekliliği · Doherty eşiği</span>
+  </div>
+</div>
+
+<div data-prompt-block="1" style="background:#17160f;color:#f4f1ea;font-family:ui-monospace,'SF Mono',Menlo,monospace;padding:40px 44px 46px">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid rgba(244,241,234,.3);padding-bottom:12px;margin-bottom:26px">
+    <span style="font-size:12px;letter-spacing:.18em;text-transform:uppercase">Tasarım promptu — 38 — Alt Sayfa &amp; Katman</span>
+    <span style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;opacity:.45">seçip kopyalayın</span>
+  </div>
+  <div style="display:grid;grid-template-columns:1.5fr 1fr;gap:40px;align-items:start">
+    <div>
+      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:10px">İngilizce prompt · detaylı</div>
+      <div style="font-size:13.5px;line-height:1.9;background:rgba(244,241,234,.06);border:1px solid rgba(244,241,234,.22);padding:20px;user-select:all">Design a mobile layering study page. Phone one shows a bottom sheet: the underlying map list is blurred and dimmed but still visible, and a 400px-tall sheet with a 26px top radius, a drag handle, a title row with a close button, filter chips, a price list and a sticky action row slides up from the bottom. Phone two shows a blocking destructive-confirmation modal centred over a dark scrim, with a red primary action and a neutral cancel. Side notes compare sheet, modal and full screen.</div>
+      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin:22px 0 8px">Türkçe brief</div>
+      <div style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;line-height:1.7;opacity:.85">Bağlamı koruyan yarı katman ile yıkıcı eylemi durduran modalı yan yana gösteren katman çalışması.</div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:16px">
+      <div>
+        <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:10px">Palet</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px"><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#efece5;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#efece5</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#fbfaf7;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#fbfaf7</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#17160f;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#17160f</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#b03428;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#b03428</span></div></div>
+      </div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Tipografi</div><div style="font-size:13px;line-height:1.6;opacity:.9">Helvetica Neue 600, 19px sayfa başlığı</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Düzen</div><div style="font-size:13px;line-height:1.6;opacity:.9">İki telefon + sağda kullanım kuralları</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Hareket</div><div style="font-size:13px;line-height:1.6;opacity:.9">250—300ms yükselme, sürükleyerek kapatma</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Kaçınılacaklar</div><div style="font-size:13px;line-height:1.6;opacity:.9">İkiden fazla üst üste katman, gizli kapatma</div></div>
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

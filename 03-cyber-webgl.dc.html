@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet" />
+<style>
+html,body{margin:0;padding:0;background:#04060a}
+a{color:inherit;text-decoration:none}
+a:hover{color:#5ffbf1}
+@keyframes pulse{0%,100%{opacity:.35;transform:scale(1)}50%{opacity:.9;transform:scale(1.25)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes scanline{0%{transform:translateY(-100%)}100%{transform:translateY(900%)}}
+</style>
+</helmet>
+<div style="position:relative;overflow:hidden;background:#04060a;color:#dff6f4;font-family:'Space Grotesk',Helvetica,Arial,sans-serif;min-height:100vh">
+  <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(95,251,241,.06),rgba(4,6,10,0) 45%),radial-gradient(60% 50% at 50% 105%,rgba(122,92,255,.35),rgba(4,6,10,0));pointer-events:none"></div>
+  <div style="position:absolute;inset:0;background-image:linear-gradient(rgba(95,251,241,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(95,251,241,.07) 1px,transparent 1px);background-size:64px 64px;mask-image:radial-gradient(70% 60% at 50% 40%,#000,transparent);pointer-events:none"></div>
+  <div style="position:absolute;left:0;right:0;height:120px;top:0;background:linear-gradient(180deg,rgba(95,251,241,0),rgba(95,251,241,.08),rgba(95,251,241,0));animation:scanline 9s linear infinite;pointer-events:none"></div>
+
+  <div style="position:relative;display:flex;align-items:center;justify-content:space-between;padding:22px 44px;border-bottom:1px solid rgba(95,251,241,.16)">
+    <a href="Katalog.dc.html" style="font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#5ffbf1">← katalog</a>
+    <div style="display:flex;gap:28px;font-size:12px;letter-spacing:.18em;text-transform:uppercase;opacity:.7">
+      <span>deneyim</span><span>lab</span><span>motor</span><span>kariyer</span>
+    </div>
+    <div style="display:flex;align-items:center;gap:10px;font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.1em">
+      <span style="width:7px;height:7px;border-radius:50%;background:#5ffbf1;box-shadow:0 0 12px 3px rgba(95,251,241,.8);animation:pulse 2.4s ease-in-out infinite"></span>
+      <span style="color:#5ffbf1">canlı: 2.418 oyuncu</span>
+    </div>
+  </div>
+
+  <div style="position:relative;display:grid;grid-template-columns:1fr 420px;gap:48px;padding:88px 44px 0;align-items:center">
+    <div>
+      <div style="display:inline-flex;align-items:center;gap:10px;border:1px solid rgba(95,251,241,.3);border-radius:999px;padding:7px 16px;font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#5ffbf1;margin-bottom:34px">sürüm 3.0 · gerçek zamanlı motor</div>
+      <h1 style="font-weight:700;font-size:96px;line-height:.92;letter-spacing:-.035em;margin:0 0 26px;text-shadow:0 0 60px rgba(95,251,241,.35)">TARAYICI<br />ARTIK BİR<br /><span style="color:#5ffbf1">SAHNE</span></h1>
+      <p style="max-width:46ch;font-size:17px;line-height:1.6;font-weight:300;opacity:.72;margin:0 0 34px">3D sahneler, parçacık sistemleri ve gerçek zamanlı ışık. Kurulum yok, indirme yok — sadece bir sekme.</p>
+      <div style="display:flex;gap:14px">
+        <span style="background:linear-gradient(90deg,#5ffbf1,#7a5cff);color:#04060a;font-weight:700;padding:14px 28px;border-radius:4px;font-size:14px;letter-spacing:.06em;text-transform:uppercase;box-shadow:0 0 40px rgba(95,251,241,.35)">deneyimi başlat</span>
+        <span style="border:1px solid rgba(223,246,244,.28);padding:14px 26px;border-radius:4px;font-size:14px;letter-spacing:.06em;text-transform:uppercase;opacity:.85">teknik döküm</span>
+      </div>
+    </div>
+    <div style="position:relative;aspect-ratio:1;display:flex;align-items:center;justify-content:center">
+      <div style="position:absolute;inset:0;border:1px solid rgba(95,251,241,.25);border-radius:50%;animation:spin 30s linear infinite"></div>
+      <div style="position:absolute;inset:52px;border:1px dashed rgba(122,92,255,.45);border-radius:50%;animation:spin 18s linear infinite reverse"></div>
+      <div style="position:absolute;inset:104px;border-radius:50%;background:radial-gradient(circle at 38% 32%,rgba(95,251,241,.55),rgba(122,92,255,.35) 55%,rgba(4,6,10,.2) 75%);filter:blur(2px);box-shadow:0 0 90px rgba(122,92,255,.6) inset"></div>
+      <span style="position:relative;font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;opacity:.7;text-align:center;max-width:16ch">[ webgl sahne · 60fps ]</span>
+    </div>
+  </div>
+
+  <div style="position:relative;display:grid;grid-template-columns:repeat(4,1fr);gap:1px;margin:80px 44px 0;background:rgba(95,251,241,.16);border:1px solid rgba(95,251,241,.16)">
+    <div style="background:#05080d;padding:26px"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.16em;opacity:.5;margin-bottom:12px">FPS</div><div style="font-size:32px;font-weight:500;color:#5ffbf1">60.0</div></div>
+    <div style="background:#05080d;padding:26px"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.16em;opacity:.5;margin-bottom:12px">PARÇACIK</div><div style="font-size:32px;font-weight:500">128 K</div></div>
+    <div style="background:#05080d;padding:26px"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.16em;opacity:.5;margin-bottom:12px">GECİKME</div><div style="font-size:32px;font-weight:500">12 ms</div></div>
+    <div style="background:#05080d;padding:26px"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.16em;opacity:.5;margin-bottom:12px">SAHNE</div><div style="font-size:32px;font-weight:500;color:#7a5cff">07</div></div>
+  </div>
+
+  <div style="position:relative;display:flex;justify-content:space-between;padding:44px;font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;opacity:.4">
+    <span>Gelecekçi &amp; Cyber-Sürükleyici</span><span>Active Theory ekolü</span>
+  </div>
+</div>
+
+<div data-prompt-block="1" style="background:#17160f;color:#f4f1ea;font-family:ui-monospace,'SF Mono',Menlo,monospace;padding:40px 44px 46px">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid rgba(244,241,234,.3);padding-bottom:12px;margin-bottom:26px">
+    <span style="font-size:12px;letter-spacing:.18em;text-transform:uppercase">Tasarım promptu — 03 — Gelecekçi Cyber</span>
+    <span style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;opacity:.45">seçip kopyalayın</span>
+  </div>
+  <div style="display:grid;grid-template-columns:1.5fr 1fr;gap:40px;align-items:start">
+    <div>
+      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:10px">İngilizce prompt · detaylı</div>
+      <div style="font-size:13.5px;line-height:1.9;background:rgba(244,241,234,.06);border:1px solid rgba(244,241,234,.22);padding:20px;user-select:all">Design a real-time 3D experience landing page with a cybernetic aesthetic. Very dark blue-black background (#04060a) with a faint 64px technical grid masked by a radial fade, plus a slow scanline sweep. Cyan (#5ffbf1) and violet (#7a5cff) glow accents. Heavy 96px uppercase headline with cyan text-shadow. A circular WebGL scene placeholder framed by two counter-rotating orbit rings. Live telemetry strip at the bottom: FPS, particle count, latency, scene number in monospace. Sharp 4px radii, technical labels everywhere.</div>
+      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin:22px 0 8px">Türkçe brief</div>
+      <div style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;line-height:1.7;opacity:.85">Karanlık zemin, neon parlama, dönen yörünge halkaları ve canlı telemetri şeridi olan 3D deneyim sayfası.</div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:16px">
+      <div>
+        <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:10px">Palet</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px"><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#04060a;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#04060a</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#5ffbf1;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#5ffbf1</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#7a5cff;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#7a5cff</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#dff6f4;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#dff6f4</span></div></div>
+      </div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Tipografi</div><div style="font-size:13px;line-height:1.6;opacity:.9">Space Grotesk 700 başlık, monospace teknik etiketler</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Düzen</div><div style="font-size:13px;line-height:1.6;opacity:.9">Sol metin + sağ dairesel sahne, altta 4'lü metrik ızgara</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Hareket</div><div style="font-size:13px;line-height:1.6;opacity:.9">Sonsuz dönen halkalar, 2.4 sn nabız, 9 sn tarama çizgisi</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Kaçınılacaklar</div><div style="font-size:13px;line-height:1.6;opacity:.9">Yumuşak pastel renk, yuvarlak dostane biçimler</div></div>
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

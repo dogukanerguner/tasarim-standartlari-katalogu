@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+<style>
+html,body{margin:0;padding:0;background:#0d0424}
+a{color:inherit;text-decoration:none}
+a:hover{color:#ff4fd8}
+@keyframes grid{from{background-position:0 0}to{background-position:0 60px}}
+@keyframes glow{0%,100%{text-shadow:0 0 18px rgba(255,79,216,.75),0 0 46px rgba(79,209,255,.45)}50%{text-shadow:0 0 28px rgba(255,79,216,.95),0 0 70px rgba(79,209,255,.6)}}
+</style>
+</helmet>
+<div style="position:relative;overflow:hidden;background:linear-gradient(180deg,#2b0a4d 0%,#0d0424 55%);color:#f2e9ff;font-family:'Space Mono',ui-monospace,monospace;min-height:100vh;padding-bottom:44px">
+  <div style="position:absolute;left:50%;top:56px;width:300px;height:300px;transform:translateX(-50%);border-radius:50%;background:linear-gradient(180deg,#ffd76e,#ff4fd8 55%,#8a2be2);pointer-events:none"></div>
+  <div style="position:absolute;left:50%;top:56px;width:300px;height:300px;transform:translateX(-50%);pointer-events:none;background:repeating-linear-gradient(180deg,transparent 0 16px,rgba(13,4,36,.85) 16px 22px);border-radius:50%"></div>
+  <div style="position:absolute;left:-20%;right:-20%;bottom:0;height:300px;pointer-events:none;background-image:linear-gradient(rgba(79,209,255,.55) 1px,transparent 1px),linear-gradient(90deg,rgba(79,209,255,.55) 1px,transparent 1px);background-size:60px 60px;transform:perspective(340px) rotateX(62deg);transform-origin:bottom;animation:grid 3.4s linear infinite;mask-image:linear-gradient(transparent,#000 40%)"></div>
+
+  <div style="position:relative;display:flex;align-items:center;justify-content:space-between;padding:18px 42px;border-bottom:1px solid rgba(255,79,216,.35)">
+    <a href="Katalog.dc.html" style="font-size:12px;letter-spacing:.16em;text-transform:uppercase">← katalog</a>
+    <div style="display:flex;gap:26px;font-size:12px;letter-spacing:.2em;text-transform:uppercase;opacity:.85">
+      <span>albüm</span><span>kaset</span><span>turne</span><span>arşiv</span>
+    </div>
+    <span style="font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:#4fd1ff">side a · 1986</span>
+  </div>
+
+  <div style="position:relative;text-align:center;padding:120px 42px 0">
+    <h1 style="font-family:Orbitron,sans-serif;font-weight:800;font-size:96px;line-height:.95;letter-spacing:.04em;margin:0 0 20px;color:#fff;animation:glow 4.5s ease-in-out infinite">NEON<br />OTOBAN</h1>
+    <div style="font-size:14px;letter-spacing:.5em;text-transform:uppercase;color:#4fd1ff;margin-bottom:34px">gece sürüşü için 12 parça</div>
+    <div style="display:inline-flex;gap:14px;align-items:center">
+      <span style="background:linear-gradient(90deg,#ff4fd8,#8a2be2);color:#fff;padding:14px 32px;font-size:14px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;box-shadow:0 0 34px rgba(255,79,216,.55)">şimdi dinle</span>
+      <span style="border:1px solid #4fd1ff;color:#4fd1ff;padding:14px 26px;font-size:14px;letter-spacing:.16em;text-transform:uppercase">kaset sipariş et</span>
+    </div>
+  </div>
+
+  <div style="position:relative;display:grid;grid-template-columns:1.1fr .9fr;gap:26px;padding:64px 42px 0">
+    <div style="border:1px solid rgba(255,79,216,.4);background:rgba(13,4,36,.55);backdrop-filter:blur(6px)">
+      <div style="border-bottom:1px solid rgba(255,79,216,.4);padding:10px 16px;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#ff4fd8">parça listesi</div>
+      <div style="padding:6px 0">
+        <div style="display:flex;justify-content:space-between;padding:9px 16px;font-size:13.5px;border-bottom:1px dashed rgba(242,233,255,.14)"><span>01 · Sahil Yolu 03:00</span><span style="color:#4fd1ff">4:12</span></div>
+        <div style="display:flex;justify-content:space-between;padding:9px 16px;font-size:13.5px;border-bottom:1px dashed rgba(242,233,255,.14)"><span>02 · Kaset Bozulması</span><span style="color:#4fd1ff">3:48</span></div>
+        <div style="display:flex;justify-content:space-between;padding:9px 16px;font-size:13.5px;border-bottom:1px dashed rgba(242,233,255,.14)"><span>03 · Mermer Büst</span><span style="color:#4fd1ff">5:06</span></div>
+        <div style="display:flex;justify-content:space-between;padding:9px 16px;font-size:13.5px"><span>04 · Alışveriş Merkezi, Kapanış</span><span style="color:#4fd1ff">6:31</span></div>
+      </div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:18px">
+      <div style="border:1px solid rgba(79,209,255,.45);padding:18px;background:rgba(13,4,36,.5)">
+        <div style="font-family:Orbitron,sans-serif;font-size:30px;font-weight:500;color:#ffd76e">A E S T H E T I C</div>
+        <div style="font-size:12.5px;line-height:1.7;margin-top:8px;opacity:.8">Geniş harf aralığı, Japonca alt yazılar, mermer heykel ve düşük bit derinlikli gökyüzü.</div>
+      </div>
+      <div style="border:1px solid rgba(255,79,216,.4);padding:18px;background:rgba(13,4,36,.5);display:flex;align-items:center;gap:14px">
+        <div style="width:56px;height:56px;border-radius:50%;border:4px solid #ff4fd8;position:relative"><span style="position:absolute;inset:20px;border-radius:50%;background:#4fd1ff"></span></div>
+        <div style="font-size:12.5px;line-height:1.7;opacity:.8">Kaset döngüsü sürüyor · yan A · hız 1.0×</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="position:relative;display:flex;justify-content:space-between;padding:44px 42px 0;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:rgba(242,233,255,.45)">
+    <span>Vaporwave / Synthwave</span><span>80'ler retro-fütürizmi</span>
+  </div>
+</div>
+
+<div data-prompt-block="1" style="background:#17160f;color:#f4f1ea;font-family:ui-monospace,'SF Mono',Menlo,monospace;padding:40px 44px 46px">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid rgba(244,241,234,.3);padding-bottom:12px;margin-bottom:26px">
+    <span style="font-size:12px;letter-spacing:.18em;text-transform:uppercase">Tasarım promptu — 24 — Vaporwave / Synthwave</span>
+    <span style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;opacity:.45">seçip kopyalayın</span>
+  </div>
+  <div style="display:grid;grid-template-columns:1.5fr 1fr;gap:40px;align-items:start">
+    <div>
+      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:10px">İngilizce prompt · detaylı</div>
+      <div style="font-size:13.5px;line-height:1.9;background:rgba(244,241,234,.06);border:1px solid rgba(244,241,234,.22);padding:20px;user-select:all">Design an album landing page in synthwave style. Purple-to-black vertical gradient sky with a striped gradient sun (amber to magenta to violet) cut by horizontal bands, and an animated perspective grid horizon in cyan at the bottom. A 96px Orbitron uppercase title with a pulsing magenta and cyan glow. Wide 0.5em-tracked subtitle. A bordered translucent tracklist panel, a cassette-loop status card, and a 'A E S T H E T I C' block with extreme letter spacing.</div>
+      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin:22px 0 8px">Türkçe brief</div>
+      <div style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;line-height:1.7;opacity:.85">Izgara ufuk çizgisi, çizgili gradyan güneş ve neon parlamayla kurulmuş 80'ler albüm sayfası.</div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:16px">
+      <div>
+        <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:10px">Palet</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px"><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#0d0424;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#0d0424</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#ff4fd8;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#ff4fd8</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#4fd1ff;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#4fd1ff</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#ffd76e;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#ffd76e</span></div></div>
+      </div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Tipografi</div><div style="font-size:13px;line-height:1.6;opacity:.9">Orbitron 500/800 + Space Mono</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Düzen</div><div style="font-size:13px;line-height:1.6;opacity:.9">Ortalanmış kompozisyon, perspektif zemin</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Hareket</div><div style="font-size:13px;line-height:1.6;opacity:.9">3.4 sn kayan ızgara, 4.5 sn parlama nabzı</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Kaçınılacaklar</div><div style="font-size:13px;line-height:1.6;opacity:.9">Sıcak nötr palet, sade tipografi</div></div>
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

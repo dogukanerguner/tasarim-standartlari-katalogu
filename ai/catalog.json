@@ -1,0 +1,1269 @@
+{
+  "name": "Tasarım Standartları Kataloğu",
+  "description": "45 tasarım yaklaşımının AI kod üretiminde kullanılabilir prompt, palet ve kural seti. Kaynak: *.dc.html sayfalarının prompt blokları.",
+  "sections": [
+    {
+      "id": 1,
+      "title": "Küratörsel ve bireysel ekoller",
+      "description": "Tasarımcı ve stüdyo imzası taşıyan, kişisel bir bakışla kurulmuş tarzlar."
+    },
+    {
+      "id": 2,
+      "title": "Çağdaş dijital ürün ve SaaS akımları",
+      "description": "Bugünün yazılım ürünlerinde en sık karşılaşılan dört yerleşik düzen."
+    },
+    {
+      "id": 3,
+      "title": "Tarihsel ve sanatsal akımlar",
+      "description": "Web'den önce doğmuş, ekrana taşındığında karakterini koruyan akımlar."
+    },
+    {
+      "id": 4,
+      "title": "Mikro-görsel ve dokusal trendler",
+      "description": "Düzeni değiştirmeyen, yüzey ve malzeme hissini değiştiren üç yaklaşım."
+    },
+    {
+      "id": 5,
+      "title": "Sanat akımlarının web karşılıkları",
+      "description": "Yüz yıl önce afişte ve mobilyada tanımlanmış, ekranda hâlâ tanınan görsel diller."
+    },
+    {
+      "id": 6,
+      "title": "Kültürel ve retro-fütürist diller",
+      "description": "Bir coğrafyadan ya da bir dönemin gelecek hayalinden doğan görsel gelenekler."
+    },
+    {
+      "id": 7,
+      "title": "Arayüz dönemleri ve yüzey dilleri",
+      "description": "Dijital arayüzün son yirmi yılda geçtiği üç ana yüzey anlayışı."
+    },
+    {
+      "id": 8,
+      "title": "İlke temelli standartlar",
+      "description": "Görünüşten çok kurala dayanan yaklaşımlar: erişilebilirlik, sade dil ve içerik önceliği."
+    },
+    {
+      "id": 9,
+      "title": "Mobil arayüz yapıları",
+      "description": "Telefonun fiziksel gerçekliğinden doğan yapısal desenler — her biri ekran örneği ve psikolojik gerekçesiyle."
+    },
+    {
+      "id": 10,
+      "title": "Davranış tasarımı ve psikoloji",
+      "description": "Kararı yönlendiren mekanizmalar — nasıl çalıştıkları, nerede işe yaradıkları ve nerede sömürüye dönüştükleri."
+    }
+  ],
+  "styles": [
+    {
+      "id": 1,
+      "slug": "01-editorial-minimalizm",
+      "file": "01-editorial-minimalizm.dc.html",
+      "title": "Editoryal Minimalizm",
+      "prompt_en": "Design a slow, magazine-like studio website in an editorial minimalist style. Warm off-white paper background (#faf8f5) with near-black ink. Asymmetric two-column hero: an oversized italic serif headline at 100px+ with tight leading on the left, a tall 4:5 portrait image on the right. Hairline rules separate every section. Uppercase monospace eyebrows and captions at 11px with wide letter-spacing. Enormous margins, generous vertical rhythm, no shadows, no rounded corners, no gradients. One pull-quote set in large italic serif.",
+      "brief_tr": "Dergi sayfası gibi kurulmuş, boşluğu malzeme olarak kullanan, iki fontlu ve gölgesiz bir stüdyo sitesi.",
+      "palette": [
+        "#faf8f5",
+        "#100f0d",
+        "#ece7df"
+      ],
+      "typography": "Instrument Serif (başlık) + Helvetica Neue (metin) + monospace etiketler",
+      "layout": "12 kolon, asimetrik hiyerarşi, saç teli çizgiler",
+      "motion": "Yok denecek kadar az; yalnızca opaklık geçişi",
+      "avoid": "Gradyan, gölge, yuvarlak köşe, ikon kalabalığı",
+      "reference": "van Schneider",
+      "description": "Dergi estetiği, geniş boşluk, güçlü tipografi ve insan odaklı mikro metinler.",
+      "keywords": [
+        "editorial layout",
+        "sophisticated typography",
+        "bold black and white contrast",
+        "organic spacing"
+      ],
+      "section": 1
+    },
+    {
+      "id": 2,
+      "slug": "02-akiskan-surukleyici",
+      "file": "02-akiskan-surukleyici.dc.html",
+      "title": "Akışkan & Sürükleyici",
+      "prompt_en": "Design an award-style creative agency landing page with a fluid, immersive feel. Near-black background (#0e0d12) with three huge blurred color orbs (electric blue, teal, violet) slowly drifting behind the content. Centered ultra-light display headline at 130px with one word in italic semibold. Frosted glass pill buttons with backdrop blur and thin light borders. A slow horizontal marquee strip of uppercase keywords. Full-bleed video placeholder with rounded 22px corners. Everything feels weighted, cinematic and continuously in motion.",
+      "brief_tr": "Sıvı gradyan bulutları, buzlu cam butonlar ve sinematik derinlik taşıyan ajans açılış sayfası.",
+      "palette": [
+        "#0e0d12",
+        "#3d5cff",
+        "#00c2a8",
+        "#c14bff"
+      ],
+      "typography": "Bricolage Grotesque 300/600, geniş harf aralıklı etiketler",
+      "layout": "Ortalanmış kahraman bölüm + tam genişlik medya",
+      "motion": "18—28 sn'lik yavaş orb sürüklenmesi, 24 sn marquee",
+      "avoid": "Sert kenar, yüksek kontrastlı kutular, hızlı animasyon",
+      "reference": "Locomotive",
+      "description": "Sıvı geçişler, derinlik hissi ve harekete sanatsal tepki veren ajans estetiği.",
+      "keywords": [
+        "fluid WebGL elements",
+        "liquid distortion",
+        "cinematic depth",
+        "avant-garde agency"
+      ],
+      "section": 1
+    },
+    {
+      "id": 3,
+      "slug": "03-cyber-webgl",
+      "file": "03-cyber-webgl.dc.html",
+      "title": "Gelecekçi Cyber",
+      "prompt_en": "Design a real-time 3D experience landing page with a cybernetic aesthetic. Very dark blue-black background (#04060a) with a faint 64px technical grid masked by a radial fade, plus a slow scanline sweep. Cyan (#5ffbf1) and violet (#7a5cff) glow accents. Heavy 96px uppercase headline with cyan text-shadow. A circular WebGL scene placeholder framed by two counter-rotating orbit rings. Live telemetry strip at the bottom: FPS, particle count, latency, scene number in monospace. Sharp 4px radii, technical labels everywhere.",
+      "brief_tr": "Karanlık zemin, neon parlama, dönen yörünge halkaları ve canlı telemetri şeridi olan 3D deneyim sayfası.",
+      "palette": [
+        "#04060a",
+        "#5ffbf1",
+        "#7a5cff",
+        "#dff6f4"
+      ],
+      "typography": "Space Grotesk 700 başlık, monospace teknik etiketler",
+      "layout": "Sol metin + sağ dairesel sahne, altta 4'lü metrik ızgara",
+      "motion": "Sonsuz dönen halkalar, 2.4 sn nabız, 9 sn tarama çizgisi",
+      "avoid": "Yumuşak pastel renk, yuvarlak dostane biçimler",
+      "reference": "Active Theory",
+      "description": "Karanlık zemin, parlayan etkileşimli parçacıklar ve oyunsu 3D atmosfer.",
+      "keywords": [
+        "dark mode",
+        "glowing neon particles",
+        "3D webgl atmosphere",
+        "premium cybernetic UI"
+      ],
+      "section": 1
+    },
+    {
+      "id": 4,
+      "slug": "04-anti-design-provokatif",
+      "file": "04-anti-design-provokatif.dc.html",
+      "title": "Brütalist & Provokatif",
+      "prompt_en": "Design a provocative anti-design poster page for a design studio. Warm paper background (#f2e8d5) with a visible halftone dot texture. Massive 130px Archivo Black uppercase headline where each line is rotated a few degrees, one word knocked out in a red block, one word set in outline-only text stroke. A yellow circular sticker rotated and wobbling that says the button does nothing. Struck-through nav items in italic. Hard 3px black borders, a black inverted column, deliberately mismatched baselines.",
+      "brief_tr": "Kuralları kasten bozan, döndürülmüş tipografi ve ironik mikro metinlerle kurulmuş provokatif afiş sayfası.",
+      "palette": [
+        "#f2e8d5",
+        "#141210",
+        "#ff3b1f",
+        "#ffd400"
+      ],
+      "typography": "Archivo Black + Archivo italic karışımı",
+      "layout": "Izgarasız, döndürülmüş bloklar, 3px sert çerçeveler",
+      "motion": "6 sn'lik hafif sallanma; jitter",
+      "avoid": "Düzgün hizalama, nazik mikro metin, yumuşak gölge",
+      "reference": "Sagmeister",
+      "description": "Kuralları yıkan, ironiyi ve sanatsal kaosu öne çıkaran deneysel anti-tasarım.",
+      "keywords": [
+        "provocative UI",
+        "raw emotions",
+        "unconventional grid",
+        "layered chaotic typography"
+      ],
+      "section": 1
+    },
+    {
+      "id": 5,
+      "slug": "05-fonksiyonel-endustriyel",
+      "file": "05-fonksiyonel-endustriyel.dc.html",
+      "title": "Fonksiyonel Endüstriyel",
+      "prompt_en": "Design a product page for a desktop calculator in a rational industrial style. Cool light grey background (#e6e4df) with 1px cool grey rules and a technical toolbar header. A neutral product photo area with a faint 24px graph-paper grid. A physical keypad rendered as a 4-column grid of light keys with one orange (#e35205) and two dark function keys, plus a pale green LCD readout in monospace. A specification table with hairline dividers, and a five-cell strip of numbered design principles.",
+      "brief_tr": "Süsü tamamen elenmiş, ölçü tablosu ve fiziksel tuş takımıyla kurulmuş rasyonel ürün sayfası.",
+      "palette": [
+        "#e6e4df",
+        "#1c1c1a",
+        "#e35205",
+        "#b6bfb2"
+      ],
+      "typography": "Helvetica Neue 400/500, dar aralık, düşük kontrast",
+      "layout": "Sabit ızgara, 1px ayırıcılar, tablo mantığı",
+      "motion": "Yok; yalnızca durum değişimi",
+      "avoid": "Dekoratif ikon, gradyan, gölge, marka jesti",
+      "reference": "Dieter Rams",
+      "description": "“Az ama daha iyi”: süssüz, rasyonel, matematiksel ve tamamen işlevsel düzen.",
+      "keywords": [
+        "Braun industrial aesthetic",
+        "functional layout",
+        "muted neutrals",
+        "precise grid"
+      ],
+      "section": 1
+    },
+    {
+      "id": 6,
+      "slug": "06-grunge-tipografi",
+      "file": "06-grunge-tipografi.dc.html",
+      "title": "Grunge Tipografi",
+      "prompt_en": "Design a chaotic music zine cover page in deconstructed grunge typography. Aged paper background (#dcd8cd) with heavy multiply-blended scratch and streak textures. Overlapping type layers: a 190px black Archivo Black word, a 150px red italic serif word rotated -4°, and a vertically stretched outline word. A photocopied concert photo rotated 3°, a taped monospace note box with a jitter animation, and one vertical rotated label. Text columns collide, baselines never align, readability is deliberately strained.",
+      "brief_tr": "Üst üste binen katmanlar, fotokopi dokusu ve okunabilirliği zorlayan yapıbozumcu dergi kapağı.",
+      "palette": [
+        "#dcd8cd",
+        "#181613",
+        "#b0281a"
+      ],
+      "typography": "Archivo Black + Times New Roman italic + monospace",
+      "layout": "Izgara yok; mutlak konumlandırılmış çakışan katmanlar",
+      "motion": "5 sn steps() jitter, mikro kaymalar",
+      "avoid": "Temiz hizalama, düzgün kolon, net hiyerarşi",
+      "reference": "David Carson",
+      "description": "Üst üste binen metinler, yırtık dokular ve okunabilirliği zorlayan dijital anarşi.",
+      "keywords": [
+        "messy typography",
+        "distorted textures",
+        "overlapping layouts",
+        "deconstructivist UI"
+      ],
+      "section": 1
+    },
+    {
+      "id": 7,
+      "slug": "07-karanlik-saas",
+      "file": "07-karanlik-saas.dc.html",
+      "title": "Karanlık SaaS",
+      "prompt_en": "Design a developer-tool SaaS landing page in a sleek dark aesthetic. Near-black background (#08080b) with a wide violet radial glow behind the hero and faint 120px vertical guide lines. Gradient-clipped headline text fading from white to grey at 76px. Small pill announcement badge with a colored tag. A product screenshot mock: window chrome, a 180px sidebar and a dense issue list with colored status dots and small rounded status chips. Everything uses 1px rgba borders, 7—14px radii and 13px UI text.",
+      "brief_tr": "1px sınırlar, mor parlama ve yoğun ürün ekranıyla kurulmuş elit karanlık mod SaaS sayfası.",
+      "palette": [
+        "#08080b",
+        "#e8e8ee",
+        "#7e78ff",
+        "#4ad9c0"
+      ],
+      "typography": "Space Grotesk 400/500, 13px arayüz metni",
+      "layout": "Ortalanmış kahraman + tam genişlik ürün penceresi",
+      "motion": "İnce parlama, 150ms hover geçişleri",
+      "avoid": "Yüksek doygunlukta renk, kalın çerçeve, büyük gölge",
+      "reference": "Linear / Vercel",
+      "description": "Keskin sans-serif, 1 piksel sınırlar ve hafif parlama efektleri; elit karanlık mod.",
+      "keywords": [
+        "sleek dark mode",
+        "1px subtle borders",
+        "elegant neon gradients",
+        "crisp sans-serif"
+      ],
+      "section": 2
+    },
+    {
+      "id": 8,
+      "slug": "08-bento-grid",
+      "file": "08-bento-grid.dc.html",
+      "title": "Bento Grid",
+      "prompt_en": "Design a consumer hardware product page built entirely from a bento grid. Light grey background (#f1f1f3), white cards with 26px radii and a barely-there shadow. A 4-column grid with 186px rows: one 2x2 hero cell with a 52px headline, one wide black stat cell with a huge 2.8x number, one gradient color-engine cell, one battery cell with three progress bars, and small cells for privacy and price. Each cell holds exactly one idea, generous internal padding, no card is decorative.",
+      "brief_tr": "Her hücrede tek bir fikir taşıyan, farklı boyutlu yuvarlak kartlardan kurulu modüler ürün sayfası.",
+      "palette": [
+        "#f1f1f3",
+        "#111114",
+        "#0a6cff"
+      ],
+      "typography": "Helvetica Neue 600 başlık, 13-16px metin",
+      "layout": "4 kolon × 186px satır bento ızgarası, 14px boşluk",
+      "motion": "Kart hover'da 1-2px yükselme",
+      "avoid": "Kart içinde çok konu, dolgu amaçlı hücre",
+      "reference": "Apple / Microsoft",
+      "description": "Ekranın yuvarlak köşeli, farklı boyutlu hücrelere bölündüğü modüler bilgi mimarisi.",
+      "keywords": [
+        "modular rectangular cards",
+        "rounded corners",
+        "clean content chunks",
+        "hierarchy"
+      ],
+      "section": 2
+    },
+    {
+      "id": 9,
+      "slug": "09-neo-brutalizm",
+      "file": "09-neo-brutalizm.dc.html",
+      "title": "Neo-Brütalizm",
+      "prompt_en": "Design a creator-payments landing page in neo-brutalist style. Cream background (#f5e9c9), 3px pure black borders on everything, and hard offset shadows (6—10px, no blur) in black and accent colors. A yellow hero block with a 70px uppercase bold headline, plus stacked side cards in sky blue, pink and white. Pill nav chips in pastel colors with black borders. Buttons are chunky with colored drop shadows. Type is Space Grotesk 700, tight and loud, and nothing is subtle.",
+      "brief_tr": "Kalın siyah çerçeveler, sert ofset gölgeler ve pastel-neon bloklarla kurulmuş çiğ ve samimi ürün sayfası.",
+      "palette": [
+        "#f5e9c9",
+        "#0b0b0b",
+        "#ffe94d",
+        "#a1d4ff",
+        "#ffb1d8"
+      ],
+      "typography": "Space Grotesk 700, büyük harf, sıkı aralık",
+      "layout": "Blok ızgara, 3px çerçeve, 5-10px sert gölge",
+      "motion": "Hover'da gölge kayması (2-3px)",
+      "avoid": "Bulanık gölge, düşük kontrast, ince tipografi",
+      "reference": "Figma / Gumroad",
+      "description": "Pastel ve neon renkler, kalın siyah çizgiler, sert gölgeler; retro-modern çiğlik.",
+      "keywords": [
+        "high contrast pastels",
+        "thick black borders",
+        "hard block shadows",
+        "raw typography"
+      ],
+      "section": 2
+    },
+    {
+      "id": 10,
+      "slug": "10-b2b-gradient-iskeletizm",
+      "file": "10-b2b-gradient-iskeletizm.dc.html",
+      "title": "B2B İskeletizm",
+      "prompt_en": "Design a payments-infrastructure landing page in a clean corporate B2B style. A soft multi-stop pastel gradient band (blue to lilac to mint to cream) behind the hero, pure white below. 62px semibold headline with tight tracking, 18px grey body copy, pill buttons. On the right, a dark code panel with tabs and syntax-highlighted API sample plus a success comment. Below: four feature columns each with a small 30px gradient icon tile, then a logo strip of neutral placeholder bars.",
+      "brief_tr": "Kusursuz pastel gradyan, kod paneli ve kurumsal güven veren beyaz alanla kurulmuş altyapı sayfası.",
+      "palette": [
+        "#eaf3ff",
+        "#f4ecff",
+        "#5a4bff",
+        "#00c39a",
+        "#0b1533"
+      ],
+      "typography": "Helvetica Neue 600 başlık + monospace kod",
+      "layout": "Gradyan kahraman bant, altında 4 kolon özellik",
+      "motion": "Yumuşak hover, 200ms",
+      "avoid": "Ağır gölge, koyu zemin, agresif renk",
+      "reference": "Stripe ekolü",
+      "description": "Kusursuz renk geçişleri, kod dokümantasyonu ve kurumsal güven veren temiz beyaz.",
+      "keywords": [
+        "flawless clean gradients",
+        "high-end white corporate layout",
+        "financial app UI"
+      ],
+      "section": 2
+    },
+    {
+      "id": 11,
+      "slug": "11-bauhaus",
+      "file": "11-bauhaus.dc.html",
+      "title": "Bauhaus",
+      "prompt_en": "Design a design-school landing page in strict Bauhaus style. Warm off-white background (#efe9dd) with 2px black rules dividing everything. An 88px uppercase heavy headline stacked as three words, one in red. On the right, a 2x2 block of primary-color panels containing a white circle, a black triangle, a white square and a text tile. A four-cell principle strip with oversized numbers in blue, yellow, red and inverted black. Pure geometry, no imagery, no ornament.",
+      "brief_tr": "Daire-kare-üçgen, üç ana renk ve ağır grotesk tipografiyle kurulmuş form-işlev sayfası.",
+      "palette": [
+        "#efe9dd",
+        "#161513",
+        "#1c4fd8",
+        "#f2c400",
+        "#d8232a"
+      ],
+      "typography": "Archivo 700/800 büyük harf",
+      "layout": "2px çerçeveli modüler bloklar, asimetrik denge",
+      "motion": "Yok",
+      "avoid": "Gradyan, gölge, fotoğraf dokusu, süsleme",
+      "reference": "1919 →",
+      "description": "Temel geometrik şekiller, ana renkler ve asimetrik ağır tipografi.",
+      "keywords": [
+        "geometric layout",
+        "primary colors",
+        "bold sans-serif",
+        "asymmetrical functional grid"
+      ],
+      "section": 3
+    },
+    {
+      "id": 12,
+      "slug": "12-isvicre-izgara",
+      "file": "12-isvicre-izgara.dc.html",
+      "title": "İsviçre Izgarası",
+      "prompt_en": "Design an exhibition page for a typography biennial in Swiss International Style. Neutral light background (#f4f4f2), a strict visible 12-column grid with 20px gutters, and hairline rules. A 96px bold Helvetica headline spanning seven columns, body text in two narrow columns beneath. A red 3:4 poster block on the right with thin white grid lines and a large white title inside. A schedule list where every row aligns to the same four column positions. All labels 11px uppercase.",
+      "brief_tr": "12 kolonluk katı ızgara, Helvetica hiyerarşisi ve tek kırmızı vurguyla kurulmuş sergi sayfası.",
+      "palette": [
+        "#f4f4f2",
+        "#0f0f0f",
+        "#e8321e"
+      ],
+      "typography": "Helvetica 700/400, 11px büyük harf etiketler",
+      "layout": "12 kolon, 20px oluk, saç teli ayırıcılar",
+      "motion": "Yok",
+      "avoid": "Merkezi hizalama, dekoratif font, gölge",
+      "reference": "Uluslararası",
+      "description": "Rasyonel asimetri, Helvetica merkezli ve tipografik hiyerarşiyle yön bulma.",
+      "keywords": [
+        "rigorous grid layout",
+        "heavy sans-serif",
+        "functional asymmetric structure"
+      ],
+      "section": 3
+    },
+    {
+      "id": 13,
+      "slug": "13-y2k-saykodelik",
+      "file": "13-y2k-saykodelik.dc.html",
+      "title": "Y2K Saykodelik",
+      "prompt_en": "Design a millennium-era social portal homepage in Y2K style. Deep purple-to-black radial background with scanlines and a huge blurred conic rainbow blob. A chrome-bevelled OS-style toolbar with outset buttons. An 88px bubbly headline filled with an animated rainbow gradient and a hard drop shadow. A fake desktop window titled avatarim.exe with title bar buttons and inset panels. A rotating gradient NEW! sticker. Visitor counter, online count and 14.4k modem status in tiny bold type.",
+      "brief_tr": "Krom düğmeler, gökkuşağı gradyan yazı, sahte işletim sistemi penceresi ve ziyaretçi sayacıyla milenyum portalı.",
+      "palette": [
+        "#0a0620",
+        "#ff7ae0",
+        "#7ae8ff",
+        "#c9ff6e",
+        "#ffe27a"
+      ],
+      "typography": "Baloo 2 800 + Verdana; küçük kalın etiketler",
+      "layout": "Pencere metaforu, outset/inset kenarlar",
+      "motion": "7 sn gradyan kayması, 5 sn sallanan rozet",
+      "avoid": "Sadelik, düz renk, modern tipografi",
+      "reference": "Milenyum",
+      "description": "Metalik dokular, şişkin yazılar, holografik renkler ve nostaljik pencereler.",
+      "keywords": [
+        "metallic and holographic textures",
+        "cyber-maximalism",
+        "iridescent gradient UI"
+      ],
+      "section": 3
+    },
+    {
+      "id": 14,
+      "slug": "14-retro-terminal",
+      "file": "14-retro-terminal.dc.html",
+      "title": "Retro Terminal",
+      "prompt_en": "Design a developer deployment tool page as a monochrome terminal. Near-black green-tinted background (#050a06) with phosphor green text (#41ff7e), CRT scanlines and a soft radial glow. A large ASCII-art wordmark, a live command session with progress bars in amber, a bordered live log table of HTTP requests, an uptime panel and a bar chart made of solid blocks. Everything is IBM Plex Mono, all panels are 1px green rules, one blinking block cursor.",
+      "brief_tr": "ASCII logo, canlı komut oturumu ve fosfor yeşili tek renk paletiyle kurulmuş terminal arayüzü.",
+      "palette": [
+        "#050a06",
+        "#41ff7e",
+        "#eaff6e"
+      ],
+      "typography": "IBM Plex Mono 400/600, 14px, 1.7 satır yüksekliği",
+      "layout": "Tek sütun konsol + sağda dar panel kolonu",
+      "motion": "1.1 sn imleç yanıp sönmesi",
+      "avoid": "Renkli ikon, yuvarlak köşe, gölge, resim",
+      "reference": "Monokrom",
+      "description": "Komut satırı düzeni, tek renk paleti ve tamamen kod tabanlı geliştirici estetiği.",
+      "keywords": [
+        "monospace font",
+        "command line layout",
+        "black and neon green palette",
+        "ASCII accents"
+      ],
+      "section": 3
+    },
+    {
+      "id": 15,
+      "slug": "15-glassmorphism",
+      "file": "15-glassmorphism.dc.html",
+      "title": "Glassmorphism",
+      "prompt_en": "Design a personal finance dashboard in glassmorphism. A vivid dark purple base with four large blurred color blobs (pink, blue, teal, amber) drifting slowly behind everything. All UI is frosted glass: 14—26% white fills, 1px 30% white borders, 20—24px backdrop blur, 18—22px radii and soft deep shadows. A balance card with a big number and a bar chart of translucent bars, plus small glass tiles for card and monthly spend. Text is white with layered opacity levels.",
+      "brief_tr": "Renkli bulanık zemin üzerinde buzlu cam panellerle katman derinliği kuran finans panosu.",
+      "palette": [
+        "#1b1035",
+        "#ff5ea8",
+        "#4b7bff",
+        "#22d3b6"
+      ],
+      "typography": "Helvetica Neue 600 başlık, saydamlık kademeli metin",
+      "layout": "Cam kartlar, 16-22px boşluk, katmanlı z-derinliği",
+      "motion": "18—28 sn blob sürüklenmesi",
+      "avoid": "Düz gri zemin, opak kart, sert çizgi",
+      "reference": "Buzlu cam",
+      "description": "Arkasını bulanık gösteren saydam katmanlar; derinlik gölgeden değil camdan gelir.",
+      "keywords": [
+        "frosted glass panels",
+        "blurry background pass-through",
+        "multi-layered dashboard"
+      ],
+      "section": 4
+    },
+    {
+      "id": 16,
+      "slug": "16-neomorphism",
+      "file": "16-neomorphism.dc.html",
+      "title": "Neomorphism",
+      "prompt_en": "Design a health tracking dashboard in soft neumorphism. Single background color (#e4e9f2) used for every surface. Elements are defined only by paired shadows: 8px 8px 18px #c5cbd8 and -8px -8px 18px #fbffff for raised, the same values inset for pressed. 18—28px radii everywhere. A circular progress ring built from an inset well plus a conic gradient, soft pill toggles, an inset track progress bar and a muted blue-grey accent (#8fa4d6). Type is dark slate blue, low contrast, calm.",
+      "brief_tr": "Tek renkli zemin ve çift yönlü yumuşak gölgelerle kabartılmış sakin sağlık panosu.",
+      "palette": [
+        "#e4e9f2",
+        "#c5cbd8",
+        "#fbffff",
+        "#8fa4d6"
+      ],
+      "typography": "Helvetica Neue 600/400, koyu arduvaz mavi",
+      "layout": "Kabartma kartlar, 20px boşluk, tek ışık yönü (sol üst)",
+      "motion": "Basılı hâle 120ms geçiş",
+      "avoid": "Yüksek kontrast renk, keskin köşe, düz gölge",
+      "reference": "Kabartma",
+      "description": "Arka planla aynı renkte yüzeyler; ayrım yalnızca iç ve dış yumuşak gölgelerle.",
+      "keywords": [
+        "soft extruded plastic effect",
+        "inner and outer soft shadows",
+        "monochromatic"
+      ],
+      "section": 4
+    },
+    {
+      "id": 17,
+      "slug": "17-claymorphism",
+      "file": "17-claymorphism.dc.html",
+      "title": "Claymorphism",
+      "prompt_en": "Design a children's learning app landing page in claymorphism. Soft pastel gradient background (lilac to blue to pink). Every element looks like inflated clay: 26—34px radii, an outer soft colored shadow, an inset dark lip on the bottom edge and an inset white highlight on top. Rounded 800-weight display type, chunky pill buttons, bouncing rounded squares and circles in mint, pink, blue and amber. Copy is warm and playful, targets are huge, nothing has sharp corners.",
+      "brief_tr": "Şişme kil gibi duran, çift iç gölgeli, pastel ve çocuk dostu öğrenme uygulaması sayfası.",
+      "palette": [
+        "#f6efff",
+        "#7c4dff",
+        "#8ee6c8",
+        "#ffd166",
+        "#ff8db7"
+      ],
+      "typography": "Baloo 2 700/800, yuvarlak ve kalın",
+      "layout": "Büyük yarıçaplı kartlar, 20px boşluk",
+      "motion": "4 sn zıplama, basınca 4px çökme",
+      "avoid": "Keskin köşe, düşük doygunluk, ince tipografi",
+      "reference": "3D kil",
+      "description": "Şişme oyuncak gibi duran, yoğun iç gölgeli, cana yakın ve çocuksu yüzeyler.",
+      "keywords": [
+        "3D clay-like rounded cards",
+        "soft pastel colors",
+        "bubbly playful interface"
+      ],
+      "section": 4
+    },
+    {
+      "id": 18,
+      "slug": "18-art-nouveau",
+      "file": "18-art-nouveau.dc.html",
+      "title": "Art Nouveau",
+      "prompt_en": "Design a museum exhibition page in Art Nouveau style. Warm parchment background (#f0e9d8) with faint amber and moss radial washes. A 92px light serif headline with one word in italic moss green. An arched image frame with a 180px top radius and a 2px sienna border, flanked by organic leaf-shaped outline ornaments made from asymmetric border-radius. Pill buttons with one squared corner, uppercase wide-tracked labels, a four-swatch organic palette row and hairline sienna rules.",
+      "brief_tr": "Bitkisel kıvrımlar, kemerli çerçeve ve organik süslemeyle kurulmuş müze sergi sayfası.",
+      "palette": [
+        "#f0e9d8",
+        "#8c5a2b",
+        "#4a694a",
+        "#c9a227",
+        "#a8536b"
+      ],
+      "typography": "Cormorant Garamond 300/600, italik vurgular",
+      "layout": "Asimetrik iki kolon, kemerli görsel çerçevesi",
+      "motion": "Yok; yalnızca yumuşak opaklık",
+      "avoid": "Sert dikdörtgen, teknik ızgara, neon renk",
+      "reference": "1890—1910",
+      "description": "Bitkisel kıvrımlar, kemerli çerçeveler ve süslemenin yapıya dönüştüğü organik hat.",
+      "keywords": [
+        "organic whiplash curves",
+        "botanical ornament",
+        "arched frames",
+        "muted earthy palette"
+      ],
+      "section": 5
+    },
+    {
+      "id": 19,
+      "slug": "19-art-deco",
+      "file": "19-art-deco.dc.html",
+      "title": "Art Deco",
+      "prompt_en": "Design a 1928 grand hotel page in Art Deco style. Deep teal-black background (#0d1a1c) with thin vertical gold pinstripes and a large rotated gold diamond outline behind the hero. Perfectly centered composition: a stepped gold fan motif, a 112px Poiret One display name with the second line in gold, and a 0.42em-tracked uppercase subtitle. Three bordered suite cards with diagonal-hatch image areas. A centered statistics row with Roman numerals separated by thin gold rules.",
+      "brief_tr": "Simetrik kompozisyon, altın çizgiler ve basamaklı geometriyle kurulmuş lüks otel sayfası.",
+      "palette": [
+        "#0d1a1c",
+        "#d4af5f",
+        "#f2ead9"
+      ],
+      "typography": "Poiret One başlık + Josefin Sans 300 metin",
+      "layout": "Tam simetrik, ince altın çerçeveler",
+      "motion": "Yok",
+      "avoid": "Asimetri, yuvarlak köşe, pastel renk",
+      "reference": "1920—1939",
+      "description": "Simetri, basamaklı geometri, altın çizgiler ve lüks bir sahne duygusu.",
+      "keywords": [
+        "symmetrical stepped geometry",
+        "gold linework on deep teal",
+        "luxury poster type"
+      ],
+      "section": 5
+    },
+    {
+      "id": 20,
+      "slug": "20-de-stijl",
+      "file": "20-de-stijl.dc.html",
+      "title": "De Stijl",
+      "prompt_en": "Design a design-magazine page in De Stijl / Neoplasticism. Off-white ground (#f7f5f0) divided by 8px pure black rules into an asymmetric grid of rectangles. Fill exactly three cells with primary red, blue and yellow, one with black, leave the rest white. A 74px uppercase bold headline sits in the largest cell. No diagonals, no curves, no gradients. A four-column colour-legend strip at the bottom, each with a 10px colour bar and a one-line rationale.",
+      "brief_tr": "Kalın siyah çizgiler, üç ana renk ve yalnızca dik bölünmelerle kurulmuş neoplastik dergi sayfası.",
+      "palette": [
+        "#f7f5f0",
+        "#111111",
+        "#d42618",
+        "#1449b8",
+        "#f2c500"
+      ],
+      "typography": "Helvetica 700 büyük harf",
+      "layout": "8px siyah çizgili asimetrik dikdörtgen ızgara",
+      "motion": "Yok",
+      "avoid": "Köşegen, eğri, gradyan, gölge, fotoğraf",
+      "reference": "Mondrian",
+      "description": "Kalın siyah çizgiler, üç ana renk ve yalnızca yatay-dikey bölünmeler.",
+      "keywords": [
+        "neoplasticism",
+        "thick black grid lines",
+        "primary color blocks",
+        "no diagonals"
+      ],
+      "section": 5
+    },
+    {
+      "id": 21,
+      "slug": "21-konstruktivizm",
+      "file": "21-konstruktivizm.dc.html",
+      "title": "Konstrüktivizm",
+      "prompt_en": "Design a theatre season poster page in Russian Constructivist style. Warm paper background (#e8e3d9) with two large red and black bands rotated -24° bleeding off the edges. A 104px uppercase condensed headline stacked in three lines, the middle word skewed and red. A photomontage placeholder with heavy diagonal hatching, a thick red outlined circle and a rotated black triangle. Imperative copy, a hard-edged two-tone button pair and a three-cell numbered principle strip with 6px black rules.",
+      "brief_tr": "Köşegen kırmızı-siyah bantlar, emir kipi tipografi ve fotomontaj alanıyla kurulmuş tiyatro afişi.",
+      "palette": [
+        "#e8e3d9",
+        "#141414",
+        "#cc1f1a"
+      ],
+      "typography": "Oswald 500/700, sıkıştırılmış büyük harf",
+      "layout": "Köşegen bantlar + 6px çerçeveli blok ızgara",
+      "motion": "Yok",
+      "avoid": "Yatay sakinlik, pastel renk, süsleme",
+      "reference": "Rodçenko",
+      "description": "Köşegen bantlar, kırmızı-siyah palet ve emir kipinde tipografi.",
+      "keywords": [
+        "russian avant-garde poster",
+        "diagonal red and black bands",
+        "photomontage",
+        "condensed type"
+      ],
+      "section": 5
+    },
+    {
+      "id": 22,
+      "slug": "22-memphis-postmodern",
+      "file": "22-memphis-postmodern.dc.html",
+      "title": "Memphis",
+      "prompt_en": "Design a furniture brand page in 1980s Memphis postmodern style. Cream background (#f7f2e8) with a black polka-dot pattern overlay and scattered geometric confetti: a thick teal ring, a rotated yellow triangle, a rotated red square. Cards use 4px black borders with mismatched corner radii (8px on one corner, 40px on the opposite). Clashing colours placed next to each other on purpose, a spinning four-colour conic disc, and a 86px 900-weight headline with a highlighted rotated word.",
+      "brief_tr": "Çakışan renkler, benek dokusu ve asimetrik yarıçaplı kartlarla kurulmuş postmodern mobilya sayfası.",
+      "palette": [
+        "#f7f2e8",
+        "#1a1a1a",
+        "#e8354e",
+        "#ffbf1f",
+        "#2ec4b6"
+      ],
+      "typography": "Outfit 700/900",
+      "layout": "Serbest yerleşim + 4px çerçeveli kartlar",
+      "motion": "22 sn dönen disk, hafif eğimler",
+      "avoid": "Uyumlu palet, tutarlı yarıçap, ciddi ton",
+      "reference": "Sottsass",
+      "description": "Çakışan renkler, benek ve zikzak desenler; ciddiyeti reddeden postmodern neşe.",
+      "keywords": [
+        "80s postmodern shapes",
+        "squiggles and confetti patterns",
+        "clashing bright colors"
+      ],
+      "section": 5
+    },
+    {
+      "id": 23,
+      "slug": "23-mid-century-modern",
+      "file": "23-mid-century-modern.dc.html",
+      "title": "Mid-Century Modern",
+      "prompt_en": "Design a furniture studio page in mid-century modern style. Warm cream background (#f2e8d5) with a large translucent mustard circle and a thick teal outline ring bleeding off the edges. An 80px DM Serif Display headline, warm body copy in Karla. The product image sits inside an organic kidney-shaped frame built from asymmetric border-radius with a thin dark border. A row of four fabric swatch dots, rounded 20px cards, and one solid teal card. Optimistic, warm, unhurried.",
+      "brief_tr": "Organik elipsler, hardal-kiremit-avokado paleti ve ince ahşap hissiyle kurulmuş mobilya sayfası.",
+      "palette": [
+        "#f2e8d5",
+        "#c2542a",
+        "#e3b23c",
+        "#4a7c6f",
+        "#7a5c3e"
+      ],
+      "typography": "DM Serif Display + Karla",
+      "layout": "Organik çerçeveler, geniş boşluk, yumuşak kartlar",
+      "motion": "Yok",
+      "avoid": "Neon renk, keskin köşe, teknik ızgara",
+      "reference": "Eames",
+      "description": "Organik elipsler, hardal-kiremit-avokado palet ve iyimser bir sadelik.",
+      "keywords": [
+        "atomic age shapes",
+        "warm mustard teal terracotta",
+        "organic kidney forms",
+        "walnut"
+      ],
+      "section": 5
+    },
+    {
+      "id": 24,
+      "slug": "24-vaporwave-synthwave",
+      "file": "24-vaporwave-synthwave.dc.html",
+      "title": "Vaporwave / Synthwave",
+      "prompt_en": "Design an album landing page in synthwave style. Purple-to-black vertical gradient sky with a striped gradient sun (amber to magenta to violet) cut by horizontal bands, and an animated perspective grid horizon in cyan at the bottom. A 96px Orbitron uppercase title with a pulsing magenta and cyan glow. Wide 0.5em-tracked subtitle. A bordered translucent tracklist panel, a cassette-loop status card, and a 'A E S T H E T I C' block with extreme letter spacing.",
+      "brief_tr": "Izgara ufuk çizgisi, çizgili gradyan güneş ve neon parlamayla kurulmuş 80'ler albüm sayfası.",
+      "palette": [
+        "#0d0424",
+        "#ff4fd8",
+        "#4fd1ff",
+        "#ffd76e"
+      ],
+      "typography": "Orbitron 500/800 + Space Mono",
+      "layout": "Ortalanmış kompozisyon, perspektif zemin",
+      "motion": "3.4 sn kayan ızgara, 4.5 sn parlama nabzı",
+      "avoid": "Sıcak nötr palet, sade tipografi",
+      "reference": "80'ler",
+      "description": "Mor gökyüzü, ızgara ufuk çizgisi, neon parlaması ve kaset nostaljisi.",
+      "keywords": [
+        "retro 80s sunset grid horizon",
+        "magenta and cyan neon glow",
+        "chrome type",
+        "VHS"
+      ],
+      "section": 6
+    },
+    {
+      "id": 25,
+      "slug": "25-japon-ma-wabi-sabi",
+      "file": "25-japon-ma-wabi-sabi.dc.html",
+      "title": "Ma & Wabi-Sabi",
+      "prompt_en": "Design a Japanese ceramics shop page around ma (negative space) and wabi-sabi. Warm paper background (#f5f2ec), muted clay greys, and enormous empty space — content occupies less than half the page. A 52px light serif headline with 1.5 line-height, body text at 2.0 line-height. Single kanji characters as section markers. One hairline divider. Product images are plain 1:1 flat clay-toned blocks with tiny captions. No borders, no shadows, no accent colour, nothing centred loudly.",
+      "brief_tr": "Boşluğu asıl konu yapan, tek nesne kompozisyonlu ve doğal dokulu seramik mağazası sayfası.",
+      "palette": [
+        "#f5f2ec",
+        "#2c2a26",
+        "#8a7f6d",
+        "#eae5db"
+      ],
+      "typography": "Noto Serif JP 300/500, 2.0 satır yüksekliği",
+      "layout": "Çok geniş kenar boşluğu, tek saç teli ayırıcı",
+      "motion": "Yok",
+      "avoid": "Vurgu rengi, kalabalık ızgara, gölge, rozet",
+      "reference": "Japonya",
+      "description": "Çok geniş boşluk, tek nesne, doğal doku ve kusuru saklamayan sükûnet.",
+      "keywords": [
+        "japanese negative space",
+        "single object composition",
+        "natural imperfect texture"
+      ],
+      "section": 6
+    },
+    {
+      "id": 26,
+      "slug": "26-cini-geometrik-motif",
+      "file": "26-cini-geometrik-motif.dc.html",
+      "title": "Geometrik Motif",
+      "prompt_en": "Design a museum collection page built on traditional Iznik tile geometry. Ivory ground (#f4efe4) with a faint repeating conic star pattern overlay. An eight-point star motif rendered with conic gradients as the logo mark. An 82px light serif headline with one word in cobalt. A square tile panel filled with a tessellating eight-point star pattern that visibly continues past its frame. A four-column palette strip: cobalt, emerald, coral and ivory, each with a rationale.",
+      "brief_tr": "Sekiz köşeli yıldız, sonsuz tekrar eden desen sistemi ve kobalt-zümrüt-mercan paletli koleksiyon sayfası.",
+      "palette": [
+        "#f4efe4",
+        "#1d5b8f",
+        "#2e8b74",
+        "#b8402f",
+        "#e8dfc8"
+      ],
+      "typography": "Cormorant 300/600 + Jost 300",
+      "layout": "Simetrik kare paneller, kenardan taşan desen",
+      "motion": "Yok",
+      "avoid": "Rastgele desen, gradyan, gölge, eğik hat",
+      "reference": "Çini",
+      "description": "Sekiz köşeli yıldız, sonsuz tekrar ve kobalt-zümrüt-mercan sistemi.",
+      "keywords": [
+        "islamic geometric tessellation",
+        "eight-point star",
+        "cobalt emerald coral on ivory"
+      ],
+      "section": 6
+    },
+    {
+      "id": 27,
+      "slug": "27-solarpunk-organik",
+      "file": "27-solarpunk-organik.dc.html",
+      "title": "Solarpunk",
+      "prompt_en": "Design a neighbourhood solar cooperative page in solarpunk style. Soft green-to-cream gradient background with a warm sun-glow radial in the corner. A 72px Fraunces serif headline, optimistic invitation-style copy. Images sit in leaf-shaped frames (180px radius on two opposite corners, 24px on the others). A floating solar-yellow stat badge overlapping the image. Rounded 26px cards, one solid forest green, natural material textures, four large statistics on thin green rules.",
+      "brief_tr": "Yaprak biçimli köşeler, güneş sarısı vurgular ve iyimser çevre anlatısıyla kurulmuş kooperatif sayfası.",
+      "palette": [
+        "#f6faf0",
+        "#2f6b45",
+        "#f7cb5a",
+        "#8dc27b"
+      ],
+      "typography": "Fraunces 600 başlık + Jost 300 metin",
+      "layout": "Organik yarıçaplar, yumuşak kartlar, geniş boşluk",
+      "motion": "Yumuşak hover, yavaş geçiş",
+      "avoid": "Kıyamet tonu, gri palet, keskin kutular",
+      "reference": "Organik modernizm",
+      "description": "Yaprak biçimli köşeler, güneş sarısı vurgular ve iyimser çevre anlatısı.",
+      "keywords": [
+        "solarpunk optimism",
+        "leaf-shaped radii",
+        "green and solar yellow",
+        "natural materials"
+      ],
+      "section": 6
+    },
+    {
+      "id": 28,
+      "slug": "28-skeuomorfizm",
+      "file": "28-skeuomorfizm.dc.html",
+      "title": "Skeuomorfizm",
+      "prompt_en": "Design a note-taking app page in 2010-era skeuomorphism. Dark brushed leather background made from repeating linear gradients. A stitched wooden toolbar with beveled gradient buttons that have inset white highlights and outer drop shadows. The note area is real lined paper (repeating 27px blue rules) with a red vertical margin line and two glossy binder rings. Everything has a single top-light source, 6—10px radii, warm browns and creams, and physical depth.",
+      "brief_tr": "Deri, kâğıt ve pirinç taklidiyle kurulmuş, tek ışık yönlü fiziksel not defteri arayüzü.",
+      "palette": [
+        "#3a2f26",
+        "#f6efdd",
+        "#8a755a",
+        "#b45a48"
+      ],
+      "typography": "Helvetica Neue 700 başlıklar, gerçekçi gölgeli metin",
+      "layout": "Nesne metaforu, kabartılmış araç çubuğu",
+      "motion": "Basınca içe çökme, 100ms",
+      "avoid": "Düz renk, sıfır gölge, soyut ikon",
+      "reference": "2007—2013",
+      "description": "Deri, kâğıt ve fırçalanmış metal taklidi; arayüz gerçek nesneye benzer.",
+      "keywords": [
+        "realistic leather stitching",
+        "paper texture",
+        "glossy beveled buttons",
+        "drop shadows"
+      ],
+      "section": 7
+    },
+    {
+      "id": 29,
+      "slug": "29-duz-tasarim-flat",
+      "file": "29-duz-tasarim-flat.dc.html",
+      "title": "Düz Tasarım",
+      "prompt_en": "Design a fleet-management dashboard in flat design 2.0. Near-white background (#fbfbfc), a solid blue app bar, and colour-block metric cards in blue, green, amber and light grey with white geometric icon shapes. Only 3—4px radii, 1px light borders and no gradients, no shadows, no texture. A data table with a light grey header row, hairline dividers and text-plus-colour status labels. Hierarchy comes entirely from colour, size and spacing.",
+      "brief_tr": "Gölgesiz, dokusuz, tek düzlemde duran renk blokları ve tablo hiyerarşisiyle kurulmuş yönetim panosu.",
+      "palette": [
+        "#fbfbfc",
+        "#2d7ff9",
+        "#00b58a",
+        "#ff9f1c",
+        "#1f2733"
+      ],
+      "typography": "Helvetica Neue 600/400, 14-17px",
+      "layout": "Renk bloklu kart ızgarası + veri tablosu",
+      "motion": "150ms renk geçişi",
+      "avoid": "Gradyan, gölge, doku, kabartma",
+      "reference": "Flat 2.0",
+      "description": "Tek düzlem, doygun renk blokları ve gölgesiz hiyerarşi; ölçeklenmesi kolay.",
+      "keywords": [
+        "flat design",
+        "saturated color blocks",
+        "no gradients or shadows",
+        "simple geometric icons"
+      ],
+      "section": 7
+    },
+    {
+      "id": 30,
+      "slug": "30-maksimalizm",
+      "file": "30-maksimalizm.dc.html",
+      "title": "Maksimalizm",
+      "prompt_en": "Design a boutique perfume shop page in maximalism. Deep aubergine background layered with four large radial colour glows and a fine diagonal line texture. Mixed typography: a 82px Playfair Display serif headline with an italic word and a magenta highlight block. Cards use 2—3px borders in different accent colours, 16—18px radii and translucent tinted fills. A conic-striped pattern panel. Everything is layered, jewel-toned and dense — but one area is deliberately left quiet.",
+      "brief_tr": "Desen üstüne desen, karışık tipografi ve mücevher tonlarıyla kurulmuş yoğun ama kontrollü butik sayfası.",
+      "palette": [
+        "#1b0b2e",
+        "#fdf6e3",
+        "#e0245e",
+        "#00b3a4",
+        "#ffd166"
+      ],
+      "typography": "Playfair Display 700 + Jost 400/700",
+      "layout": "Katmanlı bloklar, farklı renkli çerçeveler",
+      "motion": "Yumuşak, yavaş; hareket az tutulur",
+      "avoid": "Tek renk sadelik, tutarlı çerçeve, boş kompozisyon",
+      "reference": "Anti-minimal",
+      "description": "Desen üstüne desen, karışık tipografi ve kontrollü bir cömertlik.",
+      "keywords": [
+        "layered patterns",
+        "jewel tones",
+        "mixed serif and grotesk type",
+        "opulent density"
+      ],
+      "section": 7
+    },
+    {
+      "id": 31,
+      "slug": "31-erisilebilirlik-oncelikli",
+      "file": "31-erisilebilirlik-oncelikli.dc.html",
+      "title": "Erişilebilirlik Öncelikli",
+      "prompt_en": "Design a public application form page that is accessibility-first. Pure white background, pure black text, 18px base font size and 1.65 line-height. A visible skip-to-content link as the first element. 3px black borders on every field and button, 44px+ hit areas, and a 4px amber focus outline offset from the field. Errors use a red border, a bold red message with an icon and explanatory text — never colour alone. A contrast sample panel showing ratios, and status indicators that pair a colour block with a text label.",
+      "brief_tr": "Yüksek kontrast, 18px taban metin, kalın odak halkası ve renge bağlı olmayan durum bildirimleriyle kamu formu.",
+      "palette": [
+        "#ffffff",
+        "#141414",
+        "#0a4bd4",
+        "#b3000f",
+        "#ffd200"
+      ],
+      "typography": "Helvetica Neue, 18px taban, 17px etiket",
+      "layout": "Tek ana sütun + dar yardım kolonu, 3px çerçeveler",
+      "motion": "Yok; hareket azaltma tercihine saygı",
+      "avoid": "İnce gri metin, düşük kontrast, yalnız renkle anlam",
+      "reference": "WCAG 2.2",
+      "description": "Yüksek kontrast, büyük hedefler, görünür odak ve renge bağlı olmayan durumlar.",
+      "keywords": [
+        "accessible-first UI",
+        "4.5:1 contrast",
+        "thick focus outlines",
+        "large text",
+        "clear errors"
+      ],
+      "section": 8
+    },
+    {
+      "id": 32,
+      "slug": "32-kamu-hizmeti-sade-dil",
+      "file": "32-kamu-hizmeti-sade-dil.dc.html",
+      "title": "Kamu Hizmeti",
+      "prompt_en": "Design a government service page for renewing a driving licence, in plain-language public service style. White background, a solid navy header bar, a grey breadcrumb strip. A 42px task-focused headline, 19px lead paragraph, and a large green primary action button with a hard bottom shadow. Content is a single narrow column: what to prepare as a bulleted list, an amber left-bar warning callout, a bordered fee table, and a 'what happens next' section. A right rail holds an on-page contents list and a help box with a phone number and a last-updated date.",
+      "brief_tr": "Görev odaklı tek sütun, sade dil, ücret tablosu ve sonraki adım açıklamasıyla kurulmuş kamu hizmeti sayfası.",
+      "palette": [
+        "#ffffff",
+        "#0f4c81",
+        "#00703c",
+        "#ffbf47",
+        "#f3f4f5"
+      ],
+      "typography": "Helvetica Neue, 19px giriş paragrafı, 17-18px metin",
+      "layout": "Tek dar sütun + sağ yardım rayı",
+      "motion": "Yok",
+      "avoid": "Kahraman görsel, pazarlama dili, süsleme, ikon seti",
+      "reference": "Sade dil",
+      "description": "Tek sütun, görev odaklı akış, süslemesiz düzen ve anlaşılır resmî dil.",
+      "keywords": [
+        "government service page",
+        "single column",
+        "plain language",
+        "task-first",
+        "no decoration"
+      ],
+      "section": 8
+    },
+    {
+      "id": 33,
+      "slug": "33-ham-html-brutalizmi",
+      "file": "33-ham-html-brutalizmi.dc.html",
+      "title": "Ham HTML Brütalizmi",
+      "prompt_en": "Design a personal homepage using only default browser styling. White background, Times New Roman, 16px, a single 900px column. Blue underlined links, purple visited links. Horizontal rules as section dividers, an ordered list table of contents, a bordered HTML table of posts, a blockquote with a left border, and a monospace pre block listing page weight and request count. No custom fonts, no images, no JavaScript, no decoration of any kind.",
+      "brief_tr": "Tarayıcı varsayılanlarıyla yazılmış, tek sütunlu, mavi bağlantılı ve tamamen içerik odaklı kişisel sayfa.",
+      "palette": [
+        "#ffffff",
+        "#000000",
+        "#0000ee",
+        "#551a8b"
+      ],
+      "typography": "Times New Roman 16px + Courier New (pre)",
+      "layout": "Tek sütun, max 900px, hr ayırıcılar",
+      "motion": "Yok",
+      "avoid": "Özel font, gradyan, ikon, animasyon, çerçeve",
+      "reference": "İçerik önce",
+      "description": "Tarayıcı varsayılanları, mavi bağlantılar, tek sütun ve sıfır süsleme.",
+      "keywords": [
+        "default browser styles",
+        "times new roman",
+        "blue underlined links",
+        "unstyled tables"
+      ],
+      "section": 8
+    },
+    {
+      "id": 34,
+      "slug": "34-basparmak-bolgesi",
+      "file": "34-basparmak-bolgesi.dc.html",
+      "title": "Baş Parmak Bölgesi",
+      "prompt_en": "Design a mobile UX case-study page about one-handed reach. Neutral study background (#efece5) with hairline rules and uppercase monospace annotation labels. Show two 300x640 phone mockups side by side: the first displays a thumb-reach heat map with three dashed zone cards (comfortable green at the bottom, stretch amber in the middle, hard red at the top); the second shows a real cart screen where the primary full-width action sits in the bottom safe zone above a blurred sticky bar. Add a left column explaining Fitts's law, Jakob's law and the 44px minimum target rule.",
+      "brief_tr": "Tek elle erişim ısı haritası ve uygulanmış sepet ekranıyla Fitts yasasını gösteren mobil vaka sayfası.",
+      "palette": [
+        "#efece5",
+        "#17160f",
+        "#a8442c",
+        "#4aa06e"
+      ],
+      "typography": "Helvetica Neue 600 + monospace etiketler",
+      "layout": "Sol açıklama kolonu + sağda telefon sahnesi",
+      "motion": "Yok; statik inceleme düzeni",
+      "avoid": "Üst köşede birincil eylem, 44px altı hedef",
+      "reference": "Fitts",
+      "description": "Tek elle erişim haritası, alt navigasyon ve 44 px dokunma hedefi kuralı.",
+      "keywords": [
+        "one-handed thumb reach heat map",
+        "bottom tab bar",
+        "44px targets",
+        "Fitts's law study"
+      ],
+      "section": 9
+    },
+    {
+      "id": 35,
+      "slug": "35-kart-destesi-swipe",
+      "file": "35-kart-destesi-swipe.dc.html",
+      "title": "Kart Destesi & Swipe",
+      "prompt_en": "Design a mobile pattern study page for swipe-deck decisions. Neutral light study background with a dark phone mockup showing a stacked card deck: three offset layers behind a rotated top card with a large cover area, a title, meta line, tag chips and a green 'İZLE' stamp rotated -12°. Below the deck, three circular action buttons with the accept button larger and filled. Beside the phone, a gesture dictionary table, a threshold panel with a 28% progress bar, and a note about when decks fail.",
+      "brief_tr": "Tek kararlık kart destesi, jest sözlüğü ve %28 karar eşiğiyle Hick yasasını gösteren desen sayfası.",
+      "palette": [
+        "#efece5",
+        "#14131a",
+        "#4ade8a",
+        "#a8442c"
+      ],
+      "typography": "Helvetica Neue 600 + monospace etiketler",
+      "layout": "Sol açıklama + telefon + sağ jest tablosu",
+      "motion": "Kart -4° eğim, sürükleme eşiği geri dönüşü",
+      "avoid": "Karşılaştırmalı kararlarda deste kullanmak",
+      "reference": "Hick",
+      "description": "Tek karar, jest sözlüğü ve karar eşiği; hızın ne zaman zararlı olduğu.",
+      "keywords": [
+        "stacked swipe card deck",
+        "rotated top card",
+        "gesture dictionary",
+        "28% decision threshold"
+      ],
+      "section": 9
+    },
+    {
+      "id": 36,
+      "slug": "36-asamali-aciga-cikarma",
+      "file": "36-asamali-aciga-cikarma.dc.html",
+      "title": "Onboarding Akışı",
+      "prompt_en": "Design a three-screen mobile onboarding flow on a neutral study page. Three 280x600 phone mockups in a row sharing a segmented progress bar at the top. Screen one: a single question with four large selectable option rows, one selected with a 2px border. Screen two: a goal picker with a 52px value, a slider track with a round handle and a social anchor line ('çoğu kişi 7s 30dk ile başlıyor'). Screen three: an inverted dark permission screen with a circular icon, a plain-language justification and an equally visible decline option.",
+      "brief_tr": "Tek soruluk adımlar, sosyal çıpalı hedef seçimi ve gerekçeli izin ekranıyla üç adımlık kurulum akışı.",
+      "palette": [
+        "#efece5",
+        "#fbfaf7",
+        "#17160f",
+        "#a8442c"
+      ],
+      "typography": "Helvetica Neue 600, 24px ekran başlığı",
+      "layout": "Üç telefon yan yana + ortak ilerleme çubuğu",
+      "motion": "Adımlar arası 250ms kaydırma",
+      "avoid": "Açılışta izin istemek, 4'ten fazla alan",
+      "reference": "IKEA etkisi",
+      "description": "Üç adımlık kurulum, sosyal çıpalı hedef seçimi ve gerekçeli izin isteme.",
+      "keywords": [
+        "three-step onboarding",
+        "segmented progress",
+        "social anchor goal slider",
+        "justified permission"
+      ],
+      "section": 9
+    },
+    {
+      "id": 37,
+      "slug": "37-bos-durum-ilk-deneyim",
+      "file": "37-bos-durum-ilk-deneyim.dc.html",
+      "title": "Boş Durum",
+      "prompt_en": "Design a mobile empty-state study page. Two phone mockups: the first shows a true empty state — a dashed 120px placeholder tile, a non-blaming headline, one sentence of guidance, one primary button, one secondary text link, and a sticky setup progress bar showing 2 of 5 complete. The second shows a half-finished checklist where two items are struck through with filled check circles, the next item is bold with a '30 sn' time estimate, and remaining items are greyed. Side cards explain the three jobs of an empty state and time-to-first-value.",
+      "brief_tr": "Suçlamayan boş ekran ve yarım kalan kontrol listesiyle Zeigarnik etkisini gösteren ilk deneyim sayfası.",
+      "palette": [
+        "#efece5",
+        "#fbfaf7",
+        "#17160f",
+        "#a8442c"
+      ],
+      "typography": "Helvetica Neue 600, 20px ekran başlığı",
+      "layout": "İki telefon + sağda üç ilke kartı",
+      "motion": "Yok",
+      "avoid": "Sahte örnek veri, suçlayıcı dil, sıfır ilerleme",
+      "reference": "Zeigarnik",
+      "description": "İlk açılış ekranı, yarım kalan kontrol listesi ve bahşedilmiş ilerleme.",
+      "keywords": [
+        "empty state with single action",
+        "half-complete checklist",
+        "endowed progress bar"
+      ],
+      "section": 9
+    },
+    {
+      "id": 38,
+      "slug": "38-alt-sayfa-katmanlar",
+      "file": "38-alt-sayfa-katmanlar.dc.html",
+      "title": "Alt Sayfa & Katman",
+      "prompt_en": "Design a mobile layering study page. Phone one shows a bottom sheet: the underlying map list is blurred and dimmed but still visible, and a 400px-tall sheet with a 26px top radius, a drag handle, a title row with a close button, filter chips, a price list and a sticky action row slides up from the bottom. Phone two shows a blocking destructive-confirmation modal centred over a dark scrim, with a red primary action and a neutral cancel. Side notes compare sheet, modal and full screen.",
+      "brief_tr": "Bağlamı koruyan yarı katman ile yıkıcı eylemi durduran modalı yan yana gösteren katman çalışması.",
+      "palette": [
+        "#efece5",
+        "#fbfaf7",
+        "#17160f",
+        "#b03428"
+      ],
+      "typography": "Helvetica Neue 600, 19px sayfa başlığı",
+      "layout": "İki telefon + sağda kullanım kuralları",
+      "motion": "250—300ms yükselme, sürükleyerek kapatma",
+      "avoid": "İkiden fazla üst üste katman, gizli kapatma",
+      "reference": "Doherty",
+      "description": "Bağlamı koruyan yarı katman ile yıkıcı eylemi durduran modal arasındaki fark.",
+      "keywords": [
+        "bottom sheet over blurred context",
+        "drag handle",
+        "destructive confirmation modal"
+      ],
+      "section": 9
+    },
+    {
+      "id": 39,
+      "slug": "39-sonsuz-akis",
+      "file": "39-sonsuz-akis.dc.html",
+      "title": "Sonsuz Akış",
+      "prompt_en": "Design a mobile feed study page about variable reward. A phone mockup shows a social feed with avatar rows, an image post, a text post and a partially visible third post — and critically, a bottom 'buraya kadar okudun' stopping point card that ends the session kindly. Beside it, a two-column comparison table contrasting healthy patterns (finite feed, visible time, batched notifications) with exploitative ones (endless scroll, drip notifications, autoplay), plus four small cards on pull-to-refresh, skeleton loaders, session budgets and position memory.",
+      "brief_tr": "Değişken ödül mekanizmasını ve onu bağımlılıktan ayıran durma noktalarını gösteren akış çalışması.",
+      "palette": [
+        "#efece5",
+        "#fbfaf7",
+        "#17160f",
+        "#2f6b45",
+        "#b03428"
+      ],
+      "typography": "Helvetica Neue 600 + monospace etiketler",
+      "layout": "Telefon + sağda sağlıklı/sömürücü karşılaştırma",
+      "motion": "İskelet yükleyici, aşağı çekip yenileme",
+      "avoid": "Sonsuz akış, otomatik oynatma, gizlenen süre",
+      "reference": "Değişken ödül",
+      "description": "En güçlü etkileşim deseni ve onu bağımlılıktan ayıran durma noktaları.",
+      "keywords": [
+        "social feed with explicit stopping point",
+        "variable reward",
+        "healthy vs exploitative table"
+      ],
+      "section": 9
+    },
+    {
+      "id": 40,
+      "slug": "40-aliskanlik-dongusu-seri",
+      "file": "40-aliskanlik-dongusu-seri.dc.html",
+      "title": "Alışkanlık & Seri",
+      "prompt_en": "Design a mobile habit-streak study page. A dark green phone screen shows a large conic-gradient progress ring around an 84-day streak number, a seven-day dot row with amber checkmarks, one dashed 'today' circle and two empty future days, an amber-tinted 'streak protection' notice card, and a full-width primary action. Beside it, a four-step habit loop diagram (cue, craving, action, reward) and four cards on lowering the threshold, variable celebration, recovery paths and pause mode.",
+      "brief_tr": "İşaret–istek–eylem–ödül döngüsünü ve seri koruma mekanizmasını gösteren alışkanlık çalışması.",
+      "palette": [
+        "#efece5",
+        "#0f1b16",
+        "#f5a524",
+        "#17160f"
+      ],
+      "typography": "Helvetica Neue 600, 52px seri sayısı",
+      "layout": "Telefon + 4 adımlı döngü şeması + kart ızgarası",
+      "motion": "Halka dolum animasyonu ≤900ms",
+      "avoid": "Ceza mekaniği, duraklatmasız seri, sabit kutlama",
+      "reference": "Kayıp kaçınma",
+      "description": "İşaret–istek–eylem–ödül döngüsü, seri koruması ve geri kazanma yolu.",
+      "keywords": [
+        "84-day streak ring",
+        "weekly dot row",
+        "streak protection card",
+        "habit loop diagram"
+      ],
+      "section": 10
+    },
+    {
+      "id": 41,
+      "slug": "41-oyunlastirma-ilerleme",
+      "file": "41-oyunlastirma-ilerleme.dc.html",
+      "title": "Oyunlaştırma",
+      "prompt_en": "Design a mobile gamification study page. A phone screen shows a level header with an XP chip, an 84% gradient progress bar with a '320 puan kaldı' nudge, a badge grid where earned badges are solid black, the next badge is a dashed accent-outlined tile and the rest are empty, plus a leaderboard where the user's own row is highlighted. Beside it, an A/B comparison of a 0/10 progress bar versus a 2/12 bar with two steps granted, and four cards on leaderboards, locked badges, extrinsic reward risk and season endings.",
+      "brief_tr": "Hedef gradyanını, bahşedilmiş ilerlemeyi ve rozet sistemini karşılaştırmalı gösteren oyunlaştırma çalışması.",
+      "palette": [
+        "#efece5",
+        "#fbfaf7",
+        "#17160f",
+        "#a8442c"
+      ],
+      "typography": "Helvetica Neue 600, 20px ekran başlığı",
+      "layout": "Telefon + A/B ilerleme karşılaştırması + kartlar",
+      "motion": "İlerleme çubuğu dolumu 400ms",
+      "avoid": "Anlamsız puan, gizli rozet, herkese açık sıralama baskısı",
+      "reference": "Hedef gradyanı",
+      "description": "İlerleme çubuğu, rozet sistemi, sıralama tablosu ve dışsal ödül tuzağı.",
+      "keywords": [
+        "level progress bar at 84%",
+        "badge grid with next locked badge",
+        "leaderboard row highlight"
+      ],
+      "section": 10
+    },
+    {
+      "id": 42,
+      "slug": "42-sosyal-kanit-kitlik",
+      "file": "42-sosyal-kanit-kitlik.dc.html",
+      "title": "Sosyal Kanıt & Kıtlık",
+      "prompt_en": "Design a mobile commerce study page about social proof and scarcity. A product screen shows a photo area with a live '34 kişi bakıyor' chip, a rating row with review count, price, an amber low-stock card with a 12% bar and a weekly purchase count, and a review with similarity signals (city, height). Beside it, a two-column table separating verifiable claims from fabricated ones, plus four cards on negative social proof, review diversity, FOMO cost and consumer-law exposure.",
+      "brief_tr": "Doğrulanabilir sosyal kanıt ile uydurulmuş kıtlık sinyalini karşılaştıran e-ticaret çalışması.",
+      "palette": [
+        "#efece5",
+        "#fbfaf7",
+        "#17160f",
+        "#c67a1e",
+        "#b03428"
+      ],
+      "typography": "Helvetica Neue 600, 19px ürün başlığı",
+      "layout": "Telefon + doğrulanabilir/uydurma karşılaştırması",
+      "motion": "Yok",
+      "avoid": "Sahte sayaç, sıfırlanan geri sayım, yalnız 5 yıldız",
+      "reference": "Cialdini",
+      "description": "Stok, sayaç ve yorum sinyalleri; doğrulanabilir olanla uydurulmuş olanın farkı.",
+      "keywords": [
+        "live viewer chip",
+        "low-stock bar",
+        "similarity-signalled review",
+        "verifiable vs fake table"
+      ],
+      "section": 10
+    },
+    {
+      "id": 43,
+      "slug": "43-varsayilan-capa-fiyat",
+      "file": "43-varsayilan-capa-fiyat.dc.html",
+      "title": "Varsayılan & Çapa",
+      "prompt_en": "Design a mobile pricing study page. A phone shows three plan rows where the middle annual plan is pre-selected with a 2px border and an 'EN ÇOK SEÇİLEN' badge, the lifetime plan acts as a high anchor, and a transparent notice explains that a reminder email arrives two days before renewal. Beside it, a three-column anchor diagram labelling anchor, target and floor prices, plus four cards on monthly framing, drip pricing, symmetric cancellation and privacy defaults.",
+      "brief_tr": "Çapa etkisi, yem seçenek ve şeffaf varsayılanla kurulmuş fiyatlandırma ekranı çalışması.",
+      "palette": [
+        "#efece5",
+        "#fbfaf7",
+        "#17160f",
+        "#a8442c"
+      ],
+      "typography": "Helvetica Neue 600, 23px ekran başlığı",
+      "layout": "Telefon + üç kolonlu çapa şeması + kartlar",
+      "motion": "Seçim geçişi 150ms",
+      "avoid": "Gizli otomatik yenileme, damla fiyatlama, önceden işaretli ek",
+      "reference": "Anchoring",
+      "description": "Fiyat sunumu, yem seçenek ve varsayılanın kullanıcı lehine ayarlanması.",
+      "keywords": [
+        "three pricing rows",
+        "pre-selected annual plan",
+        "decoy lifetime anchor",
+        "renewal transparency"
+      ],
+      "section": 10
+    },
+    {
+      "id": 44,
+      "slug": "44-mikro-etkilesim-zirve-son",
+      "file": "44-mikro-etkilesim-zirve-son.dc.html",
+      "title": "Mikro Etkileşim",
+      "prompt_en": "Design a dark mobile study page about microinteractions. Ink background (#12100e) with amber annotation labels. A phone shows a transfer-success peak moment: a 120px green circle with a large checkmark, an expanding pulse ring behind it, a confirmation headline, amount and recipient, and a haptic note reading 'orta şiddette titreşim · 180 ms'. Beside it, a timing budget chart with four labelled bars (100ms tap, 250-300ms transition, 400ms system response, 900ms celebration) and four cards on optimistic UI, error moments, reduced motion and silent defaults.",
+      "brief_tr": "Zirve–son kuralını, haptik dilini ve animasyon süre bütçesini gösteren mikro etkileşim çalışması.",
+      "palette": [
+        "#12100e",
+        "#f4f1ea",
+        "#e8b93c",
+        "#4ade8a"
+      ],
+      "typography": "Helvetica Neue 600 + monospace etiketler",
+      "layout": "Koyu sahne, telefon + süre bütçesi grafiği",
+      "motion": "2.6 sn nabız halkası, 180ms haptik",
+      "avoid": "1 sn üstü atlanamayan kutlama, aşırı titreşim",
+      "reference": "Zirve–son",
+      "description": "Haptik dili, animasyon süre bütçesi ve hafızada kalan iki anın tasarımı.",
+      "keywords": [
+        "dark success peak moment",
+        "pulse ring checkmark",
+        "haptic note",
+        "timing budget chart"
+      ],
+      "section": 10
+    },
+    {
+      "id": 45,
+      "slug": "45-karanlik-desenler-etik",
+      "file": "45-karanlik-desenler-etik.dc.html",
+      "title": "Karanlık Desenler",
+      "prompt_en": "Design a dark warning-style page cataloguing dark patterns. Deep maroon-black background (#1a0f0d) with a coral accent (#ff8a72) and an outlined 'this page is a warning' badge. A phone mockup contrasts a cancellation screen: a red-tinted card describing the manipulative version (confirmshaming, hidden button, six-step maze) directly above the honest version (clear end date, optional discount, one-tap confirm, equally weighted buttons). Beside it, a six-row table pairing each dark pattern with its honest counterpart, and a boxed ethics test question for the team.",
+      "brief_tr": "Altı yaygın sömürücü deseni dürüst karşılıklarıyla eşleştiren ve ekip için kontrol sorusu veren uyarı sayfası.",
+      "palette": [
+        "#1a0f0d",
+        "#f6ece8",
+        "#ff8a72",
+        "#8fdda8"
+      ],
+      "typography": "Helvetica Neue 600 + monospace etiketler",
+      "layout": "Koyu sahne, telefon + 6 satırlık eşleştirme tablosu",
+      "motion": "Yok",
+      "avoid": "Utandırma dili, asimetrik buton ağırlığı, zorlaştırılmış iptal",
+      "reference": "uyarı",
+      "description": "Altı yaygın sömürücü desen, dürüst karşılıkları ve ekip için kontrol sorusu.",
+      "keywords": [
+        "dark pattern warning page",
+        "cancellation screen comparison",
+        "honest counterpart table"
+      ],
+      "section": 10
+    }
+  ]
+}

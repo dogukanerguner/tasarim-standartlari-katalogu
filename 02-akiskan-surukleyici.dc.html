@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,600&display=swap" rel="stylesheet" />
+<style>
+html,body{margin:0;padding:0;background:#0e0d12}
+a{color:inherit;text-decoration:none}
+a:hover{opacity:.6}
+@keyframes drift1{0%{transform:translate3d(0,0,0) scale(1)}50%{transform:translate3d(6%,-8%,0) scale(1.18)}100%{transform:translate3d(0,0,0) scale(1)}}
+@keyframes drift2{0%{transform:translate3d(0,0,0) scale(1.1)}50%{transform:translate3d(-9%,6%,0) scale(.92)}100%{transform:translate3d(0,0,0) scale(1.1)}}
+@keyframes marq{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+</style>
+</helmet>
+<div style="position:relative;overflow:hidden;background:#0e0d12;color:#f4f1ec;font-family:'Bricolage Grotesque','Helvetica Neue',Arial,sans-serif;min-height:100vh">
+  <div style="position:absolute;inset:-20% -10%;filter:blur(70px);opacity:.85;pointer-events:none">
+    <div style="position:absolute;left:4%;top:8%;width:52%;height:60%;border-radius:50%;background:radial-gradient(circle at 40% 40%,#3d5cff,rgba(61,92,255,0) 70%);animation:drift1 18s ease-in-out infinite"></div>
+    <div style="position:absolute;right:2%;top:22%;width:46%;height:56%;border-radius:50%;background:radial-gradient(circle at 60% 50%,#00c2a8,rgba(0,194,168,0) 70%);animation:drift2 22s ease-in-out infinite"></div>
+    <div style="position:absolute;left:28%;bottom:-16%;width:44%;height:52%;border-radius:50%;background:radial-gradient(circle at 50% 50%,#c14bff,rgba(193,75,255,0) 70%);animation:drift1 26s ease-in-out infinite"></div>
+  </div>
+
+  <div style="position:relative;display:flex;align-items:center;justify-content:space-between;padding:26px 48px">
+    <a href="Katalog.dc.html" style="font-size:12px;letter-spacing:.1em;text-transform:uppercase;opacity:.75">← Katalog</a>
+    <div style="display:flex;align-items:center;gap:14px">
+      <span style="font-size:13px;letter-spacing:.02em;opacity:.7">akışkan</span>
+      <span style="width:26px;height:26px;border-radius:50%;background:rgba(244,241,236,.12);backdrop-filter:blur(8px);border:1px solid rgba(244,241,236,.25)"></span>
+      <span style="font-size:13px;letter-spacing:.02em;opacity:.7">stüdyo</span>
+    </div>
+    <div style="display:flex;gap:10px">
+      <span style="border:1px solid rgba(244,241,236,.28);border-radius:999px;padding:9px 18px;font-size:12px;letter-spacing:.06em">ses açık</span>
+      <span style="background:#f4f1ec;color:#0e0d12;border-radius:999px;padding:9px 20px;font-size:12px;letter-spacing:.06em;font-weight:600">iletişim</span>
+    </div>
+  </div>
+
+  <div style="position:relative;padding:96px 48px 0;text-align:center">
+    <div style="font-size:12px;letter-spacing:.28em;text-transform:uppercase;opacity:.6;margin-bottom:36px">imleci sürükleyin</div>
+    <h1 style="font-weight:300;font-size:clamp(64px,9.4vw,148px);line-height:.9;letter-spacing:-.04em;margin:0 auto;max-width:14ch;text-wrap:balance">Ekran <span style="font-weight:600;font-style:italic">akıyor</span>, siz sadece bakıyorsunuz</h1>
+    <p style="margin:36px auto 0;max-width:52ch;font-size:17px;line-height:1.6;opacity:.7">Sıvı geçişler, ağırlıklı kaydırma ve dokunuşa cevap veren yüzeyler. Sayfa bir belge değil, bir madde.</p>
+    <div style="margin:44px auto 0;display:inline-flex;align-items:center;gap:12px;padding:8px 8px 8px 26px;border-radius:999px;background:rgba(244,241,236,.08);border:1px solid rgba(244,241,236,.18);backdrop-filter:blur(14px)">
+      <span style="font-size:14px;letter-spacing:.04em">projeyi izle</span>
+      <span style="width:38px;height:38px;border-radius:50%;background:#f4f1ec;color:#0e0d12;display:flex;align-items:center;justify-content:center;font-size:13px">▶</span>
+    </div>
+  </div>
+
+  <div style="position:relative;margin:88px 0 0;overflow:hidden;border-top:1px solid rgba(244,241,236,.14);border-bottom:1px solid rgba(244,241,236,.14);padding:18px 0">
+    <div style="display:flex;gap:48px;width:200%;animation:marq 24s linear infinite;white-space:nowrap;font-size:14px;letter-spacing:.22em;text-transform:uppercase;opacity:.55">
+      <span>webgl</span><span>·</span><span>sıvı bozulma</span><span>·</span><span>ağırlıklı kaydırma</span><span>·</span><span>sinematik derinlik</span><span>·</span><span>webgl</span><span>·</span><span>sıvı bozulma</span><span>·</span><span>ağırlıklı kaydırma</span><span>·</span><span>sinematik derinlik</span><span>·</span>
+    </div>
+  </div>
+
+  <div style="position:relative;display:grid;grid-template-columns:1.4fr 1fr;gap:28px;padding:56px 48px 72px">
+    <div style="border-radius:22px;overflow:hidden;height:300px;background:repeating-linear-gradient(115deg,rgba(244,241,236,.1) 0 10px,rgba(244,241,236,.02) 10px 20px);display:flex;align-items:flex-end;padding:22px;backdrop-filter:blur(6px);border:1px solid rgba(244,241,236,.14)">
+      <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;opacity:.6">[ tam genişlik video döngüsü — sıvı bozulma shader ]</span>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:18px">
+      <div style="flex:1;border-radius:22px;padding:22px;background:rgba(244,241,236,.07);border:1px solid rgba(244,241,236,.16);backdrop-filter:blur(14px)">
+        <div style="font-size:34px;font-weight:600;letter-spacing:-.02em">0.94s</div>
+        <div style="font-size:13px;opacity:.6;margin-top:6px">ortalama geçiş süresi</div>
+      </div>
+      <div style="flex:1;border-radius:22px;padding:22px;background:rgba(244,241,236,.07);border:1px solid rgba(244,241,236,.16);backdrop-filter:blur(14px)">
+        <div style="font-size:34px;font-weight:600;letter-spacing:-.02em">14 ödül</div>
+        <div style="font-size:13px;opacity:.6;margin-top:6px">etkileşim tasarımı, 2019—2026</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="position:relative;padding:0 48px 56px;display:flex;justify-content:space-between;font-size:12px;letter-spacing:.14em;text-transform:uppercase;opacity:.45">
+    <span>Akışkan &amp; Sürükleyici Web</span><span>Locomotive ekolü</span>
+  </div>
+</div>
+
+<div data-prompt-block="1" style="background:#17160f;color:#f4f1ea;font-family:ui-monospace,'SF Mono',Menlo,monospace;padding:40px 44px 46px">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid rgba(244,241,234,.3);padding-bottom:12px;margin-bottom:26px">
+    <span style="font-size:12px;letter-spacing:.18em;text-transform:uppercase">Tasarım promptu — 02 — Akışkan &amp; Sürükleyici</span>
+    <span style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;opacity:.45">seçip kopyalayın</span>
+  </div>
+  <div style="display:grid;grid-template-columns:1.5fr 1fr;gap:40px;align-items:start">
+    <div>
+      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:10px">İngilizce prompt · detaylı</div>
+      <div style="font-size:13.5px;line-height:1.9;background:rgba(244,241,234,.06);border:1px solid rgba(244,241,234,.22);padding:20px;user-select:all">Design an award-style creative agency landing page with a fluid, immersive feel. Near-black background (#0e0d12) with three huge blurred color orbs (electric blue, teal, violet) slowly drifting behind the content. Centered ultra-light display headline at 130px with one word in italic semibold. Frosted glass pill buttons with backdrop blur and thin light borders. A slow horizontal marquee strip of uppercase keywords. Full-bleed video placeholder with rounded 22px corners. Everything feels weighted, cinematic and continuously in motion.</div>
+      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin:22px 0 8px">Türkçe brief</div>
+      <div style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;line-height:1.7;opacity:.85">Sıvı gradyan bulutları, buzlu cam butonlar ve sinematik derinlik taşıyan ajans açılış sayfası.</div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:16px">
+      <div>
+        <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:10px">Palet</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px"><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#0e0d12;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#0e0d12</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#3d5cff;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#3d5cff</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#00c2a8;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#00c2a8</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#c14bff;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#c14bff</span></div></div>
+      </div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Tipografi</div><div style="font-size:13px;line-height:1.6;opacity:.9">Bricolage Grotesque 300/600, geniş harf aralıklı etiketler</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Düzen</div><div style="font-size:13px;line-height:1.6;opacity:.9">Ortalanmış kahraman bölüm + tam genişlik medya</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Hareket</div><div style="font-size:13px;line-height:1.6;opacity:.9">18—28 sn'lik yavaş orb sürüklenmesi, 24 sn marquee</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Kaçınılacaklar</div><div style="font-size:13px;line-height:1.6;opacity:.9">Sert kenar, yüksek kontrastlı kutular, hızlı animasyon</div></div>
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

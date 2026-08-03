@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<style>
+html,body{margin:0;padding:0;background:#fbfbfc}
+a{color:inherit;text-decoration:none}
+a:hover{color:#2d7ff9}
+</style>
+</helmet>
+<div style="background:#fbfbfc;color:#1f2733;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;min-height:100vh;padding-bottom:52px">
+  <div style="display:flex;align-items:center;justify-content:space-between;padding:16px 44px;background:#2d7ff9;color:#fff">
+    <a href="Katalog.dc.html" style="font-size:13px">← Katalog</a>
+    <div style="display:flex;gap:26px;font-size:14px"><span>Panel</span><span>Rezervasyon</span><span>Filo</span><span>Yardım</span></div>
+    <span style="background:#fff;color:#2d7ff9;padding:7px 16px;border-radius:3px;font-size:13px;font-weight:600">Çıkış</span>
+  </div>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:44px;padding:56px 44px 0;align-items:center">
+    <div>
+      <h1 style="font-size:56px;font-weight:600;line-height:1.08;letter-spacing:-.02em;margin:0 0 18px">Gölge yok, doku yok, tereddüt yok</h1>
+      <p style="font-size:17px;line-height:1.65;color:#5b6676;margin:0 0 30px;max-width:42ch">Düz tasarım her öğeyi tek bir düzleme indirir. Anlamı gölge değil renk, boyut ve konum taşır — bu yüzden her ekran boyutunda aynı çalışır.</p>
+      <div style="display:flex;gap:12px">
+        <span style="background:#2d7ff9;color:#fff;padding:13px 26px;border-radius:3px;font-size:15px;font-weight:600">Araç ara</span>
+        <span style="background:#eef2f7;color:#2d7ff9;padding:13px 26px;border-radius:3px;font-size:15px;font-weight:600">Nasıl çalışır</span>
+      </div>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+      <div style="background:#2d7ff9;color:#fff;padding:24px;border-radius:4px">
+        <div style="width:36px;height:36px;background:rgba(255,255,255,.28);border-radius:4px;margin-bottom:16px"></div>
+        <div style="font-size:28px;font-weight:600;line-height:1">1.240</div>
+        <div style="font-size:14px;opacity:.85;margin-top:4px">aktif araç</div>
+      </div>
+      <div style="background:#00b58a;color:#fff;padding:24px;border-radius:4px">
+        <div style="width:36px;height:36px;background:rgba(255,255,255,.28);border-radius:50%;margin-bottom:16px"></div>
+        <div style="font-size:28px;font-weight:600;line-height:1">%98,2</div>
+        <div style="font-size:14px;opacity:.85;margin-top:4px">zamanında teslim</div>
+      </div>
+      <div style="background:#ff9f1c;color:#fff;padding:24px;border-radius:4px">
+        <div style="width:36px;height:36px;background:rgba(255,255,255,.28);margin-bottom:16px"></div>
+        <div style="font-size:28px;font-weight:600;line-height:1">42 dk</div>
+        <div style="font-size:14px;opacity:.85;margin-top:4px">ortalama süre</div>
+      </div>
+      <div style="background:#eef2f7;color:#1f2733;padding:24px;border-radius:4px">
+        <div style="width:36px;height:36px;background:#c9d5e3;border-radius:4px;margin-bottom:16px"></div>
+        <div style="font-size:28px;font-weight:600;line-height:1">18</div>
+        <div style="font-size:14px;color:#5b6676;margin-top:4px">bekleyen talep</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:20px;padding:56px 44px 0">
+    <div style="border:1px solid #e2e8f0;border-radius:4px;padding:22px;background:#fff">
+      <div style="font-size:16px;font-weight:600;margin-bottom:7px">Tek düzlem</div>
+      <div style="font-size:14px;line-height:1.6;color:#5b6676">Kart yükselmez; sınır çizgisi ve boşluk ayrımı yeterlidir.</div>
+    </div>
+    <div style="border:1px solid #e2e8f0;border-radius:4px;padding:22px;background:#fff">
+      <div style="font-size:16px;font-weight:600;margin-bottom:7px">Doygun renk</div>
+      <div style="font-size:14px;line-height:1.6;color:#5b6676">Sınırlı ama canlı bir palet; her renk bir duruma karşılık gelir.</div>
+    </div>
+    <div style="border:1px solid #e2e8f0;border-radius:4px;padding:22px;background:#fff">
+      <div style="font-size:16px;font-weight:600;margin-bottom:7px">Basit ikon</div>
+      <div style="font-size:14px;line-height:1.6;color:#5b6676">Geometrik, tek ağırlıkta ve her ölçekte okunabilir simgeler.</div>
+    </div>
+    <div style="border:1px solid #e2e8f0;border-radius:4px;padding:22px;background:#fff">
+      <div style="font-size:16px;font-weight:600;margin-bottom:7px">Flat 2.0</div>
+      <div style="font-size:14px;line-height:1.6;color:#5b6676">Tıklanabilirliği kurtarmak için çok hafif gölge geri geldi.</div>
+    </div>
+  </div>
+
+  <div style="margin:48px 44px 0;border:1px solid #e2e8f0;border-radius:4px;background:#fff;overflow:hidden">
+    <div style="display:grid;grid-template-columns:120px 1fr 140px 120px;gap:16px;padding:12px 20px;background:#f5f7fa;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#5b6676">
+      <span>Kod</span><span>Güzergâh</span><span>Durum</span><span style="text-align:right">Süre</span>
+    </div>
+    <div style="display:grid;grid-template-columns:120px 1fr 140px 120px;gap:16px;padding:14px 20px;border-top:1px solid #eef2f7;font-size:14px"><span>TR-1042</span><span>Ankara → Konya</span><span style="color:#00b58a">Yolda</span><span style="text-align:right">2s 10dk</span></div>
+    <div style="display:grid;grid-template-columns:120px 1fr 140px 120px;gap:16px;padding:14px 20px;border-top:1px solid #eef2f7;font-size:14px"><span>TR-1043</span><span>İzmir → Manisa</span><span style="color:#ff9f1c">Yükleniyor</span><span style="text-align:right">0s 35dk</span></div>
+    <div style="display:grid;grid-template-columns:120px 1fr 140px 120px;gap:16px;padding:14px 20px;border-top:1px solid #eef2f7;font-size:14px"><span>TR-1044</span><span>Bursa → İstanbul</span><span style="color:#5b6676">Planlandı</span><span style="text-align:right">1s 50dk</span></div>
+  </div>
+
+  <div style="display:flex;justify-content:space-between;padding:30px 44px 0;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#94a1b2">
+    <span>Düz Tasarım (Flat 2.0)</span><span>Renk ve boşlukla hiyerarşi</span>
+  </div>
+</div>
+
+<div data-prompt-block="1" style="background:#17160f;color:#f4f1ea;font-family:ui-monospace,'SF Mono',Menlo,monospace;padding:40px 44px 46px">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid rgba(244,241,234,.3);padding-bottom:12px;margin-bottom:26px">
+    <span style="font-size:12px;letter-spacing:.18em;text-transform:uppercase">Tasarım promptu — 29 — Düz Tasarım</span>
+    <span style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;opacity:.45">seçip kopyalayın</span>
+  </div>
+  <div style="display:grid;grid-template-columns:1.5fr 1fr;gap:40px;align-items:start">
+    <div>
+      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:10px">İngilizce prompt · detaylı</div>
+      <div style="font-size:13.5px;line-height:1.9;background:rgba(244,241,234,.06);border:1px solid rgba(244,241,234,.22);padding:20px;user-select:all">Design a fleet-management dashboard in flat design 2.0. Near-white background (#fbfbfc), a solid blue app bar, and colour-block metric cards in blue, green, amber and light grey with white geometric icon shapes. Only 3—4px radii, 1px light borders and no gradients, no shadows, no texture. A data table with a light grey header row, hairline dividers and text-plus-colour status labels. Hierarchy comes entirely from colour, size and spacing.</div>
+      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin:22px 0 8px">Türkçe brief</div>
+      <div style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;line-height:1.7;opacity:.85">Gölgesiz, dokusuz, tek düzlemde duran renk blokları ve tablo hiyerarşisiyle kurulmuş yönetim panosu.</div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:16px">
+      <div>
+        <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:10px">Palet</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px"><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#fbfbfc;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#fbfbfc</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#2d7ff9;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#2d7ff9</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#00b58a;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#00b58a</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#ff9f1c;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#ff9f1c</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#1f2733;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#1f2733</span></div></div>
+      </div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Tipografi</div><div style="font-size:13px;line-height:1.6;opacity:.9">Helvetica Neue 600/400, 14-17px</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Düzen</div><div style="font-size:13px;line-height:1.6;opacity:.9">Renk bloklu kart ızgarası + veri tablosu</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Hareket</div><div style="font-size:13px;line-height:1.6;opacity:.9">150ms renk geçişi</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Kaçınılacaklar</div><div style="font-size:13px;line-height:1.6;opacity:.9">Gradyan, gölge, doku, kabartma</div></div>
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

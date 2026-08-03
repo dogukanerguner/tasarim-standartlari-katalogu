@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet" />
+<style>
+html,body{margin:0;padding:0;background:#f7f2e8}
+a{color:inherit;text-decoration:none}
+a:hover{color:#e8354e}
+@keyframes spin{to{transform:rotate(360deg)}}
+</style>
+</helmet>
+<div style="position:relative;overflow:hidden;background:#f7f2e8;color:#1a1a1a;font-family:Outfit,'Helvetica Neue',Arial,sans-serif;min-height:100vh;padding-bottom:46px">
+  <div style="position:absolute;inset:0;pointer-events:none;opacity:.5;background-image:radial-gradient(#1a1a1a 1.5px,transparent 1.5px);background-size:26px 26px;background-position:12px 12px"></div>
+  <div style="position:absolute;right:6%;top:14%;width:120px;height:120px;border:9px solid #2ec4b6;border-radius:50%;pointer-events:none"></div>
+  <div style="position:absolute;left:3%;bottom:16%;width:0;height:0;border-left:52px solid transparent;border-right:52px solid transparent;border-bottom:92px solid #ffbf1f;transform:rotate(-14deg);pointer-events:none"></div>
+  <div style="position:absolute;right:16%;bottom:8%;width:86px;height:86px;background:#e8354e;transform:rotate(24deg);pointer-events:none"></div>
+
+  <div style="position:relative;display:flex;align-items:center;justify-content:space-between;padding:18px 40px">
+    <a href="Katalog.dc.html" style="font-size:13px;font-weight:700;letter-spacing:.04em;text-transform:uppercase">← Katalog</a>
+    <div style="display:flex;gap:10px">
+      <span style="background:#ffbf1f;padding:7px 15px;border-radius:999px;font-size:13px;font-weight:700">Ürünler</span>
+      <span style="background:#2ec4b6;padding:7px 15px;border-radius:999px;font-size:13px;font-weight:700">Stüdyo</span>
+      <span style="background:#e8354e;color:#fff;padding:7px 15px;border-radius:999px;font-size:13px;font-weight:700">Sipariş</span>
+    </div>
+  </div>
+
+  <div style="position:relative;display:grid;grid-template-columns:1.1fr .9fr;gap:40px;padding:56px 40px 0;align-items:center">
+    <div>
+      <h1 style="font-weight:900;font-size:86px;line-height:.94;letter-spacing:-.035em;margin:0 0 20px">
+        Ciddi<br />
+        <span style="background:#ffbf1f;padding:0 12px;display:inline-block;transform:rotate(-2deg)">mobilya</span><br />
+        <span style="color:#e8354e">sıkıcıdır</span>
+      </h1>
+      <p style="font-size:18px;line-height:1.55;max-width:36ch;margin:0 0 30px">Bir sehpanın üç ayağı neden aynı renk olsun? Postmodernizm kuralı yıkmaz — sadece ciddiye almaz.</p>
+      <div style="display:flex;gap:14px;align-items:center;flex-wrap:wrap">
+        <span style="background:#1a1a1a;color:#f7f2e8;padding:14px 28px;border-radius:999px;font-size:15px;font-weight:700">Kataloğu iste</span>
+        <span style="border:3px solid #1a1a1a;padding:12px 24px;border-radius:999px;font-size:15px;font-weight:700">Showroom</span>
+      </div>
+    </div>
+
+    <div style="position:relative;display:grid;grid-template-columns:1fr 1fr;gap:16px">
+      <div style="grid-column:span 2;background:#fff;border:4px solid #1a1a1a;border-radius:8px 40px 8px 40px;padding:20px;display:flex;align-items:center;gap:18px">
+        <div style="width:74px;height:74px;background:conic-gradient(#e8354e 0 25%,#ffbf1f 25% 50%,#2ec4b6 50% 75%,#1a1a1a 75%);border-radius:50%;animation:spin 22s linear infinite"></div>
+        <div>
+          <div style="font-size:20px;font-weight:900">Tabure “Zikzak”</div>
+          <div style="font-size:14px;margin-top:4px;opacity:.7">Lake kaplama · 4 renk kombinasyonu</div>
+        </div>
+      </div>
+      <div style="background:#2ec4b6;border:4px solid #1a1a1a;border-radius:40px 8px 40px 8px;padding:20px;min-height:120px;display:flex;flex-direction:column;justify-content:flex-end">
+        <div style="font-size:30px;font-weight:900;line-height:1">₺3.400</div>
+        <div style="font-size:13px;font-weight:700;margin-top:2px">tek parça</div>
+      </div>
+      <div style="background:#f7f2e8;border:4px solid #1a1a1a;border-radius:8px;padding:0;overflow:hidden;min-height:120px;background-image:repeating-linear-gradient(-45deg,#ffd9e0 0 12px,#f7f2e8 12px 24px);display:flex;align-items:flex-end;padding:14px">
+        <span style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;opacity:.6">[ ürün fotoğrafı ]</span>
+      </div>
+    </div>
+  </div>
+
+  <div style="position:relative;display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding:56px 40px 0">
+    <div style="background:#fff;border:4px solid #1a1a1a;border-radius:30px 6px 30px 6px;padding:22px">
+      <div style="width:38px;height:38px;background:#e8354e;border:3px solid #1a1a1a;border-radius:50%;margin-bottom:14px"></div>
+      <div style="font-size:20px;font-weight:900;margin-bottom:6px">Renk çakışsın</div>
+      <div style="font-size:14.5px;line-height:1.55;opacity:.78">Uyum aranmaz; kontrast bilinçli olarak rahatsız eder.</div>
+    </div>
+    <div style="background:#fff;border:4px solid #1a1a1a;border-radius:6px 30px 6px 30px;padding:22px">
+      <div style="width:38px;height:38px;background:#ffbf1f;border:3px solid #1a1a1a;margin-bottom:14px;transform:rotate(20deg)"></div>
+      <div style="font-size:20px;font-weight:900;margin-bottom:6px">Desen üstüne desen</div>
+      <div style="font-size:14.5px;line-height:1.55;opacity:.78">Benekler, zikzaklar ve terrazzo aynı yüzeyde durabilir.</div>
+    </div>
+    <div style="background:#1a1a1a;color:#f7f2e8;border:4px solid #1a1a1a;border-radius:30px;padding:22px">
+      <div style="width:38px;height:38px;background:#2ec4b6;border-radius:50% 50% 50% 4px;margin-bottom:14px"></div>
+      <div style="font-size:20px;font-weight:900;margin-bottom:6px">Neşe bir strateji</div>
+      <div style="font-size:14.5px;line-height:1.55;opacity:.8">Ürün ciddiyet satmıyorsa arayüz de satmamalı.</div>
+    </div>
+  </div>
+
+  <div style="position:relative;display:flex;justify-content:space-between;padding:36px 40px 0;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;opacity:.55">
+    <span>Memphis / Postmodern</span><span>Ettore Sottsass ekolü</span>
+  </div>
+</div>
+
+<div data-prompt-block="1" style="background:#17160f;color:#f4f1ea;font-family:ui-monospace,'SF Mono',Menlo,monospace;padding:40px 44px 46px">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid rgba(244,241,234,.3);padding-bottom:12px;margin-bottom:26px">
+    <span style="font-size:12px;letter-spacing:.18em;text-transform:uppercase">Tasarım promptu — 22 — Memphis</span>
+    <span style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;opacity:.45">seçip kopyalayın</span>
+  </div>
+  <div style="display:grid;grid-template-columns:1.5fr 1fr;gap:40px;align-items:start">
+    <div>
+      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:10px">İngilizce prompt · detaylı</div>
+      <div style="font-size:13.5px;line-height:1.9;background:rgba(244,241,234,.06);border:1px solid rgba(244,241,234,.22);padding:20px;user-select:all">Design a furniture brand page in 1980s Memphis postmodern style. Cream background (#f7f2e8) with a black polka-dot pattern overlay and scattered geometric confetti: a thick teal ring, a rotated yellow triangle, a rotated red square. Cards use 4px black borders with mismatched corner radii (8px on one corner, 40px on the opposite). Clashing colours placed next to each other on purpose, a spinning four-colour conic disc, and a 86px 900-weight headline with a highlighted rotated word.</div>
+      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin:22px 0 8px">Türkçe brief</div>
+      <div style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;line-height:1.7;opacity:.85">Çakışan renkler, benek dokusu ve asimetrik yarıçaplı kartlarla kurulmuş postmodern mobilya sayfası.</div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:16px">
+      <div>
+        <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:10px">Palet</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px"><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#f7f2e8;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#f7f2e8</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#1a1a1a;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#1a1a1a</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#e8354e;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#e8354e</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#ffbf1f;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#ffbf1f</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#2ec4b6;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#2ec4b6</span></div></div>
+      </div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Tipografi</div><div style="font-size:13px;line-height:1.6;opacity:.9">Outfit 700/900</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Düzen</div><div style="font-size:13px;line-height:1.6;opacity:.9">Serbest yerleşim + 4px çerçeveli kartlar</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Hareket</div><div style="font-size:13px;line-height:1.6;opacity:.9">22 sn dönen disk, hafif eğimler</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Kaçınılacaklar</div><div style="font-size:13px;line-height:1.6;opacity:.9">Uyumlu palet, tutarlı yarıçap, ciddi ton</div></div>
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

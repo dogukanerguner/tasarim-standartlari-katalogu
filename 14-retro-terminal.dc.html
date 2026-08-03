@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet" />
+<style>
+html,body{margin:0;padding:0;background:#050a06}
+a{color:inherit;text-decoration:none}
+a:hover{background:#41ff7e;color:#050a06}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+</style>
+</helmet>
+<div style="position:relative;overflow:hidden;background:#050a06;color:#41ff7e;font-family:'IBM Plex Mono',ui-monospace,Menlo,monospace;min-height:100vh;font-size:14px;line-height:1.7;padding-bottom:36px">
+  <div style="position:absolute;inset:0;background-image:linear-gradient(rgba(65,255,126,.05) 1px,transparent 1px);background-size:100% 3px;pointer-events:none"></div>
+  <div style="position:absolute;inset:0;background:radial-gradient(70% 60% at 50% 45%,rgba(65,255,126,.07),transparent 75%);pointer-events:none"></div>
+
+  <div style="position:relative;display:flex;justify-content:space-between;border-bottom:1px solid rgba(65,255,126,.35);padding:8px 22px;font-size:12px">
+    <a href="Katalog.dc.html">[← KATALOG]</a>
+    <span>ttyS0 · 80x24 · UTF-8</span>
+    <span>YÜK 0.42 · BELLEK 61%</span>
+  </div>
+
+  <div style="position:relative;padding:26px 22px 0">
+    <pre style="margin:0 0 22px;font-size:13px;line-height:1.15;color:#41ff7e;text-shadow:0 0 12px rgba(65,255,126,.55)"> ██████╗ ██████╗ ██╗   ██╗██████╗ ███████╗
+██╔════╝ ██╔══██╗██║   ██║██╔══██╗██╔════╝
+██║      ██████╔╝██║   ██║██████╔╝█████╗  
+██║      ██╔══██╗██║   ██║██╔══██╗██╔══╝  
+╚██████╗ ██║  ██║╚██████╔╝██████╔╝███████╗
+ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ╚══════╝</pre>
+
+    <div style="display:grid;grid-template-columns:1.25fr .75fr;gap:26px">
+      <div>
+        <div style="opacity:.6">crube v0.9.4 — dağıtım aracı · derleme 2026.07.14</div>
+        <div style="margin-top:14px"><span style="opacity:.55">$</span> crube deploy --env=prod --watch</div>
+        <div style="opacity:.75">→ 14 dosya paketlendi (2.8 MB)</div>
+        <div style="opacity:.75">→ imza doğrulandı · sha256:9fa2c1…</div>
+        <div style="opacity:.75">→ 3 bölgeye kopyalanıyor <span style="color:#eaff6e">[████████████░░░░] 76%</span></div>
+        <div style="margin-top:14px;color:#eaff6e">UYARI: prod ortamına yazıyorsunuz. Geri alma: crube rollback</div>
+        <div style="margin-top:14px"><span style="opacity:.55">$</span> <span>_</span><span style="animation:blink 1.1s step-end infinite">█</span></div>
+
+        <div style="margin-top:26px;border:1px solid rgba(65,255,126,.35);padding:0">
+          <div style="border-bottom:1px solid rgba(65,255,126,.35);padding:6px 12px;font-size:12px;letter-spacing:.1em">CANLI GÜNLÜK</div>
+          <div style="padding:10px 12px;font-size:12.5px;line-height:1.75;opacity:.85">
+            <div>12:04:11 ist-1  200 GET  /v1/durum        14ms</div>
+            <div>12:04:12 fra-2  200 POST /v1/olay         31ms</div>
+            <div>12:04:12 ist-1  <span style="color:#eaff6e">429</span> POST /v1/olay        8ms</div>
+            <div>12:04:13 sin-1  200 GET  /v1/anahtar      22ms</div>
+            <div>12:04:14 ist-1  200 GET  /v1/durum        11ms</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:18px">
+        <div style="border:1px solid rgba(65,255,126,.35);padding:12px">
+          <div style="font-size:12px;letter-spacing:.1em;opacity:.6;margin-bottom:8px">ÇALIŞMA SÜRESİ</div>
+          <div style="font-size:30px;font-weight:600">412g 06s</div>
+          <div style="margin-top:10px;font-size:12px;opacity:.7">son yeniden başlatma: çekirdek yaması</div>
+        </div>
+        <div style="border:1px solid rgba(65,255,126,.35);padding:12px">
+          <div style="font-size:12px;letter-spacing:.1em;opacity:.6;margin-bottom:10px">İSTEK / SN</div>
+          <div style="display:flex;align-items:flex-end;gap:3px;height:76px">
+            <div style="flex:1;height:32%;background:#41ff7e;opacity:.55"></div>
+            <div style="flex:1;height:58%;background:#41ff7e;opacity:.55"></div>
+            <div style="flex:1;height:44%;background:#41ff7e;opacity:.55"></div>
+            <div style="flex:1;height:74%;background:#41ff7e;opacity:.75"></div>
+            <div style="flex:1;height:92%;background:#eaff6e"></div>
+            <div style="flex:1;height:66%;background:#41ff7e;opacity:.75"></div>
+            <div style="flex:1;height:50%;background:#41ff7e;opacity:.55"></div>
+            <div style="flex:1;height:38%;background:#41ff7e;opacity:.55"></div>
+            <div style="flex:1;height:61%;background:#41ff7e;opacity:.55"></div>
+          </div>
+          <div style="margin-top:8px;font-size:11px;opacity:.6">tepe: 1.284 · ort: 742</div>
+        </div>
+        <div style="border:1px dashed rgba(65,255,126,.35);padding:12px;font-size:12.5px;line-height:1.65;opacity:.8">
+          İpucu: <span style="color:#eaff6e">TAB</span> ile tamamla, <span style="color:#eaff6e">CTRL-R</span> ile geçmişte ara. Fare desteği yok — gerek de yok.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="position:relative;margin:30px 22px 0;border-top:1px solid rgba(65,255,126,.35);padding-top:10px;display:flex;justify-content:space-between;font-size:11px;letter-spacing:.12em;opacity:.5">
+    <span>RETRO-BİLGİSAYAR / TERMİNAL</span><span>MONOKROM KOD DÜZENİ</span>
+  </div>
+</div>
+
+<div data-prompt-block="1" style="background:#17160f;color:#f4f1ea;font-family:ui-monospace,'SF Mono',Menlo,monospace;padding:40px 44px 46px">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid rgba(244,241,234,.3);padding-bottom:12px;margin-bottom:26px">
+    <span style="font-size:12px;letter-spacing:.18em;text-transform:uppercase">Tasarım promptu — 14 — Retro Terminal</span>
+    <span style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;opacity:.45">seçip kopyalayın</span>
+  </div>
+  <div style="display:grid;grid-template-columns:1.5fr 1fr;gap:40px;align-items:start">
+    <div>
+      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:10px">İngilizce prompt · detaylı</div>
+      <div style="font-size:13.5px;line-height:1.9;background:rgba(244,241,234,.06);border:1px solid rgba(244,241,234,.22);padding:20px;user-select:all">Design a developer deployment tool page as a monochrome terminal. Near-black green-tinted background (#050a06) with phosphor green text (#41ff7e), CRT scanlines and a soft radial glow. A large ASCII-art wordmark, a live command session with progress bars in amber, a bordered live log table of HTTP requests, an uptime panel and a bar chart made of solid blocks. Everything is IBM Plex Mono, all panels are 1px green rules, one blinking block cursor.</div>
+      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin:22px 0 8px">Türkçe brief</div>
+      <div style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;line-height:1.7;opacity:.85">ASCII logo, canlı komut oturumu ve fosfor yeşili tek renk paletiyle kurulmuş terminal arayüzü.</div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:16px">
+      <div>
+        <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:10px">Palet</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px"><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#050a06;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#050a06</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#41ff7e;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#41ff7e</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#eaff6e;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#eaff6e</span></div></div>
+      </div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Tipografi</div><div style="font-size:13px;line-height:1.6;opacity:.9">IBM Plex Mono 400/600, 14px, 1.7 satır yüksekliği</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Düzen</div><div style="font-size:13px;line-height:1.6;opacity:.9">Tek sütun konsol + sağda dar panel kolonu</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Hareket</div><div style="font-size:13px;line-height:1.6;opacity:.9">1.1 sn imleç yanıp sönmesi</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Kaçınılacaklar</div><div style="font-size:13px;line-height:1.6;opacity:.9">Renkli ikon, yuvarlak köşe, gölge, resim</div></div>
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

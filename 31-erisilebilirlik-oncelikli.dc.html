@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<style>
+html,body{margin:0;padding:0;background:#fff}
+a{color:#0a4bd4;text-decoration:underline}
+a:hover{color:#062f86}
+</style>
+</helmet>
+<div style="background:#fff;color:#141414;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;min-height:100vh;padding-bottom:56px;font-size:18px;line-height:1.65">
+  <a href="#icerik" style="display:block;background:#141414;color:#fff;padding:12px 32px;font-size:17px;font-weight:700;text-decoration:none">İçeriğe geç</a>
+
+  <div style="display:flex;align-items:center;justify-content:space-between;padding:18px 40px;border-bottom:3px solid #141414;gap:24px;flex-wrap:wrap">
+    <a href="Katalog.dc.html" style="font-size:17px;font-weight:700">← Katalog</a>
+    <div style="display:flex;gap:8px;flex-wrap:wrap">
+      <span style="border:3px solid #141414;padding:10px 18px;font-size:17px;font-weight:700;background:#141414;color:#fff">Başvuru</span>
+      <span style="border:3px solid #141414;padding:10px 18px;font-size:17px">Durum sorgula</span>
+      <span style="border:3px solid #141414;padding:10px 18px;font-size:17px">İletişim</span>
+    </div>
+  </div>
+
+  <div id="icerik" style="display:grid;grid-template-columns:1.2fr .8fr;gap:48px;padding:48px 40px 0">
+    <div>
+      <h1 style="font-size:46px;font-weight:700;line-height:1.15;letter-spacing:-.01em;margin:0 0 20px">Herkesin kullanabildiği tasarım bir tercih değil, ölçüttür</h1>
+      <p style="margin:0 0 18px;max-width:62ch">Bu sayfa erişilebilirlik ilkelerine göre kurulmuştur: en az <strong>4,5:1</strong> metin kontrastı, 18 piksel taban yazı boyutu, klavye ile gezilebilir sıra ve her etkileşimli öğede görünür odak halkası.</p>
+      <p style="margin:0 0 28px;max-width:62ch">Renk tek başına anlam taşımaz — durumlar hem renk hem etiketle belirtilir. Animasyon, hareket hassasiyeti olan kullanıcılar için kapatılabilir.</p>
+
+      <div style="border:3px solid #141414;padding:24px;margin-bottom:28px">
+        <div style="font-size:22px;font-weight:700;margin-bottom:16px">Başvuru formu</div>
+        <label for="ad" style="display:block;font-size:17px;font-weight:700;margin-bottom:6px">Ad ve soyad</label>
+        <div style="border:3px solid #141414;padding:12px 14px;font-size:18px;color:#585858;margin-bottom:6px">Örn. Ayşe Yılmaz</div>
+        <div style="font-size:15px;color:#404040;margin-bottom:20px">Kimlik belgenizdeki gibi yazın.</div>
+
+        <label for="tc" style="display:block;font-size:17px;font-weight:700;margin-bottom:6px">T.C. kimlik numarası</label>
+        <div style="border:3px solid #b3000f;padding:12px 14px;font-size:18px;color:#585858;margin-bottom:6px;outline:4px solid #ffd200;outline-offset:2px">11 haneli numara</div>
+        <div style="font-size:16px;color:#b3000f;font-weight:700;margin-bottom:20px">⚠ Hata: Numara 11 hane olmalıdır. Şu an 9 hane girildi.</div>
+
+        <span style="display:inline-block;background:#141414;color:#fff;padding:14px 28px;font-size:18px;font-weight:700">Devam et</span>
+      </div>
+    </div>
+
+    <div>
+      <div style="border:3px solid #141414;padding:22px;margin-bottom:22px">
+        <div style="font-size:20px;font-weight:700;margin-bottom:14px">Kontrast örnekleri</div>
+        <div style="background:#141414;color:#fff;padding:12px 14px;font-size:17px;margin-bottom:8px">Geçer — 16,1:1</div>
+        <div style="background:#0a4bd4;color:#fff;padding:12px 14px;font-size:17px;margin-bottom:8px">Geçer — 8,6:1</div>
+        <div style="background:#767676;color:#fff;padding:12px 14px;font-size:17px;margin-bottom:8px">Sınırda — 4,5:1</div>
+        <div style="background:#c9c9c9;color:#fff;padding:12px 14px;font-size:17px">Kalır — 1,6:1 ✕</div>
+      </div>
+
+      <div style="border:3px solid #141414;padding:22px;margin-bottom:22px">
+        <div style="font-size:20px;font-weight:700;margin-bottom:12px">Durum bildirimi</div>
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px"><span style="width:18px;height:18px;background:#0a7d33"></span><strong>Onaylandı</strong> — 12 Temmuz</div>
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px"><span style="width:18px;height:18px;background:#b3000f"></span><strong>Reddedildi</strong> — belge eksik</div>
+        <div style="display:flex;align-items:center;gap:10px"><span style="width:18px;height:18px;background:#141414"></span><strong>Beklemede</strong> — inceleniyor</div>
+        <div style="font-size:15px;color:#404040;margin-top:12px">Renk körlüğü için her durum ayrıca metinle yazılır.</div>
+      </div>
+
+      <div style="border:3px solid #141414;padding:22px">
+        <div style="font-size:20px;font-weight:700;margin-bottom:12px">Klavye sırası</div>
+        <div style="font-size:16px;line-height:1.7">1 · İçeriğe geç bağlantısı<br />2 · Ana gezinme<br />3 · Form alanları<br />4 · Gönder butonu<br />5 · Alt bilgi</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="margin:44px 40px 0;border-top:3px solid #141414;padding-top:18px;display:flex;justify-content:space-between;font-size:15px;flex-wrap:wrap;gap:12px">
+    <span><strong>Erişilebilirlik Öncelikli Tasarım</strong></span><span>WCAG 2.2 AA hedefi · kontrast, odak, sıra, metin alternatifi</span>
+  </div>
+</div>
+
+<div data-prompt-block="1" style="background:#17160f;color:#f4f1ea;font-family:ui-monospace,'SF Mono',Menlo,monospace;padding:40px 44px 46px">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid rgba(244,241,234,.3);padding-bottom:12px;margin-bottom:26px">
+    <span style="font-size:12px;letter-spacing:.18em;text-transform:uppercase">Tasarım promptu — 31 — Erişilebilirlik Öncelikli</span>
+    <span style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;opacity:.45">seçip kopyalayın</span>
+  </div>
+  <div style="display:grid;grid-template-columns:1.5fr 1fr;gap:40px;align-items:start">
+    <div>
+      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:10px">İngilizce prompt · detaylı</div>
+      <div style="font-size:13.5px;line-height:1.9;background:rgba(244,241,234,.06);border:1px solid rgba(244,241,234,.22);padding:20px;user-select:all">Design a public application form page that is accessibility-first. Pure white background, pure black text, 18px base font size and 1.65 line-height. A visible skip-to-content link as the first element. 3px black borders on every field and button, 44px+ hit areas, and a 4px amber focus outline offset from the field. Errors use a red border, a bold red message with an icon and explanatory text — never colour alone. A contrast sample panel showing ratios, and status indicators that pair a colour block with a text label.</div>
+      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin:22px 0 8px">Türkçe brief</div>
+      <div style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;line-height:1.7;opacity:.85">Yüksek kontrast, 18px taban metin, kalın odak halkası ve renge bağlı olmayan durum bildirimleriyle kamu formu.</div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:16px">
+      <div>
+        <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:10px">Palet</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px"><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#ffffff;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#ffffff</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#141414;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#141414</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#0a4bd4;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#0a4bd4</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#b3000f;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#b3000f</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#ffd200;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#ffd200</span></div></div>
+      </div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Tipografi</div><div style="font-size:13px;line-height:1.6;opacity:.9">Helvetica Neue, 18px taban, 17px etiket</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Düzen</div><div style="font-size:13px;line-height:1.6;opacity:.9">Tek ana sütun + dar yardım kolonu, 3px çerçeveler</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Hareket</div><div style="font-size:13px;line-height:1.6;opacity:.9">Yok; hareket azaltma tercihine saygı</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Kaçınılacaklar</div><div style="font-size:13px;line-height:1.6;opacity:.9">İnce gri metin, düşük kontrast, yalnız renkle anlam</div></div>
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

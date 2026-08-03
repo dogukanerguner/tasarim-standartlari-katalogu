@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,400;1,400&display=swap" rel="stylesheet" />
+<style>
+html,body{margin:0;padding:0;background:#f2e8d5}
+a{color:inherit;text-decoration:none}
+a:hover{background:#ff3b1f;color:#fff}
+@keyframes wobble{0%,100%{transform:rotate(-2.5deg)}50%{transform:rotate(2deg)}}
+</style>
+</helmet>
+<div style="position:relative;overflow:hidden;background:#f2e8d5;color:#141210;font-family:Archivo,'Helvetica Neue',Arial,sans-serif;min-height:100vh;padding-bottom:60px">
+  <div style="position:absolute;inset:0;opacity:.16;background-image:radial-gradient(#141210 1px,transparent 1px);background-size:5px 5px;pointer-events:none"></div>
+
+  <div style="position:relative;display:flex;align-items:center;justify-content:space-between;padding:18px 36px;border-bottom:3px solid #141210">
+    <a href="Katalog.dc.html" style="font-family:'Archivo Black',Arial;font-size:13px;text-transform:uppercase;letter-spacing:-.01em">← katalog</a>
+    <div style="display:flex;gap:20px;font-size:14px;font-style:italic">
+      <span style="transform:rotate(-3deg);display:inline-block">neden?</span>
+      <span style="transform:rotate(2deg);display:inline-block;text-decoration:line-through">hakkımızda</span>
+      <span style="transform:rotate(-1deg);display:inline-block">bilmiyorum</span>
+    </div>
+  </div>
+
+  <div style="position:relative;padding:44px 36px 0">
+    <div style="font-family:'Archivo Black',Arial;font-size:132px;line-height:.82;letter-spacing:-.045em;text-transform:uppercase;max-width:22ch">
+      <span style="display:inline-block;transform:rotate(-1.5deg)">MUTLU</span>
+      <span style="display:inline-block;background:#ff3b1f;color:#f2e8d5;padding:0 10px;transform:rotate(1deg)">OL</span><br />
+      <span style="display:inline-block;font-family:Archivo;font-style:italic;font-weight:400;font-size:96px;text-transform:lowercase;transform:translateX(60px)">ama önce</span>
+      <span style="display:inline-block;transform:rotate(2deg) translateY(-8px);-webkit-text-stroke:2px #141210;color:transparent">huzursuz</span>
+    </div>
+    <div style="position:absolute;right:52px;top:36px;width:200px;height:200px;border-radius:50%;background:#ffd400;border:3px solid #141210;display:flex;align-items:center;justify-content:center;text-align:center;font-family:'Archivo Black',Arial;font-size:15px;line-height:1.15;text-transform:uppercase;animation:wobble 6s ease-in-out infinite">bu buton<br />hiçbir şey<br />yapmıyor</div>
+  </div>
+
+  <div style="position:relative;display:grid;grid-template-columns:1fr 1.1fr 0.8fr;gap:0;margin-top:64px;border-top:3px solid #141210;border-bottom:3px solid #141210">
+    <div style="padding:28px;border-right:3px solid #141210">
+      <p style="font-size:18px;line-height:1.45;margin:0 0 16px;text-wrap:pretty">İşinizi <span style="background:#141210;color:#f2e8d5">sevmiyorsanız</span> iyi tasarım yapamazsınız. Bu bir teori değil, bir suçlama.</p>
+      <p style="font-size:14px;line-height:1.5;margin:0;font-style:italic;opacity:.7">— duvarda yazılıydı, kim yazdı bilmiyoruz</p>
+    </div>
+    <div style="padding:0;position:relative;min-height:280px;background:repeating-linear-gradient(45deg,#e0d4bd 0 9px,#f2e8d5 9px 18px);border-right:3px solid #141210;display:flex;align-items:center;justify-content:center">
+      <span style="font-family:ui-monospace,Menlo,monospace;font-size:11px;text-transform:uppercase;letter-spacing:.08em;transform:rotate(-4deg);background:#f2e8d5;border:2px solid #141210;padding:8px 12px">[ el yazısı taranmış afiş buraya ]</span>
+    </div>
+    <div style="padding:28px;display:flex;flex-direction:column;justify-content:space-between;background:#141210;color:#f2e8d5">
+      <div style="font-family:'Archivo Black',Arial;font-size:44px;line-height:.95;text-transform:uppercase">KURAL<br />YOK<br /><span style="color:#ff3b1f">AMA</span><br />DÜZEN<br />VAR</div>
+      <div style="font-size:12px;letter-spacing:.1em;text-transform:uppercase;opacity:.6;margin-top:20px">bölüm 3 / dipnot 9</div>
+    </div>
+  </div>
+
+  <div style="position:relative;display:flex;flex-wrap:wrap;gap:10px;padding:28px 36px 0;align-items:center">
+    <span style="border:3px solid #141210;padding:10px 18px;font-family:'Archivo Black',Arial;font-size:14px;text-transform:uppercase;transform:rotate(-1deg)">bültene abone ol</span>
+    <span style="background:#ff3b1f;color:#f2e8d5;padding:10px 18px;font-size:14px;font-style:italic;transform:rotate(1.5deg)">ya da olma, umurumuzda değil</span>
+    <span style="text-decoration:underline;font-size:14px;opacity:.6">(gerçekten umurumuzda)</span>
+  </div>
+
+  <div style="position:relative;margin:56px 36px 0;border-top:3px solid #141210;padding-top:16px;display:flex;justify-content:space-between;font-family:'Archivo Black',Arial;font-size:12px;text-transform:uppercase;letter-spacing:.04em">
+    <span>Brütalist &amp; Provokatif</span><span style="opacity:.55">Stefan Sagmeister ekolü</span>
+  </div>
+</div>
+
+<div data-prompt-block="1" style="background:#17160f;color:#f4f1ea;font-family:ui-monospace,'SF Mono',Menlo,monospace;padding:40px 44px 46px">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid rgba(244,241,234,.3);padding-bottom:12px;margin-bottom:26px">
+    <span style="font-size:12px;letter-spacing:.18em;text-transform:uppercase">Tasarım promptu — 04 — Brütalist &amp; Provokatif</span>
+    <span style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;opacity:.45">seçip kopyalayın</span>
+  </div>
+  <div style="display:grid;grid-template-columns:1.5fr 1fr;gap:40px;align-items:start">
+    <div>
+      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:10px">İngilizce prompt · detaylı</div>
+      <div style="font-size:13.5px;line-height:1.9;background:rgba(244,241,234,.06);border:1px solid rgba(244,241,234,.22);padding:20px;user-select:all">Design a provocative anti-design poster page for a design studio. Warm paper background (#f2e8d5) with a visible halftone dot texture. Massive 130px Archivo Black uppercase headline where each line is rotated a few degrees, one word knocked out in a red block, one word set in outline-only text stroke. A yellow circular sticker rotated and wobbling that says the button does nothing. Struck-through nav items in italic. Hard 3px black borders, a black inverted column, deliberately mismatched baselines.</div>
+      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin:22px 0 8px">Türkçe brief</div>
+      <div style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;line-height:1.7;opacity:.85">Kuralları kasten bozan, döndürülmüş tipografi ve ironik mikro metinlerle kurulmuş provokatif afiş sayfası.</div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:16px">
+      <div>
+        <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:10px">Palet</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px"><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#f2e8d5;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#f2e8d5</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#141210;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#141210</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#ff3b1f;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#ff3b1f</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#ffd400;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#ffd400</span></div></div>
+      </div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Tipografi</div><div style="font-size:13px;line-height:1.6;opacity:.9">Archivo Black + Archivo italic karışımı</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Düzen</div><div style="font-size:13px;line-height:1.6;opacity:.9">Izgarasız, döndürülmüş bloklar, 3px sert çerçeveler</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Hareket</div><div style="font-size:13px;line-height:1.6;opacity:.9">6 sn'lik hafif sallanma; jitter</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Kaçınılacaklar</div><div style="font-size:13px;line-height:1.6;opacity:.9">Düzgün hizalama, nazik mikro metin, yumuşak gölge</div></div>
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>
