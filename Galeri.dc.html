@@ -28,8 +28,10 @@
 html,body{margin:0;padding:0;background:#14120e}
 a{color:inherit;text-decoration:none}
 ::selection{background:#e07a52;color:#17130d}
-.gcell{transition:transform .16s}
+.gcell{transition:transform .16s;width:230px !important;height:325px !important;overflow:hidden !important}
 .gcell:hover{transform:translateY(-4px) scale(1.02)}
+.gcell>div:first-child{width:230px !important;height:290px !important;box-sizing:border-box !important;overflow:hidden !important;contain:paint;border-radius:10px}
+.gcell>div:last-child{white-space:nowrap !important;overflow:hidden !important;text-overflow:ellipsis !important}
 </style>
 </helmet>
 <div style="background:#14120e;color:#f2ede3;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;min-height:100vh;padding-bottom:70px">
