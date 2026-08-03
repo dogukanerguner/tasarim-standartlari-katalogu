@@ -142,9 +142,9 @@ def main() -> None:
     catalog = {
         "name": "Tasarım Standartları Kataloğu",
         "description": (
-            "45 tasarım yaklaşımının AI kod üretiminde kullanılabilir "
-            "prompt, palet ve kural seti. Kaynak: *.dc.html sayfalarının "
-            "prompt blokları + data/catalog-meta.json."
+            f"{len(styles)} tasarım yaklaşımının AI kod üretiminde "
+            "kullanılabilir prompt, palet ve kural seti. Kaynak: *.dc.html "
+            "sayfalarının prompt blokları + data/catalog-meta.json."
         ),
         "sections": sections,
         "styles": styles,

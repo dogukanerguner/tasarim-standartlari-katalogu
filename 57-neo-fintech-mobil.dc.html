@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+html,body{margin:0;padding:0;background:#0f1225}
+a{color:inherit;text-decoration:none}
+a:hover{color:#b84ffb}
+</style>
+</helmet>
+<div style="background:#0f1225;color:#ffffff;font-family:'Inter',system-ui,Arial,sans-serif;min-height:100vh;padding-bottom:52px">
+  <div style="display:flex;align-items:center;justify-content:space-between;padding:16px 44px;border-bottom:1px solid rgba(255,255,255,.14)">
+    <a href="Katalog.dc.html" style="font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase">← Katalog</a>
+    <span style="font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#b84ffb">57 · Mobil uygulama standartları</span>
+  </div>
+
+  <div style="display:grid;grid-template-columns:400px 1fr;gap:52px;padding:44px 44px 0;align-items:start">
+    <div>
+      <h1 style="font-size:46px;font-weight:700;line-height:1.06;letter-spacing:-.03em;margin:0 0 18px;text-wrap:balance">Banka ciddiyeti, uygulama sıcaklığı</h1>
+      <p style="font-size:16px;line-height:1.65;color:rgba(255,255,255,.55);margin:0 0 26px">Monzo ve Revolut ekolü bankacılığın dilini değiştirdi: dev rakamlar, emoji kategoriler, kahraman kart; güven anlık bildirimden gelir.</p>
+
+      <div style="border-top:1px solid #ffffff;padding-top:16px;margin-bottom:18px">
+        <div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#b84ffb;margin-bottom:8px">Kart kahraman</div>
+        <div style="font-size:15px;line-height:1.6">Kartın dijital ikizi ekranın ortasında eğik ve degrade yüzeyle durur; marka o karttır, logo değil.</div>
+      </div>
+      <div style="border-top:1px solid rgba(255,255,255,.2);padding-top:16px;margin-bottom:18px">
+        <div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#b84ffb;margin-bottom:8px">Bakiye tek bakışta</div>
+        <div style="font-size:15px;line-height:1.6">Bakiye 34 px kalın ve tabular rakamlarla yazılır; kuruş küçülür ama gizlenmez.</div>
+      </div>
+      <div style="border-top:1px solid rgba(255,255,255,.2);padding-top:16px;margin-bottom:18px">
+        <div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#b84ffb;margin-bottom:8px">Emoji kategoriler</div>
+        <div style="font-size:15px;line-height:1.6">🛒 ☕ 🚕 — işlem listesi dekont değil günlük gibidir; emoji kategoriyi hızlı ve sıcak anlatır.</div>
+      </div>
+      <div style="border-top:1px solid rgba(255,255,255,.2);padding-top:16px">
+        <div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#b84ffb;margin-bottom:8px">Anlık bildirim güveni</div>
+        <div style="font-size:15px;line-height:1.6">Kart okunduğu saniye telefon titrer; yaklaşan ödemeler önceden görünür.</div>
+      </div>
+    </div>
+
+    <div style="display:flex;gap:36px;align-items:flex-start">
+      <div>
+        <div style="position:relative;width:300px;height:640px;border-radius:44px;background:#05060f;padding:9px;box-shadow:0 24px 60px rgba(0,0,0,.55)">
+          <div style="position:relative;width:100%;height:100%;border-radius:36px;overflow:hidden;background:#0f1225">
+            <div style="display:flex;justify-content:space-between;padding:14px 20px 0;font-size:12px;font-weight:600"><span>9:41</span><span style="letter-spacing:.12em">▮▮▮ ⬤</span></div>
+            <div style="display:flex;justify-content:space-between;align-items:center;padding:18px 20px 0">
+              <div style="font-size:15px;font-weight:600">Merhaba, Deniz</div>
+              <div style="display:flex;align-items:center;gap:10px">
+                <div style="display:flex;align-items:flex-end;gap:2px;height:16px">
+                  <span style="width:3px;height:6px;background:rgba(255,255,255,.35);border-radius:2px"></span><span style="width:3px;height:10px;background:rgba(255,255,255,.45);border-radius:2px"></span><span style="width:3px;height:13px;background:#b84ffb;border-radius:2px"></span><span style="width:3px;height:16px;background:#b84ffb;border-radius:2px"></span>
+                </div>
+                <div style="position:relative;width:30px;height:30px;border-radius:50%;background:#191d33;display:flex;align-items:center;justify-content:center;font-size:13px">🔔<span style="position:absolute;top:2px;right:2px;width:8px;height:8px;border-radius:50%;background:#ff4d6d"></span></div>
+              </div>
+            </div>
+            <div style="padding:18px 20px 0;text-align:center">
+              <div style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.55)">Toplam bakiye</div>
+              <div style="font-size:34px;font-weight:700;letter-spacing:-.02em;font-variant-numeric:tabular-nums;margin-top:4px">₺12.480<span style="font-size:20px;color:rgba(255,255,255,.55)">,50</span></div>
+            </div>
+            <div style="display:flex;justify-content:center;margin-top:14px">
+              <div style="position:relative;width:200px;height:126px;border-radius:14px;background:linear-gradient(130deg,#6a3df5,#b84ffb);transform:rotate(-5deg);box-shadow:0 16px 34px rgba(106,61,245,.45);padding:14px">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start">
+                  <div style="width:30px;height:22px;border-radius:5px;background:linear-gradient(140deg,#f5d67b,#c9a13e)"></div>
+                  <div style="font-size:13px;font-weight:700;letter-spacing:.14em;font-style:italic">NOVA</div>
+                </div>
+                <div style="position:absolute;left:14px;bottom:14px;font-size:13px;letter-spacing:.22em;font-variant-numeric:tabular-nums">••••&nbsp;&nbsp;4821</div>
+              </div>
+            </div>
+            <div style="display:flex;justify-content:space-between;padding:24px 24px 0">
+              <div style="text-align:center"><div style="width:48px;height:48px;border-radius:50%;background:#191d33;display:flex;align-items:center;justify-content:center;font-size:17px;color:#b84ffb">↑</div><div style="font-size:10.5px;margin-top:6px;color:rgba(255,255,255,.75)">Gönder</div></div>
+              <div style="text-align:center"><div style="width:48px;height:48px;border-radius:50%;background:#191d33;display:flex;align-items:center;justify-content:center;font-size:17px;color:#b84ffb">↓</div><div style="font-size:10.5px;margin-top:6px;color:rgba(255,255,255,.75)">İste</div></div>
+              <div style="text-align:center"><div style="width:48px;height:48px;border-radius:50%;background:#191d33;display:flex;align-items:center;justify-content:center;font-size:17px;color:#b84ffb">⇄</div><div style="font-size:10.5px;margin-top:6px;color:rgba(255,255,255,.75)">Döviz</div></div>
+              <div style="text-align:center"><div style="width:48px;height:48px;border-radius:50%;background:#191d33;display:flex;align-items:center;justify-content:center;font-size:17px;color:#b84ffb">❄</div><div style="font-size:10.5px;margin-top:6px;color:rgba(255,255,255,.75)">Dondur</div></div>
+            </div>
+            <div style="padding:22px 20px 0">
+              <div style="font-size:13px;font-weight:600;margin-bottom:10px">Bugün</div>
+              <div style="display:flex;align-items:center;gap:12px;padding:8px 0">
+                <div style="width:36px;height:36px;border-radius:50%;background:#191d33;display:flex;align-items:center;justify-content:center;font-size:16px">🛒</div>
+                <div style="flex:1"><div style="font-size:13.5px;font-weight:500">Market Yıldız</div><div style="font-size:11px;color:rgba(255,255,255,.55)">Market</div></div>
+                <div style="font-size:13.5px;font-weight:700;font-variant-numeric:tabular-nums">₺246,80</div>
+              </div>
+              <div style="display:flex;align-items:center;gap:12px;padding:8px 0">
+                <div style="width:36px;height:36px;border-radius:50%;background:#191d33;display:flex;align-items:center;justify-content:center;font-size:16px">☕</div>
+                <div style="flex:1"><div style="font-size:13.5px;font-weight:500">Kavrum Kahve</div><div style="font-size:11px;color:rgba(255,255,255,.55)">Kafe</div></div>
+                <div style="font-size:13.5px;font-weight:700;font-variant-numeric:tabular-nums">₺78,50</div>
+              </div>
+              <div style="display:flex;align-items:center;gap:12px;padding:8px 0">
+                <div style="width:36px;height:36px;border-radius:50%;background:#191d33;display:flex;align-items:center;justify-content:center;font-size:16px">💸</div>
+                <div style="flex:1"><div style="font-size:13.5px;font-weight:500">Elif A.</div><div style="font-size:11px;color:rgba(255,255,255,.55)">Transfer</div></div>
+                <div style="font-size:13.5px;font-weight:700;color:#2ecc71;font-variant-numeric:tabular-nums">+₺1.500,00</div>
+              </div>
+              <div style="display:flex;align-items:center;gap:12px;padding:8px 0">
+                <div style="width:36px;height:36px;border-radius:50%;background:#191d33;display:flex;align-items:center;justify-content:center;font-size:16px">🚕</div>
+                <div style="flex:1"><div style="font-size:13.5px;font-weight:500">Şehir Taksi</div><div style="font-size:11px;color:rgba(255,255,255,.55)">Ulaşım</div></div>
+                <div style="font-size:13.5px;font-weight:700;font-variant-numeric:tabular-nums">₺132,00</div>
+              </div>
+              <div style="display:flex;align-items:center;gap:12px;padding:8px 0;opacity:.45">
+                <div style="width:36px;height:36px;border-radius:50%;background:#191d33;display:flex;align-items:center;justify-content:center;font-size:16px">📅</div>
+                <div style="flex:1"><div style="font-size:13.5px;font-weight:500">İnternet faturası</div><div style="font-size:11px">Yaklaşan ödeme · yarın</div></div>
+                <div style="font-size:13.5px;font-weight:700;font-variant-numeric:tabular-nums">₺429,00</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-top:12px;text-align:center">ana ekran · kahraman kart</div>
+      </div>
+
+      <div style="flex:1;display:flex;flex-direction:column;gap:22px;max-width:360px">
+        <div style="background:#191d33;border-radius:16px;padding:22px">
+          <div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#b84ffb;margin-bottom:10px">Anlık bildirim</div>
+          <div style="background:#0f1225;border:1px solid rgba(255,255,255,.14);border-radius:12px;padding:12px 14px;display:flex;gap:10px;align-items:center">
+            <div style="width:32px;height:32px;border-radius:9px;background:linear-gradient(130deg,#6a3df5,#b84ffb);display:flex;align-items:center;justify-content:center;font-size:14px">💳</div>
+            <div style="flex:1"><div style="font-size:12.5px;font-weight:600">Kavrum Kahve · ₺78,50</div><div style="font-size:11px;color:rgba(255,255,255,.55)">Şimdi</div></div>
+          </div>
+        </div>
+        <div style="background:linear-gradient(130deg,#6a3df5,#b84ffb);border-radius:16px;padding:20px">
+          <div style="font-size:15px;font-weight:600;margin-bottom:6px">Yasak liste</div>
+          <div style="font-size:13px;line-height:1.6;color:rgba(255,255,255,.9)">Banka grisi, yoğun tablo, küçük rakam, süs yok.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="margin:44px 44px 0;border-top:1px solid #ffffff;padding-top:16px;display:flex;justify-content:space-between;font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.4)">
+    <span>Neo-Fintech Mobil</span><span>Monzo · Revolut ekolü</span>
+  </div>
+</div>
+
+<div data-prompt-block="1" style="background:#17160f;color:#f4f1ea;font-family:ui-monospace,'SF Mono',Menlo,monospace;padding:40px 44px 46px">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid rgba(244,241,234,.3);padding-bottom:12px;margin-bottom:26px">
+    <span style="font-size:12px;letter-spacing:.18em;text-transform:uppercase">Tasarım promptu — 57 — Neo-Fintech Mobil</span>
+    <span style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;opacity:.45">seçip kopyalayın</span>
+  </div>
+  <div style="display:grid;grid-template-columns:1.5fr 1fr;gap:40px;align-items:start">
+    <div>
+      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:10px">İngilizce prompt · detaylı</div>
+      <div style="font-size:13.5px;line-height:1.9;background:rgba(244,241,234,.06);border:1px solid rgba(244,241,234,.22);padding:20px;user-select:all">Design a neo-fintech mobile banking home screen in the Monzo/Revolut school. Dark navy #0f1225, Inter 400-700, all amounts bold tabular numerals. Top: greeting, a notification dot, a tiny CSS bar sparkline. Center: a huge 34px balance (₺12.480,50), then a tilted hero bank card (200x126px, 14px radius, #6a3df5 to #b84ffb gradient, chip square, last four digits, fictional "NOVA" brand). Below: four quick-action circles (Send, Request, FX, Freeze) on #191d33 surfaces, then a "Today" list with emoji category circles (🛒 ☕ 🚕), white amounts for spending, green #2ecc71 "+" for income, one faded upcoming-payment row. No bank gray, no dense tables, no tiny numbers.</div>
+      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin:22px 0 8px">Türkçe brief</div>
+      <div style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;line-height:1.7;opacity:.85">Dev bakiye, eğik degrade kart ve emoji kategorili işlem akışıyla Monzo/Revolut ekolünde koyu fintech ana ekranı.</div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:16px">
+      <div>
+        <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:10px">Palet</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px"><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#0f1225;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#0f1225</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#6a3df5;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#6a3df5</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#b84ffb;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#b84ffb</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#2ecc71;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#2ecc71</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#191d33;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#191d33</span></div></div>
+      </div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Tipografi</div><div style="font-size:13px;line-height:1.6;opacity:.9">Inter 400-700; rakamlar 700 ve tabular-nums</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Düzen</div><div style="font-size:13px;line-height:1.6;opacity:.9">Bakiye + kahraman kart + 4 hızlı eylem + işlem akışı</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Hareket</div><div style="font-size:13px;line-height:1.6;opacity:.9">Kart hafif parallax; işlem satırı bildirimle kayarak gelir</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Kaçınılacaklar</div><div style="font-size:13px;line-height:1.6;opacity:.9">Banka grisi, yoğun tablolar, küçük rakamlar, güven kıran süs</div></div>
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

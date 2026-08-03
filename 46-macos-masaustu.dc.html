@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<style>
+html,body{margin:0;padding:0;background:#e8eaf0}
+a{color:inherit;text-decoration:none}
+a:hover{color:#0a84ff}
+</style>
+</helmet>
+<div style="background:linear-gradient(160deg,#dfe4ee 0%,#e8eaf0 45%,#d8dfea 100%);color:#1d1d1f;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;min-height:100vh;padding-bottom:56px">
+  <div style="display:flex;align-items:center;justify-content:space-between;padding:16px 44px;border-bottom:1px solid rgba(0,0,0,.08)">
+    <a href="Katalog.dc.html" style="font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase">← Katalog</a>
+    <span style="font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#0a84ff">46 · Masaüstü uygulama dilleri</span>
+  </div>
+
+  <div style="display:grid;grid-template-columns:340px 1fr;gap:44px;padding:40px 44px 0;align-items:start">
+    <div>
+      <h1 style="font-size:42px;font-weight:600;line-height:1.08;letter-spacing:-.03em;margin:0 0 16px;text-wrap:balance">Pencere sakinse, içerik konuşur</h1>
+      <p style="font-size:15px;line-height:1.65;color:#515154;margin:0 0 26px">Apple'ın masaüstü dili gürültüyü değil sükûneti tasarlar: yarı saydam kenar çubuğu masaüstünü içeri sızdırır, üç panel tek bir birleşik yüzeyde akar, krom neredeyse görünmezdir.</p>
+
+      <div style="background:rgba(255,255,255,.6);border:1px solid rgba(0,0,0,.08);border-radius:12px;padding:18px;margin-bottom:14px">
+        <div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#0a84ff;margin-bottom:7px">Sükûnet</div>
+        <div style="font-size:15px;line-height:1.6">Tek accent renk, gri tonlarında krom, 13px yoğun metin. Hiçbir buton bağırmaz; seçim durumu bile yumuşak bir dolgudur.</div>
+      </div>
+      <div style="background:rgba(255,255,255,.6);border:1px solid rgba(0,0,0,.08);border-radius:12px;padding:18px;margin-bottom:14px">
+        <div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#0a84ff;margin-bottom:7px">Yarı saydamlık</div>
+        <div style="font-size:15px;line-height:1.6">Kenar çubuğu vibrancy ile masaüstü rengini emer; pencere odağını kaybettiğinde krom soluklaşır. Materyal, derinliği gölge yerine ışıkla anlatır.</div>
+      </div>
+      <div style="background:rgba(255,255,255,.6);border:1px solid rgba(0,0,0,.08);border-radius:12px;padding:18px">
+        <div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#0a84ff;margin-bottom:7px">İçerik önce</div>
+        <div style="font-size:15px;line-height:1.6">Araç çubuğu başlıkla birleşir, menüler ekranın üstünde sistemde yaşar. Pencerenin içinde yalnızca kullanıcının işi vardır.</div>
+      </div>
+    </div>
+
+    <div>
+      <div style="border-radius:12px;overflow:hidden;box-shadow:0 30px 70px rgba(29,29,31,.28),0 0 0 1px rgba(0,0,0,.06);background:#f5f5f7;display:flex;flex-direction:column;height:620px">
+        <div style="display:flex;align-items:center;gap:12px;padding:12px 16px;background:rgba(245,245,247,.85);border-bottom:1px solid rgba(0,0,0,.08)">
+          <div style="display:flex;gap:8px;flex-shrink:0">
+            <span style="width:12px;height:12px;border-radius:50%;background:#ff5f57;display:block"></span>
+            <span style="width:12px;height:12px;border-radius:50%;background:#febc2e;display:block"></span>
+            <span style="width:12px;height:12px;border-radius:50%;background:#28c840;display:block"></span>
+          </div>
+          <div style="width:180px"></div>
+          <div style="display:flex;gap:8px;align-items:center">
+            <span style="width:28px;height:24px;border-radius:6px;background:rgba(0,0,0,.05);display:flex;align-items:center;justify-content:center;font-size:12px;color:#515154">✎</span>
+            <span style="width:28px;height:24px;border-radius:6px;background:rgba(0,0,0,.05);display:flex;align-items:center;justify-content:center;font-size:12px;color:#515154">⤴</span>
+            <span style="width:28px;height:24px;border-radius:6px;background:rgba(0,0,0,.05);display:flex;align-items:center;justify-content:center;font-size:12px;color:#515154">⌫</span>
+          </div>
+          <div style="flex:1"></div>
+          <div style="display:flex;align-items:center;gap:6px;background:rgba(0,0,0,.05);border-radius:7px;padding:5px 10px;width:200px;font-size:12.5px;color:#86868b">⌕ Ara</div>
+        </div>
+        <div style="flex:1;display:flex;min-height:0">
+          <div style="width:200px;background:rgba(255,255,255,.55);border-right:1px solid rgba(0,0,0,.08);padding:14px 10px;font-size:13px">
+            <div style="font-size:11px;font-weight:600;color:#86868b;padding:0 8px;margin-bottom:6px">Posta Kutuları</div>
+            <div style="display:flex;align-items:center;gap:8px;background:rgba(10,132,255,.14);color:#1d1d1f;border-radius:6px;padding:5px 8px;font-weight:500"><span style="width:8px;height:8px;border-radius:50%;background:#0a84ff"></span>Gelen Kutusu<span style="margin-left:auto;font-size:11px;color:#86868b">12</span></div>
+            <div style="display:flex;align-items:center;gap:8px;padding:5px 8px;color:#3a3a3c"><span style="width:8px;height:8px;border-radius:50%;background:#ff9f0a"></span>Yıldızlı</div>
+            <div style="display:flex;align-items:center;gap:8px;padding:5px 8px;color:#3a3a3c"><span style="width:8px;height:8px;border-radius:50%;background:#30d158"></span>Gönderilen</div>
+            <div style="display:flex;align-items:center;gap:8px;padding:5px 8px;color:#3a3a3c"><span style="width:8px;height:8px;border-radius:50%;background:#8e8e93"></span>Taslaklar<span style="margin-left:auto;font-size:11px;color:#86868b">3</span></div>
+            <div style="font-size:11px;font-weight:600;color:#86868b;padding:0 8px;margin:14px 0 6px">Klasörler</div>
+            <div style="display:flex;align-items:center;gap:8px;padding:5px 8px;color:#3a3a3c"><span style="width:8px;height:8px;border-radius:50%;background:#bf5af2"></span>Stüdyo Kuzey</div>
+            <div style="display:flex;align-items:center;gap:8px;padding:5px 8px;color:#3a3a3c"><span style="width:8px;height:8px;border-radius:50%;background:#64d2ff"></span>Faturalar</div>
+            <div style="display:flex;align-items:center;gap:8px;padding:5px 8px;color:#3a3a3c"><span style="width:8px;height:8px;border-radius:50%;background:#ff453a"></span>Acil</div>
+          </div>
+          <div style="width:280px;background:#f5f5f7;border-right:1px solid rgba(0,0,0,.08);overflow:hidden">
+            <div style="padding:12px 16px;border-bottom:1px solid rgba(0,0,0,.08);background:rgba(10,132,255,.1)">
+              <div style="display:flex;justify-content:space-between;align-items:baseline"><span style="font-size:13px;font-weight:600">Elif A.</span><span style="font-size:11px;color:#86868b">09:41</span></div>
+              <div style="font-size:13px;font-weight:500;margin-top:2px">Sonbahar kataloğu provaları</div>
+              <div style="font-size:12.5px;color:#86868b;margin-top:2px;line-height:1.4">Kapak için iki alternatif hazırladım, ikisi de baskıya…</div>
+            </div>
+            <div style="padding:12px 16px;border-bottom:1px solid rgba(0,0,0,.08)">
+              <div style="display:flex;justify-content:space-between;align-items:baseline"><span style="font-size:13px;font-weight:600">Mert K.</span><span style="font-size:11px;color:#86868b">08:15</span></div>
+              <div style="font-size:13px;font-weight:500;margin-top:2px">Toplantı notları — cuma</div>
+              <div style="font-size:12.5px;color:#86868b;margin-top:2px;line-height:1.4">Kısa tuttum: üç karar, iki aksiyon maddesi var…</div>
+            </div>
+            <div style="padding:12px 16px;border-bottom:1px solid rgba(0,0,0,.08)">
+              <div style="display:flex;justify-content:space-between;align-items:baseline"><span style="font-size:13px;font-weight:600">Kirazdağı Matbaa</span><span style="font-size:11px;color:#86868b">Dün</span></div>
+              <div style="font-size:13px;font-weight:500;margin-top:2px">Teklif: 2.000 adet baskı</div>
+              <div style="font-size:12.5px;color:#86868b;margin-top:2px;line-height:1.4">Kuşe ve mat seçenekleri için ayrı fiyat çalıştık…</div>
+            </div>
+            <div style="padding:12px 16px;border-bottom:1px solid rgba(0,0,0,.08)">
+              <div style="display:flex;justify-content:space-between;align-items:baseline"><span style="font-size:13px;font-weight:600">Zeynep T.</span><span style="font-size:11px;color:#86868b">Dün</span></div>
+              <div style="font-size:13px;font-weight:500;margin-top:2px">Fotoğraf seçkisi hazır</div>
+              <div style="font-size:12.5px;color:#86868b;margin-top:2px;line-height:1.4">Klasöre 48 kare bıraktım; işaretlediklerim favorilerim…</div>
+            </div>
+          </div>
+          <div style="flex:1;background:#ffffff;padding:24px 28px;overflow:hidden">
+            <div style="display:flex;align-items:center;gap:12px;padding-bottom:16px;border-bottom:1px solid rgba(0,0,0,.08)">
+              <div style="width:38px;height:38px;border-radius:50%;background:linear-gradient(135deg,#0a84ff,#64d2ff);color:#fff;display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:600">EA</div>
+              <div>
+                <div style="font-size:13px;font-weight:600">Elif A.</div>
+                <div style="font-size:12px;color:#86868b">Kime: Stüdyo Kuzey ekibi</div>
+              </div>
+              <div style="margin-left:auto;font-size:12px;color:#86868b">Bugün 09:41</div>
+            </div>
+            <h2 style="font-size:19px;font-weight:600;letter-spacing:-.01em;margin:18px 0 12px">Sonbahar kataloğu provaları</h2>
+            <p style="font-size:13px;line-height:1.7;color:#3a3a3c;margin:0 0 12px">Merhaba ekip,</p>
+            <p style="font-size:13px;line-height:1.7;color:#3a3a3c;margin:0 0 12px">Kapak için iki alternatif hazırladım. İlki geniş boşluklu ve tek fotoğraflı; ikincisi grid üstüne kurulu. Baskı provasına yarın öğlene kadar karar verirsek matbaa cuma günü teslim edebiliyor.</p>
+            <p style="font-size:13px;line-height:1.7;color:#3a3a3c;margin:0 0 16px">İç sayfalarda tipografi ölçeğini bir kademe büyüttüm; okuma akışı belirgin biçimde rahatladı.</p>
+            <div style="display:flex;gap:10px">
+              <span style="background:#0a84ff;color:#fff;border-radius:7px;padding:6px 14px;font-size:13px;font-weight:500">Yanıtla</span>
+              <span style="background:rgba(0,0,0,.05);color:#1d1d1f;border-radius:7px;padding:6px 14px;font-size:13px">İlet</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#86868b;margin-top:12px;text-align:center">Kurgusal "Poyraz Posta" penceresi · üç panel + birleşik araç çubuğu</div>
+    </div>
+  </div>
+
+  <div style="margin:44px 44px 0;border-top:1px solid rgba(0,0,0,.15);padding-top:16px;display:flex;justify-content:space-between;font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#86868b">
+    <span>macOS Masaüstü</span><span>Jony Ive · Apple HIG</span>
+  </div>
+</div>
+
+<div data-prompt-block="1" style="background:#17160f;color:#f4f1ea;font-family:ui-monospace,'SF Mono',Menlo,monospace;padding:40px 44px 46px">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid rgba(244,241,234,.3);padding-bottom:12px;margin-bottom:26px">
+    <span style="font-size:12px;letter-spacing:.18em;text-transform:uppercase">Tasarım promptu — 46 — macOS Masaüstü</span>
+    <span style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;opacity:.45">seçip kopyalayın</span>
+  </div>
+  <div style="display:grid;grid-template-columns:1.5fr 1fr;gap:40px;align-items:start">
+    <div>
+      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:10px">İngilizce prompt · detaylı</div>
+      <div style="font-size:13.5px;line-height:1.9;background:rgba(244,241,234,.06);border:1px solid rgba(244,241,234,.22);padding:20px;user-select:all">Design a calm macOS-style desktop mail app window in the Apple HIG language. Grey-blue gradient desktop (#e8eaf0), floating window (#f5f5f7) with 12px radius and one large soft shadow. Traffic lights (#ff5f57 #febc2e #28c840) on a unified toolbar with a search field and soft icon buttons. Three panes: a translucent sidebar with colored-dot folders, a 280px message list with sender, subject and two-line previews, and a white reading pane with an avatar header and a single #0a84ff Reply button. Use -apple-system at 13px for dense UI text, 600-weight headings, rgba(0,0,0,.08) hairline dividers. No sharp corners, no heavy shadows, no menu bar inside the window.</div>
+      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin:22px 0 8px">Türkçe brief</div>
+      <div style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;line-height:1.7;opacity:.85">Trafik ışıklı, yarı saydam kenar çubuklu, üç panelli sakin bir macOS posta penceresi; tek accent renk ve içerik-önce hiyerarşi.</div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:16px">
+      <div>
+        <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:10px">Palet</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px"><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#e8eaf0;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#e8eaf0</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#f5f5f7;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#f5f5f7</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#1d1d1f;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#1d1d1f</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#0a84ff;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#0a84ff</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#ff5f57;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#ff5f57</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#28c840;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#28c840</span></div></div>
+      </div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Tipografi</div><div style="font-size:13px;line-height:1.6;opacity:.9">-apple-system / BlinkMacSystemFont; 13px UI metni, 600 başlıklar</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Düzen</div><div style="font-size:13px;line-height:1.6;opacity:.9">Üç panelli pencere: kenar çubuğu + liste + okuma paneli, birleşik toolbar</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Hareket</div><div style="font-size:13px;line-height:1.6;opacity:.9">Yumuşak seçim geçişleri; abartısız, sistem hızında</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Kaçınılacaklar</div><div style="font-size:13px;line-height:1.6;opacity:.9">Keskin köşe, ağır gölge, Windows menü çubuğu, renk kalabalığı</div></div>
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

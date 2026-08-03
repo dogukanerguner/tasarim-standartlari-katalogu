@@ -1,6 +1,6 @@
 {
   "name": "Tasarım Standartları Kataloğu",
-  "description": "45 tasarım yaklaşımının AI kod üretiminde kullanılabilir prompt, palet ve kural seti. Kaynak: *.dc.html sayfalarının prompt blokları + data/catalog-meta.json.",
+  "description": "61 tasarım yaklaşımının AI kod üretiminde kullanılabilir prompt, palet ve kural seti. Kaynak: *.dc.html sayfalarının prompt blokları + data/catalog-meta.json.",
   "sections": [
     {
       "id": 1,
@@ -51,6 +51,26 @@
       "id": 10,
       "title": "Davranış tasarımı ve psikoloji",
       "description": "Kararı yönlendiren mekanizmalar — nasıl çalıştıkları, nerede işe yaradıkları ve nerede sömürüye dönüştükleri."
+    },
+    {
+      "id": 11,
+      "title": "Masaüstü uygulama dilleri",
+      "description": "İşletim sistemi ve profesyonel araç estetiği: pencere, panel ve komut yüzeyleri."
+    },
+    {
+      "id": 12,
+      "title": "Web uygulama standartları",
+      "description": "Kendini kanıtlamış ürün tasarım sistemlerinin web uygulama düzenleri."
+    },
+    {
+      "id": 13,
+      "title": "Mobil uygulama standartları",
+      "description": "Platform kılavuzları ve çığır açan mobil deneyim dilleri."
+    },
+    {
+      "id": 14,
+      "title": "Dashboard & yönetim panelleri",
+      "description": "Veri yoğun ekranlar: analitik, operasyon, finans ve e-ticaret yönetimi."
     }
   ],
   "styles": [
@@ -1309,6 +1329,491 @@
       ],
       "section": 10,
       "name": "Karanlık Desenler"
+    },
+    {
+      "id": 46,
+      "slug": "46-macos-masaustu",
+      "file": "46-macos-masaustu.dc.html",
+      "title": "macOS Masaüstü",
+      "prompt_en": "Design a calm macOS-style desktop mail app window in the Apple HIG language. Grey-blue gradient desktop (#e8eaf0), floating window (#f5f5f7) with 12px radius and one large soft shadow. Traffic lights (#ff5f57 #febc2e #28c840) on a unified toolbar with a search field and soft icon buttons. Three panes: a translucent sidebar with colored-dot folders, a 280px message list with sender, subject and two-line previews, and a white reading pane with an avatar header and a single #0a84ff Reply button. Use -apple-system at 13px for dense UI text, 600-weight headings, rgba(0,0,0,.08) hairline dividers. No sharp corners, no heavy shadows, no menu bar inside the window.",
+      "brief_tr": "Trafik ışıklı, yarı saydam kenar çubuklu, üç panelli sakin bir macOS posta penceresi; tek accent renk ve içerik-önce hiyerarşi.",
+      "palette": [
+        "#e8eaf0",
+        "#f5f5f7",
+        "#1d1d1f",
+        "#0a84ff",
+        "#ff5f57",
+        "#28c840"
+      ],
+      "typography": "-apple-system / BlinkMacSystemFont; 13px UI metni, 600 başlıklar",
+      "layout": "Üç panelli pencere: kenar çubuğu + liste + okuma paneli, birleşik toolbar",
+      "motion": "Yumuşak seçim geçişleri; abartısız, sistem hızında",
+      "avoid": "Keskin köşe, ağır gölge, Windows menü çubuğu, renk kalabalığı",
+      "name": "macOS Masaüstü",
+      "reference": "Jony Ive · Apple HIG",
+      "section": 11,
+      "description": "Trafik ışıkları, yarı saydam kenar çubuğu ve üç panelli sükûnet; içerik önde, krom geride.",
+      "keywords": [
+        "macOS desktop app",
+        "translucent sidebar",
+        "traffic lights",
+        "three-pane window",
+        "vibrancy"
+      ]
+    },
+    {
+      "id": 47,
+      "slug": "47-fluent-windows",
+      "file": "47-fluent-windows.dc.html",
+      "title": "Fluent / Windows 11",
+      "prompt_en": "Design a Windows 11 Fluent-style Settings app. Soft mica background with a faint blue-lilac gradient (#f3f3f9 to #eef1f6), window with 8px-radius corners, minimal caption buttons and no traffic lights. Left 300px navigation of icon+label rows with a rounded search box; the selected row gets a subtle fill plus a 3px #0067c0 accent bar on its left edge. Right side: breadcrumb plus 26px 600-weight page title, then stacked white settings cards (#ffffff, 8px radius, 1px rgba border, faint shadow, hover lifts slightly) containing toggle switches, a dropdown and accent color swatches. Segoe UI throughout, text #1b1b1b, secondary #616161. Avoid pure black, sharp corners and heavy blur.",
+      "brief_tr": "Mica zeminli, sol navigasyonlu ve beyaz ayar kartlı bir Windows 11 Ayarlar uygulaması; ışık ve katman derinliğiyle Fluent dili.",
+      "palette": [
+        "#f2f3f9",
+        "#ffffff",
+        "#0067c0",
+        "#1b1b1b",
+        "#616161"
+      ],
+      "typography": "Segoe UI / system-ui; 26px 600 sayfa başlığı, 13-14px UI metni",
+      "layout": "300px sol nav + breadcrumb başlık + dikey ayar kartı yığını",
+      "motion": "Hover'da kart hafifçe yükselir; toggle yumuşak kayar",
+      "avoid": "Mac trafik ışıkları, tam siyah, köşesiz keskinlik, aşırı blur",
+      "name": "Fluent / Windows 11",
+      "reference": "Albert Shum · Microsoft",
+      "section": 11,
+      "description": "Mica dokusu, akrilik kartlar, ışık ve derinlik; Segoe diliyle yumuşak kurumsal masaüstü.",
+      "keywords": [
+        "Windows 11 Fluent",
+        "mica background",
+        "acrylic cards",
+        "settings app layout",
+        "nav rail"
+      ]
+    },
+    {
+      "id": 48,
+      "slug": "48-arac-merkezli-figma",
+      "file": "48-arac-merkezli-figma.dc.html",
+      "title": "Araç-Merkezli Editör",
+      "prompt_en": "Design a Figma-like vector editor where the chrome stays quiet and the canvas is the star. Top 48px dark toolbar (#2c2c2c) with tool icons, centered file name, share button and overlapping avatar circles. Left 240px layers panel: indented layer tree with eye icons, selected row tinted #18a0fb. Center: #e9e9e9 canvas holding a white artboard with a simple poster composition; the selected circle gets a #18a0fb selection frame, 8 square handles and a \"164 × 164\" size label. Right 240px properties panel with X/Y/W/H inputs, a fill row, an opacity slider. Inter font (designed by Rasmus Andersson for UI text) at 11-12px, text #333333, white panels. No ornament, no gradients in chrome, no big type, no showy shadows.",
+      "brief_tr": "Koyu toolbar, katman ağacı, artboard'lu canvas ve özellik paneliyle sessiz kromlu bir vektör editörü; tek accent #18a0fb, font Inter.",
+      "palette": [
+        "#ffffff",
+        "#e9e9e9",
+        "#18a0fb",
+        "#2c2c2c",
+        "#333333"
+      ],
+      "typography": "Inter 400/500/600; 11-12px yoğun UI metni, mono sayısal değerler",
+      "layout": "48px toolbar + 240px katman paneli + canvas + 240px özellik paneli",
+      "motion": "Anlık seçim geri bildirimi; animasyon değil tepkisellik",
+      "avoid": "Süs, kromda gradyan, büyük tipografi, gölge şovu",
+      "name": "Araç-Merkezli Editör",
+      "reference": "Rasmus Andersson",
+      "section": 11,
+      "description": "Figma tarzı: sessiz UI kromu, yıldız olan canvas; Inter tipografisiyle piksel hassasiyeti.",
+      "keywords": [
+        "design tool UI",
+        "canvas-centric editor",
+        "layers panel",
+        "properties panel",
+        "Inter typeface"
+      ]
+    },
+    {
+      "id": 49,
+      "slug": "49-komut-paleti-raycast",
+      "file": "49-komut-paleti-raycast.dc.html",
+      "title": "Komut Paleti",
+      "prompt_en": "Design a Raycast-style keyboard-first launcher. Dark desktop with a soft gradient (#1a1b23 to #12131a); centered 640px floating panel (#1e1f26, 12px radius, 1px rgba(255,255,255,.12) border, one wide soft shadow). Top: a large 18px search row with placeholder text and a blinking #ff6363 caret block. Below: a sectioned result list (\"Commands\", \"Apps\", \"Files\") where each row has a 30px rounded icon square, a name, and a right-aligned monospace shortcut badge like ⌘K in a bordered keycap chip; the selected row gets rgba(255,255,255,.08) fill plus a 3px left accent bar. Bottom action bar: \"Open ↵ · Actions ⌘K\". Inter for UI, ui-monospace for shortcuts, text #f2f2f5, secondary at 55% opacity. No window chrome, no multiple panes, no mouse-first menus.",
+      "brief_tr": "Koyu zemin ortasında tek floating panel: büyük arama satırı, bölümlü sonuç listesi, kısayol rozetleri ve alt eylem çubuğuyla klavye-öncelikli launcher.",
+      "palette": [
+        "#1a1b23",
+        "#12131a",
+        "#1e1f26",
+        "#ff6363",
+        "#f2f2f5"
+      ],
+      "typography": "Inter (UI) + ui-monospace kısayol rozetleri; 18px arama, 13.5px satırlar",
+      "layout": "Ortalanmış 640px tek panel: arama + bölümlü liste + action bar",
+      "motion": "Yanıp sönen imleç; sonuçlar tuş vuruşunda anında süzülür",
+      "avoid": "Pencere kromu, çoklu panel, renk kalabalığı, fare-öncelikli menüler",
+      "name": "Komut Paleti",
+      "reference": "Raycast ekolü",
+      "section": 11,
+      "description": "Klavye-öncelikli launcher: tek yüzen panel, bölümlü sonuçlar, mono kısayol rozetleri.",
+      "keywords": [
+        "command palette",
+        "launcher app",
+        "keyboard-first",
+        "floating panel",
+        "shortcut badges"
+      ]
+    },
+    {
+      "id": 50,
+      "slug": "50-blok-editor-notion",
+      "file": "50-blok-editor-notion.dc.html",
+      "title": "Blok Editör Çalışma Alanı",
+      "prompt_en": "Design a Notion-style block editor workspace for a fictional knowledge base. Left: a 260px quiet gray sidebar (#f7f6f3) with workspace name, a search row and an emoji-icon page tree with indentation. Right: a white document (#ffffff, text #37352f, secondary #787774) with page emoji, large bold title, breadcrumb, then blocks: paragraph, a to-do list (two checked, two empty), a toggle block, a light-yellow callout (#fbf3db) with 💡, a small three-column table, and a faint \"Type / for commands\" hint. Show a ⋮⋮ drag handle on one block. Font: ui-sans-serif/system-ui only. Chrome disappears; no toolbars, no shadows beyond a hairline, radius 4-6px.",
+      "brief_tr": "Kenar çubuğu sessiz gri, doküman bembeyaz; her içerik parçasının taşınabilir bir blok olduğu, kromun kaybolduğu bilgi tabanı arayüzü.",
+      "palette": [
+        "#ffffff",
+        "#f7f6f3",
+        "#37352f",
+        "#787774",
+        "#fbf3db"
+      ],
+      "typography": "ui-sans-serif / system-ui; 38px kalın sayfa başlığı, 15–16px gövde",
+      "layout": "260px gri kenar çubuğu + beyaz doküman kolonu, bloklar dikey akışta",
+      "motion": "Hover'da tutamaç ve kontroller belirir; başka animasyon yok",
+      "avoid": "Renk cümbüşü, kalın sınırlar, gölge, yoğun toolbar",
+      "name": "Blok Editör Çalışma Alanı",
+      "reference": "Ivan Zhao · Notion",
+      "section": 12,
+      "description": "Her şey blok: kaybolan araç kromu, emoji ikonografi, sessiz gri kenar ve beyaz doküman.",
+      "keywords": [
+        "block editor",
+        "quiet workspace",
+        "emoji icons",
+        "slash command",
+        "toggle blocks"
+      ]
+    },
+    {
+      "id": 51,
+      "slug": "51-pazaryeri-airbnb",
+      "file": "51-pazaryeri-airbnb.dc.html",
+      "title": "Pazaryeri Deneyimi",
+      "prompt_en": "Design a warm, trustworthy stay-marketplace homepage in the Airbnb DLS spirit. White background (#ffffff), text #222222, coral accent #ff385c, secondary gray #717171, hairline dividers #dddddd. Header: a simple coral wordmark and a centered pill search bar segmented into Where / Dates / Guests with a round coral search button. Below: a scrollable row of filter chips, then a 4-column grid of 8 listing cards — each a 4:3 warm-gradient photo placeholder with 12px radius, a heart top-right, then location, ★4.9 rating, dates and nightly price. Font: Plus Jakarta Sans 400-700. No dark theme, no sharp corners, no aggressive promo banners.",
+      "brief_tr": "Fotoğrafın önde, arayüzün arkada durduğu; hap biçimli arama ve güven sinyalleriyle sıcaklık kuran konaklama pazaryeri.",
+      "palette": [
+        "#ffffff",
+        "#222222",
+        "#ff385c",
+        "#717171",
+        "#dddddd"
+      ],
+      "typography": "Plus Jakarta Sans 400–700 (Airbnb Cereal ruhu); 14–15px kart metinleri",
+      "layout": "Hap arama başlığı + çip satırı + 4 sütunlu kart grid'i, 12px radius",
+      "motion": "Kart hover'ında hafif ölçek/gölge, çip satırında yatay kaydırma",
+      "avoid": "Koyu tema, keskin köşe, yoğun tablo, agresif kampanya bantları",
+      "name": "Pazaryeri Deneyimi",
+      "reference": "Karri Saarinen · DLS",
+      "section": 12,
+      "description": "Fotoğraf önde arayüz arkada: hap arama, ilan kartları, puan ve güven sinyalleri.",
+      "keywords": [
+        "marketplace listing grid",
+        "pill search bar",
+        "photo-first cards",
+        "rating stars",
+        "coral accent"
+      ]
+    },
+    {
+      "id": 52,
+      "slug": "52-medya-akis-spotify",
+      "file": "52-medya-akis-spotify.dc.html",
+      "title": "Medya Akış Arayüzü",
+      "prompt_en": "Design a dark music-streaming app in the Spotify Encore spirit for a fictional brand. Three regions: a 240px pure-black nav (Home / Search / Library plus a playlist list), a #121212 content area opening with a 200px purple-to-dark gradient header — gradient square playlist cover, \"Playlist\" label, 64px extra-bold title — followed by a green (#1db954) circular play button and a track table (# / title+artist / album / duration, hover row fill), with \"Similar playlists\" cards (#181818, 8px radius) on the right. Bottom: a 72px player bar with mini cover, transport controls and a green-filled progress bar. Text #ffffff, secondary #b3b3b3. Font: Figtree 400/600/800. Green is the only action color.",
+      "brief_tr": "Koyu sahnede kapak degradesinden renk alan, tek yeşil eylem rengi ve alt player barlı müzik akış arayüzü.",
+      "palette": [
+        "#121212",
+        "#181818",
+        "#1db954",
+        "#ffffff",
+        "#b3b3b3"
+      ],
+      "typography": "Figtree 400/600/800; 64px extra-bold liste başlığı, 13–14px tablo",
+      "layout": "240px nav + degrade başlıklı içerik + sağ kart kolonu + 72px player bar",
+      "motion": "Satır hover dolgusu, ilerleme çubuğu akışı; sahne sakin kalır",
+      "avoid": "Açık zemin, çok renkli butonlar, gri-üstü-gri kontrastsızlık",
+      "name": "Medya Akış Arayüzü",
+      "reference": "Encore ekolü",
+      "section": 12,
+      "description": "Koyu sahne, kapaktan süzülen degrade başlık, tek yeşil eylem ve kalıcı player barı.",
+      "keywords": [
+        "dark music app",
+        "gradient header",
+        "playlist table",
+        "player bar",
+        "single action color"
+      ]
+    },
+    {
+      "id": 53,
+      "slug": "53-kurumsal-carbon",
+      "file": "53-kurumsal-carbon.dc.html",
+      "title": "Kurumsal Veri Sistemi",
+      "prompt_en": "Design an IBM Carbon-style cloud resource console. 48px black (#161616) header with white product name and square icon boxes; gray (#f4f4f4) page over white surfaces; a 256px white side nav with mono section labels and a blue-left-border selected item. Content: page title, a sharp-cornered blue (#0f62fe) primary button (\"Create resource\"), a blue left-border inline notification, then a large white data table with 48px rows, search + filter header, columns Name/Status/Region/Type/Date, status tags as 24px pills (green #defbe6/#0e6027 \"Running\", red \"Error\", gray \"Stopped\"), and pagination footer. Fonts: IBM Plex Sans + IBM Plex Mono. Everything at 0px radius except the pill tags. No shadows, gradients or emoji.",
+      "brief_tr": "Sıfır radius, 2x grid ve IBM Plex tipografisiyle keskin, ciddi bir bulut kaynak yönetim konsolu.",
+      "palette": [
+        "#f4f4f4",
+        "#ffffff",
+        "#0f62fe",
+        "#161616",
+        "#24a148",
+        "#da1e28"
+      ],
+      "typography": "IBM Plex Sans (arayüz) + IBM Plex Mono (kaynak adları, etiketler)",
+      "layout": "48px siyah header + 256px nav + 48px satırlı veri tablosu, 2x grid",
+      "motion": "Yalnızca satır hover'ı ve odak çerçevesi; süsleme animasyonu yok",
+      "avoid": "Yuvarlak köşe, gölge, degrade, emoji, dekoratif renk",
+      "name": "Kurumsal Veri Sistemi",
+      "reference": "IBM Carbon",
+      "section": 12,
+      "description": "Paul Rand mirası: sıfır radius, 2x grid, IBM Plex ve ciddi veri tablosu düzeni.",
+      "keywords": [
+        "enterprise console",
+        "zero radius",
+        "data table",
+        "IBM Plex",
+        "status tags"
+      ]
+    },
+    {
+      "id": 54,
+      "slug": "54-ios-hig-mobil",
+      "file": "54-ios-hig-mobil.dc.html",
+      "title": "iOS İnsan Arayüzü",
+      "prompt_en": "Design an iOS app screen strictly following Apple's Human Interface Guidelines. Light gray #f2f2f7 background, -apple-system font, a bold 32px Large Title (\"Today\"), a rounded 10px search field, then inset-grouped white cards with 10px radius set 16px from the edges: settings-style rows with 28px colored rounded-square icons, labels, gray › chevrons, hairline separators, and one green #34c759 toggle. Bottom: a translucent 5-item tab bar with a thin top border, active icon in #007aff blue. Add a second 300x640 phone mockup showing the identical screen in dark mode (#000 background, #1c1c1e cards). No FAB, no sharp corners, no brand-colored surfaces.",
+      "brief_tr": "Large Title, inset-grouped listeler ve yarı saydam sekme çubuğuyla Apple HIG kurallarına harfiyen uyan, açık ve koyu modu yan yana gösteren iOS ekranı.",
+      "palette": [
+        "#f2f2f7",
+        "#007aff",
+        "#34c759",
+        "#1c1c1e"
+      ],
+      "typography": "-apple-system / system-ui; 32px kalın Large Title, 14.5px satırlar",
+      "layout": "Inset-grouped kartlar, 16px kenar boşluğu, altta 5 ikonlu tab bar",
+      "motion": "Sistem geçişleri: kaydırınca küçülen başlık, yaylı anahtar",
+      "avoid": "FAB, Android geri oku, keskin köşe, aşırı marka rengi",
+      "name": "iOS İnsan Arayüzü",
+      "reference": "Apple HIG",
+      "section": 13,
+      "description": "Large Title, inset-grouped listeler, yarı saydam tab bar; netlik ve içeriğe saygı.",
+      "keywords": [
+        "iOS app screen",
+        "large title",
+        "inset grouped list",
+        "tab bar",
+        "SF system font"
+      ]
+    },
+    {
+      "id": 55,
+      "slug": "55-material-you",
+      "file": "55-material-you.dc.html",
+      "title": "Material You (M3)",
+      "prompt_en": "Design a Material You (Material 3) mobile app screen in Roboto. Surface #fef7ff, primary #6750a4, text #1d1b20. Top: a 28px-radius pill search bar (#ece6f0) with hamburger, hint text and a circular avatar. Then a friendly greeting headline and tonal cards: a large hero card in lilac container #eaddff with 24px radius, title and chips; two medium cards in #e8def8 and #ffd8e4 with soft icon circles. Bottom right: a 56px FAB (#6750a4, 16px radius, plus icon, soft shadow). Bottom navigation bar with 3 destinations, the active one marked by a #e8def8 pill indicator with a label below. Show a second phone where a green wallpaper seed recolors every layer. No iOS tab bar, no pure black or white, no sharp corners.",
+      "brief_tr": "Duvar kâğıdından türeyen tonal paletler, dev yuvarlaklık, pill gösterge ve FAB ile Material 3 dilini iki farklı tohum renkte gösteren mobil ekran.",
+      "palette": [
+        "#fef7ff",
+        "#6750a4",
+        "#eaddff",
+        "#e8def8",
+        "#ffd8e4",
+        "#1d1b20"
+      ],
+      "typography": "Roboto 400/500/700; başlıklar 400, etiketler 500",
+      "layout": "Pill arama + hero kart + 2'li tonal kartlar + FAB + nav bar",
+      "motion": "Container transform geçişleri; hap gösterge kayarak taşınır",
+      "avoid": "iOS tab bar, saf siyah/beyaz, keskin köşe, tek düze gri",
+      "name": "Material You (M3)",
+      "reference": "Matías Duarte",
+      "section": 13,
+      "description": "Duvar kâğıdından türeyen tonal paletler, dev yuvarlaklıklar, FAB ve pill göstergeli nav.",
+      "keywords": [
+        "Material 3",
+        "dynamic color",
+        "tonal containers",
+        "FAB",
+        "pill nav indicator"
+      ]
+    },
+    {
+      "id": 56,
+      "slug": "56-jest-fizik-paper",
+      "file": "56-jest-fizik-paper.dc.html",
+      "title": "Jest & Fizik Arayüzü",
+      "prompt_en": "Design a gesture-driven, physics-based mobile UI in the spirit of Mike Matas's Paper. Dark stage (#0a0a0c), Inter at light weights. Phone one: a full-bleed content card with a vivid sunset gradient (#ff6b35 to #7b2ff7), a large light-weight headline and short subtitle, almost no chrome — only a clock and a tiny dot. At the bottom edge, a deck of four mini gradient cards peeks up with slight tilts, the middle one pulled higher, plus an \"swipe up\" hint arrow. Phone two: the same card mid-fold, its top half tilted with perspective rotateX to illustrate an origami transition. Second gradient #00d2ff to #3a7bd5. No buttons, no static grids, no hard-cut transitions — everything springs at 60fps.",
+      "brief_tr": "Kromsuz tam ekran degrade kartlar, çekilebilir kart destesi ve origami katlanma anıyla Paper'ın jest-fizik dilini gösteren koyu mobil sahne.",
+      "palette": [
+        "#0a0a0c",
+        "#ff6b35",
+        "#7b2ff7",
+        "#00d2ff",
+        "#3a7bd5",
+        "#ffffff"
+      ],
+      "typography": "Inter 300/400; büyük başlıklar hafif ağırlıkta",
+      "layout": "Tam ekran kart + altta eğik mini kart destesi; krom yok",
+      "motion": "Yay fiziği, origami katlanma, jestle sürülen 60fps geçişler",
+      "avoid": "Buton kalabalığı, statik grid, krom, sert kesme geçişler",
+      "name": "Jest & Fizik Arayüzü",
+      "reference": "Mike Matas · Paper",
+      "section": 13,
+      "description": "Buton değil fizik: tam ekran içerik kartları, yay animasyonu hissi ve keşfedilen jestler.",
+      "keywords": [
+        "gesture-driven UI",
+        "full-screen cards",
+        "physics animation",
+        "card deck",
+        "chrome-free"
+      ]
+    },
+    {
+      "id": 57,
+      "slug": "57-neo-fintech-mobil",
+      "file": "57-neo-fintech-mobil.dc.html",
+      "title": "Neo-Fintech Mobil",
+      "prompt_en": "Design a neo-fintech mobile banking home screen in the Monzo/Revolut school. Dark navy #0f1225, Inter 400-700, all amounts bold tabular numerals. Top: greeting, a notification dot, a tiny CSS bar sparkline. Center: a huge 34px balance (₺12.480,50), then a tilted hero bank card (200x126px, 14px radius, #6a3df5 to #b84ffb gradient, chip square, last four digits, fictional \"NOVA\" brand). Below: four quick-action circles (Send, Request, FX, Freeze) on #191d33 surfaces, then a \"Today\" list with emoji category circles (🛒 ☕ 🚕), white amounts for spending, green #2ecc71 \"+\" for income, one faded upcoming-payment row. No bank gray, no dense tables, no tiny numbers.",
+      "brief_tr": "Dev bakiye, eğik degrade kart ve emoji kategorili işlem akışıyla Monzo/Revolut ekolünde koyu fintech ana ekranı.",
+      "palette": [
+        "#0f1225",
+        "#6a3df5",
+        "#b84ffb",
+        "#2ecc71",
+        "#191d33"
+      ],
+      "typography": "Inter 400-700; rakamlar 700 ve tabular-nums",
+      "layout": "Bakiye + kahraman kart + 4 hızlı eylem + işlem akışı",
+      "motion": "Kart hafif parallax; işlem satırı bildirimle kayarak gelir",
+      "avoid": "Banka grisi, yoğun tablolar, küçük rakamlar, güven kıran süs",
+      "name": "Neo-Fintech Mobil",
+      "reference": "Monzo · Revolut ekolü",
+      "section": 13,
+      "description": "Kahraman banka kartı, dev bakiye, emoji kategorili işlemler; ciddiyet + ürün sıcaklığı.",
+      "keywords": [
+        "neobank app",
+        "gradient card hero",
+        "big balance",
+        "emoji transactions",
+        "quick actions"
+      ]
+    },
+    {
+      "id": 58,
+      "slug": "58-veri-murekkep-tufte",
+      "file": "58-veri-murekkep-tufte.dc.html",
+      "title": "Veri-Mürekkep Analitiği",
+      "prompt_en": "Design a Tufte-style analytics report maximizing data-ink ratio. Pure white #ffffff, near-black ink #1a1a1a, gray #9a9a9a, one sparing blue accent #2563eb. Source Serif 4 report title; a 4-KPI row of thin 48px weight-300 Inter numbers, each with a 60x18 gray SVG sparkline ending in a blue dot. A wide line chart with three faint 6%-opacity gridlines, no axis strokes, no legend box — series labeled directly at line ends, one blue among grays. Below: six small-multiple area charts on one shared scale, and a table of right-aligned tabular figures bounded only by top and bottom rules. No 3D, shadows, chartjunk or icons.",
+      "brief_tr": "Beyaz kağıtta sparkline'lar, doğrudan etiketli çizgiler ve küçük katlarla kurulan Tufte usulü rapor.",
+      "palette": [
+        "#ffffff",
+        "#1a1a1a",
+        "#9a9a9a",
+        "#2563eb"
+      ],
+      "typography": "Source Serif 4 (başlık + not) + Inter tabular rakamlar",
+      "layout": "Rapor sayfası: KPI satırı, geniş çizgi, küçük katlar, yalın tablo",
+      "motion": "Yok; kağıt gibi durağan",
+      "avoid": "3D, gölge, ızgara kalabalığı, renkli dolgu, lejant kutusu, süslü ikon",
+      "name": "Veri-Mürekkep Analitiği",
+      "reference": "Edward Tufte",
+      "section": 14,
+      "description": "Data-ink oranı: sparkline'lı KPI'lar, doğrudan etiketli çizgiler, küçük katlar; chartjunk sıfır.",
+      "keywords": [
+        "Tufte dashboard",
+        "data-ink ratio",
+        "sparklines",
+        "small multiples",
+        "direct labeling"
+      ]
+    },
+    {
+      "id": 59,
+      "slug": "59-gozlemlenebilirlik-grafana",
+      "file": "59-gozlemlenebilirlik-grafana.dc.html",
+      "title": "Gözlemlenebilirlik Paneli",
+      "prompt_en": "Design a Grafana-style observability dashboard for night-shift ops. Dark #111217 canvas, panels #1b1d23 with 2px radius, 8px gaps, 11px titles in #8e8e93, text #d8d9da, Inter plus ui-monospace values. Toolbar: \"prod-cluster / overview\", a \"Last 6 hours\" picker, refresh and a pulsing live dot. In a 12-column grid: four stat panels with big mono numbers colored by threshold (green #73bf69 uptime, yellow #f2cc0c disk 78%, red #e02f44 errors/min, blue #5794f2 requests), a wide 3-series CPU line chart with 10% fills, a memory area chart with dashed red limit, a semicircular conic-gradient gauge at 62%, and a 6-row log panel with colored INFO/WARN/ERROR levels. Every value carries a unit.",
+      "brief_tr": "Koyu zeminde eşik renkleriyle konuşan, sıkı gridli ve log panelli Grafana usulü ops ekranı.",
+      "palette": [
+        "#111217",
+        "#1b1d23",
+        "#73bf69",
+        "#f2cc0c",
+        "#e02f44",
+        "#5794f2"
+      ],
+      "typography": "Inter arayüz + ui-monospace değerler ve loglar",
+      "layout": "Araç şeridi + 12 kolonlu panel grid'i, 8px boşluk, 2px köşe",
+      "motion": "Yalnızca canlı nokta nabzı; paneller sakin",
+      "avoid": "Açık tema, dekorasyon, boşluk israfı, birimsiz değer",
+      "name": "Gözlemlenebilirlik Paneli",
+      "reference": "Grafana ekolü",
+      "section": 14,
+      "description": "Gece vardiyası ekranı: koyu paneller, eşik renkleri (yeşil/sarı/kırmızı) ve log akışı.",
+      "keywords": [
+        "observability dashboard",
+        "dark ops panels",
+        "threshold colors",
+        "time series",
+        "log stream"
+      ]
+    },
+    {
+      "id": 60,
+      "slug": "60-ticaret-terminali",
+      "file": "60-ticaret-terminali.dc.html",
+      "title": "Ticaret Terminali",
+      "prompt_en": "Design a Bloomberg-density trading terminal on pure black #000000. Everything is IBM Plex Mono at 10–12px with tight leading; regions split by 1px #333 rules, zero border-radius. Top: an amber #ff9800 command line \"NVA <EQUITY> GO\" with a blinking block cursor. Four quadrants: a watchlist of 8 fictional tickers with right-aligned prices, green #00c853 / red #ff1744 changes and ▲▼ ticks; an amber intraday SVG line chart with a last-price flag; a market-depth ladder with green bid and red ask bar fills; a mono news feed with one amber BREAKING line. Bottom: an F-key strip of amber chips (F1 HELP … F8). Cyan #40c4ff only for section headers.",
+      "brief_tr": "Siyah cam üzerinde amber komut satırı, dört bölgeli yoğun veri ekranı ve F-tuşu şeridiyle Bloomberg usulü terminal.",
+      "palette": [
+        "#000000",
+        "#ff9800",
+        "#00c853",
+        "#ff1744",
+        "#40c4ff",
+        "#e0e0e0"
+      ],
+      "typography": "IBM Plex Mono her yerde, 10–12px, sıkı satır aralığı",
+      "layout": "Komut satırı + 4 bölgeli ekran + F-tuşu şeridi, 1px ayraçlar",
+      "motion": "Yalnızca yanıp sönen blok imleç",
+      "avoid": "Boşluk, yuvarlak köşe, pastel, ikon süsü, fare-öncelik",
+      "name": "Ticaret Terminali",
+      "reference": "Bloomberg yoğunluğu",
+      "section": 14,
+      "description": "Siyah cam, amber komut satırı, kırmızı/yeşil tikler; yoğunluk bir özellik, hız bir erdem.",
+      "keywords": [
+        "trading terminal",
+        "amber command line",
+        "watchlist ticks",
+        "market depth",
+        "F-key strip"
+      ]
+    },
+    {
+      "id": 61,
+      "slug": "61-yonetim-paneli-polaris",
+      "file": "61-yonetim-paneli-polaris.dc.html",
+      "title": "Ürün Yönetim Paneli",
+      "prompt_en": "Design a calm, task-focused merchant admin in Shopify Polaris style. Light #f6f6f7 canvas, Inter, text #202223, secondary #6d7175. A 56px dark #1a1a1a topbar holds the store name, centered search and an avatar. Left 240px light nav (Home, Orders with green badge \"3\", Products, Customers, Analytics); the selected item is a white card with a green left bar. Content: a \"Good morning\" greeting beside one green #008060 primary button, three white 12px-radius metric cards with soft shadows (sales with a mini bar sparkline, orders, conversion), then an orders table with soft pill badges (Paid #aee9d1/#003d2c, Fulfilling #ffd79d/#5e4200, Refund gray) and row hover. Right 280px column: checklist and tip cards. No dark theme, no aggressive red.",
+      "brief_tr": "Koyu topbar, açık nav, tek yeşil eylem ve yumuşak durum badge'leriyle Polaris usulü esnaf paneli.",
+      "palette": [
+        "#f6f6f7",
+        "#ffffff",
+        "#008060",
+        "#202223",
+        "#aee9d1",
+        "#ffd79d"
+      ],
+      "typography": "Inter; 13–14px gövde, 600 ağırlıklı sakin başlıklar",
+      "layout": "Koyu topbar + 240px nav + içerik + 280px yan kolon; 12px köşeli kartlar",
+      "motion": "Yumuşak satır hover'ı; başka animasyon yok",
+      "avoid": "Koyu tema, yoğun çizgi, agresif kırmızı, veri kalabalığı",
+      "name": "Ürün Yönetim Paneli",
+      "reference": "Shopify Polaris",
+      "section": 14,
+      "description": "Esnaf paneli: sakin yüzeyler, yeşil birincil eylem, yumuşak durum badge'li sipariş tablosu.",
+      "keywords": [
+        "admin panel",
+        "merchant dashboard",
+        "status badges",
+        "metric cards",
+        "task-oriented"
+      ]
     }
   ]
 }

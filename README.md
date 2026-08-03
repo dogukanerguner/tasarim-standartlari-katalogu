@@ -1,6 +1,6 @@
 # Tasarım Standartları Kataloğu
 
-**45 tasarım yaklaşımı — her biri hem çalışan canlı örnek, hem de AI kod üretiminde doğrudan kullanılabilir prompt ve kural seti.**
+**61 tasarım yaklaşımı — her biri hem çalışan canlı örnek, hem de AI kod üretiminde doğrudan kullanılabilir prompt ve kural seti.**
 
 🔗 **Canlı demo:** [design.asveas.com](https://design.asveas.com)
 
@@ -16,7 +16,7 @@ Klasik stil rehberleri insanlara anlatır; bu katalog aynı anda **makinelere de
 
 Katalog sayfasının kendisi de bu katmandan beslenir: arama (isim, ekol, anahtar kelime, hatta `#hex` kodu), bölüm filtreleri, palet noktaları ve **karttan tek tıkla prompt kopyalama** doğrudan `ai/catalog.json` üzerinden çalışır. Klavye kısayolları: `/` ara, `Esc` temizle, `↵` ilk sonucu aç, 🎲 rastgele stil.
 
-## İçerik — 10 bölüm, 45 sayfa
+## İçerik — 14 bölüm, 61 sayfa
 
 | Bölüm | Sayfalar | Kapsam |
 |---|---|---|
@@ -30,6 +30,10 @@ Katalog sayfasının kendisi de bu katmandan beslenir: arama (isim, ekol, anahta
 | 08 · İlke temelli | 31–33 | Erişilebilirlik öncelikli, kamu hizmeti sade dili, ham HTML brütalizmi |
 | 09 · Mobil yapılar | 34–39 | Başparmak bölgesi, swipe destesi, aşamalı açığa çıkarma, boş durumlar, alt sayfalar, sonsuz akış |
 | 10 · Davranış & psikoloji | 40–45 | Alışkanlık döngüsü, oyunlaştırma, sosyal kanıt, çapa fiyatlama, zirve–son kuralı, **karanlık desenler (etik uyarı)** |
+| 11 · Masaüstü uygulama dilleri | 46–49 | macOS (Ive), Fluent/Windows 11, araç-merkezli editör (Rasmus Andersson), komut paleti |
+| 12 · Web uygulama standartları | 50–53 | Blok editör (Ivan Zhao), pazaryeri (Karri Saarinen), medya akışı, IBM Carbon |
+| 13 · Mobil uygulama standartları | 54–57 | iOS HIG, Material You (Duarte), jest & fizik (Mike Matas), neo-fintech |
+| 14 · Dashboard & yönetim panelleri | 58–61 | Tufte veri-mürekkep, gözlemlenebilirlik, ticaret terminali, Shopify Polaris |
 
 > **Not:** 34–45 arası sayfalar görsel stil değil, **UX / davranış desenidir** — 01–33 arası bir görsel stille birleştirilerek kullanılır. 45 numaralı sayfa bir örnek değil, uyarıdır: karanlık desenleri tanımayı ve dürüst karşılıklarını öğretir.
 
@@ -37,7 +41,7 @@ Katalog sayfasının kendisi de bu katmandan beslenir: arama (isim, ekol, anahta
 
 ```
 ai/
-├── catalog.json     # 45 stilin tamamı: prompt_en, brief_tr, palette,
+├── catalog.json     # 61 stilin tamamı: prompt_en, brief_tr, palette,
 │                    # typography, layout, motion, avoid, keywords, section
 └── styles/          # stil başına frontmatter'lı markdown (tek stil = tek bağlam)
     ├── 01-editorial-minimalizm.md

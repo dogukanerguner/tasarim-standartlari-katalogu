@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+html,body{margin:0;padding:0;background:#12131a}
+a{color:inherit;text-decoration:none}
+a:hover{color:#ff6363}
+@keyframes dc-blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+</style>
+</helmet>
+<div style="background:linear-gradient(170deg,#1a1b23 0%,#15161e 55%,#12131a 100%);color:#f2f2f5;font-family:Inter,'Segoe UI',sans-serif;min-height:100vh;padding-bottom:56px">
+  <div style="display:flex;align-items:center;justify-content:space-between;padding:16px 44px;border-bottom:1px solid rgba(242,242,245,.1)">
+    <a href="Katalog.dc.html" style="font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase">← Katalog</a>
+    <span style="font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#ff6363">49 · Masaüstü uygulama dilleri</span>
+  </div>
+
+  <div style="text-align:center;padding:40px 44px 0;max-width:720px;margin:0 auto">
+    <h1 style="font-size:42px;font-weight:600;line-height:1.08;letter-spacing:-.03em;margin:0 0 14px;text-wrap:balance">Klavye hızında bir yüzey</h1>
+    <p style="font-size:15px;line-height:1.65;color:rgba(242,242,245,.55);margin:0">Raycast ekolünde uygulama bir pencere değil, çağrıldığında beliren tek bir panele sıkıştırılır: yaz, ok tuşuyla in, Enter'la çalıştır. Fare bir yedek plandır.</p>
+  </div>
+
+  <div style="display:flex;justify-content:center;padding:34px 44px 0">
+    <div style="width:640px;background:#1e1f26;border:1px solid rgba(255,255,255,.12);border-radius:12px;box-shadow:0 40px 110px rgba(0,0,0,.6),0 10px 34px rgba(0,0,0,.45);overflow:hidden">
+      <div style="display:flex;align-items:center;gap:12px;padding:18px 20px;border-bottom:1px solid rgba(255,255,255,.08)">
+        <span style="color:rgba(242,242,245,.4);font-size:18px">⌕</span>
+        <span style="font-size:18px;color:#f2f2f5">çeviri yaz</span>
+        <span style="width:9px;height:22px;background:#ff6363;display:inline-block;animation:dc-blink 1.1s steps(1) infinite"></span>
+        <span style="font-size:18px;color:rgba(242,242,245,.3)">…</span>
+        <span style="margin-left:auto;font-family:ui-monospace,Menlo,monospace;font-size:11px;color:rgba(242,242,245,.45);border:1px solid rgba(255,255,255,.14);border-radius:5px;padding:3px 7px;background:rgba(255,255,255,.05)">esc</span>
+      </div>
+
+      <div style="padding:8px 8px 4px">
+        <div style="font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:rgba(242,242,245,.4);padding:8px 14px 6px">Komutlar</div>
+        <div style="position:relative;display:flex;align-items:center;gap:12px;padding:9px 14px;border-radius:8px;background:rgba(255,255,255,.08)">
+          <span style="position:absolute;left:0;top:8px;bottom:8px;width:3px;border-radius:3px;background:#ff6363"></span>
+          <span style="width:30px;height:30px;border-radius:7px;background:linear-gradient(135deg,#ff6363,#c73e5e);display:flex;align-items:center;justify-content:center;font-size:14px;flex-shrink:0">文</span>
+          <div style="flex:1">
+            <div style="font-size:13.5px;font-weight:500">Çeviri Yaz — hızlı çeviri</div>
+            <div style="font-size:11.5px;color:rgba(242,242,245,.55)">Seçili metni anında çevir</div>
+          </div>
+          <span style="font-family:ui-monospace,Menlo,monospace;font-size:11px;color:rgba(242,242,245,.55);border:1px solid rgba(255,255,255,.14);border-radius:5px;padding:3px 7px;background:rgba(255,255,255,.05)">⌘T</span>
+        </div>
+        <div style="display:flex;align-items:center;gap:12px;padding:9px 14px;border-radius:8px">
+          <span style="width:30px;height:30px;border-radius:7px;background:rgba(255,255,255,.1);display:flex;align-items:center;justify-content:center;font-size:14px;flex-shrink:0">✎</span>
+          <div style="flex:1">
+            <div style="font-size:13.5px;font-weight:500;color:rgba(242,242,245,.85)">Hızlı Not Yaz</div>
+            <div style="font-size:11.5px;color:rgba(242,242,245,.55)">Gelen kutusuna not düş</div>
+          </div>
+          <span style="font-family:ui-monospace,Menlo,monospace;font-size:11px;color:rgba(242,242,245,.55);border:1px solid rgba(255,255,255,.14);border-radius:5px;padding:3px 7px;background:rgba(255,255,255,.05)">⌘N</span>
+        </div>
+        <div style="display:flex;align-items:center;gap:12px;padding:9px 14px;border-radius:8px">
+          <span style="width:30px;height:30px;border-radius:7px;background:rgba(255,255,255,.1);display:flex;align-items:center;justify-content:center;font-size:14px;flex-shrink:0">▦</span>
+          <div style="flex:1">
+            <div style="font-size:13.5px;font-weight:500;color:rgba(242,242,245,.85)">Pano Geçmişini Yaz(dır)</div>
+            <div style="font-size:11.5px;color:rgba(242,242,245,.55)">Son kopyalananları listele</div>
+          </div>
+          <span style="font-family:ui-monospace,Menlo,monospace;font-size:11px;color:rgba(242,242,245,.55);border:1px solid rgba(255,255,255,.14);border-radius:5px;padding:3px 7px;background:rgba(255,255,255,.05)">⌥V</span>
+        </div>
+
+        <div style="font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:rgba(242,242,245,.4);padding:12px 14px 6px">Uygulamalar</div>
+        <div style="display:flex;align-items:center;gap:12px;padding:9px 14px;border-radius:8px">
+          <span style="width:30px;height:30px;border-radius:7px;background:linear-gradient(135deg,#4b7de8,#3a5fc0);display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:600;flex-shrink:0">Y</span>
+          <div style="flex:1;font-size:13.5px;font-weight:500;color:rgba(242,242,245,.85)">Yazgan — metin editörü</div>
+          <span style="font-size:11.5px;color:rgba(242,242,245,.45)">Uygulama</span>
+        </div>
+        <div style="display:flex;align-items:center;gap:12px;padding:9px 14px;border-radius:8px">
+          <span style="width:30px;height:30px;border-radius:7px;background:linear-gradient(135deg,#3fa06a,#2c7c50);display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:600;flex-shrink:0">T</span>
+          <div style="flex:1;font-size:13.5px;font-weight:500;color:rgba(242,242,245,.85)">Tayfa — yazışma</div>
+          <span style="font-size:11.5px;color:rgba(242,242,245,.45)">Uygulama</span>
+        </div>
+
+        <div style="font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:rgba(242,242,245,.4);padding:12px 14px 6px">Dosyalar</div>
+        <div style="display:flex;align-items:center;gap:12px;padding:9px 14px;border-radius:8px;margin-bottom:4px">
+          <span style="width:30px;height:30px;border-radius:7px;background:rgba(255,255,255,.1);display:flex;align-items:center;justify-content:center;font-size:14px;flex-shrink:0">▤</span>
+          <div style="flex:1;font-size:13.5px;font-weight:500;color:rgba(242,242,245,.85)">ceviri-yazismalar-taslak.md</div>
+          <span style="font-family:ui-monospace,Menlo,monospace;font-size:11px;color:rgba(242,242,245,.45)">~/Notlar</span>
+        </div>
+      </div>
+
+      <div style="display:flex;align-items:center;justify-content:space-between;padding:10px 16px;border-top:1px solid rgba(255,255,255,.08);background:rgba(0,0,0,.18)">
+        <span style="display:flex;align-items:center;gap:8px;font-size:12px;color:rgba(242,242,245,.55)"><span style="width:16px;height:16px;border-radius:4px;background:#ff6363;display:inline-block"></span>Çeviri Yaz</span>
+        <span style="display:flex;align-items:center;gap:14px;font-size:12px;color:rgba(242,242,245,.55)">
+          <span>Aç <span style="font-family:ui-monospace,Menlo,monospace;border:1px solid rgba(255,255,255,.14);border-radius:5px;padding:2px 6px;background:rgba(255,255,255,.05)">↵</span></span>
+          <span style="opacity:.4">·</span>
+          <span>Eylemler <span style="font-family:ui-monospace,Menlo,monospace;border:1px solid rgba(255,255,255,.14);border-radius:5px;padding:2px 6px;background:rgba(255,255,255,.05)">⌘K</span></span>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px;padding:40px 44px 0;max-width:1000px;margin:0 auto">
+    <div style="background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:10px;padding:20px">
+      <div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#ff6363;margin-bottom:8px">Sıfır fare</div>
+      <div style="font-size:14.5px;line-height:1.6;color:rgba(242,242,245,.8)">Her satırın sağında kısayolu yazılıdır; her eylem klavyeden erişilebilir. İmleç yalnızca konuk.</div>
+    </div>
+    <div style="background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:10px;padding:20px">
+      <div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#ff6363;margin-bottom:8px">Tek yüzey</div>
+      <div style="font-size:14.5px;line-height:1.6;color:rgba(242,242,245,.8)">Pencere kromu, sekme, panel yok. Arama, sonuç ve eylem çubuğu aynı 640px panelde yaşar.</div>
+    </div>
+    <div style="background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:10px;padding:20px">
+      <div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#ff6363;margin-bottom:8px">60ms hissi</div>
+      <div style="font-size:14.5px;line-height:1.6;color:rgba(242,242,245,.8)">Sonuç her tuş vuruşunda anında süzülür; yükleme animasyonu görmek bir tasarım hatasıdır.</div>
+    </div>
+  </div>
+
+  <div style="margin:44px 44px 0;border-top:1px solid rgba(242,242,245,.15);padding-top:16px;display:flex;justify-content:space-between;font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:rgba(242,242,245,.5)">
+    <span>Komut Paleti</span><span>Raycast ekolü</span>
+  </div>
+</div>
+
+<div data-prompt-block="1" style="background:#17160f;color:#f4f1ea;font-family:ui-monospace,'SF Mono',Menlo,monospace;padding:40px 44px 46px">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid rgba(244,241,234,.3);padding-bottom:12px;margin-bottom:26px">
+    <span style="font-size:12px;letter-spacing:.18em;text-transform:uppercase">Tasarım promptu — 49 — Komut Paleti</span>
+    <span style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;opacity:.45">seçip kopyalayın</span>
+  </div>
+  <div style="display:grid;grid-template-columns:1.5fr 1fr;gap:40px;align-items:start">
+    <div>
+      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:10px">İngilizce prompt · detaylı</div>
+      <div style="font-size:13.5px;line-height:1.9;background:rgba(244,241,234,.06);border:1px solid rgba(244,241,234,.22);padding:20px;user-select:all">Design a Raycast-style keyboard-first launcher. Dark desktop with a soft gradient (#1a1b23 to #12131a); centered 640px floating panel (#1e1f26, 12px radius, 1px rgba(255,255,255,.12) border, one wide soft shadow). Top: a large 18px search row with placeholder text and a blinking #ff6363 caret block. Below: a sectioned result list ("Commands", "Apps", "Files") where each row has a 30px rounded icon square, a name, and a right-aligned monospace shortcut badge like ⌘K in a bordered keycap chip; the selected row gets rgba(255,255,255,.08) fill plus a 3px left accent bar. Bottom action bar: "Open ↵ · Actions ⌘K". Inter for UI, ui-monospace for shortcuts, text #f2f2f5, secondary at 55% opacity. No window chrome, no multiple panes, no mouse-first menus.</div>
+      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin:22px 0 8px">Türkçe brief</div>
+      <div style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;line-height:1.7;opacity:.85">Koyu zemin ortasında tek floating panel: büyük arama satırı, bölümlü sonuç listesi, kısayol rozetleri ve alt eylem çubuğuyla klavye-öncelikli launcher.</div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:16px">
+      <div>
+        <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:10px">Palet</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px"><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#1a1b23;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#1a1b23</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#12131a;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#12131a</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#1e1f26;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#1e1f26</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#ff6363;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#ff6363</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#f2f2f5;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#f2f2f5</span></div></div>
+      </div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Tipografi</div><div style="font-size:13px;line-height:1.6;opacity:.9">Inter (UI) + ui-monospace kısayol rozetleri; 18px arama, 13.5px satırlar</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Düzen</div><div style="font-size:13px;line-height:1.6;opacity:.9">Ortalanmış 640px tek panel: arama + bölümlü liste + action bar</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Hareket</div><div style="font-size:13px;line-height:1.6;opacity:.9">Yanıp sönen imleç; sonuçlar tuş vuruşunda anında süzülür</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Kaçınılacaklar</div><div style="font-size:13px;line-height:1.6;opacity:.9">Pencere kromu, çoklu panel, renk kalabalığı, fare-öncelikli menüler</div></div>
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

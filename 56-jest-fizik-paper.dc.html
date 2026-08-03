@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet" />
+<style>
+html,body{margin:0;padding:0;background:#0a0a0c}
+a{color:inherit;text-decoration:none}
+a:hover{color:#ff6b35}
+</style>
+</helmet>
+<div style="background:#0a0a0c;color:#fff;font-family:'Inter',system-ui,Arial,sans-serif;min-height:100vh;padding-bottom:52px">
+  <div style="display:flex;align-items:center;justify-content:space-between;padding:16px 44px;border-bottom:1px solid rgba(255,255,255,.16)">
+    <a href="Katalog.dc.html" style="font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase">← Katalog</a>
+    <span style="font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#ff6b35">56 · Mobil uygulama standartları</span>
+  </div>
+
+  <div style="display:grid;grid-template-columns:400px 1fr;gap:52px;padding:44px 44px 0;align-items:start">
+    <div>
+      <h1 style="font-size:46px;font-weight:300;line-height:1.08;letter-spacing:-.02em;margin:0 0 18px;text-wrap:balance">Buton yok; kartı it, çek, bırak</h1>
+      <p style="font-size:16px;line-height:1.65;color:rgba(255,255,255,.6);margin:0 0 26px">Mike Matas'ın Paper'ında arayüz bir yüzey değil bir maddedir: kartlar kütlelidir, yaylanır, katlanır. Ekranda krom yoktur; içerik tam ekrandır ve her jest fizikle cevap verir.</p>
+
+      <div style="border-top:1px solid #fff;padding-top:16px;margin-bottom:18px">
+        <div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#ff6b35;margin-bottom:8px">UI görünmez, içerik tam ekran</div>
+        <div style="font-size:15px;line-height:1.6">Ekranda yalnızca saat ve bir nokta kalır. Menü, başlık çubuğu, sekme yoktur; hikâyenin kendisi arayüzdür.</div>
+      </div>
+      <div style="border-top:1px solid rgba(255,255,255,.22);padding-top:16px;margin-bottom:18px">
+        <div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#ff6b35;margin-bottom:8px">Fizik: yay + sürtünme</div>
+        <div style="font-size:15px;line-height:1.6">Geçişler süreli animasyon değil simülasyondur: parmağın hızı karta aktarılır, kart yay sabitiyle yerine oturur.</div>
+      </div>
+      <div style="border-top:1px solid rgba(255,255,255,.22);padding-top:16px;margin-bottom:18px">
+        <div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#ff6b35;margin-bottom:8px">Jest keşfedilir, öğretilmez</div>
+        <div style="font-size:15px;line-height:1.6">Destedeki kartın kenarı görünür kalır; yarım kalmış her şekil "beni çek" der. Eğitim ekranı yerine davetkâr ipuçları.</div>
+      </div>
+      <div style="border-top:1px solid rgba(255,255,255,.22);padding-top:16px">
+        <div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#ff6b35;margin-bottom:8px">60fps ya da hiç</div>
+        <div style="font-size:15px;line-height:1.6">Fizik yanılsaması tek bir takılmada bozulur. Her kare 16 ms'de çizilemeyecekse o efekt tasarımdan çıkarılır.</div>
+      </div>
+    </div>
+
+    <div style="display:flex;gap:36px;align-items:flex-start">
+      <div>
+        <div style="position:relative;width:300px;height:640px;border-radius:44px;background:#1a1a1e;padding:9px;box-shadow:0 24px 60px rgba(0,0,0,.6)">
+          <div style="position:relative;width:100%;height:100%;border-radius:36px;overflow:hidden;background:linear-gradient(165deg,#ff6b35 0%,#c2489b 55%,#7b2ff7 100%)">
+            <div style="display:flex;justify-content:space-between;align-items:center;padding:16px 20px 0;font-size:12px;font-weight:400;color:rgba(255,255,255,.85)"><span>21:47</span><span style="width:5px;height:5px;border-radius:50%;background:rgba(255,255,255,.7)"></span></div>
+            <div style="padding:56px 24px 0">
+              <div style="font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.65);font-weight:400">Gökyüzü günlüğü</div>
+              <div style="font-size:36px;font-weight:300;letter-spacing:-.02em;line-height:1.1;margin-top:10px">Kutup<br />ışıkları</div>
+              <div style="font-size:14px;line-height:1.6;color:rgba(255,255,255,.75);margin-top:14px;max-width:220px">Bu gece 23:00'te kuzey ufkunda görünürlük yüksek.</div>
+            </div>
+            <div style="position:absolute;left:0;right:0;bottom:150px;text-align:center;color:rgba(255,255,255,.7);font-size:11px;letter-spacing:.14em;text-transform:uppercase">↑<br />kartı yukarı sürükle</div>
+            <div style="position:absolute;left:0;right:0;bottom:-26px;display:flex;justify-content:center;gap:10px">
+              <div style="width:58px;height:82px;border-radius:10px;background:linear-gradient(160deg,#00d2ff,#3a7bd5);transform:rotate(-7deg) translateY(12px);box-shadow:0 10px 24px rgba(0,0,0,.45)"></div>
+              <div style="width:58px;height:82px;border-radius:10px;background:linear-gradient(160deg,#ff6b35,#7b2ff7);transform:rotate(-2deg) translateY(4px);box-shadow:0 10px 24px rgba(0,0,0,.45)"></div>
+              <div style="width:62px;height:88px;border-radius:10px;background:linear-gradient(160deg,#f7cf3a,#ff6b35);transform:translateY(-16px);box-shadow:0 14px 30px rgba(0,0,0,.55)"></div>
+              <div style="width:58px;height:82px;border-radius:10px;background:linear-gradient(160deg,#3a7bd5,#7b2ff7);transform:rotate(6deg) translateY(10px);box-shadow:0 10px 24px rgba(0,0,0,.45)"></div>
+            </div>
+          </div>
+        </div>
+        <div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-top:12px;text-align:center">A · tam ekran kart + deste</div>
+      </div>
+
+      <div>
+        <div style="position:relative;width:300px;height:640px;border-radius:44px;background:#1a1a1e;padding:9px;box-shadow:0 24px 60px rgba(0,0,0,.6)">
+          <div style="position:relative;width:100%;height:100%;border-radius:36px;overflow:hidden;background:#111116">
+            <div style="display:flex;justify-content:space-between;align-items:center;padding:16px 20px 0;font-size:12px;color:rgba(255,255,255,.85)"><span>21:47</span><span style="width:5px;height:5px;border-radius:50%;background:rgba(255,255,255,.7)"></span></div>
+            <div style="position:absolute;left:24px;right:24px;top:120px;height:360px">
+              <div style="height:180px;border-radius:14px 14px 0 0;background:linear-gradient(150deg,#00d2ff,#3a7bd5);transform:perspective(620px) rotateX(32deg);transform-origin:bottom;box-shadow:0 -18px 40px rgba(0,210,255,.25)"></div>
+              <div style="height:180px;border-radius:0 0 14px 14px;background:linear-gradient(200deg,#3a7bd5,#1d2f6b);display:flex;align-items:flex-end;padding:18px">
+                <div><div style="font-size:20px;font-weight:300">Okyanus akıntıları</div><div style="font-size:12px;color:rgba(255,255,255,.6);margin-top:4px">katlanarak açılıyor…</div></div>
+              </div>
+            </div>
+            <div style="position:absolute;left:24px;right:24px;bottom:64px;display:flex;justify-content:space-between;align-items:center;color:rgba(255,255,255,.55);font-size:12px;line-height:1.6">
+              <span style="max-width:190px">Kartın üst yarısı menteşeden kalkar; origami geçişi içeriği "açar", yüklemez.</span>
+              <span style="font-size:20px">⤢</span>
+            </div>
+          </div>
+        </div>
+        <div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-top:12px;text-align:center">B · origami geçişi, katlanma anı</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:22px;padding:52px 44px 0">
+    <div style="background:#141419;border:1px solid rgba(255,255,255,.14);border-radius:14px;padding:20px">
+      <div style="font-size:16px;font-weight:600;margin-bottom:7px">Kütle hissi</div>
+      <div style="font-size:14px;line-height:1.6;color:rgba(255,255,255,.6)">Küçük kart hafif, büyük kart ağır davranır; yay sabiti boyutla ölçeklenir.</div>
+    </div>
+    <div style="background:#141419;border:1px solid rgba(255,255,255,.14);border-radius:14px;padding:20px">
+      <div style="font-size:16px;font-weight:600;margin-bottom:7px">Kesintisiz jest</div>
+      <div style="font-size:14px;line-height:1.6;color:rgba(255,255,255,.6)">Parmak ekrandayken animasyon her an geri sarılabilir; kullanıcı asla kilitlenmez.</div>
+    </div>
+    <div style="background:#141419;border:1px solid rgba(255,255,255,.14);border-radius:14px;padding:20px">
+      <div style="font-size:16px;font-weight:600;margin-bottom:7px">Derinlik gerçek</div>
+      <div style="font-size:14px;line-height:1.6;color:rgba(255,255,255,.6)">Perspektif ve gölge süsleme değil konum bilgisidir: yakın kart büyük ve nettir.</div>
+    </div>
+    <div style="background:linear-gradient(135deg,#ff6b35,#7b2ff7);border-radius:14px;padding:20px">
+      <div style="font-size:16px;font-weight:600;margin-bottom:7px">Yasak liste</div>
+      <div style="font-size:14px;line-height:1.6;color:rgba(255,255,255,.9)">Buton kalabalığı yok, statik grid yok, krom yok, sert kesme geçiş yok.</div>
+    </div>
+  </div>
+
+  <div style="margin:44px 44px 0;border-top:1px solid #fff;padding-top:16px;display:flex;justify-content:space-between;font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.4)">
+    <span>Jest &amp; Fizik Arayüzü</span><span>Mike Matas · Paper</span>
+  </div>
+</div>
+
+<div data-prompt-block="1" style="background:#17160f;color:#f4f1ea;font-family:ui-monospace,'SF Mono',Menlo,monospace;padding:40px 44px 46px">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid rgba(244,241,234,.3);padding-bottom:12px;margin-bottom:26px">
+    <span style="font-size:12px;letter-spacing:.18em;text-transform:uppercase">Tasarım promptu — 56 — Jest &amp; Fizik Arayüzü</span>
+    <span style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;opacity:.45">seçip kopyalayın</span>
+  </div>
+  <div style="display:grid;grid-template-columns:1.5fr 1fr;gap:40px;align-items:start">
+    <div>
+      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:10px">İngilizce prompt · detaylı</div>
+      <div style="font-size:13.5px;line-height:1.9;background:rgba(244,241,234,.06);border:1px solid rgba(244,241,234,.22);padding:20px;user-select:all">Design a gesture-driven, physics-based mobile UI in the spirit of Mike Matas's Paper. Dark stage (#0a0a0c), Inter at light weights. Phone one: a full-bleed content card with a vivid sunset gradient (#ff6b35 to #7b2ff7), a large light-weight headline and short subtitle, almost no chrome — only a clock and a tiny dot. At the bottom edge, a deck of four mini gradient cards peeks up with slight tilts, the middle one pulled higher, plus an "swipe up" hint arrow. Phone two: the same card mid-fold, its top half tilted with perspective rotateX to illustrate an origami transition. Second gradient #00d2ff to #3a7bd5. No buttons, no static grids, no hard-cut transitions — everything springs at 60fps.</div>
+      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin:22px 0 8px">Türkçe brief</div>
+      <div style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;line-height:1.7;opacity:.85">Kromsuz tam ekran degrade kartlar, çekilebilir kart destesi ve origami katlanma anıyla Paper'ın jest-fizik dilini gösteren koyu mobil sahne.</div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:16px">
+      <div>
+        <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:10px">Palet</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px"><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#0a0a0c;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#0a0a0c</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#ff6b35;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#ff6b35</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#7b2ff7;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#7b2ff7</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#00d2ff;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#00d2ff</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#3a7bd5;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#3a7bd5</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#ffffff;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#ffffff</span></div></div>
+      </div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Tipografi</div><div style="font-size:13px;line-height:1.6;opacity:.9">Inter 300/400; büyük başlıklar hafif ağırlıkta</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Düzen</div><div style="font-size:13px;line-height:1.6;opacity:.9">Tam ekran kart + altta eğik mini kart destesi; krom yok</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Hareket</div><div style="font-size:13px;line-height:1.6;opacity:.9">Yay fiziği, origami katlanma, jestle sürülen 60fps geçişler</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Kaçınılacaklar</div><div style="font-size:13px;line-height:1.6;opacity:.9">Buton kalabalığı, statik grid, krom, sert kesme geçişler</div></div>
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

@@ -34,7 +34,7 @@ a{color:inherit;text-decoration:none}
   <div class="kpx" style="display:flex;justify-content:space-between;align-items:baseline;gap:20px;padding:20px 48px 0;font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.15em;text-transform:uppercase">
     <span style="color:#e07a52">Tasarım Standartları Kataloğu</span>
     <span style="display:flex;gap:24px;color:rgba(242,237,227,.5)">
-      <span>45 stil · 10 bölüm</span>
+      <span>{{ statsLine }}</span>
       <a href="https://github.com/dogukanerguner/tasarim-standartlari-katalogu" target="_blank" rel="noopener" style-hover="color:#e07a52">GitHub ↗</a>
     </span>
   </div>
@@ -101,7 +101,7 @@ a{color:inherit;text-decoration:none}
 </div>
 </x-dc>
 <script type="text/x-dc" data-dc-script data-props="{&quot;yeniSekmedeAc&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:false,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Katalog&quot;}}">
-const SEC_KISA = {1:'Küratörsel',2:'SaaS',3:'Tarihsel',4:'Dokusal',5:'Sanat',6:'Kültürel',7:'Dönemler',8:'İlkeler',9:'Mobil',10:'Psikoloji'};
+const SEC_KISA = {1:'Küratörsel',2:'SaaS',3:'Tarihsel',4:'Dokusal',5:'Sanat',6:'Kültürel',7:'Dönemler',8:'İlkeler',9:'Mobil UX',10:'Psikoloji',11:'Masaüstü',12:'Web App',13:'Mobil App',14:'Panel'};
 const TR_MAP = {'ı':'i','ğ':'g','ü':'u','ş':'s','ö':'o','ç':'c','â':'a','î':'i','û':'u'};
 function fold(s){ return String(s).toLocaleLowerCase('tr').replace(/[ığüşöçâîû]/g, c => TR_MAP[c] || c); }
 
@@ -191,7 +191,7 @@ class Component extends DCLogic {
       onChip: this.onChip, onClear: this.onClear,
       onRandom: this.onRandom, onCopy: this.onCopy,
       loading: false, failed: false, empty: false,
-      chips: [], cards: [], countLine: ''
+      chips: [], cards: [], countLine: '', statsLine: ''
     };
     if (st.err) return { ...base, failed: true };
     if (!st.data) return { ...base, loading: true };
@@ -239,7 +239,8 @@ class Component extends DCLogic {
     let countLine = visCount + ' / ' + d.styles.length + ' stil';
     if (st.sec) countLine += ' · ' + SEC_KISA[st.sec];
 
-    return { ...base, chips, cards, countLine, empty: visCount === 0 };
+    const statsLine = d.styles.length + ' stil · ' + d.sections.length + ' bölüm';
+    return { ...base, chips, cards, countLine, statsLine, empty: visCount === 0 };
   }
 }
 </script>

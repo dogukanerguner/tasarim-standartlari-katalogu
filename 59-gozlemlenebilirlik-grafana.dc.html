@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+html,body{margin:0;padding:0;background:#111217}
+a{color:inherit;text-decoration:none}
+a:hover{color:#5794f2}
+@keyframes canli{0%,100%{opacity:1}50%{opacity:.25}}
+</style>
+</helmet>
+<div style="background:#111217;color:#d8d9da;font-family:'Inter',Helvetica,Arial,sans-serif;min-height:100vh;padding-bottom:52px">
+<div style="display:flex;align-items:center;justify-content:space-between;padding:16px 40px;border-bottom:1px solid #26282e">
+<a href="Katalog.dc.html" style="font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase">← Katalog</a>
+<span style="font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#5794f2">59 · Dashboard &amp; yönetim panelleri</span>
+</div>
+
+<div style="display:flex;justify-content:space-between;align-items:flex-end;padding:30px 40px 20px;gap:40px">
+<div style="max-width:620px">
+<h1 style="font-size:34px;font-weight:700;line-height:1.1;letter-spacing:-.02em;margin:0 0 10px">Gece vardiyasının ekranı: eşikler renk konuşur</h1>
+<p style="font-size:14.5px;line-height:1.6;color:#8e8e93;margin:0">Grafana ekolünde panel süs değil sorudur. Yeşil "iyi", sarı "bak", kırmızı "kalk" demektir — operatör rengi okur, rakamı sonra doğrular.</p>
+</div>
+<div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#8e8e93;white-space:nowrap">ops · 7/24</div>
+</div>
+
+<div style="margin:0 40px;border:1px solid #26282e;border-radius:2px;overflow:hidden">
+<div style="display:flex;align-items:center;justify-content:space-between;background:#16171d;border-bottom:1px solid #26282e;padding:10px 16px">
+<div style="display:flex;align-items:center;gap:10px">
+<span style="width:8px;height:8px;border-radius:50%;background:#73bf69;animation:canli 1.6s infinite"></span>
+<span style="font-family:ui-monospace,Menlo,monospace;font-size:12.5px;color:#d8d9da">prod-cluster / genel bakış</span>
+</div>
+<div style="display:flex;align-items:center;gap:10px;font-size:12px;color:#8e8e93">
+<span style="border:1px solid #26282e;border-radius:2px;padding:5px 10px;background:#1b1d23">Son 6 saat ▾</span>
+<span style="border:1px solid #26282e;border-radius:2px;padding:5px 9px;background:#1b1d23">⟳ 30s</span>
+</div>
+</div>
+
+<div style="display:grid;grid-template-columns:repeat(12,1fr);gap:8px;padding:8px;background:#111217">
+<div style="grid-column:span 3;background:#1b1d23;border-radius:2px;padding:12px 14px">
+<div style="font-size:11px;color:#8e8e93;margin-bottom:8px">Uptime · 30 gün</div>
+<div style="font-family:ui-monospace,Menlo,monospace;font-size:30px;font-weight:600;color:#73bf69;line-height:1">99.98% <span style="font-size:14px">▲</span></div>
+<div style="font-size:10.5px;color:#8e8e93;margin-top:7px">SLO hedefi 99.9 — güvende</div>
+</div>
+<div style="grid-column:span 3;background:#1b1d23;border-radius:2px;padding:12px 14px">
+<div style="font-size:11px;color:#8e8e93;margin-bottom:8px">İstek hızı</div>
+<div style="font-family:ui-monospace,Menlo,monospace;font-size:30px;font-weight:600;color:#5794f2;line-height:1">1.24k <span style="font-size:13px;color:#8e8e93">i/sn</span></div>
+<div style="font-size:10.5px;color:#8e8e93;margin-top:7px">5 dk ort. · ▲ %6</div>
+</div>
+<div style="grid-column:span 3;background:#1b1d23;border-radius:2px;border-left:2px solid #f2cc0c;padding:12px 14px">
+<div style="font-size:11px;color:#8e8e93;margin-bottom:8px">Disk kullanımı · node-04</div>
+<div style="font-family:ui-monospace,Menlo,monospace;font-size:30px;font-weight:600;color:#f2cc0c;line-height:1">78% <span style="font-size:14px">▲</span></div>
+<div style="font-size:10.5px;color:#f2cc0c;margin-top:7px">uyarı eşiği %75 aşıldı</div>
+</div>
+<div style="grid-column:span 3;background:#1b1d23;border-radius:2px;border-left:2px solid #e02f44;padding:12px 14px">
+<div style="font-size:11px;color:#8e8e93;margin-bottom:8px">Hata oranı · api-gw</div>
+<div style="font-family:ui-monospace,Menlo,monospace;font-size:30px;font-weight:600;color:#e02f44;line-height:1">12 <span style="font-size:13px">hata/dk ▲</span></div>
+<div style="font-size:10.5px;color:#e02f44;margin-top:7px">kritik eşik 10 — alarm açık</div>
+</div>
+
+<div style="grid-column:span 8;background:#1b1d23;border-radius:2px;padding:12px 14px">
+<div style="display:flex;justify-content:space-between;margin-bottom:8px"><span style="font-size:11px;color:#8e8e93">CPU kullanımı — çekirdek başına % · prod-cluster</span><span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;color:#8e8e93">birim: %</span></div>
+<svg viewBox="0 0 760 170" style="width:100%;height:auto;display:block">
+<line x1="30" y1="20" x2="750" y2="20" stroke="#26282e"/><line x1="30" y1="65" x2="750" y2="65" stroke="#26282e"/><line x1="30" y1="110" x2="750" y2="110" stroke="#26282e"/><line x1="30" y1="150" x2="750" y2="150" stroke="#26282e"/>
+<text x="24" y="24" font-size="9" fill="#8e8e93" text-anchor="end">100</text>
+<text x="24" y="69" font-size="9" fill="#8e8e93" text-anchor="end">66</text>
+<text x="24" y="114" font-size="9" fill="#8e8e93" text-anchor="end">33</text>
+<text x="24" y="154" font-size="9" fill="#8e8e93" text-anchor="end">0</text>
+<path d="M30,118 L120,112 L210,120 L300,104 L390,110 L480,92 L570,100 L660,84 L750,90 L750,150 L30,150 Z" fill="#73bf69" fill-opacity=".1"/>
+<polyline fill="none" stroke="#73bf69" stroke-width="1.5" points="30,118 120,112 210,120 300,104 390,110 480,92 570,100 660,84 750,90"/>
+<path d="M30,132 L120,128 L210,130 L300,122 L390,126 L480,116 L570,120 L660,110 L750,114 L750,150 L30,150 Z" fill="#5794f2" fill-opacity=".1"/>
+<polyline fill="none" stroke="#5794f2" stroke-width="1.5" points="30,132 120,128 210,130 300,122 390,126 480,116 570,120 660,110 750,114"/>
+<path d="M30,126 L120,134 L210,124 L300,136 L390,118 L480,130 L570,88 L660,58 L750,66 L750,150 L30,150 Z" fill="#f2cc0c" fill-opacity=".1"/>
+<polyline fill="none" stroke="#f2cc0c" stroke-width="1.5" points="30,126 120,134 210,124 300,136 390,118 480,130 570,88 660,58 750,66"/>
+<text x="30" y="166" font-size="9" fill="#8e8e93">08:00</text>
+<text x="270" y="166" font-size="9" fill="#8e8e93">10:00</text>
+<text x="510" y="166" font-size="9" fill="#8e8e93">12:00</text>
+<text x="750" y="166" font-size="9" fill="#8e8e93" text-anchor="end">14:00</text>
+</svg>
+<div style="display:flex;gap:16px;margin-top:6px;font-size:10.5px;color:#8e8e93"><span><span style="display:inline-block;width:10px;height:2px;background:#73bf69;vertical-align:middle;margin-right:5px"></span>node-01</span><span><span style="display:inline-block;width:10px;height:2px;background:#5794f2;vertical-align:middle;margin-right:5px"></span>node-02</span><span><span style="display:inline-block;width:10px;height:2px;background:#f2cc0c;vertical-align:middle;margin-right:5px"></span>node-04 ⚠</span></div>
+</div>
+
+<div style="grid-column:span 4;background:#1b1d23;border-radius:2px;padding:12px 14px;display:flex;flex-direction:column">
+<div style="font-size:11px;color:#8e8e93;margin-bottom:12px">Küme kapasitesi — %</div>
+<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;flex:1">
+<div style="position:relative;width:170px;height:85px;border-radius:170px 170px 0 0;background:conic-gradient(from 270deg at 50% 100%, #73bf69 0deg 112deg, #26282e 112deg 180deg)">
+<div style="position:absolute;left:50%;bottom:0;transform:translateX(-50%);width:120px;height:60px;border-radius:120px 120px 0 0;background:#1b1d23"></div>
+<div style="position:absolute;left:0;right:0;bottom:2px;text-align:center;font-family:ui-monospace,Menlo,monospace;font-size:26px;font-weight:600;color:#73bf69">62%</div>
+</div>
+<div style="font-size:10.5px;color:#8e8e93;margin-top:8px">eşikler: <span style="color:#f2cc0c">75</span> · <span style="color:#e02f44">90</span></div>
+</div>
+</div>
+
+<div style="grid-column:span 6;background:#1b1d23;border-radius:2px;padding:12px 14px">
+<div style="display:flex;justify-content:space-between;margin-bottom:8px"><span style="font-size:11px;color:#8e8e93">Bellek — küme toplamı · GiB</span><span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;color:#5794f2">şu an 41.2 GiB</span></div>
+<svg viewBox="0 0 560 120" style="width:100%;height:auto;display:block">
+<line x1="0" y1="20" x2="560" y2="20" stroke="#26282e"/><line x1="0" y1="60" x2="560" y2="60" stroke="#26282e"/><line x1="0" y1="104" x2="560" y2="104" stroke="#26282e"/>
+<path d="M0,74 L70,70 L140,72 L210,64 L280,66 L350,56 L420,60 L490,48 L560,52 L560,104 L0,104 Z" fill="#5794f2" fill-opacity=".14"/>
+<polyline fill="none" stroke="#5794f2" stroke-width="1.5" points="0,74 70,70 140,72 210,64 280,66 350,56 420,60 490,48 560,52"/>
+<line x1="0" y1="30" x2="560" y2="30" stroke="#e02f44" stroke-width="1" stroke-dasharray="5 4"/>
+<text x="556" y="26" font-size="9" fill="#e02f44" text-anchor="end">limit 56 GiB</text>
+</svg>
+</div>
+
+<div style="grid-column:span 6;background:#1b1d23;border-radius:2px;padding:12px 14px">
+<div style="display:flex;justify-content:space-between;margin-bottom:10px"><span style="font-size:11px;color:#8e8e93">Loglar — api-gw · son 30 sn</span><span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;color:#8e8e93">6/214</span></div>
+<div style="font-family:ui-monospace,Menlo,monospace;font-size:11px;line-height:1.85;color:#d8d9da">
+<div><span style="color:#8e8e93">14:02:11</span> <span style="color:#73bf69">INFO </span> istek 200 döndü — /v2/sepet (34 ms)</div>
+<div><span style="color:#8e8e93">14:02:09</span> <span style="color:#f2cc0c">WARN </span> kuyruk-2 gecikmesi 1.2 s, eşik 1.0 s</div>
+<div><span style="color:#8e8e93">14:02:04</span> <span style="color:#e02f44">ERROR</span> db-1 bağlantı zaman aşımı, yeniden deneniyor (3/5)</div>
+<div><span style="color:#8e8e93">14:01:58</span> <span style="color:#73bf69">INFO </span> önbellek yenilendi — 4.812 anahtar</div>
+<div><span style="color:#8e8e93">14:01:52</span> <span style="color:#e02f44">ERROR</span> ödeme sağlayıcısı 502 döndü — devre kesici açık</div>
+<div><span style="color:#8e8e93">14:01:47</span> <span style="color:#73bf69">INFO </span> dağıtım v2.14.3 tamamlandı</div>
+</div>
+</div>
+</div>
+</div>
+
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;padding:28px 40px 0">
+<div style="background:#1b1d23;border:1px solid #26282e;border-radius:2px;padding:18px">
+<div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#73bf69;margin-bottom:8px">Eşikler renk konuşur</div>
+<div style="font-size:14px;line-height:1.6;color:#d8d9da">Renk süs değil sinyaldir: yeşil sağlıklı, sarı uyarı, kırmızı kritik; yeşil asla marka rengi olarak harcanmaz.</div>
+</div>
+<div style="background:#1b1d23;border:1px solid #26282e;border-radius:2px;padding:18px">
+<div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#f2cc0c;margin-bottom:8px">Yoğunluk erdem</div>
+<div style="font-size:14px;line-height:1.6;color:#d8d9da">Ops ekranında boşluk israftır; 8 px grid, 2 px köşe, ince başlıklar. Tek bakışta on iki panel taranmalı.</div>
+</div>
+<div style="background:#1b1d23;border:1px solid #26282e;border-radius:2px;padding:18px">
+<div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#5794f2;margin-bottom:8px">Her panel bir soru</div>
+<div style="font-size:14px;line-height:1.6;color:#d8d9da">"Disk dolacak mı?" — cevabı olmayan panel kaldırılır; her değerin birimi başlıkta yazar.</div>
+</div>
+</div>
+
+<div style="margin:36px 40px 0;border-top:1px solid #26282e;padding-top:16px;display:flex;justify-content:space-between;font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#8e8e93">
+<span>Gözlemlenebilirlik Paneli</span><span>Grafana ekolü</span>
+</div>
+</div>
+
+<div data-prompt-block="1" style="background:#17160f;color:#f4f1ea;font-family:ui-monospace,'SF Mono',Menlo,monospace;padding:40px 44px 46px">
+<div style="display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid rgba(244,241,234,.3);padding-bottom:12px;margin-bottom:26px">
+<span style="font-size:12px;letter-spacing:.18em;text-transform:uppercase">Tasarım promptu — 59 — Gözlemlenebilirlik Paneli</span>
+<span style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;opacity:.45">seçip kopyalayın</span>
+</div>
+<div style="display:grid;grid-template-columns:1.5fr 1fr;gap:40px;align-items:start">
+<div>
+<div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:10px">İngilizce prompt · detaylı</div>
+<div style="font-size:13.5px;line-height:1.9;background:rgba(244,241,234,.06);border:1px solid rgba(244,241,234,.22);padding:20px;user-select:all">Design a Grafana-style observability dashboard for night-shift ops. Dark #111217 canvas, panels #1b1d23 with 2px radius, 8px gaps, 11px titles in #8e8e93, text #d8d9da, Inter plus ui-monospace values. Toolbar: "prod-cluster / overview", a "Last 6 hours" picker, refresh and a pulsing live dot. In a 12-column grid: four stat panels with big mono numbers colored by threshold (green #73bf69 uptime, yellow #f2cc0c disk 78%, red #e02f44 errors/min, blue #5794f2 requests), a wide 3-series CPU line chart with 10% fills, a memory area chart with dashed red limit, a semicircular conic-gradient gauge at 62%, and a 6-row log panel with colored INFO/WARN/ERROR levels. Every value carries a unit.</div>
+<div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin:22px 0 8px">Türkçe brief</div>
+<div style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;line-height:1.7;opacity:.85">Koyu zeminde eşik renkleriyle konuşan, sıkı gridli ve log panelli Grafana usulü ops ekranı.</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:16px">
+<div>
+<div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:10px">Palet</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:8px"><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#111217;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#111217</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#1b1d23;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#1b1d23</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#73bf69;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#73bf69</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#f2cc0c;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#f2cc0c</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#e02f44;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#e02f44</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#5794f2;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#5794f2</span></div></div>
+</div>
+<div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Tipografi</div><div style="font-size:13px;line-height:1.6;opacity:.9">Inter arayüz + ui-monospace değerler ve loglar</div></div>
+<div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Düzen</div><div style="font-size:13px;line-height:1.6;opacity:.9">Araç şeridi + 12 kolonlu panel grid'i, 8px boşluk, 2px köşe</div></div>
+<div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Hareket</div><div style="font-size:13px;line-height:1.6;opacity:.9">Yalnızca canlı nokta nabzı; paneller sakin</div></div>
+<div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Kaçınılacaklar</div><div style="font-size:13px;line-height:1.6;opacity:.9">Açık tema, dekorasyon, boşluk israfı, birimsiz değer</div></div>
+</div>
+</div>
+</div>
+</x-dc>
+</body>
+</html>

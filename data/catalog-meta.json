@@ -49,6 +49,26 @@
       "id": 10,
       "title": "Davranış tasarımı ve psikoloji",
       "description": "Kararı yönlendiren mekanizmalar — nasıl çalıştıkları, nerede işe yaradıkları ve nerede sömürüye dönüştükleri."
+    },
+    {
+      "id": 11,
+      "title": "Masaüstü uygulama dilleri",
+      "description": "İşletim sistemi ve profesyonel araç estetiği: pencere, panel ve komut yüzeyleri."
+    },
+    {
+      "id": 12,
+      "title": "Web uygulama standartları",
+      "description": "Kendini kanıtlamış ürün tasarım sistemlerinin web uygulama düzenleri."
+    },
+    {
+      "id": 13,
+      "title": "Mobil uygulama standartları",
+      "description": "Platform kılavuzları ve çığır açan mobil deneyim dilleri."
+    },
+    {
+      "id": 14,
+      "title": "Dashboard & yönetim panelleri",
+      "description": "Veri yoğun ekranlar: analitik, operasyon, finans ve e-ticaret yönetimi."
     }
   ],
   "styles": {
@@ -578,6 +598,214 @@
       ],
       "section": 10,
       "name": "Karanlık Desenler"
+    },
+    "46": {
+      "name": "macOS Masaüstü",
+      "reference": "Jony Ive · Apple HIG",
+      "section": 11,
+      "description": "Trafik ışıkları, yarı saydam kenar çubuğu ve üç panelli sükûnet; içerik önde, krom geride.",
+      "keywords": [
+        "macOS desktop app",
+        "translucent sidebar",
+        "traffic lights",
+        "three-pane window",
+        "vibrancy"
+      ]
+    },
+    "47": {
+      "name": "Fluent / Windows 11",
+      "reference": "Albert Shum · Microsoft",
+      "section": 11,
+      "description": "Mica dokusu, akrilik kartlar, ışık ve derinlik; Segoe diliyle yumuşak kurumsal masaüstü.",
+      "keywords": [
+        "Windows 11 Fluent",
+        "mica background",
+        "acrylic cards",
+        "settings app layout",
+        "nav rail"
+      ]
+    },
+    "48": {
+      "name": "Araç-Merkezli Editör",
+      "reference": "Rasmus Andersson",
+      "section": 11,
+      "description": "Figma tarzı: sessiz UI kromu, yıldız olan canvas; Inter tipografisiyle piksel hassasiyeti.",
+      "keywords": [
+        "design tool UI",
+        "canvas-centric editor",
+        "layers panel",
+        "properties panel",
+        "Inter typeface"
+      ]
+    },
+    "49": {
+      "name": "Komut Paleti",
+      "reference": "Raycast ekolü",
+      "section": 11,
+      "description": "Klavye-öncelikli launcher: tek yüzen panel, bölümlü sonuçlar, mono kısayol rozetleri.",
+      "keywords": [
+        "command palette",
+        "launcher app",
+        "keyboard-first",
+        "floating panel",
+        "shortcut badges"
+      ]
+    },
+    "50": {
+      "name": "Blok Editör Çalışma Alanı",
+      "reference": "Ivan Zhao · Notion",
+      "section": 12,
+      "description": "Her şey blok: kaybolan araç kromu, emoji ikonografi, sessiz gri kenar ve beyaz doküman.",
+      "keywords": [
+        "block editor",
+        "quiet workspace",
+        "emoji icons",
+        "slash command",
+        "toggle blocks"
+      ]
+    },
+    "51": {
+      "name": "Pazaryeri Deneyimi",
+      "reference": "Karri Saarinen · DLS",
+      "section": 12,
+      "description": "Fotoğraf önde arayüz arkada: hap arama, ilan kartları, puan ve güven sinyalleri.",
+      "keywords": [
+        "marketplace listing grid",
+        "pill search bar",
+        "photo-first cards",
+        "rating stars",
+        "coral accent"
+      ]
+    },
+    "52": {
+      "name": "Medya Akış Arayüzü",
+      "reference": "Encore ekolü",
+      "section": 12,
+      "description": "Koyu sahne, kapaktan süzülen degrade başlık, tek yeşil eylem ve kalıcı player barı.",
+      "keywords": [
+        "dark music app",
+        "gradient header",
+        "playlist table",
+        "player bar",
+        "single action color"
+      ]
+    },
+    "53": {
+      "name": "Kurumsal Veri Sistemi",
+      "reference": "IBM Carbon",
+      "section": 12,
+      "description": "Paul Rand mirası: sıfır radius, 2x grid, IBM Plex ve ciddi veri tablosu düzeni.",
+      "keywords": [
+        "enterprise console",
+        "zero radius",
+        "data table",
+        "IBM Plex",
+        "status tags"
+      ]
+    },
+    "54": {
+      "name": "iOS İnsan Arayüzü",
+      "reference": "Apple HIG",
+      "section": 13,
+      "description": "Large Title, inset-grouped listeler, yarı saydam tab bar; netlik ve içeriğe saygı.",
+      "keywords": [
+        "iOS app screen",
+        "large title",
+        "inset grouped list",
+        "tab bar",
+        "SF system font"
+      ]
+    },
+    "55": {
+      "name": "Material You (M3)",
+      "reference": "Matías Duarte",
+      "section": 13,
+      "description": "Duvar kâğıdından türeyen tonal paletler, dev yuvarlaklıklar, FAB ve pill göstergeli nav.",
+      "keywords": [
+        "Material 3",
+        "dynamic color",
+        "tonal containers",
+        "FAB",
+        "pill nav indicator"
+      ]
+    },
+    "56": {
+      "name": "Jest & Fizik Arayüzü",
+      "reference": "Mike Matas · Paper",
+      "section": 13,
+      "description": "Buton değil fizik: tam ekran içerik kartları, yay animasyonu hissi ve keşfedilen jestler.",
+      "keywords": [
+        "gesture-driven UI",
+        "full-screen cards",
+        "physics animation",
+        "card deck",
+        "chrome-free"
+      ]
+    },
+    "57": {
+      "name": "Neo-Fintech Mobil",
+      "reference": "Monzo · Revolut ekolü",
+      "section": 13,
+      "description": "Kahraman banka kartı, dev bakiye, emoji kategorili işlemler; ciddiyet + ürün sıcaklığı.",
+      "keywords": [
+        "neobank app",
+        "gradient card hero",
+        "big balance",
+        "emoji transactions",
+        "quick actions"
+      ]
+    },
+    "58": {
+      "name": "Veri-Mürekkep Analitiği",
+      "reference": "Edward Tufte",
+      "section": 14,
+      "description": "Data-ink oranı: sparkline'lı KPI'lar, doğrudan etiketli çizgiler, küçük katlar; chartjunk sıfır.",
+      "keywords": [
+        "Tufte dashboard",
+        "data-ink ratio",
+        "sparklines",
+        "small multiples",
+        "direct labeling"
+      ]
+    },
+    "59": {
+      "name": "Gözlemlenebilirlik Paneli",
+      "reference": "Grafana ekolü",
+      "section": 14,
+      "description": "Gece vardiyası ekranı: koyu paneller, eşik renkleri (yeşil/sarı/kırmızı) ve log akışı.",
+      "keywords": [
+        "observability dashboard",
+        "dark ops panels",
+        "threshold colors",
+        "time series",
+        "log stream"
+      ]
+    },
+    "60": {
+      "name": "Ticaret Terminali",
+      "reference": "Bloomberg yoğunluğu",
+      "section": 14,
+      "description": "Siyah cam, amber komut satırı, kırmızı/yeşil tikler; yoğunluk bir özellik, hız bir erdem.",
+      "keywords": [
+        "trading terminal",
+        "amber command line",
+        "watchlist ticks",
+        "market depth",
+        "F-key strip"
+      ]
+    },
+    "61": {
+      "name": "Ürün Yönetim Paneli",
+      "reference": "Shopify Polaris",
+      "section": 14,
+      "description": "Esnaf paneli: sakin yüzeyler, yeşil birincil eylem, yumuşak durum badge'li sipariş tablosu.",
+      "keywords": [
+        "admin panel",
+        "merchant dashboard",
+        "status badges",
+        "metric cards",
+        "task-oriented"
+      ]
     }
   }
 }
