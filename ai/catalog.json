@@ -1,6 +1,6 @@
 {
   "name": "Tasarım Standartları Kataloğu",
-  "description": "61 tasarım yaklaşımının AI kod üretiminde kullanılabilir prompt, palet ve kural seti. Kaynak: *.dc.html sayfalarının prompt blokları + data/catalog-meta.json.",
+  "description": "72 tasarım yaklaşımının AI kod üretiminde kullanılabilir prompt, palet ve kural seti. Kaynak: *.dc.html sayfalarının prompt blokları + data/catalog-meta.json.",
   "sections": [
     {
       "id": 1,
@@ -71,6 +71,11 @@
       "id": 14,
       "title": "Dashboard & yönetim panelleri",
       "description": "Veri yoğun ekranlar: analitik, operasyon, finans ve e-ticaret yönetimi."
+    },
+    {
+      "id": 15,
+      "title": "Ressamlar arayüz tasarlasaydı",
+      "description": "Resim tarihinin büyük dilleri ekrana çevrildi: her usta bir uygulama tasarlasaydı nasıl görünürdü?"
     }
   ],
   "styles": [
@@ -1813,6 +1818,338 @@
         "status badges",
         "metric cards",
         "task-oriented"
+      ]
+    },
+    {
+      "id": 62,
+      "slug": "62-da-vinci-kodeks",
+      "file": "62-da-vinci-kodeks.dc.html",
+      "title": "Da Vinci · Kodeks",
+      "prompt_en": "Design a web note-taking app for inventors styled as a Leonardo da Vinci codex. Parchment background #e8dcc4 with large soft radial-gradient stains, sepia ink #5b4326, sanguine red-chalk accent #a0522d. Two-page spread mockup: left page holds italic EB Garamond handwritten notes with numbered margin annotations; right page shows an inline SVG technical sketch of an ornithopter wing and gear train with dimension arrows, hatched shading and a faint golden-ratio spiral. Vertical page tabs on the spine, a round wax-seal \"new sketch\" button, and one heading mirrored with transform:scaleX(-1). No bright colors, no pure white, no photos, no rigid grid.",
+      "brief_tr": "Parşömen zeminli, sepya mürekkepli, sol sayfası el yazısı sağ sayfası SVG teknik eskiz olan Da Vinci kodeksi tarzı not defteri uygulaması.",
+      "palette": [
+        "#e8dcc4",
+        "#5b4326",
+        "#a0522d",
+        "#8a7a5c",
+        "#2f2416"
+      ],
+      "typography": "EB Garamond italik el yazısı + normal; monospace folyo etiketleri",
+      "layout": "Çift sayfa; solda metin ve marginalia, sağda eskiz, altın oran kılavuzu",
+      "motion": "Yok denecek kadar az; yalnızca renkle vurgu",
+      "avoid": "Parlak renk, düz beyaz, fotoğraf, sert grid",
+      "name": "Da Vinci · Kodeks",
+      "reference": "Leonardo da Vinci",
+      "section": 15,
+      "description": "Parşömen, sepya mürekkep, marginalia ve ayna yazısı; mucit defteri bir araştırma uygulaması olur.",
+      "keywords": [
+        "parchment codex UI",
+        "sepia ink sketches",
+        "marginalia notes",
+        "mirror writing",
+        "golden ratio grid"
+      ]
+    },
+    {
+      "id": 63,
+      "slug": "63-monet-isik",
+      "file": "63-monet-isik.dc.html",
+      "title": "Monet · Işık",
+      "prompt_en": "Design a mobile weather and morning-ritual app in Claude Monet's impressionist style. Show the same screen in three lights, like his haystack series: three 260x560 phone mockups side by side — dawn haze (#f6d8c3 to #c9b8d8), noon (#a8c8e8 to #f0dfa8), sunset (#f2a65e to #c96a8d). Identical layout in each: a huge Cormorant Garamond temperature numeral with glow, blurred cloud color blobs, a 24px+ radius ritual card, and a lily-pond bottom panel of small rounded color dabs. No outlines, no black strokes, no grey shadows — every edge is a color transition.",
+      "brief_tr": "Aynı hava durumu ekranını sabah, öğle ve gün batımı ışığında üç kez gösteren, kontursuz ve renk geçişli Monet tarzı mobil uygulama.",
+      "palette": [
+        "#f6d8c3",
+        "#c9b8d8",
+        "#a8c8e8",
+        "#f2a65e",
+        "#6b7fb3"
+      ],
+      "typography": "Cormorant Garamond başlık ve rakamlar + system sans gövde",
+      "layout": "Yan yana üç telefon; her ekranda aynı düzen, farklı ışık paleti",
+      "motion": "Yumuşak; yalnızca renk geçişleri ve buğu hissi",
+      "avoid": "Keskin kenar, siyah kontur, gri gölge, sert tipografi",
+      "name": "Monet · Işık",
+      "reference": "Claude Monet",
+      "section": 15,
+      "description": "Kontur yok, ışık var: aynı ekran üç ayrı saatin renginde; buğulu lekelerden hava durumu.",
+      "keywords": [
+        "impressionist gradients",
+        "no outlines",
+        "same screen three lights",
+        "soft color dabs",
+        "haystack logic"
+      ]
+    },
+    {
+      "id": 64,
+      "slug": "64-van-gogh-yildizli",
+      "file": "64-van-gogh-yildizli.dc.html",
+      "title": "Van Gogh · Yıldızlı Gece",
+      "prompt_en": "Design a mobile sleep-tracking app in Vincent van Gogh's Starry Night style. One 300x640 phone mockup on a dark swirling page (#0f1a38 with faint repeating-conic texture). Screen sky in deep blue #1a2a5e with nested rotated conic-gradient swirl rings in #4a6db5 and #7b9fd4, thick yellow stars #f7d154 with glowing halo rings, and a crescent moon in the corner. Center sleep score 87 in Fraunces 700 over an impasto patch of short slanted gradient stripes. Progress bar is 13 small skewed brush-dab divs, not a solid bar. Bottom panel: dark cypress silhouette #0f1a38 with an SVG wavy top edge holding a textured sleep-stage chart in layered blues, orange window-light accent #e8944a. Avoid flat fills, thin lines, cold greys and static feel.",
+      "brief_tr": "Girdaplı lacivert gökyüzü, sarı yıldız vurguları ve fırça darbesi ilerleme çubuğuyla Yıldızlı Gece tablosu gibi kurulmuş uyku takip uygulaması.",
+      "palette": [
+        "#1a2a5e",
+        "#f7d154",
+        "#4a6db5",
+        "#0f1a38",
+        "#e8944a"
+      ],
+      "typography": "Fraunces 700 soft-serif başlıklar + system sans gövde",
+      "layout": "Ortada telefon; solda ilkeler, sağda haftalık kartlar; zeminde girdap dokusu",
+      "motion": "Akış hissi; parlayan yıldız haleleri, kıpırdayan doku",
+      "avoid": "Düz dolgular, ince çizgiler, soğuk gri, statik hissiyat",
+      "name": "Van Gogh · Yıldızlı Gece",
+      "reference": "Vincent van Gogh",
+      "section": 15,
+      "description": "Girdaplı gökyüzü, impasto doku ve fırça vuruşu ilerleme çubuğuyla bir uyku uygulaması.",
+      "keywords": [
+        "swirling night sky",
+        "impasto texture",
+        "brushstroke progress bar",
+        "cobalt and yellow",
+        "sleep app"
+      ]
+    },
+    {
+      "id": 65,
+      "slug": "65-picasso-kubist",
+      "file": "65-picasso-kubist.dc.html",
+      "title": "Picasso · Kübist",
+      "prompt_en": "Design a web social profile app in a Picasso cubist style. Beige canvas #e8d8b8, earth ochre #c8a24a, brick #b5502e, blue-period #3e6b8c, near-black #1c1a17. The profile \"portrait\" is fractured into 5-6 flat clip-path polygons showing the same face from different angles at once: a frontal circle eye, a black profile nose triangle, offset mouth bars, all outlined with thick black divs. Cards are deliberately rotated (-2deg to 1.5deg) in an asymmetric grid with 3-4px black borders and hard offset box-shadows. Section headings in Archivo 800 uppercase sit on shifted color blocks like cut-and-paste collage; one card carries a newspaper texture strip of thin repeating lines. Avoid symmetry, photographic realism, soft gradients and single perspective.",
+      "brief_tr": "Profil portresini clip-path poligonlara bölen, kartları döndürülmüş, kalın siyah konturlu ve kolaj dokulu kübist sosyal uygulama.",
+      "palette": [
+        "#e8d8b8",
+        "#c8a24a",
+        "#b5502e",
+        "#3e6b8c",
+        "#1c1a17"
+      ],
+      "typography": "Archivo 800 uppercase başlıklar + system sans gövde",
+      "layout": "Asimetrik üç kolon; döndürülmüş kartlar, açılı kalın siyah ayraçlar",
+      "motion": "Yok; gerilim statik açı farklarından gelir",
+      "avoid": "Simetri, fotoğrafik gerçeklik, yumuşak geçiş, tek perspektif",
+      "name": "Picasso · Kübist",
+      "reference": "Pablo Picasso",
+      "section": 15,
+      "description": "Portre çokgen parçalara bölünür, kartlar eğilir, grid kasıtla kırılır: tek bakış yetmez.",
+      "keywords": [
+        "cubist fragmented portrait",
+        "clip-path polygons",
+        "rotated cards",
+        "collage layout",
+        "multiple perspectives"
+      ]
+    },
+    {
+      "id": 66,
+      "slug": "66-dali-eriyen-saat",
+      "file": "66-dali-eriyen-saat.dc.html",
+      "title": "Dalí · Eriyen Saat",
+      "prompt_en": "Design a surrealist Dalí-inspired alarm and dream-journal mobile app page. Desert-horizon background: pale turquoise sky #bfd8d2 fading to sand #d9b98a, long skewed shadows. In a 300x640 phone mockup, a melting digital clock: Cormorant Garamond digits individually skewY-drooped toward the bottom edge, drip shapes hanging below the card. Alarm cards tilt at slight angles, one standing on two thin 26px legs. Add a cloud-shaped dream-journal card with italic handwriting, a curving trail of 3px ant dots, and a second melting clock draped over a table edge. Palette adds #8a5a3b, #2e2620, #c9542e.",
+      "brief_tr": "Dalí'nin eriyen saatlerini çöl ufkunda bir alarm ve rüya günlüğüne çeviren sürreal mobil sayfa.",
+      "palette": [
+        "#bfd8d2",
+        "#d9b98a",
+        "#8a5a3b",
+        "#2e2620",
+        "#c9542e"
+      ],
+      "typography": "Cormorant Garamond (eriyen rakamlar) + system sans + monospace etiketler",
+      "layout": "Sol ilke kolonu + çöl sahnesi; telefon, masadan sarkan saat, upuzun gölgeler",
+      "motion": "Statik; erime hissi skew ve damla radius'larla verilir",
+      "avoid": "Düz dikdörtgen saatler, simetrik grid, kurumsal ciddiyet, kalabalık ekran",
+      "name": "Dalí · Eriyen Saat",
+      "reference": "Salvador Dalí",
+      "section": 15,
+      "description": "Saat kadranı erir, alarm kartları uzun bacaklar üstünde durur; sürreal bir zaman uygulaması.",
+      "keywords": [
+        "melting clock UI",
+        "surreal desert horizon",
+        "dripping cards",
+        "dream journal",
+        "long shadows"
+      ]
+    },
+    {
+      "id": 67,
+      "slug": "67-hokusai-dalga",
+      "file": "67-hokusai-dalga.dc.html",
+      "title": "Hokusai · Büyük Dalga",
+      "prompt_en": "Design a Hokusai ukiyo-e surf-report app page. Paper background #f2e8d5 with faint print texture, strict flat color layers, no gradients or shadows; every box carries a 2px ink (#2b2b2b) woodblock contour. Hero: a Great Wave built in SVG — Prussian blue (#1b4470) curling crest, foam claws as rows of scallop circles, a small snow-capped Fuji triangle (#8a9bb0) behind. The wave IS the height gauge: show two states, a small 1.2m swell and a towering 3.4m wave. A 300x640 phone mockup lists wind, tide, period in contoured label boxes with one vertical-rl label, plus a square red hanko seal (#b5442c). Headings in Zen Antique.",
+      "brief_tr": "Hokusai'nin Büyük Dalga baskısını, dalga boyunu bizzat dalganın boyuyla gösteren bir sörf raporu uygulamasına çeviren ukiyo-e sayfası.",
+      "palette": [
+        "#f2e8d5",
+        "#1b4470",
+        "#8a9bb0",
+        "#b5442c",
+        "#2b2b2b"
+      ],
+      "typography": "Zen Antique başlıklar + system sans veri satırları + monospace etiketler; bir etikette dikey yazı (vertical-rl)",
+      "layout": "Sol ilke kolonu + telefon mockup + iki durumlu dalga panelleri; her kutu 2px konturlu düz katman",
+      "motion": "Yok; baskı gibi statik, durumlar ayrı kareler",
+      "avoid": "Degrade, fotoğraf, gölge, renk kalabalığı",
+      "name": "Hokusai · Büyük Dalga",
+      "reference": "Katsushika Hokusai",
+      "section": 15,
+      "description": "Ukiyo-e katmanları: Prusya mavisi dalga bizzat veri göstergesi, kırmızı mühür imza olur.",
+      "keywords": [
+        "ukiyo-e flat layers",
+        "great wave gauge",
+        "prussian blue",
+        "foam claws",
+        "red hanko seal"
+      ]
+    },
+    {
+      "id": 68,
+      "slug": "68-klimt-altin",
+      "file": "68-klimt-altin.dc.html",
+      "title": "Klimt · Altın",
+      "prompt_en": "Design a Gustav Klimt Golden Period private-banking app page. Deep umber background #1c1710 with wide dark gaps between modules. Every gold surface is textured, never flat: gradient #c9a227 to #e8cf6a to #a8821c layered with CSS mosaics — repeating-linear square grids, repeating-conic spirals, repeating-radial almond eyes — one distinct motif per asset card. In a 300x640 phone mockup: an ornamental ring frieze strip, a large Cinzel gold total (₺48.2M), three mosaic asset cards, and a chart whose gold line dissolves into scattered tiny gold-leaf squares. A transfer panel shows two overlapping rotated cards embraced by a shared radial gold halo. Body text in Cormorant Garamond, accents #7a5c1e and #d8cfc0.",
+      "brief_tr": "Klimt'in altın varak ve mozaik desenlerini koyu zeminli bir özel bankacılık portföy arayüzüne çeviren Altın Dönem sayfası.",
+      "palette": [
+        "#1c1710",
+        "#c9a227",
+        "#e8cf6a",
+        "#7a5c1e",
+        "#d8cfc0"
+      ],
+      "typography": "Cinzel (Roma kapitali başlık ve rakam) + Cormorant Garamond gövde + monospace etiketler",
+      "layout": "Sol ilke kolonu + telefon portföyü + transfer paneli; modüller arası derin koyu boşluk",
+      "motion": "Yok; ışıltı doku katmanlarıyla, statik verilir",
+      "avoid": "Gümüş/gri, dokusuz düz altın dolgu, beyaz zemin, ince zayıf tipografi",
+      "name": "Klimt · Altın",
+      "reference": "Gustav Klimt",
+      "section": 15,
+      "description": "Koyu zemin üzerinde mozaik desenli altın kartlar; varlık yönetimi Altın Dönem diliyle.",
+      "keywords": [
+        "gold leaf mosaic",
+        "dark opulence",
+        "ornamental patterns",
+        "spiral motifs",
+        "private banking"
+      ]
+    },
+    {
+      "id": 69,
+      "slug": "69-frida-gunluk",
+      "file": "69-frida-gunluk.dc.html",
+      "title": "Frida · Günlük",
+      "prompt_en": "Design a Frida Kahlo emotion-journal mobile app page. Cobalt Casa Azul wall #1f4bb5 as page background. A 300x640 phone shows a cream #f5ead8 journal page framed by CSS botanicals: green #2e7d4f elliptic leaves and layered circle flowers in fuchsia #d81b60 and orange #ef6c00. Today's emotion is one big honest italic Fraunces word (\"Ağır\"). Replace the mood scale with ex-voto retablo heart cards — CSS hearts with flame, crack and flower variants. Add a Caveat handwritten entry with a votive date strip, a bead-necklace divider of colored dots, and a zigzag kilim repeating-linear-gradient strip instead of a bottom nav.",
+      "brief_tr": "Frida'nın kobalt duvarını ve ex-voto kalplerini bir duygu günlüğüne çeviren folk-art mobil sayfa.",
+      "palette": [
+        "#1f4bb5",
+        "#f5ead8",
+        "#d81b60",
+        "#2e7d4f",
+        "#ef6c00"
+      ],
+      "typography": "Fraunces italik başlık + Caveat el yazısı vurgular + system sans gövde",
+      "layout": "Sol ilke kolonu + krem defter sayfalı telefon; botanik çerçeve kenarlardan uzanır",
+      "motion": "Yok; el işi nesne gibi statik durur",
+      "avoid": "Pastel soğukluk, minimalist boşluk, gri tonlar, duygusuz ikonlar",
+      "name": "Frida · Günlük",
+      "reference": "Frida Kahlo",
+      "section": 15,
+      "description": "Kobalt duvar, botanik çerçeveler ve ex-voto kalp kartları; duygular saklanmaz, boyanır.",
+      "keywords": [
+        "cobalt blue wall",
+        "botanical frames",
+        "ex-voto heart cards",
+        "mexican folk palette",
+        "emotion journal"
+      ]
+    },
+    {
+      "id": 70,
+      "slug": "70-kandinsky-senestezi",
+      "file": "70-kandinsky-senestezi.dc.html",
+      "title": "Kandinsky · Senestezi",
+      "prompt_en": "Design a synesthetic music-visualizer web app as if painted by Kandinsky. Cream canvas (#f4efe6) with near-black ink (#1d1b1a) and accents #d4462e, #2660a4, #e8a13c, #3f7d3a. The main stage is a Composition VIII-style arrangement where every shape IS the interface: a large concentric bass circle in the corner, rotated black line bundles for strings, pulsing colored dots for note hits, a checkerboard strip and semicircles, each with tiny 9px monospace instrument labels. Below it a dark player bar with segmented colored progress; on the right a shape-to-instrument legend panel and a recording widget whose mic level is shown by growing circles. Work Sans, hard 2px borders, offset flat shadow, no gradients on the page chrome, no photos.",
+      "brief_tr": "Kandinsky'nin Composition VIII kompozisyonunu canlı müzik görselleştiricisine çeviren, her şeklin bir enstrüman kanalı olduğu krem sahneli kulak eğitimi uygulaması.",
+      "palette": [
+        "#f4efe6",
+        "#1d1b1a",
+        "#d4462e",
+        "#2660a4",
+        "#e8a13c",
+        "#3f7d3a"
+      ],
+      "typography": "Work Sans 400–700 + monospace enstrüman etiketleri",
+      "layout": "Sol ilke kolonu + orta kompozisyon sahnesi + sağ lejant paneli",
+      "motion": "Nota daireleri ritimle nabız gibi büyüyüp küçülür",
+      "avoid": "Fotoğraf, degrade, simetrik grid, gri tekdüzelik",
+      "name": "Kandinsky · Senestezi",
+      "reference": "Wassily Kandinsky",
+      "section": 15,
+      "description": "Her şekil bir enstrüman, kompozisyon bir partitur: müzik görselleştirici arayüzün kendisi.",
+      "keywords": [
+        "synesthesia visualizer",
+        "shapes as instruments",
+        "composition VIII",
+        "point line plane",
+        "music as geometry"
+      ]
+    },
+    {
+      "id": 71,
+      "slug": "71-rembrandt-isik-odasi",
+      "file": "71-rembrandt-isik-odasi.dc.html",
+      "title": "Rembrandt · Işık Odası",
+      "prompt_en": "Design a chiaroscuro photographer-portfolio web app in Rembrandt's visual language. Deep umber stage (#171009) with one single light source: a huge soft radial gradient of warm amber (#e8b25c) falling from the top-left. Gallery cards emerge from darkness toward the light — near cards glow with amber-lit surfaces and thin gold borders, far cards sink to 40–60% brightness and lose detail. Build stylized CSS busts: amber face oval, white ruff collar, dark shoulders. Add a lighting-tutorial pair: the same portrait lit from left and from right, shadow flipping sides, plus a Night Watch group card where one figure stands fully lit among half-shadowed ones. Playfair Display headings, warm browns only (#8a5a2b, #d8c8a8, #3a2a18), never cold gray.",
+      "brief_tr": "Tek sıcak ışık kaynağından beslenen, kartların karanlıktan aydınlığa doğru belirdiği, ışık yönü eğitimli chiaroscuro portfolyo arayüzü.",
+      "palette": [
+        "#171009",
+        "#e8b25c",
+        "#8a5a2b",
+        "#d8c8a8",
+        "#3a2a18"
+      ],
+      "typography": "Playfair Display başlıklar + sistem sans gövde + monospace etiketler",
+      "layout": "Sol ilke kolonu + sağda ışığa göre kademelenen galeri ızgarası",
+      "motion": "Yok denecek kadar az; parlaklık geçişleri hover ile yumuşar",
+      "avoid": "Düz aydınlatma, soğuk beyaz, çok ışık kaynağı, pastel",
+      "name": "Rembrandt · Işık Odası",
+      "reference": "Rembrandt van Rijn",
+      "section": 15,
+      "description": "Tek sıcak ışık kaynağı, karanlıktan çıkan kartlar; chiaroscuro bir galeri uygulaması olur.",
+      "keywords": [
+        "chiaroscuro gallery",
+        "single light source",
+        "amber on dark",
+        "portrait cards",
+        "light direction study"
+      ]
+    },
+    {
+      "id": 72,
+      "slug": "72-osman-hamdi-sabir",
+      "file": "72-osman-hamdi-sabir.dc.html",
+      "title": "Osman Hamdi · Sabır",
+      "prompt_en": "Design a focus-and-habit app landing born from Osman Hamdi's The Tortoise Trainer (1906). Dim plaster wall (#3b2415, #a8845a); all content sits inside a huge arch (border-radius 610px 610px 0 0) lit by a warm radial glow from the top, with ochre #c96f2e, Iznik #1f6f5c and robe-red #8a2f1f accents. Center a 300x640 phone on warm cream (#e8d5b5): the focus timer is a progress ring on which a tiny CSS tortoise crawls via a 90s rotation, plus a gentle no-urgency reminder card. Right column lists habits as baby tortoises whose shells grow richer at 3, 21 and 90 days. Spectral headings, monospace digits. No neon, no countdown anxiety, no gamification pressure.",
+      "brief_tr": "Kaplumbağa Terbiyecisi'nin kemer ışığında kurulan, sayacı kaplumbağa halkası olan, kabukları İznik motifine dönüşen aceleye kapalı odak uygulaması.",
+      "palette": [
+        "#3b2415",
+        "#c96f2e",
+        "#a8845a",
+        "#1f6f5c",
+        "#8a2f1f",
+        "#e8d5b5"
+      ],
+      "typography": "Spectral başlıklar + sistem sans gövde + mono sayaç rakamları",
+      "layout": "Dev kemer içinde üç kolon: ilkeler, telefon, kaplumbağa yuvası",
+      "motion": "Tek animasyon: kaplumbağa 90 saniyede halkayı dolaşır",
+      "avoid": "Neon, kırmızı geri sayım, soğuk minimalizm, oyunlaştırma baskısı",
+      "name": "Osman Hamdi · Sabır",
+      "reference": "Osman Hamdi Bey",
+      "section": 15,
+      "description": "Kaplumbağa Terbiyecisi'nden bir odak uygulaması: kemerden süzülen ışık, kaplumbağa hızında ilerleme.",
+      "keywords": [
+        "tortoise trainer focus app",
+        "ottoman arch light",
+        "turtle pace progress ring",
+        "iznik shell patterns",
+        "patience over pressure"
       ]
     }
   ]

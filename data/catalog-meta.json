@@ -69,6 +69,11 @@
       "id": 14,
       "title": "Dashboard & yönetim panelleri",
       "description": "Veri yoğun ekranlar: analitik, operasyon, finans ve e-ticaret yönetimi."
+    },
+    {
+      "id": 15,
+      "title": "Ressamlar arayüz tasarlasaydı",
+      "description": "Resim tarihinin büyük dilleri ekrana çevrildi: her usta bir uygulama tasarlasaydı nasıl görünürdü?"
     }
   ],
   "styles": {
@@ -805,6 +810,149 @@
         "status badges",
         "metric cards",
         "task-oriented"
+      ]
+    },
+    "62": {
+      "name": "Da Vinci · Kodeks",
+      "reference": "Leonardo da Vinci",
+      "section": 15,
+      "description": "Parşömen, sepya mürekkep, marginalia ve ayna yazısı; mucit defteri bir araştırma uygulaması olur.",
+      "keywords": [
+        "parchment codex UI",
+        "sepia ink sketches",
+        "marginalia notes",
+        "mirror writing",
+        "golden ratio grid"
+      ]
+    },
+    "63": {
+      "name": "Monet · Işık",
+      "reference": "Claude Monet",
+      "section": 15,
+      "description": "Kontur yok, ışık var: aynı ekran üç ayrı saatin renginde; buğulu lekelerden hava durumu.",
+      "keywords": [
+        "impressionist gradients",
+        "no outlines",
+        "same screen three lights",
+        "soft color dabs",
+        "haystack logic"
+      ]
+    },
+    "64": {
+      "name": "Van Gogh · Yıldızlı Gece",
+      "reference": "Vincent van Gogh",
+      "section": 15,
+      "description": "Girdaplı gökyüzü, impasto doku ve fırça vuruşu ilerleme çubuğuyla bir uyku uygulaması.",
+      "keywords": [
+        "swirling night sky",
+        "impasto texture",
+        "brushstroke progress bar",
+        "cobalt and yellow",
+        "sleep app"
+      ]
+    },
+    "65": {
+      "name": "Picasso · Kübist",
+      "reference": "Pablo Picasso",
+      "section": 15,
+      "description": "Portre çokgen parçalara bölünür, kartlar eğilir, grid kasıtla kırılır: tek bakış yetmez.",
+      "keywords": [
+        "cubist fragmented portrait",
+        "clip-path polygons",
+        "rotated cards",
+        "collage layout",
+        "multiple perspectives"
+      ]
+    },
+    "66": {
+      "name": "Dalí · Eriyen Saat",
+      "reference": "Salvador Dalí",
+      "section": 15,
+      "description": "Saat kadranı erir, alarm kartları uzun bacaklar üstünde durur; sürreal bir zaman uygulaması.",
+      "keywords": [
+        "melting clock UI",
+        "surreal desert horizon",
+        "dripping cards",
+        "dream journal",
+        "long shadows"
+      ]
+    },
+    "67": {
+      "name": "Hokusai · Büyük Dalga",
+      "reference": "Katsushika Hokusai",
+      "section": 15,
+      "description": "Ukiyo-e katmanları: Prusya mavisi dalga bizzat veri göstergesi, kırmızı mühür imza olur.",
+      "keywords": [
+        "ukiyo-e flat layers",
+        "great wave gauge",
+        "prussian blue",
+        "foam claws",
+        "red hanko seal"
+      ]
+    },
+    "68": {
+      "name": "Klimt · Altın",
+      "reference": "Gustav Klimt",
+      "section": 15,
+      "description": "Koyu zemin üzerinde mozaik desenli altın kartlar; varlık yönetimi Altın Dönem diliyle.",
+      "keywords": [
+        "gold leaf mosaic",
+        "dark opulence",
+        "ornamental patterns",
+        "spiral motifs",
+        "private banking"
+      ]
+    },
+    "69": {
+      "name": "Frida · Günlük",
+      "reference": "Frida Kahlo",
+      "section": 15,
+      "description": "Kobalt duvar, botanik çerçeveler ve ex-voto kalp kartları; duygular saklanmaz, boyanır.",
+      "keywords": [
+        "cobalt blue wall",
+        "botanical frames",
+        "ex-voto heart cards",
+        "mexican folk palette",
+        "emotion journal"
+      ]
+    },
+    "70": {
+      "name": "Kandinsky · Senestezi",
+      "reference": "Wassily Kandinsky",
+      "section": 15,
+      "description": "Her şekil bir enstrüman, kompozisyon bir partitur: müzik görselleştirici arayüzün kendisi.",
+      "keywords": [
+        "synesthesia visualizer",
+        "shapes as instruments",
+        "composition VIII",
+        "point line plane",
+        "music as geometry"
+      ]
+    },
+    "71": {
+      "name": "Rembrandt · Işık Odası",
+      "reference": "Rembrandt van Rijn",
+      "section": 15,
+      "description": "Tek sıcak ışık kaynağı, karanlıktan çıkan kartlar; chiaroscuro bir galeri uygulaması olur.",
+      "keywords": [
+        "chiaroscuro gallery",
+        "single light source",
+        "amber on dark",
+        "portrait cards",
+        "light direction study"
+      ]
+    },
+    "72": {
+      "name": "Osman Hamdi · Sabır",
+      "reference": "Osman Hamdi Bey",
+      "section": 15,
+      "description": "Kaplumbağa Terbiyecisi'nden bir odak uygulaması: kemerden süzülen ışık, kaplumbağa hızında ilerleme.",
+      "keywords": [
+        "tortoise trainer focus app",
+        "ottoman arch light",
+        "turtle pace progress ring",
+        "iznik shell patterns",
+        "patience over pressure"
       ]
     }
   }

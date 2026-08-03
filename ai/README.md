@@ -6,7 +6,7 @@ okunabilir hâlidir. **Elle düzenlemeyin** — kaynak HTML değiştiğinde
 
 ## İçerik
 
-- `catalog.json` — 61 stilin ve 14 bölümün tamamı tek dosyada.
+- `catalog.json` — 72 stilin ve 15 bölümün tamamı tek dosyada.
   Her stil kaydı: `id`, `slug`, `title`, `section`, `reference` (ekol/kaynak),
   `description`, `keywords`, `prompt_en`, `brief_tr`, `palette` (hex listesi),
   `typography`, `layout`, `motion`, `avoid`, `file` (kaynak sayfa).
@@ -28,3 +28,6 @@ bir görsel stille birleştirerek kullanın. 45 numaralı kayıt bir uyarı
 sayfasıdır — `avoid` listesi orada özellikle bağlayıcıdır. 46–61 arası
 sayfalar platform/ürün standartlarıdır (masaüstü, web app, mobil, panel);
 hem görsel dil hem düzen şablonu olarak tek başına kullanılabilirler.
+62–72 arası "Ressamlar arayüz tasarlasaydı" serisidir: bir ressamın görsel
+dilini uygulamaya çeviren sanatsal stiller — cesur işlerde tek başına,
+ticari işlerde bir platform standardıyla harmanlanarak kullanılır.
