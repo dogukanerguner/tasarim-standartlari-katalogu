@@ -14,7 +14,14 @@ Klasik stil rehberleri insanlara anlatır; bu katalog aynı anda **makinelere de
 2. **Prompt kaynağı** — sayfanın altındaki blokta o stilin detaylı İngilizce üretim promptu, Türkçe brief'i, renk paleti, tipografisi, düzen/hareket kuralları ve **kaçınılacaklar** listesi bulunur; tek tıkla seçilip kopyalanır.
 3. **Makine katmanı** — aynı bilgi [`ai/catalog.json`](ai/catalog.json) ve stil başına [`ai/styles/*.md`](ai/styles) dosyalarında yapısal olarak da mevcuttur. Bir LLM'e ya da kod asistanına "07 numaralı stilde bir landing page yap" diyebilmeniz için.
 
-Katalog sayfasının kendisi de bu katmandan beslenir: arama (isim, ekol, anahtar kelime, hatta `#hex` kodu), bölüm filtreleri, palet noktaları ve **karttan tek tıkla prompt kopyalama** doğrudan `ai/catalog.json` üzerinden çalışır. Klavye kısayolları: `/` ara, `Esc` temizle, `↵` ilk sonucu aç, 🎲 rastgele stil.
+Katalog sayfasının kendisi de bu katmandan beslenir: arama (isim, ekol, anahtar kelime, hatta `#hex` kodu), bölüm filtreleri, palet noktaları ve **karttan tek tıkla prompt kopyalama** doğrudan `ai/catalog.json` üzerinden çalışır. Klavye kısayolları: `/` ara, `Esc` temizle, `↵` ilk sonucu aç, 🎲 rastgele stil. Arayüz **Türkçe/İngilizce** (sağ üstten EN/TR).
+
+## Keşfet
+
+- 🖼 **[Galeri — Aynı uygulama, 72 stil](https://design.asveas.com/Galeri.dc.html)** · aynı yapılacaklar listesi, 72 tasarım dilinde. Favorinizi alıntılayıp paylaşın.
+- 🎨 **[Test — Hangi tasarım stili sensin?](https://design.asveas.com/Test.dc.html)** · 6 soru, 72 stilden biri sizsiniz; sonucu tek linkle paylaşın.
+- 🎛 **[Mikser — İki stili karıştır](https://design.asveas.com/Mikser.dc.html)** · biri görsel dil, biri iskelet: 5.112 harman, tek AI promptu (`?mix=67+57`).
+- 🔌 **[MCP sunucusu](mcp/)** · 72 stili Claude Code / Cursor'a araç olarak bağlar: `stil_ara`, `stil_getir`, `stil_listele`.
 
 ## İçerik — 15 bölüm, 72 sayfa
 

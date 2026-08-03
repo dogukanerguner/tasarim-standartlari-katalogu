@@ -1,0 +1,17 @@
+{
+  "name": "tasarim-katalogu-mcp",
+  "version": "1.0.0",
+  "description": "Tasarım Standartları Kataloğu MCP sunucusu — 72 tasarım stilini (canlı örnek + AI promptu) Claude Code ve Cursor gibi araçlara bağlar.",
+  "bin": { "tasarim-katalogu-mcp": "./index.js" },
+  "main": "index.js",
+  "engines": { "node": ">=18" },
+  "keywords": ["mcp", "design", "design-system", "prompt", "claude", "cursor", "tasarim"],
+  "author": "Doğukan Ergüner",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dogukanerguner/tasarim-standartlari-katalogu.git",
+    "directory": "mcp"
+  },
+  "homepage": "https://design.asveas.com"
+}

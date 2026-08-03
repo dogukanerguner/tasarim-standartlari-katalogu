@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- og:start -->
+<title>Hangi tasarım stili sensin? — Which design style are you?</title>
+<meta name="description" content="Answer 6 questions and find your design style among 72.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Tasarım Standartları Kataloğu">
+<meta property="og:title" content="Hangi tasarım stili sensin? — Which design style are you?">
+<meta property="og:description" content="Answer 6 questions and find your design style among 72.">
+<meta property="og:url" content="https://design.asveas.com/Test.dc.html">
+<meta property="og:image" content="https://design.asveas.com/og/katalog.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Hangi tasarım stili sensin? — Which design style are you?">
+<meta name="twitter:description" content="Answer 6 questions and find your design style among 72.">
+<meta name="twitter:image" content="https://design.asveas.com/og/katalog.jpg">
+<!-- og:end -->
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<style>
+html,body{margin:0;padding:0;background:#14120e}
+a{color:inherit;text-decoration:none}
+::selection{background:#e07a52;color:#17130d}
+.topt{display:block;width:100%;text-align:left;background:#1c1914;border:1px solid rgba(242,237,227,.16);border-radius:12px;color:#f2ede3;font:15px/1.5 'Helvetica Neue',Helvetica,Arial,sans-serif;padding:16px 18px;cursor:pointer;transition:border-color .15s,transform .15s}
+.topt:hover{border-color:#e07a52;transform:translateX(4px)}
+.tbtn{display:inline-flex;align-items:center;gap:8px;font:12px/1 ui-monospace,Menlo,monospace;letter-spacing:.06em;text-transform:uppercase;padding:12px 18px;border:1px solid rgba(242,237,227,.25);border-radius:9px;background:transparent;color:#f2ede3;cursor:pointer;transition:border-color .15s,color .15s}
+.tbtn:hover{border-color:#e07a52;color:#e07a52}
+.tbtn.dolu{background:#e07a52;border-color:#e07a52;color:#17130d;font-weight:700}
+.tbtn.dolu:hover{background:#e8875f;color:#17130d}
+</style>
+</helmet>
+<div style="background:#14120e;color:#f2ede3;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;min-height:100vh;display:flex;flex-direction:column">
+
+  <div style="display:flex;justify-content:space-between;align-items:baseline;gap:20px;padding:20px 40px 0;font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.15em;text-transform:uppercase">
+    <a href="Katalog.dc.html" style-hover="color:#e07a52">← Katalog</a>
+    <span style="color:#e07a52">Hangi tasarım stili sensin?</span>
+  </div>
+
+  <div style="flex:1;display:flex;align-items:center;justify-content:center;padding:40px 20px 70px">
+    <div style="width:100%;max-width:600px">
+
+      <sc-if value="{{ giris }}">
+        <div style="text-align:center">
+          <div style="font-size:52px;margin-bottom:18px">🎨</div>
+          <h1 style="font-size:38px;font-weight:600;letter-spacing:-.02em;line-height:1.1;margin:0 0 14px">Hangi tasarım stili sensin?</h1>
+          <p style="font-size:16px;line-height:1.65;color:rgba(242,237,227,.6);max-width:44ch;margin:0 auto 30px">6 soru, 60 saniye. Sonunda 72 stil arasından seninkini söylüyoruz — Bauhaus çıkarsa şaşırma.</p>
+          <button class="tbtn dolu" onclick="{{ onBasla }}">Başla →</button>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ soruda }}">
+        <div>
+          <div style="display:flex;gap:6px;margin-bottom:26px;justify-content:center">
+            <sc-for list="{{ noktalar }}" as="n"><span style="{{ n.stil }}"></span></sc-for>
+          </div>
+          <div style="font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#e07a52;margin-bottom:10px;text-align:center">Soru {{ soruNo }} / 6</div>
+          <h2 style="font-size:26px;font-weight:600;letter-spacing:-.015em;line-height:1.25;margin:0 0 24px;text-align:center;text-wrap:balance">{{ soru.q }}</h2>
+          <div style="display:flex;flex-direction:column;gap:10px">
+            <sc-for list="{{ soru.opts }}" as="o">
+              <button class="topt" data-oi="{{ $index }}" onclick="{{ onCevap }}"><span style="font-family:ui-monospace,Menlo,monospace;font-size:11px;color:#e07a52;margin-right:10px">{{ o.h }}</span>{{ o.t }}</button>
+            </sc-for>
+          </div>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ sonucta }}">
+        <div style="text-align:center">
+          <div style="font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:rgba(242,237,227,.5);margin-bottom:16px">{{ sonucEtiket }}</div>
+          <div style="background:#1c1914;border:1px solid rgba(224,122,82,.4);border-radius:18px;padding:34px 28px;margin-bottom:22px">
+            <div style="font-family:ui-monospace,Menlo,monospace;font-size:13px;color:#e07a52;margin-bottom:8px">{{ sonuc.no }}</div>
+            <div style="font-size:34px;font-weight:600;letter-spacing:-.02em;line-height:1.1;margin-bottom:8px">{{ sonuc.name }}</div>
+            <div style="font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.08em;color:rgba(242,237,227,.45);margin-bottom:16px">{{ sonuc.reference }}</div>
+            <div style="display:flex;gap:7px;justify-content:center;margin-bottom:16px">
+              <sc-for list="{{ sonuc.palette }}" as="hex"><span style="width:22px;height:22px;border-radius:50%;border:1px solid rgba(242,237,227,.3);background:{{ hex }}"></span></sc-for>
+            </div>
+            <p style="font-size:15px;line-height:1.6;color:rgba(242,237,227,.7);margin:0 0 14px;max-width:42ch;margin-left:auto;margin-right:auto">{{ sonuc.description }}</p>
+            <div style="font-size:14px;color:rgba(242,237,227,.55)">{{ yuzdeSatiri }}</div>
+          </div>
+          <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+            <a class="tbtn dolu" href="{{ sonuc.file }}">Stilini gör →</a>
+            <a class="tbtn" href="{{ xUrl }}" target="_blank" rel="noopener">𝕏 Paylaş</a>
+            <button class="tbtn" onclick="{{ onKopyala }}">{{ kopyaLabel }}</button>
+            <button class="tbtn" onclick="{{ onTekrar }}">↺ Tekrar</button>
+          </div>
+          <sc-if value="{{ misafir }}"><div style="margin-top:22px;font-size:14px;color:rgba(242,237,227,.55)">Bu bir arkadaşının sonucu. <button class="tbtn" onclick="{{ onBasla }}" style="margin-left:8px">Sen de çöz →</button></div></sc-if>
+        </div>
+      </sc-if>
+
+    </div>
+  </div>
+
+  <div style="padding:16px 40px 26px;display:flex;justify-content:space-between;font-family:ui-monospace,Menlo,monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:rgba(242,237,227,.35)">
+    <span>design.asveas.com</span><span>72 stil · bilimsellik iddiası yoktur 🙂</span>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+const SORULAR = [
+  { q: 'Bomboş bir sayfa gördüğünde ilk hissin?',
+    opts: [ { h:'A', t:'Nefes alanı — sakın kimse dokunmasın', w:{25:3,1:2,58:1} },
+            { h:'B', t:'Doldurulmayı bekleyen bir tuval', w:{30:3,68:2,64:1} },
+            { h:'C', t:'Önce ızgaraya bölerim, sonra konuşuruz', w:{53:3,58:2,7:1} },
+            { h:'D', t:'Ortasına neon bir şey fırlatasım gelir', w:{13:3,9:2,66:1} } ] },
+  { q: 'Renk paletin nasıl olurdu?',
+    opts: [ { h:'A', t:'Siyah-beyaz + tek bir vurgu rengi', w:{1:3,58:2,7:2} },
+            { h:'B', t:'Ne kadar çok renk, o kadar iyi', w:{30:3,13:2,64:2} },
+            { h:'C', t:'Toprak, okra ve altın', w:{68:3,72:3,25:1} },
+            { h:'D', t:'Siyah zemin, fosfor yeşili', w:{14:3,60:2,7:1} } ] },
+  { q: 'Gölge hakkında ne düşünüyorsun?',
+    opts: [ { h:'A', t:'Gölge yalandır — her şey düz olsun', w:{53:3,58:2,25:1} },
+            { h:'B', t:'Sert, siyah ve kaymış olacak', w:{9:3,13:2} },
+            { h:'C', t:'Yumuşak, buğulu, rüya gibi', w:{15:3,63:2,66:2} },
+            { h:'D', t:'Tek ışık kaynağı, gerisi dram', w:{72:2,64:2,68:2} } ] },
+  { q: 'İdeal cumartesi öğleden sonrası?',
+    opts: [ { h:'A', t:'Müze ya da galeri, yalnız', w:{63:3,68:2,72:2} },
+            { h:'B', t:'Terminalde yan proje', w:{14:3,60:2,7:2} },
+            { h:'C', t:'Bit pazarı, plaklar, tuhaf objeler', w:{13:3,30:2,9:2} },
+            { h:'D', t:'Doğa yürüyüşü, telefon kapalı', w:{25:3,63:2,58:1} } ] },
+  { q: 'Teslim tarihi yarın. Sen?',
+    opts: [ { h:'A', t:'Sistemim hazır; grid çalışır, ben izlerim', w:{53:3,7:2,58:2} },
+            { h:'B', t:'Kaos bereketlidir — en iyi işim gece 3\'te çıkar', w:{9:3,30:2,64:2} },
+            { h:'C', t:'Sakin. Kaplumbağa hızında ama hiç durmadan', w:{72:3,25:2,63:1} },
+            { h:'D', t:'Uyurum; rüyamda çözülmüş olur', w:{66:3,13:1,15:2} } ] },
+  { q: 'Sence iyi arayüz…',
+    opts: [ { h:'A', t:'Görünmezdir — içerik konuşur', w:{1:3,25:2,58:2} },
+            { h:'B', t:'Bir sahne şovudur', w:{13:2,30:3,68:2} },
+            { h:'C', t:'Veri dolu bir kokpittir', w:{60:3,53:2,7:2} },
+            { h:'D', t:'Bir şiirdir; biraz tuhaf olmalı', w:{66:2,64:3,63:2} } ] }
+];
+
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    let misafirId = 0;
+    try { misafirId = parseInt(new URLSearchParams(location.search).get('s') || '0', 10) || 0; } catch (e) {}
+    this.state = { adim: misafirId ? 99 : -1, skor: {}, data: null, misafirId, kopya: false };
+    this.onBasla = () => this.setState({ adim: 0, skor: {}, misafirId: 0 });
+    this.onTekrar = this.onBasla;
+    this.onCevap = (e) => {
+      const oi = +e.currentTarget.getAttribute('data-oi');
+      this.setState(s => {
+        const w = SORULAR[s.adim].opts[oi].w, skor = { ...s.skor };
+        for (const id in w) skor[id] = (skor[id] || 0) + w[id];
+        return { adim: s.adim + 1, skor };
+      });
+    };
+    this.onKopyala = () => {
+      const st = this._sonucStil();
+      if (!st) return;
+      const url = 'https://design.asveas.com/Test.dc.html?s=' + st.id;
+      navigator.clipboard.writeText(url).then(() => {
+        this.setState({ kopya: true });
+        clearTimeout(this._t); this._t = setTimeout(() => this.setState({ kopya: false }), 1600);
+      }).catch(() => {});
+    };
+  }
+  componentDidMount() {
+    fetch('ai/catalog.json').then(r => r.json())
+      .then(d => this.setState({ data: d })).catch(() => {});
+  }
+  componentWillUnmount() { clearTimeout(this._t); }
+  _kazanan() {
+    const sk = this.state.skor; let top = 0, en = 0, toplam = 0;
+    for (const id in sk) { toplam += sk[id]; if (sk[id] > en) { en = sk[id]; top = +id; } }
+    return { id: top, pay: toplam ? Math.round(100 * en / toplam) : 0 };
+  }
+  _stil(id) {
+    const d = this.state.data;
+    return d ? d.styles.find(s => s.id === id) : null;
+  }
+  _sonucStil() {
+    if (this.state.misafirId) return this._stil(this.state.misafirId);
+    return this._stil(this._kazanan().id);
+  }
+  renderVals() {
+    const st = this.state;
+    const bitti = st.adim >= SORULAR.length;
+    const misafir = st.adim === 99;
+    const sonucta = (bitti || misafir) && !!this.state.data;
+    const base = {
+      giris: st.adim === -1, soruda: st.adim >= 0 && st.adim < SORULAR.length,
+      sonucta, misafir,
+      onBasla: this.onBasla, onCevap: this.onCevap, onTekrar: this.onTekrar, onKopyala: this.onKopyala,
+      kopyaLabel: st.kopya ? '✓ kopyalandı' : '⧉ linki kopyala',
+      soru: SORULAR[Math.min(Math.max(st.adim, 0), SORULAR.length - 1)],
+      soruNo: Math.min(st.adim + 1, 6),
+      noktalar: SORULAR.map((_, i) => ({
+        stil: 'width:9px;height:9px;border-radius:50%;background:' + (i < st.adim ? '#e07a52' : i === st.adim ? '#f2ede3' : 'rgba(242,237,227,.2)')
+      })),
+      sonuc: { no:'', name:'', reference:'', palette:[], description:'', file:'#' },
+      yuzdeSatiri: '', sonucEtiket: '', xUrl: '#'
+    };
+    if (!sonucta) return base;
+    const s = this._sonucStil();
+    if (!s) return base;
+    const kz = misafir ? { pay: 0 } : this._kazanan();
+    const yuzde = misafir ? '' : '%' + kz.pay + ' oranında bu stilsin';
+    const metin = misafir ? 'Bir arkadaşının stili' : 'Senin stilin';
+    const xText = encodeURIComponent('Tasarım stilimi buldum: ' + s.id + ' — ' + s.name + ' 🎨 Sen hangisisin?');
+    const xU = encodeURIComponent('https://design.asveas.com/Test.dc.html');
+    return { ...base,
+      sonucEtiket: metin,
+      sonuc: { no: String(s.id).padStart(2, '0') + ' · ' + (s.reference || ''),
+               name: s.name, reference: '', palette: s.palette || [],
+               description: s.description, file: s.file },
+      yuzdeSatiri: yuzde,
+      xUrl: 'https://twitter.com/intent/tweet?text=' + xText + '&url=' + xU
+    };
+  }
+}
+</script>
+</body>
+</html>

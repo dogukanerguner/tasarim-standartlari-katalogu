@@ -3,77 +3,92 @@
     {
       "id": 1,
       "title": "Küratörsel ve bireysel ekoller",
-      "description": "Tasarımcı ve stüdyo imzası taşıyan, kişisel bir bakışla kurulmuş tarzlar."
+      "description": "Tasarımcı ve stüdyo imzası taşıyan, kişisel bir bakışla kurulmuş tarzlar.",
+      "title_en": "Curatorial schools"
     },
     {
       "id": 2,
       "title": "Çağdaş dijital ürün ve SaaS akımları",
-      "description": "Bugünün yazılım ürünlerinde en sık karşılaşılan dört yerleşik düzen."
+      "description": "Bugünün yazılım ürünlerinde en sık karşılaşılan dört yerleşik düzen.",
+      "title_en": "Contemporary SaaS currents"
     },
     {
       "id": 3,
       "title": "Tarihsel ve sanatsal akımlar",
-      "description": "Web'den önce doğmuş, ekrana taşındığında karakterini koruyan akımlar."
+      "description": "Web'den önce doğmuş, ekrana taşındığında karakterini koruyan akımlar.",
+      "title_en": "Historical art movements"
     },
     {
       "id": 4,
       "title": "Mikro-görsel ve dokusal trendler",
-      "description": "Düzeni değiştirmeyen, yüzey ve malzeme hissini değiştiren üç yaklaşım."
+      "description": "Düzeni değiştirmeyen, yüzey ve malzeme hissini değiştiren üç yaklaşım.",
+      "title_en": "Micro-visual texture trends"
     },
     {
       "id": 5,
       "title": "Sanat akımlarının web karşılıkları",
-      "description": "Yüz yıl önce afişte ve mobilyada tanımlanmış, ekranda hâlâ tanınan görsel diller."
+      "description": "Yüz yıl önce afişte ve mobilyada tanımlanmış, ekranda hâlâ tanınan görsel diller.",
+      "title_en": "Art movements on the web"
     },
     {
       "id": 6,
       "title": "Kültürel ve retro-fütürist diller",
-      "description": "Bir coğrafyadan ya da bir dönemin gelecek hayalinden doğan görsel gelenekler."
+      "description": "Bir coğrafyadan ya da bir dönemin gelecek hayalinden doğan görsel gelenekler.",
+      "title_en": "Cultural & retro-futurist languages"
     },
     {
       "id": 7,
       "title": "Arayüz dönemleri ve yüzey dilleri",
-      "description": "Dijital arayüzün son yirmi yılda geçtiği üç ana yüzey anlayışı."
+      "description": "Dijital arayüzün son yirmi yılda geçtiği üç ana yüzey anlayışı.",
+      "title_en": "Interface eras & surface languages"
     },
     {
       "id": 8,
       "title": "İlke temelli standartlar",
-      "description": "Görünüşten çok kurala dayanan yaklaşımlar: erişilebilirlik, sade dil ve içerik önceliği."
+      "description": "Görünüşten çok kurala dayanan yaklaşımlar: erişilebilirlik, sade dil ve içerik önceliği.",
+      "title_en": "Principle-based standards"
     },
     {
       "id": 9,
       "title": "Mobil arayüz yapıları",
-      "description": "Telefonun fiziksel gerçekliğinden doğan yapısal desenler — her biri ekran örneği ve psikolojik gerekçesiyle."
+      "description": "Telefonun fiziksel gerçekliğinden doğan yapısal desenler — her biri ekran örneği ve psikolojik gerekçesiyle.",
+      "title_en": "Mobile interface structures"
     },
     {
       "id": 10,
       "title": "Davranış tasarımı ve psikoloji",
-      "description": "Kararı yönlendiren mekanizmalar — nasıl çalıştıkları, nerede işe yaradıkları ve nerede sömürüye dönüştükleri."
+      "description": "Kararı yönlendiren mekanizmalar — nasıl çalıştıkları, nerede işe yaradıkları ve nerede sömürüye dönüştükleri.",
+      "title_en": "Behavioral design & psychology"
     },
     {
       "id": 11,
       "title": "Masaüstü uygulama dilleri",
-      "description": "İşletim sistemi ve profesyonel araç estetiği: pencere, panel ve komut yüzeyleri."
+      "description": "İşletim sistemi ve profesyonel araç estetiği: pencere, panel ve komut yüzeyleri.",
+      "title_en": "Desktop application languages"
     },
     {
       "id": 12,
       "title": "Web uygulama standartları",
-      "description": "Kendini kanıtlamış ürün tasarım sistemlerinin web uygulama düzenleri."
+      "description": "Kendini kanıtlamış ürün tasarım sistemlerinin web uygulama düzenleri.",
+      "title_en": "Web application standards"
     },
     {
       "id": 13,
       "title": "Mobil uygulama standartları",
-      "description": "Platform kılavuzları ve çığır açan mobil deneyim dilleri."
+      "description": "Platform kılavuzları ve çığır açan mobil deneyim dilleri.",
+      "title_en": "Mobile application standards"
     },
     {
       "id": 14,
       "title": "Dashboard & yönetim panelleri",
-      "description": "Veri yoğun ekranlar: analitik, operasyon, finans ve e-ticaret yönetimi."
+      "description": "Veri yoğun ekranlar: analitik, operasyon, finans ve e-ticaret yönetimi.",
+      "title_en": "Dashboards & admin panels"
     },
     {
       "id": 15,
       "title": "Ressamlar arayüz tasarlasaydı",
-      "description": "Resim tarihinin büyük dilleri ekrana çevrildi: her usta bir uygulama tasarlasaydı nasıl görünürdü?"
+      "description": "Resim tarihinin büyük dilleri ekrana çevrildi: her usta bir uygulama tasarlasaydı nasıl görünürdü?",
+      "title_en": "If painters designed interfaces"
     }
   ],
   "styles": {
@@ -87,7 +102,8 @@
         "organic spacing"
       ],
       "section": 1,
-      "name": "Editoryal Minimalizm"
+      "name": "Editoryal Minimalizm",
+      "description_en": "Editorial minimalism: magazine-like calm, oversized serif type, hairline rules and generous whitespace."
     },
     "2": {
       "reference": "Locomotive",
@@ -99,7 +115,8 @@
         "avant-garde agency"
       ],
       "section": 1,
-      "name": "Akışkan & Sürükleyici"
+      "name": "Akışkan & Sürükleyici",
+      "description_en": "Fluid immersive agency style: liquid transitions, cinematic depth and art-directed motion."
     },
     "3": {
       "reference": "Active Theory",
@@ -111,7 +128,8 @@
         "premium cybernetic UI"
       ],
       "section": 1,
-      "name": "Gelecekçi Cyber"
+      "name": "Gelecekçi Cyber",
+      "description_en": "Futuristic cyber immersion: dark stage, glowing particles and playful 3D atmosphere."
     },
     "4": {
       "reference": "Sagmeister",
@@ -123,7 +141,8 @@
         "layered chaotic typography"
       ],
       "section": 1,
-      "name": "Brütalist & Provokatif"
+      "name": "Brütalist & Provokatif",
+      "description_en": "Anti-design provocation: broken grids, layered chaos and rule-breaking typography."
     },
     "5": {
       "reference": "Dieter Rams",
@@ -135,7 +154,8 @@
         "precise grid"
       ],
       "section": 1,
-      "name": "Fonksiyonel Endüstriyel"
+      "name": "Fonksiyonel Endüstriyel",
+      "description_en": "Functional industrial rationalism: 'less but better', muted neutrals and precise grids."
     },
     "6": {
       "reference": "David Carson",
@@ -147,7 +167,8 @@
         "deconstructivist UI"
       ],
       "section": 1,
-      "name": "Grunge Tipografi"
+      "name": "Grunge Tipografi",
+      "description_en": "Grunge typography: distressed textures, overlapping type and deliberate visual noise."
     },
     "7": {
       "reference": "Linear / Vercel",
@@ -159,7 +180,8 @@
         "crisp sans-serif"
       ],
       "section": 2,
-      "name": "Karanlık SaaS"
+      "name": "Karanlık SaaS",
+      "description_en": "Dark SaaS elegance: crisp sans, 1px borders and subtle neon glows on near-black."
     },
     "8": {
       "reference": "Apple / Microsoft",
@@ -171,7 +193,8 @@
         "hierarchy"
       ],
       "section": 2,
-      "name": "Bento Grid"
+      "name": "Bento Grid",
+      "description_en": "Bento grid: modular rounded cells of mixed sizes organizing content at a glance."
     },
     "9": {
       "reference": "Figma / Gumroad",
@@ -183,7 +206,8 @@
         "raw typography"
       ],
       "section": 2,
-      "name": "Neo-Brütalizm"
+      "name": "Neo-Brütalizm",
+      "description_en": "Neo-brutalism: loud pastels, thick black outlines and hard offset shadows."
     },
     "10": {
       "reference": "Stripe ekolü",
@@ -194,7 +218,8 @@
         "financial app UI"
       ],
       "section": 2,
-      "name": "B2B İskeletizm"
+      "name": "B2B İskeletizm",
+      "description_en": "B2B skeletal minimalism: flawless gradients and trustworthy clean white layouts."
     },
     "11": {
       "reference": "1919 →",
@@ -206,7 +231,8 @@
         "asymmetrical functional grid"
       ],
       "section": 3,
-      "name": "Bauhaus"
+      "name": "Bauhaus",
+      "description_en": "Bauhaus: primary colors, elemental geometry and form-follows-function order."
     },
     "12": {
       "reference": "Uluslararası",
@@ -217,7 +243,8 @@
         "functional asymmetric structure"
       ],
       "section": 3,
-      "name": "İsviçre Izgarası"
+      "name": "İsviçre Izgarası",
+      "description_en": "Swiss grid: objective typography, mathematical layout and disciplined hierarchy."
     },
     "13": {
       "reference": "Milenyum",
@@ -228,7 +255,8 @@
         "iridescent gradient UI"
       ],
       "section": 3,
-      "name": "Y2K Saykodelik"
+      "name": "Y2K Saykodelik",
+      "description_en": "Y2K psychedelia: chrome gradients, bubble shapes and glossy retro-future excess."
     },
     "14": {
       "reference": "Monokrom",
@@ -240,7 +268,8 @@
         "ASCII accents"
       ],
       "section": 3,
-      "name": "Retro Terminal"
+      "name": "Retro Terminal",
+      "description_en": "Retro terminal: phosphor green on black, monospace everything and CRT flavor."
     },
     "15": {
       "reference": "Buzlu cam",
@@ -251,7 +280,8 @@
         "multi-layered dashboard"
       ],
       "section": 4,
-      "name": "Glassmorphism"
+      "name": "Glassmorphism",
+      "description_en": "Glassmorphism: frosted translucent panels floating over vivid blurred color."
     },
     "16": {
       "reference": "Kabartma",
@@ -262,7 +292,8 @@
         "monochromatic"
       ],
       "section": 4,
-      "name": "Neomorphism"
+      "name": "Neomorphism",
+      "description_en": "Neumorphism: soft extruded surfaces with delicate inner and outer shadows."
     },
     "17": {
       "reference": "3D kil",
@@ -273,7 +304,8 @@
         "bubbly playful interface"
       ],
       "section": 4,
-      "name": "Claymorphism"
+      "name": "Claymorphism",
+      "description_en": "Claymorphism: chubby 3D clay shapes, cheerful colors and rounded softness."
     },
     "18": {
       "reference": "1890—1910",
@@ -285,7 +317,8 @@
         "muted earthy palette"
       ],
       "section": 5,
-      "name": "Art Nouveau"
+      "name": "Art Nouveau",
+      "description_en": "Art Nouveau: organic whiplash curves, botanical ornament and elegant flow."
     },
     "19": {
       "reference": "1920—1939",
@@ -296,7 +329,8 @@
         "luxury poster type"
       ],
       "section": 5,
-      "name": "Art Deco"
+      "name": "Art Deco",
+      "description_en": "Art Deco: gilded geometry, fan motifs and glamorous vertical rhythm."
     },
     "20": {
       "reference": "Mondrian",
@@ -308,7 +342,8 @@
         "no diagonals"
       ],
       "section": 5,
-      "name": "De Stijl"
+      "name": "De Stijl",
+      "description_en": "De Stijl: primary color planes locked in an asymmetric black grid."
     },
     "21": {
       "reference": "Rodçenko",
@@ -320,7 +355,8 @@
         "condensed type"
       ],
       "section": 5,
-      "name": "Konstrüktivizm"
+      "name": "Konstrüktivizm",
+      "description_en": "Constructivism: diagonal red-and-black agitation, bold propaganda energy."
     },
     "22": {
       "reference": "Sottsass",
@@ -331,7 +367,8 @@
         "clashing bright colors"
       ],
       "section": 5,
-      "name": "Memphis"
+      "name": "Memphis",
+      "description_en": "Memphis postmodern: playful clashing patterns, squiggles and pastel confetti."
     },
     "23": {
       "reference": "Eames",
@@ -343,7 +380,8 @@
         "walnut"
       ],
       "section": 5,
-      "name": "Mid-Century Modern"
+      "name": "Mid-Century Modern",
+      "description_en": "Mid-century modern: warm optimism, organic shapes and tasteful restraint."
     },
     "24": {
       "reference": "80'ler",
@@ -355,7 +393,8 @@
         "VHS"
       ],
       "section": 6,
-      "name": "Vaporwave / Synthwave"
+      "name": "Vaporwave / Synthwave",
+      "description_en": "Vaporwave: neon sunset gradients, perspective grids and nostalgic haze."
     },
     "25": {
       "reference": "Japonya",
@@ -366,7 +405,8 @@
         "natural imperfect texture"
       ],
       "section": 6,
-      "name": "Ma & Wabi-Sabi"
+      "name": "Ma & Wabi-Sabi",
+      "description_en": "Japanese Ma & wabi-sabi: emptiness as material, imperfection as beauty."
     },
     "26": {
       "reference": "Çini",
@@ -377,7 +417,8 @@
         "cobalt emerald coral on ivory"
       ],
       "section": 6,
-      "name": "Geometrik Motif"
+      "name": "Geometrik Motif",
+      "description_en": "Iznik tile geometry: cobalt and turquoise interlaced Ottoman patterns."
     },
     "27": {
       "reference": "Organik modernizm",
@@ -389,7 +430,8 @@
         "natural materials"
       ],
       "section": 6,
-      "name": "Solarpunk"
+      "name": "Solarpunk",
+      "description_en": "Solarpunk: hopeful green futures, organic curves and sunlit warmth."
     },
     "28": {
       "reference": "2007—2013",
@@ -401,7 +443,8 @@
         "drop shadows"
       ],
       "section": 7,
-      "name": "Skeuomorfizm"
+      "name": "Skeuomorfizm",
+      "description_en": "Skeuomorphism: tactile leather, stitches and real-world material metaphors."
     },
     "29": {
       "reference": "Flat 2.0",
@@ -413,7 +456,8 @@
         "simple geometric icons"
       ],
       "section": 7,
-      "name": "Düz Tasarım"
+      "name": "Düz Tasarım",
+      "description_en": "Flat design: pure color planes, zero depth and confident simplicity."
     },
     "30": {
       "reference": "Anti-minimal",
@@ -425,7 +469,8 @@
         "opulent density"
       ],
       "section": 7,
-      "name": "Maksimalizm"
+      "name": "Maksimalizm",
+      "description_en": "Maximalism: more is more — dense pattern, saturated color, joyful excess."
     },
     "31": {
       "reference": "WCAG 2.2",
@@ -438,7 +483,8 @@
         "clear errors"
       ],
       "section": 8,
-      "name": "Erişilebilirlik Öncelikli"
+      "name": "Erişilebilirlik Öncelikli",
+      "description_en": "Accessibility-first: high contrast, big targets and clarity for everyone."
     },
     "32": {
       "reference": "Sade dil",
@@ -451,7 +497,8 @@
         "no decoration"
       ],
       "section": 8,
-      "name": "Kamu Hizmeti Tasarımı"
+      "name": "Kamu Hizmeti Tasarımı",
+      "description_en": "Plain-language public service: task-first single column, zero decoration."
     },
     "33": {
       "reference": "İçerik önce",
@@ -463,7 +510,8 @@
         "unstyled tables"
       ],
       "section": 8,
-      "name": "Ham HTML Brütalizmi"
+      "name": "Ham HTML Brütalizmi",
+      "description_en": "Raw HTML brutalism: default styles, blue links and honest structure."
     },
     "34": {
       "reference": "Fitts",
@@ -475,7 +523,8 @@
         "Fitts's law study"
       ],
       "section": 9,
-      "name": "Baş Parmak Bölgesi"
+      "name": "Baş Parmak Bölgesi",
+      "description_en": "Thumb-zone mobile layout: primary actions where one hand can reach."
     },
     "35": {
       "reference": "Hick",
@@ -487,7 +536,8 @@
         "28% decision threshold"
       ],
       "section": 9,
-      "name": "Kart Destesi & Swipe"
+      "name": "Kart Destesi & Swipe",
+      "description_en": "Swipeable card deck: one decision per card, tilt and commit."
     },
     "36": {
       "reference": "IKEA etkisi",
@@ -499,7 +549,8 @@
         "justified permission"
       ],
       "section": 9,
-      "name": "Onboarding Akışı"
+      "name": "Onboarding Akışı",
+      "description_en": "Progressive disclosure onboarding: one focused question at a time."
     },
     "37": {
       "reference": "Zeigarnik",
@@ -510,7 +561,8 @@
         "endowed progress bar"
       ],
       "section": 9,
-      "name": "Boş Durum"
+      "name": "Boş Durum",
+      "description_en": "Empty states & first-run: the screen that teaches, not scolds."
     },
     "38": {
       "reference": "Doherty",
@@ -521,7 +573,8 @@
         "destructive confirmation modal"
       ],
       "section": 9,
-      "name": "Alt Sayfa & Katman"
+      "name": "Alt Sayfa & Katman",
+      "description_en": "Bottom sheets & layers: stacked contexts sliding from below."
     },
     "39": {
       "reference": "Değişken ödül",
@@ -532,7 +585,8 @@
         "healthy vs exploitative table"
       ],
       "section": 9,
-      "name": "Sonsuz Akış"
+      "name": "Sonsuz Akış",
+      "description_en": "Infinite feed mechanics: endless scroll, loading rhythm and restraint."
     },
     "40": {
       "reference": "Kayıp kaçınma",
@@ -544,7 +598,8 @@
         "habit loop diagram"
       ],
       "section": 10,
-      "name": "Alışkanlık & Seri"
+      "name": "Alışkanlık & Seri",
+      "description_en": "Hook habit loop: trigger, action, variable reward, investment."
     },
     "41": {
       "reference": "Hedef gradyanı",
@@ -555,7 +610,8 @@
         "leaderboard row highlight"
       ],
       "section": 10,
-      "name": "Oyunlaştırma"
+      "name": "Oyunlaştırma",
+      "description_en": "Gamified progress: XP bars, streaks and badges without pressure."
     },
     "42": {
       "reference": "Cialdini",
@@ -567,7 +623,8 @@
         "verifiable vs fake table"
       ],
       "section": 10,
-      "name": "Sosyal Kanıt & Kıtlık"
+      "name": "Sosyal Kanıt & Kıtlık",
+      "description_en": "Social proof & scarcity: verifiable signals versus fabricated urgency."
     },
     "43": {
       "reference": "Anchoring",
@@ -579,7 +636,8 @@
         "renewal transparency"
       ],
       "section": 10,
-      "name": "Varsayılan & Çapa"
+      "name": "Varsayılan & Çapa",
+      "description_en": "Defaults & anchoring: price framing and pre-selected honest choices."
     },
     "44": {
       "reference": "Zirve–son",
@@ -591,7 +649,8 @@
         "timing budget chart"
       ],
       "section": 10,
-      "name": "Mikro Etkileşim"
+      "name": "Mikro Etkileşim",
+      "description_en": "Micro-interactions & peak-end: the two moments memory keeps."
     },
     "45": {
       "reference": "uyarı",
@@ -602,7 +661,8 @@
         "honest counterpart table"
       ],
       "section": 10,
-      "name": "Karanlık Desenler"
+      "name": "Karanlık Desenler",
+      "description_en": "Dark patterns exposed: six manipulations and their honest counterparts."
     },
     "46": {
       "name": "macOS Masaüstü",
@@ -615,7 +675,8 @@
         "traffic lights",
         "three-pane window",
         "vibrancy"
-      ]
+      ],
+      "description_en": "macOS desktop language: traffic lights, translucent sidebar, three-pane calm."
     },
     "47": {
       "name": "Fluent / Windows 11",
@@ -628,7 +689,8 @@
         "acrylic cards",
         "settings app layout",
         "nav rail"
-      ]
+      ],
+      "description_en": "Fluent / Windows 11: mica texture, acrylic cards, light and depth."
     },
     "48": {
       "name": "Araç-Merkezli Editör",
@@ -641,7 +703,8 @@
         "layers panel",
         "properties panel",
         "Inter typeface"
-      ]
+      ],
+      "description_en": "Tool-centric editor: quiet chrome, star canvas, pixel-precise panels."
     },
     "49": {
       "name": "Komut Paleti",
@@ -654,7 +717,8 @@
         "keyboard-first",
         "floating panel",
         "shortcut badges"
-      ]
+      ],
+      "description_en": "Command palette launcher: keyboard-first floating panel with shortcut badges."
     },
     "50": {
       "name": "Blok Editör Çalışma Alanı",
@@ -667,7 +731,8 @@
         "emoji icons",
         "slash command",
         "toggle blocks"
-      ]
+      ],
+      "description_en": "Block editor workspace: invisible chrome, emoji icons, everything is a block."
     },
     "51": {
       "name": "Pazaryeri Deneyimi",
@@ -680,7 +745,8 @@
         "photo-first cards",
         "rating stars",
         "coral accent"
-      ]
+      ],
+      "description_en": "Marketplace experience: photo-first cards, pill search and trust signals."
     },
     "52": {
       "name": "Medya Akış Arayüzü",
@@ -693,7 +759,8 @@
         "playlist table",
         "player bar",
         "single action color"
-      ]
+      ],
+      "description_en": "Media streaming UI: dark stage, cover-derived gradients, one green action."
     },
     "53": {
       "name": "Kurumsal Veri Sistemi",
@@ -706,7 +773,8 @@
         "data table",
         "IBM Plex",
         "status tags"
-      ]
+      ],
+      "description_en": "Enterprise data system: zero radius, 2x grid and serious data tables."
     },
     "54": {
       "name": "iOS İnsan Arayüzü",
@@ -719,7 +787,8 @@
         "inset grouped list",
         "tab bar",
         "SF system font"
-      ]
+      ],
+      "description_en": "iOS Human Interface: large titles, inset grouped lists, translucent tab bar."
     },
     "55": {
       "name": "Material You (M3)",
@@ -732,7 +801,8 @@
         "tonal containers",
         "FAB",
         "pill nav indicator"
-      ]
+      ],
+      "description_en": "Material You: wallpaper-derived tonal palettes, huge radii and FABs."
     },
     "56": {
       "name": "Jest & Fizik Arayüzü",
@@ -745,7 +815,8 @@
         "physics animation",
         "card deck",
         "chrome-free"
-      ]
+      ],
+      "description_en": "Gesture & physics UI: full-screen cards, spring motion, discoverable gestures."
     },
     "57": {
       "name": "Neo-Fintech Mobil",
@@ -758,7 +829,8 @@
         "big balance",
         "emoji transactions",
         "quick actions"
-      ]
+      ],
+      "description_en": "Neo-fintech mobile: hero gradient card, big balance, emoji transactions."
     },
     "58": {
       "name": "Veri-Mürekkep Analitiği",
@@ -771,7 +843,8 @@
         "sparklines",
         "small multiples",
         "direct labeling"
-      ]
+      ],
+      "description_en": "Data-ink analytics: sparkline KPIs, direct labels, small multiples, zero chartjunk."
     },
     "59": {
       "name": "Gözlemlenebilirlik Paneli",
@@ -784,7 +857,8 @@
         "threshold colors",
         "time series",
         "log stream"
-      ]
+      ],
+      "description_en": "Observability dashboard: dark panels where threshold colors do the talking."
     },
     "60": {
       "name": "Ticaret Terminali",
@@ -797,7 +871,8 @@
         "watchlist ticks",
         "market depth",
         "F-key strip"
-      ]
+      ],
+      "description_en": "Trading terminal: black glass, amber command line, red/green ticks, density as virtue."
     },
     "61": {
       "name": "Ürün Yönetim Paneli",
@@ -810,7 +885,8 @@
         "status badges",
         "metric cards",
         "task-oriented"
-      ]
+      ],
+      "description_en": "Merchant admin panel: calm surfaces, green primary action, soft status badges."
     },
     "62": {
       "name": "Da Vinci · Kodeks",
@@ -823,7 +899,8 @@
         "marginalia notes",
         "mirror writing",
         "golden ratio grid"
-      ]
+      ],
+      "description_en": "Da Vinci's codex: parchment, sepia ink sketches, marginalia and mirror writing."
     },
     "63": {
       "name": "Monet · Işık",
@@ -836,7 +913,8 @@
         "same screen three lights",
         "soft color dabs",
         "haystack logic"
-      ]
+      ],
+      "description_en": "Monet's light: no outlines — the same screen painted at three times of day."
     },
     "64": {
       "name": "Van Gogh · Yıldızlı Gece",
@@ -849,7 +927,8 @@
         "brushstroke progress bar",
         "cobalt and yellow",
         "sleep app"
-      ]
+      ],
+      "description_en": "Van Gogh's starry night: swirling skies, impasto texture, brushstroke progress."
     },
     "65": {
       "name": "Picasso · Kübist",
@@ -862,7 +941,8 @@
         "rotated cards",
         "collage layout",
         "multiple perspectives"
-      ]
+      ],
+      "description_en": "Picasso's cubism: a portrait split into planes, seen from every angle at once."
     },
     "66": {
       "name": "Dalí · Eriyen Saat",
@@ -875,7 +955,8 @@
         "dripping cards",
         "dream journal",
         "long shadows"
-      ]
+      ],
+      "description_en": "Dalí's melting clock: a surreal alarm app where time literally drips."
     },
     "67": {
       "name": "Hokusai · Büyük Dalga",
@@ -888,7 +969,8 @@
         "prussian blue",
         "foam claws",
         "red hanko seal"
-      ]
+      ],
+      "description_en": "Hokusai's great wave: ukiyo-e flat layers where the wave itself is the gauge."
     },
     "68": {
       "name": "Klimt · Altın",
@@ -901,7 +983,8 @@
         "ornamental patterns",
         "spiral motifs",
         "private banking"
-      ]
+      ],
+      "description_en": "Klimt's gold: mosaic-textured golden cards glowing on darkness."
     },
     "69": {
       "name": "Frida · Günlük",
@@ -914,7 +997,8 @@
         "ex-voto heart cards",
         "mexican folk palette",
         "emotion journal"
-      ]
+      ],
+      "description_en": "Frida's diary: cobalt walls, botanical frames and ex-voto hearts for feelings."
     },
     "70": {
       "name": "Kandinsky · Senestezi",
@@ -927,7 +1011,8 @@
         "composition VIII",
         "point line plane",
         "music as geometry"
-      ]
+      ],
+      "description_en": "Kandinsky's synesthesia: shapes as instruments, composition as score."
     },
     "71": {
       "name": "Rembrandt · Işık Odası",
@@ -940,7 +1025,8 @@
         "amber on dark",
         "portrait cards",
         "light direction study"
-      ]
+      ],
+      "description_en": "Rembrandt's chiaroscuro: one warm light, cards emerging from darkness."
     },
     "72": {
       "name": "Osman Hamdi · Sabır",
@@ -953,7 +1039,8 @@
         "turtle pace progress ring",
         "iznik shell patterns",
         "patience over pressure"
-      ]
+      ],
+      "description_en": "Osman Hamdi's patience: a focus app born from The Tortoise Trainer — light through the arch, progress at turtle pace."
     }
   }
 }
