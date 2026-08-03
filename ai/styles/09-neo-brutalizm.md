@@ -2,6 +2,7 @@
 id: 9
 slug: "09-neo-brutalizm"
 title: "Neo-Brütalizm"
+name: "Neo-Brütalizm"
 section: "02 — Çağdaş dijital ürün ve SaaS akımları"
 reference: "Figma / Gumroad"
 palette: ["#f5e9c9", "#0b0b0b", "#ffe94d", "#a1d4ff", "#ffb1d8"]

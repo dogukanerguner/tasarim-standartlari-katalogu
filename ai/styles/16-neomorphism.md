@@ -2,6 +2,7 @@
 id: 16
 slug: "16-neomorphism"
 title: "Neomorphism"
+name: "Neomorphism"
 section: "04 — Mikro-görsel ve dokusal trendler"
 reference: "Kabartma"
 palette: ["#e4e9f2", "#c5cbd8", "#fbffff", "#8fa4d6"]

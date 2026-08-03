@@ -1,9 +1,16 @@
 #!/usr/bin/env python3
-"""Katalogdaki 45 stil sayfasının prompt bloklarını makine tarafından
-okunabilir katmana çıkarır: ai/catalog.json + ai/styles/NN-slug.md.
+"""Stil sayfalarının prompt bloklarını makine tarafından okunabilir
+katmana çıkarır: ai/catalog.json + ai/styles/NN-slug.md.
+
+Kart üstverileri (isim, ekol, açıklama, anahtar kelimeler, bölüm)
+`data/catalog-meta.json` dosyasından okunur — Katalog sayfası da aynı
+katmandan (ai/catalog.json) beslendiği için tek doğruluk kaynağı budur.
 
 Kullanım:  python3 tools/extract_prompts.py
 Kaynak değiştiğinde yeniden çalıştırmak yeterli; çıktılar üzerine yazılır.
+
+Yeni stil eklemek: NN-stil-adi.dc.html sayfasını (prompt bloğuyla) yaz,
+data/catalog-meta.json'a kaydını ekle, bu script'i çalıştır.
 """
 
 import html
@@ -13,6 +20,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "ai"
+META = ROOT / "data" / "catalog-meta.json"
 
 TAG_RE = re.compile(r"<[^>]+>")
 HEX_RE = re.compile(r"#[0-9a-fA-F]{3,8}\b")
@@ -35,6 +43,8 @@ def section_value(block: str, label: str) -> str:
 def parse_style_file(path: Path) -> dict:
     src = path.read_text(encoding="utf-8")
     i = src.find("data-prompt-block")
+    if i < 0:
+        raise SystemExit(f"{path.name}: data-prompt-block bulunamadı")
     block = src[i:]
 
     m = re.search(r"Tasarım promptu — (\d+) — ([^<]+)", block)
@@ -64,63 +74,13 @@ def parse_style_file(path: Path) -> dict:
     }
 
 
-def parse_katalog(path: Path) -> tuple[list[dict], dict[int, dict]]:
-    src = path.read_text(encoding="utf-8")
-
-    sections = []
-    sec_iter = list(
-        re.finditer(
-            r">Bölüm (\d+)[^<]*</div>\s*<h2[^>]*>(.*?)</h2>\s*<p[^>]*>(.*?)</p>",
-            src,
-            re.S,
-        )
-    )
-    for j, m in enumerate(sec_iter):
-        start = m.start()
-        end = sec_iter[j + 1].start() if j + 1 < len(sec_iter) else len(src)
-        sections.append(
-            {
-                "id": int(m.group(1)),
-                "title": strip_tags(m.group(2)),
-                "description": strip_tags(m.group(3)),
-                "_span": (start, end),
-            }
-        )
-
-    cards = {}
-    for m in re.finditer(
-        r'<a href="(\d+)-[^"]*\.dc\.html".*?'
-        r'letter-spacing:-\.01em">(.*?)</span>\s*'
-        r"<span[^>]*>(.*?)</span>.*?"
-        r'margin-top:5px">(.*?)</div>\s*'
-        r"<sc-if[^>]*><div[^>]*>(.*?)</div></sc-if>",
-        src,
-        re.S,
-    ):
-        num = int(m.group(1))
-        pos = m.start()
-        sec = next(
-            (s["id"] for s in sections if s["_span"][0] <= pos < s["_span"][1]), None
-        )
-        cards[num] = {
-            "card_title": strip_tags(m.group(2)),
-            "reference": strip_tags(m.group(3)),
-            "description": strip_tags(m.group(4)),
-            "keywords": [k.strip() for k in strip_tags(m.group(5)).split(",")],
-            "section": sec,
-        }
-
-    for s in sections:
-        del s["_span"]
-    return sections, cards
-
-
 def style_markdown(st: dict, sections_by_id: dict[int, dict]) -> str:
     sec = sections_by_id.get(st["section"], {})
     fm = {
         "id": st["id"],
         "slug": st["slug"],
         "title": st["title"],
+        "name": st["name"],
         "section": f"{st['section']:02d} — {sec.get('title', '')}",
         "reference": st["reference"],
         "palette": st["palette"],
@@ -157,7 +117,9 @@ def style_markdown(st: dict, sections_by_id: dict[int, dict]) -> str:
 
 
 def main() -> None:
-    sections, cards = parse_katalog(ROOT / "Katalog.dc.html")
+    meta = json.loads(META.read_text(encoding="utf-8"))
+    sections = meta["sections"]
+    cards = {int(k): v for k, v in meta["styles"].items()}
     sections_by_id = {s["id"]: s for s in sections}
 
     styles = []
@@ -165,9 +127,15 @@ def main() -> None:
         st = parse_style_file(path)
         card = cards.get(st["id"])
         if card is None:
-            raise SystemExit(f"Katalog kartı bulunamadı: {path.name}")
+            raise SystemExit(
+                f"data/catalog-meta.json içinde kayıt yok: {path.name}"
+            )
         st.update(card)
         styles.append(st)
+
+    missing_pages = set(cards) - {s["id"] for s in styles}
+    if missing_pages:
+        raise SystemExit(f"Meta'da var ama sayfası yok: {sorted(missing_pages)}")
 
     (OUT / "styles").mkdir(parents=True, exist_ok=True)
 
@@ -176,10 +144,10 @@ def main() -> None:
         "description": (
             "45 tasarım yaklaşımının AI kod üretiminde kullanılabilir "
             "prompt, palet ve kural seti. Kaynak: *.dc.html sayfalarının "
-            "prompt blokları."
+            "prompt blokları + data/catalog-meta.json."
         ),
         "sections": sections,
-        "styles": [{k: v for k, v in st.items() if k != "card_title"} for st in styles],
+        "styles": styles,
     }
     (OUT / "catalog.json").write_text(
         json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"

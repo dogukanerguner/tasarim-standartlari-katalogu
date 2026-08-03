@@ -2,6 +2,7 @@
 id: 12
 slug: "12-isvicre-izgara"
 title: "İsviçre Izgarası"
+name: "İsviçre Izgarası"
 section: "03 — Tarihsel ve sanatsal akımlar"
 reference: "Uluslararası"
 palette: ["#f4f4f2", "#0f0f0f", "#e8321e"]

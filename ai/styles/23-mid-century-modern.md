@@ -2,6 +2,7 @@
 id: 23
 slug: "23-mid-century-modern"
 title: "Mid-Century Modern"
+name: "Mid-Century Modern"
 section: "05 — Sanat akımlarının web karşılıkları"
 reference: "Eames"
 palette: ["#f2e8d5", "#c2542a", "#e3b23c", "#4a7c6f", "#7a5c3e"]

@@ -2,6 +2,7 @@
 id: 43
 slug: "43-varsayilan-capa-fiyat"
 title: "Varsayılan & Çapa"
+name: "Varsayılan & Çapa"
 section: "10 — Davranış tasarımı ve psikoloji"
 reference: "Anchoring"
 palette: ["#efece5", "#fbfaf7", "#17160f", "#a8442c"]

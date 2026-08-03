@@ -2,6 +2,7 @@
 id: 44
 slug: "44-mikro-etkilesim-zirve-son"
 title: "Mikro Etkileşim"
+name: "Mikro Etkileşim"
 section: "10 — Davranış tasarımı ve psikoloji"
 reference: "Zirve–son"
 palette: ["#12100e", "#f4f1ea", "#e8b93c", "#4ade8a"]

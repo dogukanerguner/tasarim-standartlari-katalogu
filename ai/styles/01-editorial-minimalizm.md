@@ -2,6 +2,7 @@
 id: 1
 slug: "01-editorial-minimalizm"
 title: "Editoryal Minimalizm"
+name: "Editoryal Minimalizm"
 section: "01 — Küratörsel ve bireysel ekoller"
 reference: "van Schneider"
 palette: ["#faf8f5", "#100f0d", "#ece7df"]

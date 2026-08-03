@@ -2,6 +2,7 @@
 id: 19
 slug: "19-art-deco"
 title: "Art Deco"
+name: "Art Deco"
 section: "05 — Sanat akımlarının web karşılıkları"
 reference: "1920—1939"
 palette: ["#0d1a1c", "#d4af5f", "#f2ead9"]

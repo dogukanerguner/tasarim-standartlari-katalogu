@@ -2,6 +2,7 @@
 id: 32
 slug: "32-kamu-hizmeti-sade-dil"
 title: "Kamu Hizmeti"
+name: "Kamu Hizmeti Tasarımı"
 section: "08 — İlke temelli standartlar"
 reference: "Sade dil"
 palette: ["#ffffff", "#0f4c81", "#00703c", "#ffbf47", "#f3f4f5"]

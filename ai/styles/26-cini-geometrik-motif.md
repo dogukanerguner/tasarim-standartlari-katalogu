@@ -2,6 +2,7 @@
 id: 26
 slug: "26-cini-geometrik-motif"
 title: "Geometrik Motif"
+name: "Geometrik Motif"
 section: "06 — Kültürel ve retro-fütürist diller"
 reference: "Çini"
 palette: ["#f4efe4", "#1d5b8f", "#2e8b74", "#b8402f", "#e8dfc8"]

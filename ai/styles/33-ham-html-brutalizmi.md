@@ -2,6 +2,7 @@
 id: 33
 slug: "33-ham-html-brutalizmi"
 title: "Ham HTML Brütalizmi"
+name: "Ham HTML Brütalizmi"
 section: "08 — İlke temelli standartlar"
 reference: "İçerik önce"
 palette: ["#ffffff", "#000000", "#0000ee", "#551a8b"]

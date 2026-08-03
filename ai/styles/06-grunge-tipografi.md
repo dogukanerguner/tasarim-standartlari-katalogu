@@ -2,6 +2,7 @@
 id: 6
 slug: "06-grunge-tipografi"
 title: "Grunge Tipografi"
+name: "Grunge Tipografi"
 section: "01 — Küratörsel ve bireysel ekoller"
 reference: "David Carson"
 palette: ["#dcd8cd", "#181613", "#b0281a"]

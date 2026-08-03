@@ -2,6 +2,7 @@
 id: 3
 slug: "03-cyber-webgl"
 title: "Gelecekçi Cyber"
+name: "Gelecekçi Cyber"
 section: "01 — Küratörsel ve bireysel ekoller"
 reference: "Active Theory"
 palette: ["#04060a", "#5ffbf1", "#7a5cff", "#dff6f4"]

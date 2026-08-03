@@ -2,6 +2,7 @@
 id: 17
 slug: "17-claymorphism"
 title: "Claymorphism"
+name: "Claymorphism"
 section: "04 — Mikro-görsel ve dokusal trendler"
 reference: "3D kil"
 palette: ["#f6efff", "#7c4dff", "#8ee6c8", "#ffd166", "#ff8db7"]

@@ -2,6 +2,7 @@
 id: 22
 slug: "22-memphis-postmodern"
 title: "Memphis"
+name: "Memphis"
 section: "05 — Sanat akımlarının web karşılıkları"
 reference: "Sottsass"
 palette: ["#f7f2e8", "#1a1a1a", "#e8354e", "#ffbf1f", "#2ec4b6"]

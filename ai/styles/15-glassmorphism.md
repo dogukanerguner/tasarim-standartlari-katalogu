@@ -2,6 +2,7 @@
 id: 15
 slug: "15-glassmorphism"
 title: "Glassmorphism"
+name: "Glassmorphism"
 section: "04 — Mikro-görsel ve dokusal trendler"
 reference: "Buzlu cam"
 palette: ["#1b1035", "#ff5ea8", "#4b7bff", "#22d3b6"]

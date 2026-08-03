@@ -2,6 +2,7 @@
 id: 20
 slug: "20-de-stijl"
 title: "De Stijl"
+name: "De Stijl"
 section: "05 — Sanat akımlarının web karşılıkları"
 reference: "Mondrian"
 palette: ["#f7f5f0", "#111111", "#d42618", "#1449b8", "#f2c500"]

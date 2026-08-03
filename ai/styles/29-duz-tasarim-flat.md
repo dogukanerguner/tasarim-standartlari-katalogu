@@ -2,6 +2,7 @@
 id: 29
 slug: "29-duz-tasarim-flat"
 title: "Düz Tasarım"
+name: "Düz Tasarım"
 section: "07 — Arayüz dönemleri ve yüzey dilleri"
 reference: "Flat 2.0"
 palette: ["#fbfbfc", "#2d7ff9", "#00b58a", "#ff9f1c", "#1f2733"]

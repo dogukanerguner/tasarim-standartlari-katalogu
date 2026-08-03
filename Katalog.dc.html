@@ -8,766 +8,238 @@
 <body>
 <x-dc>
 <helmet>
+<title>Tasarım Standartları Kataloğu</title>
+<meta name="description" content="45 tasarım yaklaşımı: canlı örnek sayfalar + AI kod üretimi için kopyalanabilir prompt, palet ve kural seti." />
 <style>
-html,body{margin:0;padding:0;background:#f4f2ee}
+html,body{margin:0;padding:0;background:#14120e}
 a{color:inherit;text-decoration:none}
-a:hover{color:#a8442c}
+::selection{background:#e07a52;color:#17130d}
+#katalog-ara{background:transparent;border:0;outline:0;color:#f2ede3;font:500 23px/1.35 'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:-.01em;width:100%;min-width:0}
+#katalog-ara::placeholder{color:rgba(242,237,227,.32)}
+.kkey{border:1px solid rgba(242,237,227,.28);border-bottom-width:2px;border-radius:5px;padding:3px 8px;font:11px/1 ui-monospace,Menlo,monospace;color:rgba(242,237,227,.55);white-space:nowrap}
+.kchip{font:11px/1 ui-monospace,Menlo,monospace;letter-spacing:.07em;text-transform:uppercase;padding:9px 13px;border:1px solid rgba(242,237,227,.18);border-radius:999px;background:transparent;color:rgba(242,237,227,.62);cursor:pointer;transition:border-color .15s,color .15s,background .15s;white-space:nowrap}
+.kchip:hover{border-color:rgba(242,237,227,.5);color:#f2ede3}
+.kchip.on{background:#e07a52;border-color:#e07a52;color:#17130d;font-weight:700}
+.kchip.bos{opacity:.35}
+.kcard{width:360px;background:#1c1914;border:1px solid rgba(242,237,227,.12);border-radius:14px;overflow:hidden;transition:transform .18s,border-color .18s,box-shadow .18s}
+.kcard:hover{transform:translateY(-3px);border-color:rgba(224,122,82,.6);box-shadow:0 16px 38px rgba(0,0,0,.42)}
+.kbtn{display:inline-flex;align-items:center;gap:7px;font:11px/1 ui-monospace,Menlo,monospace;letter-spacing:.06em;padding:9px 13px;border:1px solid rgba(242,237,227,.2);border-radius:8px;background:transparent;color:rgba(242,237,227,.75);cursor:pointer;transition:border-color .15s,color .15s;text-transform:uppercase}
+.kbtn:hover{border-color:#e07a52;color:#e07a52}
+.kbtn.ok{border-color:#7fbf8e;color:#7fbf8e}
+@media (max-width:560px){.kpx{padding-left:14px !important;padding-right:14px !important}#katalog-ara{font-size:18px}}
 </style>
 </helmet>
-<div style="background:#f4f2ee;color:#17160f;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;min-height:100vh;padding:0 0 80px">
+<div style="background:#14120e;color:#f2ede3;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;min-height:100vh">
 
-  <div style="display:grid;grid-template-columns:1fr 380px;gap:60px;align-items:end;padding:52px 48px 26px;border-bottom:1px solid #17160f">
-    <div>
-      <div style="font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#8a857a;margin-bottom:22px">Web &amp; mobil tasarım standartları · örnek koleksiyon · 45 sayfa</div>
-      <h1 style="font-size:62px;font-weight:600;line-height:1.02;letter-spacing:-.035em;margin:0;max-width:24ch;text-wrap:balance">Tasarım Standartları Kataloğu</h1>
-    </div>
-    <p style="font-size:15px;line-height:1.6;color:#57544b;margin:0">Her yaklaşım için çalışan bir örnek sayfa hazırlandı. Küçük görüntüler canlı sayfaların kendisidir; tıklayınca tam boyutta açılır. Her sayfanın en altında o tasarımın <b>detaylı promptu</b>, paleti, tipografisi ve kaçınılacaklar listesi bulunur.</p>
+  <div class="kpx" style="display:flex;justify-content:space-between;align-items:baseline;gap:20px;padding:20px 48px 0;font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.15em;text-transform:uppercase">
+    <span style="color:#e07a52">Tasarım Standartları Kataloğu</span>
+    <span style="display:flex;gap:24px;color:rgba(242,237,227,.5)">
+      <span>45 stil · 10 bölüm</span>
+      <a href="https://github.com/dogukanerguner/tasarim-standartlari-katalogu" target="_blank" rel="noopener" style-hover="color:#e07a52">GitHub ↗</a>
+    </span>
   </div>
 
-  <div style="display:grid;grid-template-columns:220px 1fr;gap:40px;padding:44px 48px 0;align-items:start">
-    <div style="position:sticky;top:24px">
-      <div style="font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#a8442c;margin-bottom:14px">Bölüm 01</div>
-      <h2 style="font-size:26px;font-weight:600;letter-spacing:-.02em;line-height:1.15;margin:0 0 12px">Küratörsel ve bireysel ekoller</h2>
-      <p style="font-size:13.5px;line-height:1.6;color:#6b675d;margin:0">Tasarımcı ve stüdyo imzası taşıyan, kişisel bir bakışla kurulmuş tarzlar.</p>
+  <div style="position:sticky;top:0;z-index:60;background:rgba(20,18,14,.9);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid rgba(242,237,227,.12);margin-top:14px">
+    <div class="kpx" style="display:flex;align-items:center;gap:16px;padding:18px 48px 12px">
+      <span style="font-family:ui-monospace,Menlo,monospace;font-size:24px;color:#e07a52;flex-shrink:0">›</span>
+      <input id="katalog-ara" type="text" placeholder="stil, ekol, anahtar kelime ya da #hex ara…" value="{{ q }}" oninput="{{ onSearch }}" onkeydown="{{ onSearchKey }}" autoComplete="off" />
+      <span class="kkey">/</span>
+      <button class="kbtn" onclick="{{ onRandom }}" title="Filtreye uyan rastgele bir stili açar" style="flex-shrink:0">🎲 şansıma</button>
     </div>
-
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,360px);gap:26px 22px;justify-content:start">
-      <a href="01-editorial-minimalizm.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="01-editorial-minimalizm.dc.html" loading="lazy" scrolling="no" title="Editoryal Minimalizm" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">01 — Editoryal Minimalizm</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">van Schneider</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Dergi estetiği, geniş boşluk, güçlü tipografi ve insan odaklı mikro metinler.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">editorial layout, sophisticated typography, bold black and white contrast, organic spacing</div></sc-if>
-        </div>
-      </a>
-
-      <a href="02-akiskan-surukleyici.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="02-akiskan-surukleyici.dc.html" loading="lazy" scrolling="no" title="Akışkan ve Sürükleyici Web" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">02 — Akışkan &amp; Sürükleyici</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">Locomotive</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Sıvı geçişler, derinlik hissi ve harekete sanatsal tepki veren ajans estetiği.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">fluid WebGL elements, liquid distortion, cinematic depth, avant-garde agency</div></sc-if>
-        </div>
-      </a>
-
-      <a href="03-cyber-webgl.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="03-cyber-webgl.dc.html" loading="lazy" scrolling="no" title="Gelecekçi ve Cyber-Sürükleyici" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">03 — Gelecekçi Cyber</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">Active Theory</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Karanlık zemin, parlayan etkileşimli parçacıklar ve oyunsu 3D atmosfer.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">dark mode, glowing neon particles, 3D webgl atmosphere, premium cybernetic UI</div></sc-if>
-        </div>
-      </a>
-
-      <a href="04-anti-design-provokatif.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="04-anti-design-provokatif.dc.html" loading="lazy" scrolling="no" title="Brütalist ve Provokatif" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">04 — Brütalist &amp; Provokatif</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">Sagmeister</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Kuralları yıkan, ironiyi ve sanatsal kaosu öne çıkaran deneysel anti-tasarım.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">provocative UI, raw emotions, unconventional grid, layered chaotic typography</div></sc-if>
-        </div>
-      </a>
-
-      <a href="05-fonksiyonel-endustriyel.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="05-fonksiyonel-endustriyel.dc.html" loading="lazy" scrolling="no" title="Fonksiyonel ve Zamansız Endüstriyel" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">05 — Fonksiyonel Endüstriyel</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">Dieter Rams</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">“Az ama daha iyi”: süssüz, rasyonel, matematiksel ve tamamen işlevsel düzen.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">Braun industrial aesthetic, functional layout, muted neutrals, precise grid</div></sc-if>
-        </div>
-      </a>
-
-      <a href="06-grunge-tipografi.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="06-grunge-tipografi.dc.html" loading="lazy" scrolling="no" title="Kayıp ve Kirli Tipografi" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">06 — Grunge Tipografi</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">David Carson</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Üst üste binen metinler, yırtık dokular ve okunabilirliği zorlayan dijital anarşi.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">messy typography, distorted textures, overlapping layouts, deconstructivist UI</div></sc-if>
-        </div>
-      </a>
+    <div class="kpx" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:0 48px 14px">
+      <sc-for list="{{ chips }}" as="c"><button class="{{ c.cls }}" data-sec="{{ c.id }}" onclick="{{ onChip }}">{{ c.label }}</button></sc-for>
+      <span style="margin-left:auto;font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.08em;color:rgba(242,237,227,.45);white-space:nowrap">{{ countLine }}</span>
     </div>
   </div>
 
-  <div style="display:grid;grid-template-columns:220px 1fr;gap:40px;padding:56px 48px 0;align-items:start;border-top:1px solid #dcd8cf;margin-top:52px">
-    <div style="position:sticky;top:24px">
-      <div style="font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#a8442c;margin-bottom:14px">Bölüm 02</div>
-      <h2 style="font-size:26px;font-weight:600;letter-spacing:-.02em;line-height:1.15;margin:0 0 12px">Çağdaş dijital ürün ve SaaS akımları</h2>
-      <p style="font-size:13.5px;line-height:1.6;color:#6b675d;margin:0">Bugünün yazılım ürünlerinde en sık karşılaşılan dört yerleşik düzen.</p>
+  <sc-if value="{{ loading }}"><div style="padding:120px 40px;text-align:center;font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:rgba(242,237,227,.45)">katalog yükleniyor…</div></sc-if>
+
+  <sc-if value="{{ failed }}"><div style="padding:120px 40px;text-align:center;max-width:52ch;margin:0 auto">
+    <div style="font-size:17px;line-height:1.6;color:rgba(242,237,227,.8)">Katalog verisi (<span style="font-family:ui-monospace,Menlo,monospace">ai/catalog.json</span>) yüklenemedi.</div>
+    <div style="margin-top:12px;font-size:14px;line-height:1.6;color:rgba(242,237,227,.5)">Sayfayı bir HTTP sunucusundan açın — ör. <span style="font-family:ui-monospace,Menlo,monospace">python3 -m http.server</span></div>
+  </div></sc-if>
+
+  <sc-if value="{{ empty }}"><div style="padding:110px 40px 130px;text-align:center">
+    <div style="font-family:ui-monospace,Menlo,monospace;font-size:44px;color:rgba(242,237,227,.28);margin-bottom:20px">∅</div>
+    <div style="font-size:24px;font-weight:600;letter-spacing:-.02em;margin-bottom:10px">Boş durum — gerçek hayatta da böyle görünür</div>
+    <div style="font-size:15px;line-height:1.6;color:rgba(242,237,227,.55);max-width:46ch;margin:0 auto 26px">“{{ q }}” hiçbir stille eşleşmedi. Yazımı değiştirin, bölüm filtresini kaldırın ya da bu anı 37. sayfadaki boş durum tasarımıyla kıyaslayın.</div>
+    <div style="display:flex;gap:12px;justify-content:center">
+      <button class="kbtn" onclick="{{ onClear }}">aramayı temizle</button>
+      <a class="kbtn" href="37-bos-durum-ilk-deneyim.dc.html" target="{{ linkTarget }}">37 · boş durum sayfası →</a>
     </div>
+  </div></sc-if>
 
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,360px);gap:26px 22px;justify-content:start">
-      <a href="07-karanlik-saas.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="07-karanlik-saas.dc.html" loading="lazy" scrolling="no" title="Karanlık SaaS Estetiği" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
+  <div class="kpx" style="display:grid;grid-template-columns:repeat(auto-fill,360px);gap:28px 22px;justify-content:center;padding:30px 48px 80px">
+    <sc-for list="{{ cards }}" as="card">
+      <div class="kcard" style="{{ card.wrapStyle }}">
+        <a href="{{ card.file }}" target="{{ linkTarget }}" title="{{ card.brief }}" style="display:block;width:360px;height:225px;overflow:hidden;background:#fff">
+          <iframe src="{{ card.file }}" loading="lazy" scrolling="no" title="{{ card.name }}" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
+        </a>
+        <div style="padding:14px 16px 16px">
           <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">07 — Karanlık SaaS</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">Linear / Vercel</span>
+            <span style="font-size:15.5px;font-weight:600;letter-spacing:-.01em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis"><span style="font-family:ui-monospace,Menlo,monospace;font-size:11px;color:#e07a52;margin-right:7px">{{ card.no }}</span>{{ card.name }}</span>
+            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.07em;color:rgba(242,237,227,.42);white-space:nowrap">{{ card.reference }}</span>
           </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Keskin sans-serif, 1 piksel sınırlar ve hafif parlama efektleri; elit karanlık mod.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">sleek dark mode, 1px subtle borders, elegant neon gradients, crisp sans-serif</div></sc-if>
-        </div>
-      </a>
-
-      <a href="08-bento-grid.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="08-bento-grid.dc.html" loading="lazy" scrolling="no" title="Bento Grid" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">08 — Bento Grid</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">Apple / Microsoft</span>
+          <div style="font-size:13px;line-height:1.55;color:rgba(242,237,227,.6);margin-top:7px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden">{{ card.description }}</div>
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-top:11px">
+            <span style="display:flex;gap:5px"><sc-for list="{{ card.palette }}" as="hex"><span style="width:14px;height:14px;border-radius:50%;border:1px solid rgba(242,237,227,.25);background:{{ hex }}" title="{{ hex }}"></span></sc-for></span>
+            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.09em;text-transform:uppercase;color:rgba(242,237,227,.38)">{{ card.secLabel }}</span>
           </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Ekranın yuvarlak köşeli, farklı boyutlu hücrelere bölündüğü modüler bilgi mimarisi.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">modular rectangular cards, rounded corners, clean content chunks, hierarchy</div></sc-if>
-        </div>
-      </a>
-
-      <a href="09-neo-brutalizm.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="09-neo-brutalizm.dc.html" loading="lazy" scrolling="no" title="Neo-Brütalizm" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">09 — Neo-Brütalizm</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">Figma / Gumroad</span>
+          <div style="display:flex;gap:9px;margin-top:13px">
+            <a class="kbtn" href="{{ card.file }}" target="{{ linkTarget }}" style="flex:1;justify-content:center">sayfayı aç →</a>
+            <button class="{{ card.copyCls }}" data-idx="{{ card.idx }}" onclick="{{ onCopy }}" title="Bu stilin İngilizce üretim promptunu panoya kopyalar" style="flex:1;justify-content:center">{{ card.copyLabel }}</button>
           </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Pastel ve neon renkler, kalın siyah çizgiler, sert gölgeler; retro-modern çiğlik.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">high contrast pastels, thick black borders, hard block shadows, raw typography</div></sc-if>
         </div>
-      </a>
-
-      <a href="10-b2b-gradient-iskeletizm.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="10-b2b-gradient-iskeletizm.dc.html" loading="lazy" scrolling="no" title="Minimalist İskeletizm / B2B" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">10 — B2B İskeletizm</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">Stripe ekolü</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Kusursuz renk geçişleri, kod dokümantasyonu ve kurumsal güven veren temiz beyaz.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">flawless clean gradients, high-end white corporate layout, financial app UI</div></sc-if>
-        </div>
-      </a>
-    </div>
+      </div>
+    </sc-for>
   </div>
 
-  <div style="display:grid;grid-template-columns:220px 1fr;gap:40px;padding:56px 48px 0;align-items:start;border-top:1px solid #dcd8cf;margin-top:52px">
-    <div style="position:sticky;top:24px">
-      <div style="font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#a8442c;margin-bottom:14px">Bölüm 03</div>
-      <h2 style="font-size:26px;font-weight:600;letter-spacing:-.02em;line-height:1.15;margin:0 0 12px">Tarihsel ve sanatsal akımlar</h2>
-      <p style="font-size:13.5px;line-height:1.6;color:#6b675d;margin:0">Web'den önce doğmuş, ekrana taşındığında karakterini koruyan akımlar.</p>
-    </div>
-
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,360px);gap:26px 22px;justify-content:start">
-      <a href="11-bauhaus.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="11-bauhaus.dc.html" loading="lazy" scrolling="no" title="Bauhaus" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">11 — Bauhaus</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">1919 →</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Temel geometrik şekiller, ana renkler ve asimetrik ağır tipografi.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">geometric layout, primary colors, bold sans-serif, asymmetrical functional grid</div></sc-if>
-        </div>
-      </a>
-
-      <a href="12-isvicre-izgara.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="12-isvicre-izgara.dc.html" loading="lazy" scrolling="no" title="İsviçre Uluslararası Tarzı" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">12 — İsviçre Izgarası</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">Uluslararası</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Rasyonel asimetri, Helvetica merkezli ve tipografik hiyerarşiyle yön bulma.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">rigorous grid layout, heavy sans-serif, functional asymmetric structure</div></sc-if>
-        </div>
-      </a>
-
-      <a href="13-y2k-saykodelik.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="13-y2k-saykodelik.dc.html" loading="lazy" scrolling="no" title="Y2K / Saykodelik" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">13 — Y2K Saykodelik</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">Milenyum</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Metalik dokular, şişkin yazılar, holografik renkler ve nostaljik pencereler.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">metallic and holographic textures, cyber-maximalism, iridescent gradient UI</div></sc-if>
-        </div>
-      </a>
-
-      <a href="14-retro-terminal.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="14-retro-terminal.dc.html" loading="lazy" scrolling="no" title="Retro Terminal" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">14 — Retro Terminal</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">Monokrom</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Komut satırı düzeni, tek renk paleti ve tamamen kod tabanlı geliştirici estetiği.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">monospace font, command line layout, black and neon green palette, ASCII accents</div></sc-if>
-        </div>
-      </a>
-    </div>
-  </div>
-
-  <div style="display:grid;grid-template-columns:220px 1fr;gap:40px;padding:56px 48px 0;align-items:start;border-top:1px solid #dcd8cf;margin-top:52px">
-    <div style="position:sticky;top:24px">
-      <div style="font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#a8442c;margin-bottom:14px">Bölüm 04</div>
-      <h2 style="font-size:26px;font-weight:600;letter-spacing:-.02em;line-height:1.15;margin:0 0 12px">Mikro-görsel ve dokusal trendler</h2>
-      <p style="font-size:13.5px;line-height:1.6;color:#6b675d;margin:0">Düzeni değiştirmeyen, yüzey ve malzeme hissini değiştiren üç yaklaşım.</p>
-    </div>
-
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,360px);gap:26px 22px;justify-content:start">
-      <a href="15-glassmorphism.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="15-glassmorphism.dc.html" loading="lazy" scrolling="no" title="Glassmorphism" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">15 — Glassmorphism</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">Buzlu cam</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Arkasını bulanık gösteren saydam katmanlar; derinlik gölgeden değil camdan gelir.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">frosted glass panels, blurry background pass-through, multi-layered dashboard</div></sc-if>
-        </div>
-      </a>
-
-      <a href="16-neomorphism.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="16-neomorphism.dc.html" loading="lazy" scrolling="no" title="Neomorphism" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">16 — Neomorphism</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">Kabartma</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Arka planla aynı renkte yüzeyler; ayrım yalnızca iç ve dış yumuşak gölgelerle.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">soft extruded plastic effect, inner and outer soft shadows, monochromatic</div></sc-if>
-        </div>
-      </a>
-
-      <a href="17-claymorphism.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="17-claymorphism.dc.html" loading="lazy" scrolling="no" title="Claymorphism" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">17 — Claymorphism</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">3D kil</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Şişme oyuncak gibi duran, yoğun iç gölgeli, cana yakın ve çocuksu yüzeyler.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">3D clay-like rounded cards, soft pastel colors, bubbly playful interface</div></sc-if>
-        </div>
-      </a>
-    </div>
-  </div>
-
-  <div style="display:grid;grid-template-columns:220px 1fr;gap:40px;padding:56px 48px 0;align-items:start;border-top:1px solid #dcd8cf;margin-top:52px">
-    <div style="position:sticky;top:24px">
-      <div style="font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#a8442c;margin-bottom:14px">Bölüm 05</div>
-      <h2 style="font-size:26px;font-weight:600;letter-spacing:-.02em;line-height:1.15;margin:0 0 12px">Sanat akımlarının web karşılıkları</h2>
-      <p style="font-size:13.5px;line-height:1.6;color:#6b675d;margin:0">Yüz yıl önce afişte ve mobilyada tanımlanmış, ekranda hâlâ tanınan görsel diller.</p>
-    </div>
-
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,360px);gap:26px 22px;justify-content:start">
-      <a href="18-art-nouveau.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="18-art-nouveau.dc.html" loading="lazy" scrolling="no" title="Art Nouveau" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">18 — Art Nouveau</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">1890—1910</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Bitkisel kıvrımlar, kemerli çerçeveler ve süslemenin yapıya dönüştüğü organik hat.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">organic whiplash curves, botanical ornament, arched frames, muted earthy palette</div></sc-if>
-        </div>
-      </a>
-
-      <a href="19-art-deco.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="19-art-deco.dc.html" loading="lazy" scrolling="no" title="Art Deco" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">19 — Art Deco</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">1920—1939</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Simetri, basamaklı geometri, altın çizgiler ve lüks bir sahne duygusu.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">symmetrical stepped geometry, gold linework on deep teal, luxury poster type</div></sc-if>
-        </div>
-      </a>
-
-      <a href="20-de-stijl.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="20-de-stijl.dc.html" loading="lazy" scrolling="no" title="De Stijl" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">20 — De Stijl</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">Mondrian</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Kalın siyah çizgiler, üç ana renk ve yalnızca yatay-dikey bölünmeler.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">neoplasticism, thick black grid lines, primary color blocks, no diagonals</div></sc-if>
-        </div>
-      </a>
-
-      <a href="21-konstruktivizm.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="21-konstruktivizm.dc.html" loading="lazy" scrolling="no" title="Konstrüktivizm" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">21 — Konstrüktivizm</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">Rodçenko</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Köşegen bantlar, kırmızı-siyah palet ve emir kipinde tipografi.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">russian avant-garde poster, diagonal red and black bands, photomontage, condensed type</div></sc-if>
-        </div>
-      </a>
-
-      <a href="22-memphis-postmodern.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="22-memphis-postmodern.dc.html" loading="lazy" scrolling="no" title="Memphis" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">22 — Memphis</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">Sottsass</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Çakışan renkler, benek ve zikzak desenler; ciddiyeti reddeden postmodern neşe.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">80s postmodern shapes, squiggles and confetti patterns, clashing bright colors</div></sc-if>
-        </div>
-      </a>
-
-      <a href="23-mid-century-modern.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="23-mid-century-modern.dc.html" loading="lazy" scrolling="no" title="Mid-Century Modern" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">23 — Mid-Century Modern</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">Eames</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Organik elipsler, hardal-kiremit-avokado palet ve iyimser bir sadelik.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">atomic age shapes, warm mustard teal terracotta, organic kidney forms, walnut</div></sc-if>
-        </div>
-      </a>
-    </div>
-  </div>
-
-  <div style="display:grid;grid-template-columns:220px 1fr;gap:40px;padding:56px 48px 0;align-items:start;border-top:1px solid #dcd8cf;margin-top:52px">
-    <div style="position:sticky;top:24px">
-      <div style="font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#a8442c;margin-bottom:14px">Bölüm 06</div>
-      <h2 style="font-size:26px;font-weight:600;letter-spacing:-.02em;line-height:1.15;margin:0 0 12px">Kültürel ve retro-fütürist diller</h2>
-      <p style="font-size:13.5px;line-height:1.6;color:#6b675d;margin:0">Bir coğrafyadan ya da bir dönemin gelecek hayalinden doğan görsel gelenekler.</p>
-    </div>
-
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,360px);gap:26px 22px;justify-content:start">
-      <a href="24-vaporwave-synthwave.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="24-vaporwave-synthwave.dc.html" loading="lazy" scrolling="no" title="Vaporwave / Synthwave" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">24 — Vaporwave / Synthwave</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">80'ler</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Mor gökyüzü, ızgara ufuk çizgisi, neon parlaması ve kaset nostaljisi.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">retro 80s sunset grid horizon, magenta and cyan neon glow, chrome type, VHS</div></sc-if>
-        </div>
-      </a>
-
-      <a href="25-japon-ma-wabi-sabi.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="25-japon-ma-wabi-sabi.dc.html" loading="lazy" scrolling="no" title="Japon Ma ve Wabi-Sabi" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">25 — Ma &amp; Wabi-Sabi</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">Japonya</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Çok geniş boşluk, tek nesne, doğal doku ve kusuru saklamayan sükûnet.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">japanese negative space, single object composition, natural imperfect texture</div></sc-if>
-        </div>
-      </a>
-
-      <a href="26-cini-geometrik-motif.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="26-cini-geometrik-motif.dc.html" loading="lazy" scrolling="no" title="Çini ve geometrik motif" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">26 — Geometrik Motif</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">Çini</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Sekiz köşeli yıldız, sonsuz tekrar ve kobalt-zümrüt-mercan sistemi.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">islamic geometric tessellation, eight-point star, cobalt emerald coral on ivory</div></sc-if>
-        </div>
-      </a>
-
-      <a href="27-solarpunk-organik.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="27-solarpunk-organik.dc.html" loading="lazy" scrolling="no" title="Solarpunk" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">27 — Solarpunk</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">Organik modernizm</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Yaprak biçimli köşeler, güneş sarısı vurgular ve iyimser çevre anlatısı.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">solarpunk optimism, leaf-shaped radii, green and solar yellow, natural materials</div></sc-if>
-        </div>
-      </a>
-    </div>
-  </div>
-
-  <div style="display:grid;grid-template-columns:220px 1fr;gap:40px;padding:56px 48px 0;align-items:start;border-top:1px solid #dcd8cf;margin-top:52px">
-    <div style="position:sticky;top:24px">
-      <div style="font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#a8442c;margin-bottom:14px">Bölüm 07</div>
-      <h2 style="font-size:26px;font-weight:600;letter-spacing:-.02em;line-height:1.15;margin:0 0 12px">Arayüz dönemleri ve yüzey dilleri</h2>
-      <p style="font-size:13.5px;line-height:1.6;color:#6b675d;margin:0">Dijital arayüzün son yirmi yılda geçtiği üç ana yüzey anlayışı.</p>
-    </div>
-
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,360px);gap:26px 22px;justify-content:start">
-      <a href="28-skeuomorfizm.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="28-skeuomorfizm.dc.html" loading="lazy" scrolling="no" title="Skeuomorfizm" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">28 — Skeuomorfizm</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">2007—2013</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Deri, kâğıt ve fırçalanmış metal taklidi; arayüz gerçek nesneye benzer.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">realistic leather stitching, paper texture, glossy beveled buttons, drop shadows</div></sc-if>
-        </div>
-      </a>
-
-      <a href="29-duz-tasarim-flat.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="29-duz-tasarim-flat.dc.html" loading="lazy" scrolling="no" title="Düz Tasarım" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">29 — Düz Tasarım</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">Flat 2.0</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Tek düzlem, doygun renk blokları ve gölgesiz hiyerarşi; ölçeklenmesi kolay.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">flat design, saturated color blocks, no gradients or shadows, simple geometric icons</div></sc-if>
-        </div>
-      </a>
-
-      <a href="30-maksimalizm.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="30-maksimalizm.dc.html" loading="lazy" scrolling="no" title="Maksimalizm" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">30 — Maksimalizm</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">Anti-minimal</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Desen üstüne desen, karışık tipografi ve kontrollü bir cömertlik.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">layered patterns, jewel tones, mixed serif and grotesk type, opulent density</div></sc-if>
-        </div>
-      </a>
-    </div>
-  </div>
-
-  <div style="display:grid;grid-template-columns:220px 1fr;gap:40px;padding:56px 48px 0;align-items:start;border-top:1px solid #dcd8cf;margin-top:52px">
-    <div style="position:sticky;top:24px">
-      <div style="font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#a8442c;margin-bottom:14px">Bölüm 08</div>
-      <h2 style="font-size:26px;font-weight:600;letter-spacing:-.02em;line-height:1.15;margin:0 0 12px">İlke temelli standartlar</h2>
-      <p style="font-size:13.5px;line-height:1.6;color:#6b675d;margin:0">Görünüşten çok kurala dayanan yaklaşımlar: erişilebilirlik, sade dil ve içerik önceliği.</p>
-    </div>
-
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,360px);gap:26px 22px;justify-content:start">
-      <a href="31-erisilebilirlik-oncelikli.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="31-erisilebilirlik-oncelikli.dc.html" loading="lazy" scrolling="no" title="Erişilebilirlik öncelikli" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">31 — Erişilebilirlik Öncelikli</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">WCAG 2.2</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Yüksek kontrast, büyük hedefler, görünür odak ve renge bağlı olmayan durumlar.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">accessible-first UI, 4.5:1 contrast, thick focus outlines, large text, clear errors</div></sc-if>
-        </div>
-      </a>
-
-      <a href="32-kamu-hizmeti-sade-dil.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="32-kamu-hizmeti-sade-dil.dc.html" loading="lazy" scrolling="no" title="Kamu hizmeti tasarımı" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">32 — Kamu Hizmeti Tasarımı</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">Sade dil</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Tek sütun, görev odaklı akış, süslemesiz düzen ve anlaşılır resmî dil.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">government service page, single column, plain language, task-first, no decoration</div></sc-if>
-        </div>
-      </a>
-
-      <a href="33-ham-html-brutalizmi.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="33-ham-html-brutalizmi.dc.html" loading="lazy" scrolling="no" title="Ham HTML brütalizmi" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">33 — Ham HTML Brütalizmi</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">İçerik önce</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Tarayıcı varsayılanları, mavi bağlantılar, tek sütun ve sıfır süsleme.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">default browser styles, times new roman, blue underlined links, unstyled tables</div></sc-if>
-        </div>
-      </a>
-    </div>
-  </div>
-
-  <div style="display:grid;grid-template-columns:220px 1fr;gap:40px;padding:56px 48px 0;align-items:start;border-top:1px solid #dcd8cf;margin-top:52px">
-    <div style="position:sticky;top:24px">
-      <div style="font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#a8442c;margin-bottom:14px">Bölüm 09 · mobil</div>
-      <h2 style="font-size:26px;font-weight:600;letter-spacing:-.02em;line-height:1.15;margin:0 0 12px">Mobil arayüz yapıları</h2>
-      <p style="font-size:13.5px;line-height:1.6;color:#6b675d;margin:0">Telefonun fiziksel gerçekliğinden doğan yapısal desenler — her biri ekran örneği ve psikolojik gerekçesiyle.</p>
-    </div>
-
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,360px);gap:26px 22px;justify-content:start">
-      <a href="34-basparmak-bolgesi.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="34-basparmak-bolgesi.dc.html" loading="lazy" scrolling="no" title="Baş parmak bölgesi" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">34 — Baş Parmak Bölgesi</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">Fitts</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Tek elle erişim haritası, alt navigasyon ve 44 px dokunma hedefi kuralı.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">one-handed thumb reach heat map, bottom tab bar, 44px targets, Fitts's law study</div></sc-if>
-        </div>
-      </a>
-
-      <a href="35-kart-destesi-swipe.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="35-kart-destesi-swipe.dc.html" loading="lazy" scrolling="no" title="Kart destesi" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">35 — Kart Destesi &amp; Swipe</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">Hick</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Tek karar, jest sözlüğü ve karar eşiği; hızın ne zaman zararlı olduğu.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">stacked swipe card deck, rotated top card, gesture dictionary, 28% decision threshold</div></sc-if>
-        </div>
-      </a>
-
-      <a href="36-asamali-aciga-cikarma.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="36-asamali-aciga-cikarma.dc.html" loading="lazy" scrolling="no" title="Aşamalı açığa çıkarma" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">36 — Onboarding Akışı</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">IKEA etkisi</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Üç adımlık kurulum, sosyal çıpalı hedef seçimi ve gerekçeli izin isteme.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">three-step onboarding, segmented progress, social anchor goal slider, justified permission</div></sc-if>
-        </div>
-      </a>
-
-      <a href="37-bos-durum-ilk-deneyim.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="37-bos-durum-ilk-deneyim.dc.html" loading="lazy" scrolling="no" title="Boş durum" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">37 — Boş Durum</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">Zeigarnik</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">İlk açılış ekranı, yarım kalan kontrol listesi ve bahşedilmiş ilerleme.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">empty state with single action, half-complete checklist, endowed progress bar</div></sc-if>
-        </div>
-      </a>
-
-      <a href="38-alt-sayfa-katmanlar.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="38-alt-sayfa-katmanlar.dc.html" loading="lazy" scrolling="no" title="Alt sayfa ve katmanlar" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">38 — Alt Sayfa &amp; Katman</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">Doherty</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Bağlamı koruyan yarı katman ile yıkıcı eylemi durduran modal arasındaki fark.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">bottom sheet over blurred context, drag handle, destructive confirmation modal</div></sc-if>
-        </div>
-      </a>
-
-      <a href="39-sonsuz-akis.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="39-sonsuz-akis.dc.html" loading="lazy" scrolling="no" title="Sonsuz akış" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">39 — Sonsuz Akış</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">Değişken ödül</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">En güçlü etkileşim deseni ve onu bağımlılıktan ayıran durma noktaları.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">social feed with explicit stopping point, variable reward, healthy vs exploitative table</div></sc-if>
-        </div>
-      </a>
-    </div>
-  </div>
-
-  <div style="display:grid;grid-template-columns:220px 1fr;gap:40px;padding:56px 48px 0;align-items:start;border-top:1px solid #dcd8cf;margin-top:52px">
-    <div style="position:sticky;top:24px">
-      <div style="font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#a8442c;margin-bottom:14px">Bölüm 10 · mobil</div>
-      <h2 style="font-size:26px;font-weight:600;letter-spacing:-.02em;line-height:1.15;margin:0 0 12px">Davranış tasarımı ve psikoloji</h2>
-      <p style="font-size:13.5px;line-height:1.6;color:#6b675d;margin:0">Kararı yönlendiren mekanizmalar — nasıl çalıştıkları, nerede işe yaradıkları ve nerede sömürüye dönüştükleri.</p>
-    </div>
-
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,360px);gap:26px 22px;justify-content:start">
-      <a href="40-aliskanlik-dongusu-seri.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="40-aliskanlik-dongusu-seri.dc.html" loading="lazy" scrolling="no" title="Alışkanlık döngüsü" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">40 — Alışkanlık &amp; Seri</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">Kayıp kaçınma</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">İşaret–istek–eylem–ödül döngüsü, seri koruması ve geri kazanma yolu.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">84-day streak ring, weekly dot row, streak protection card, habit loop diagram</div></sc-if>
-        </div>
-      </a>
-
-      <a href="41-oyunlastirma-ilerleme.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="41-oyunlastirma-ilerleme.dc.html" loading="lazy" scrolling="no" title="Oyunlaştırma" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">41 — Oyunlaştırma</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">Hedef gradyanı</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">İlerleme çubuğu, rozet sistemi, sıralama tablosu ve dışsal ödül tuzağı.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">level progress bar at 84%, badge grid with next locked badge, leaderboard row highlight</div></sc-if>
-        </div>
-      </a>
-
-      <a href="42-sosyal-kanit-kitlik.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="42-sosyal-kanit-kitlik.dc.html" loading="lazy" scrolling="no" title="Sosyal kanıt ve kıtlık" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">42 — Sosyal Kanıt &amp; Kıtlık</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">Cialdini</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Stok, sayaç ve yorum sinyalleri; doğrulanabilir olanla uydurulmuş olanın farkı.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">live viewer chip, low-stock bar, similarity-signalled review, verifiable vs fake table</div></sc-if>
-        </div>
-      </a>
-
-      <a href="43-varsayilan-capa-fiyat.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="43-varsayilan-capa-fiyat.dc.html" loading="lazy" scrolling="no" title="Varsayılan ve çapa" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">43 — Varsayılan &amp; Çapa</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">Anchoring</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Fiyat sunumu, yem seçenek ve varsayılanın kullanıcı lehine ayarlanması.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">three pricing rows, pre-selected annual plan, decoy lifetime anchor, renewal transparency</div></sc-if>
-        </div>
-      </a>
-
-      <a href="44-mikro-etkilesim-zirve-son.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="44-mikro-etkilesim-zirve-son.dc.html" loading="lazy" scrolling="no" title="Mikro etkileşim" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">44 — Mikro Etkileşim</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8857a;white-space:nowrap">Zirve–son</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Haptik dili, animasyon süre bütçesi ve hafızada kalan iki anın tasarımı.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">dark success peak moment, pulse ring checkmark, haptic note, timing budget chart</div></sc-if>
-        </div>
-      </a>
-
-      <a href="45-karanlik-desenler-etik.dc.html" target="{{ linkTarget }}" style="display:block;width:360px" style-hover="opacity:.94">
-        <div style="width:360px;height:225px;overflow:hidden;border:1px solid #d8d4cb;background:#fff;box-shadow:0 1px 2px rgba(23,22,15,.06)">
-          <iframe src="45-karanlik-desenler-etik.dc.html" loading="lazy" scrolling="no" title="Karanlık desenler" style="width:1440px;height:900px;border:0;transform:scale(.25);transform-origin:top left;pointer-events:none"></iframe>
-        </div>
-        <div style="padding:12px 2px 0">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
-            <span style="font-size:16px;font-weight:600;letter-spacing:-.01em">45 — Karanlık Desenler</span>
-            <span style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;color:#a8442c;white-space:nowrap">uyarı</span>
-          </div>
-          <div style="font-size:13.5px;line-height:1.55;color:#6b675d;margin-top:5px">Altı yaygın sömürücü desen, dürüst karşılıkları ve ekip için kontrol sorusu.</div>
-          <sc-if value="{{ showPrompts }}" hint-placeholder-val="{{ true }}"><div style="font-family:ui-monospace,Menlo,monospace;font-size:10.5px;line-height:1.5;color:#9a958a;margin-top:8px;border-top:1px solid #e2ded5;padding-top:7px">dark pattern warning page, cancellation screen comparison, honest counterpart table</div></sc-if>
-        </div>
-      </a>
-    </div>
-  </div>
-
-  <div style="margin:72px 48px 0;border-top:1px solid #17160f;padding-top:20px;display:flex;justify-content:space-between;align-items:baseline;font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#8a857a">
-    <span>45 örnek · 10 bölüm</span>
-    <span>Görsel alanlar yer tutucudur — kendi materyalinizi bırakabilirsiniz</span>
+  <div class="kpx" style="margin:0 24px;padding-left:24px;padding-right:24px;border-top:1px solid rgba(242,237,227,.14);padding:22px 0 40px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:rgba(242,237,227,.42)">
+    <span>MIT · açık kaynak · görsel alanlar yer tutucudur</span>
+    <span>ipucu: <span class="kkey">/</span> ara · <span class="kkey">esc</span> temizle · <span class="kkey">↵</span> ilk sonucu aç</span>
   </div>
 </div>
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props="{&quot;showPrompts&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Katalog&quot;},&quot;yeniSekmedeAc&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:false,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Katalog&quot;}}">
+<script type="text/x-dc" data-dc-script data-props="{&quot;yeniSekmedeAc&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:false,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Katalog&quot;}}">
+const SEC_KISA = {1:'Küratörsel',2:'SaaS',3:'Tarihsel',4:'Dokusal',5:'Sanat',6:'Kültürel',7:'Dönemler',8:'İlkeler',9:'Mobil',10:'Psikoloji'};
+const TR_MAP = {'ı':'i','ğ':'g','ü':'u','ş':'s','ö':'o','ç':'c','â':'a','î':'i','û':'u'};
+function fold(s){ return String(s).toLocaleLowerCase('tr').replace(/[ığüşöçâîû]/g, c => TR_MAP[c] || c); }
+
 class Component extends DCLogic {
-  renderVals() {
-    const p = this.props || {};
-    return {
-      showPrompts: p.showPrompts ?? true,
-      linkTarget: (p.yeniSekmedeAc ?? false) ? '_blank' : '_self'
+  constructor(props) {
+    super(props);
+    this.state = { q: '', sec: 0, data: null, err: false, copied: 0 };
+    this._first = null;
+
+    this.onSearch = (e) => this.setState({ q: e.target.value });
+    this.onSearchKey = (e) => {
+      if (e.key === 'Enter' && this._first) this._go(this._first);
     };
+    this.onChip = (e) => {
+      const id = +e.currentTarget.getAttribute('data-sec');
+      this.setState(s => ({ sec: s.sec === id ? 0 : id }));
+    };
+    this.onClear = () => this.setState({ q: '', sec: 0 });
+    this.onRandom = () => {
+      const vis = this._visible();
+      if (!vis.length) return;
+      this._go(vis[Math.floor(Math.random() * vis.length)].file);
+    };
+    this.onCopy = (e) => {
+      const i = +e.currentTarget.getAttribute('data-idx');
+      const s = this.state.data.styles[i];
+      navigator.clipboard.writeText(s.prompt_en).then(() => {
+        this.setState({ copied: s.id });
+        clearTimeout(this._t);
+        this._t = setTimeout(() => this.setState({ copied: 0 }), 1800);
+      }).catch(() => {});
+    };
+  }
+
+  componentDidMount() {
+    fetch('ai/catalog.json')
+      .then(r => { if (!r.ok) throw new Error(); return r.json(); })
+      .then(d => {
+        d.styles.forEach(s => {
+          s._hay = fold([s.id, s.name, s.title, s.reference, s.description,
+            (s.keywords || []).join(' '), s.brief_tr,
+            (s.palette || []).join(' '), s.slug].join(' '));
+        });
+        this.setState({ data: d });
+      })
+      .catch(() => this.setState({ err: true }));
+
+    this._kd = (e) => {
+      const tag = (e.target.tagName || '').toLowerCase();
+      if (e.key === '/' && tag !== 'input' && tag !== 'textarea') {
+        e.preventDefault();
+        const el = document.getElementById('katalog-ara');
+        if (el) el.focus();
+      } else if (e.key === 'Escape') {
+        this.setState({ q: '', sec: 0 });
+      }
+    };
+    document.addEventListener('keydown', this._kd);
+  }
+
+  componentWillUnmount() {
+    document.removeEventListener('keydown', this._kd);
+    clearTimeout(this._t);
+  }
+
+  _go(file) {
+    if (this.props.yeniSekmedeAc) window.open(file, '_blank');
+    else window.location.href = file;
+  }
+
+  _toks() { return fold(this.state.q).split(/\s+/).filter(Boolean); }
+
+  _visible() {
+    const st = this.state;
+    if (!st.data) return [];
+    const toks = this._toks();
+    return st.data.styles.filter(s =>
+      toks.every(t => s._hay.includes(t)) && (!st.sec || s.section === st.sec));
+  }
+
+  renderVals() {
+    const st = this.state;
+    const base = {
+      q: st.q,
+      linkTarget: this.props.yeniSekmedeAc ? '_blank' : '_self',
+      onSearch: this.onSearch, onSearchKey: this.onSearchKey,
+      onChip: this.onChip, onClear: this.onClear,
+      onRandom: this.onRandom, onCopy: this.onCopy,
+      loading: false, failed: false, empty: false,
+      chips: [], cards: [], countLine: ''
+    };
+    if (st.err) return { ...base, failed: true };
+    if (!st.data) return { ...base, loading: true };
+
+    const d = st.data;
+    const toks = this._toks();
+    const perSec = {};
+    let total = 0, visCount = 0;
+    this._first = null;
+
+    const cards = d.styles.map((s, i) => {
+      const m = toks.every(t => s._hay.includes(t));
+      if (m) { perSec[s.section] = (perSec[s.section] || 0) + 1; total++; }
+      const vis = m && (!st.sec || s.section === st.sec);
+      if (vis) { visCount++; if (!this._first) this._first = s.file; }
+      return {
+        idx: i,
+        no: String(s.id).padStart(2, '0'),
+        name: s.name,
+        file: s.file,
+        reference: s.reference,
+        description: s.description,
+        brief: s.brief_tr,
+        palette: s.palette || [],
+        secLabel: SEC_KISA[s.section] || '',
+        copyLabel: st.copied === s.id ? '✓ panoda' : '⧉ prompt',
+        copyCls: st.copied === s.id ? 'kbtn ok' : 'kbtn',
+        wrapStyle: vis ? '' : 'display:none'
+      };
+    });
+
+    const chips = [{
+      id: 0,
+      label: 'Tümü · ' + total,
+      cls: 'kchip' + (st.sec === 0 ? ' on' : '')
+    }].concat(d.sections.map(sec => {
+      const n = perSec[sec.id] || 0;
+      return {
+        id: sec.id,
+        label: SEC_KISA[sec.id] + ' · ' + n,
+        cls: 'kchip' + (st.sec === sec.id ? ' on' : '') + (n === 0 ? ' bos' : '')
+      };
+    }));
+
+    let countLine = visCount + ' / ' + d.styles.length + ' stil';
+    if (st.sec) countLine += ' · ' + SEC_KISA[st.sec];
+
+    return { ...base, chips, cards, countLine, empty: visCount === 0 };
   }
 }
 </script>

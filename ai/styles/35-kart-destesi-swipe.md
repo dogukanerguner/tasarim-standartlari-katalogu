@@ -2,6 +2,7 @@
 id: 35
 slug: "35-kart-destesi-swipe"
 title: "Kart Destesi & Swipe"
+name: "Kart Destesi & Swipe"
 section: "09 — Mobil arayüz yapıları"
 reference: "Hick"
 palette: ["#efece5", "#14131a", "#4ade8a", "#a8442c"]

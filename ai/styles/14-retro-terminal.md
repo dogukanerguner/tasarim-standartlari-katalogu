@@ -2,6 +2,7 @@
 id: 14
 slug: "14-retro-terminal"
 title: "Retro Terminal"
+name: "Retro Terminal"
 section: "03 — Tarihsel ve sanatsal akımlar"
 reference: "Monokrom"
 palette: ["#050a06", "#41ff7e", "#eaff6e"]

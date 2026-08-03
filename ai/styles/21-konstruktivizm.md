@@ -2,6 +2,7 @@
 id: 21
 slug: "21-konstruktivizm"
 title: "Konstrüktivizm"
+name: "Konstrüktivizm"
 section: "05 — Sanat akımlarının web karşılıkları"
 reference: "Rodçenko"
 palette: ["#e8e3d9", "#141414", "#cc1f1a"]

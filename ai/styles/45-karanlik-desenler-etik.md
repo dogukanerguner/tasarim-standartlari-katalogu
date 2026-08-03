@@ -2,6 +2,7 @@
 id: 45
 slug: "45-karanlik-desenler-etik"
 title: "Karanlık Desenler"
+name: "Karanlık Desenler"
 section: "10 — Davranış tasarımı ve psikoloji"
 reference: "uyarı"
 palette: ["#1a0f0d", "#f6ece8", "#ff8a72", "#8fdda8"]

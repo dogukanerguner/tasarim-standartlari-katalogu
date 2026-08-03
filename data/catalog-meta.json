@@ -1,0 +1,583 @@
+{
+  "sections": [
+    {
+      "id": 1,
+      "title": "Küratörsel ve bireysel ekoller",
+      "description": "Tasarımcı ve stüdyo imzası taşıyan, kişisel bir bakışla kurulmuş tarzlar."
+    },
+    {
+      "id": 2,
+      "title": "Çağdaş dijital ürün ve SaaS akımları",
+      "description": "Bugünün yazılım ürünlerinde en sık karşılaşılan dört yerleşik düzen."
+    },
+    {
+      "id": 3,
+      "title": "Tarihsel ve sanatsal akımlar",
+      "description": "Web'den önce doğmuş, ekrana taşındığında karakterini koruyan akımlar."
+    },
+    {
+      "id": 4,
+      "title": "Mikro-görsel ve dokusal trendler",
+      "description": "Düzeni değiştirmeyen, yüzey ve malzeme hissini değiştiren üç yaklaşım."
+    },
+    {
+      "id": 5,
+      "title": "Sanat akımlarının web karşılıkları",
+      "description": "Yüz yıl önce afişte ve mobilyada tanımlanmış, ekranda hâlâ tanınan görsel diller."
+    },
+    {
+      "id": 6,
+      "title": "Kültürel ve retro-fütürist diller",
+      "description": "Bir coğrafyadan ya da bir dönemin gelecek hayalinden doğan görsel gelenekler."
+    },
+    {
+      "id": 7,
+      "title": "Arayüz dönemleri ve yüzey dilleri",
+      "description": "Dijital arayüzün son yirmi yılda geçtiği üç ana yüzey anlayışı."
+    },
+    {
+      "id": 8,
+      "title": "İlke temelli standartlar",
+      "description": "Görünüşten çok kurala dayanan yaklaşımlar: erişilebilirlik, sade dil ve içerik önceliği."
+    },
+    {
+      "id": 9,
+      "title": "Mobil arayüz yapıları",
+      "description": "Telefonun fiziksel gerçekliğinden doğan yapısal desenler — her biri ekran örneği ve psikolojik gerekçesiyle."
+    },
+    {
+      "id": 10,
+      "title": "Davranış tasarımı ve psikoloji",
+      "description": "Kararı yönlendiren mekanizmalar — nasıl çalıştıkları, nerede işe yaradıkları ve nerede sömürüye dönüştükleri."
+    }
+  ],
+  "styles": {
+    "1": {
+      "reference": "van Schneider",
+      "description": "Dergi estetiği, geniş boşluk, güçlü tipografi ve insan odaklı mikro metinler.",
+      "keywords": [
+        "editorial layout",
+        "sophisticated typography",
+        "bold black and white contrast",
+        "organic spacing"
+      ],
+      "section": 1,
+      "name": "Editoryal Minimalizm"
+    },
+    "2": {
+      "reference": "Locomotive",
+      "description": "Sıvı geçişler, derinlik hissi ve harekete sanatsal tepki veren ajans estetiği.",
+      "keywords": [
+        "fluid WebGL elements",
+        "liquid distortion",
+        "cinematic depth",
+        "avant-garde agency"
+      ],
+      "section": 1,
+      "name": "Akışkan & Sürükleyici"
+    },
+    "3": {
+      "reference": "Active Theory",
+      "description": "Karanlık zemin, parlayan etkileşimli parçacıklar ve oyunsu 3D atmosfer.",
+      "keywords": [
+        "dark mode",
+        "glowing neon particles",
+        "3D webgl atmosphere",
+        "premium cybernetic UI"
+      ],
+      "section": 1,
+      "name": "Gelecekçi Cyber"
+    },
+    "4": {
+      "reference": "Sagmeister",
+      "description": "Kuralları yıkan, ironiyi ve sanatsal kaosu öne çıkaran deneysel anti-tasarım.",
+      "keywords": [
+        "provocative UI",
+        "raw emotions",
+        "unconventional grid",
+        "layered chaotic typography"
+      ],
+      "section": 1,
+      "name": "Brütalist & Provokatif"
+    },
+    "5": {
+      "reference": "Dieter Rams",
+      "description": "“Az ama daha iyi”: süssüz, rasyonel, matematiksel ve tamamen işlevsel düzen.",
+      "keywords": [
+        "Braun industrial aesthetic",
+        "functional layout",
+        "muted neutrals",
+        "precise grid"
+      ],
+      "section": 1,
+      "name": "Fonksiyonel Endüstriyel"
+    },
+    "6": {
+      "reference": "David Carson",
+      "description": "Üst üste binen metinler, yırtık dokular ve okunabilirliği zorlayan dijital anarşi.",
+      "keywords": [
+        "messy typography",
+        "distorted textures",
+        "overlapping layouts",
+        "deconstructivist UI"
+      ],
+      "section": 1,
+      "name": "Grunge Tipografi"
+    },
+    "7": {
+      "reference": "Linear / Vercel",
+      "description": "Keskin sans-serif, 1 piksel sınırlar ve hafif parlama efektleri; elit karanlık mod.",
+      "keywords": [
+        "sleek dark mode",
+        "1px subtle borders",
+        "elegant neon gradients",
+        "crisp sans-serif"
+      ],
+      "section": 2,
+      "name": "Karanlık SaaS"
+    },
+    "8": {
+      "reference": "Apple / Microsoft",
+      "description": "Ekranın yuvarlak köşeli, farklı boyutlu hücrelere bölündüğü modüler bilgi mimarisi.",
+      "keywords": [
+        "modular rectangular cards",
+        "rounded corners",
+        "clean content chunks",
+        "hierarchy"
+      ],
+      "section": 2,
+      "name": "Bento Grid"
+    },
+    "9": {
+      "reference": "Figma / Gumroad",
+      "description": "Pastel ve neon renkler, kalın siyah çizgiler, sert gölgeler; retro-modern çiğlik.",
+      "keywords": [
+        "high contrast pastels",
+        "thick black borders",
+        "hard block shadows",
+        "raw typography"
+      ],
+      "section": 2,
+      "name": "Neo-Brütalizm"
+    },
+    "10": {
+      "reference": "Stripe ekolü",
+      "description": "Kusursuz renk geçişleri, kod dokümantasyonu ve kurumsal güven veren temiz beyaz.",
+      "keywords": [
+        "flawless clean gradients",
+        "high-end white corporate layout",
+        "financial app UI"
+      ],
+      "section": 2,
+      "name": "B2B İskeletizm"
+    },
+    "11": {
+      "reference": "1919 →",
+      "description": "Temel geometrik şekiller, ana renkler ve asimetrik ağır tipografi.",
+      "keywords": [
+        "geometric layout",
+        "primary colors",
+        "bold sans-serif",
+        "asymmetrical functional grid"
+      ],
+      "section": 3,
+      "name": "Bauhaus"
+    },
+    "12": {
+      "reference": "Uluslararası",
+      "description": "Rasyonel asimetri, Helvetica merkezli ve tipografik hiyerarşiyle yön bulma.",
+      "keywords": [
+        "rigorous grid layout",
+        "heavy sans-serif",
+        "functional asymmetric structure"
+      ],
+      "section": 3,
+      "name": "İsviçre Izgarası"
+    },
+    "13": {
+      "reference": "Milenyum",
+      "description": "Metalik dokular, şişkin yazılar, holografik renkler ve nostaljik pencereler.",
+      "keywords": [
+        "metallic and holographic textures",
+        "cyber-maximalism",
+        "iridescent gradient UI"
+      ],
+      "section": 3,
+      "name": "Y2K Saykodelik"
+    },
+    "14": {
+      "reference": "Monokrom",
+      "description": "Komut satırı düzeni, tek renk paleti ve tamamen kod tabanlı geliştirici estetiği.",
+      "keywords": [
+        "monospace font",
+        "command line layout",
+        "black and neon green palette",
+        "ASCII accents"
+      ],
+      "section": 3,
+      "name": "Retro Terminal"
+    },
+    "15": {
+      "reference": "Buzlu cam",
+      "description": "Arkasını bulanık gösteren saydam katmanlar; derinlik gölgeden değil camdan gelir.",
+      "keywords": [
+        "frosted glass panels",
+        "blurry background pass-through",
+        "multi-layered dashboard"
+      ],
+      "section": 4,
+      "name": "Glassmorphism"
+    },
+    "16": {
+      "reference": "Kabartma",
+      "description": "Arka planla aynı renkte yüzeyler; ayrım yalnızca iç ve dış yumuşak gölgelerle.",
+      "keywords": [
+        "soft extruded plastic effect",
+        "inner and outer soft shadows",
+        "monochromatic"
+      ],
+      "section": 4,
+      "name": "Neomorphism"
+    },
+    "17": {
+      "reference": "3D kil",
+      "description": "Şişme oyuncak gibi duran, yoğun iç gölgeli, cana yakın ve çocuksu yüzeyler.",
+      "keywords": [
+        "3D clay-like rounded cards",
+        "soft pastel colors",
+        "bubbly playful interface"
+      ],
+      "section": 4,
+      "name": "Claymorphism"
+    },
+    "18": {
+      "reference": "1890—1910",
+      "description": "Bitkisel kıvrımlar, kemerli çerçeveler ve süslemenin yapıya dönüştüğü organik hat.",
+      "keywords": [
+        "organic whiplash curves",
+        "botanical ornament",
+        "arched frames",
+        "muted earthy palette"
+      ],
+      "section": 5,
+      "name": "Art Nouveau"
+    },
+    "19": {
+      "reference": "1920—1939",
+      "description": "Simetri, basamaklı geometri, altın çizgiler ve lüks bir sahne duygusu.",
+      "keywords": [
+        "symmetrical stepped geometry",
+        "gold linework on deep teal",
+        "luxury poster type"
+      ],
+      "section": 5,
+      "name": "Art Deco"
+    },
+    "20": {
+      "reference": "Mondrian",
+      "description": "Kalın siyah çizgiler, üç ana renk ve yalnızca yatay-dikey bölünmeler.",
+      "keywords": [
+        "neoplasticism",
+        "thick black grid lines",
+        "primary color blocks",
+        "no diagonals"
+      ],
+      "section": 5,
+      "name": "De Stijl"
+    },
+    "21": {
+      "reference": "Rodçenko",
+      "description": "Köşegen bantlar, kırmızı-siyah palet ve emir kipinde tipografi.",
+      "keywords": [
+        "russian avant-garde poster",
+        "diagonal red and black bands",
+        "photomontage",
+        "condensed type"
+      ],
+      "section": 5,
+      "name": "Konstrüktivizm"
+    },
+    "22": {
+      "reference": "Sottsass",
+      "description": "Çakışan renkler, benek ve zikzak desenler; ciddiyeti reddeden postmodern neşe.",
+      "keywords": [
+        "80s postmodern shapes",
+        "squiggles and confetti patterns",
+        "clashing bright colors"
+      ],
+      "section": 5,
+      "name": "Memphis"
+    },
+    "23": {
+      "reference": "Eames",
+      "description": "Organik elipsler, hardal-kiremit-avokado palet ve iyimser bir sadelik.",
+      "keywords": [
+        "atomic age shapes",
+        "warm mustard teal terracotta",
+        "organic kidney forms",
+        "walnut"
+      ],
+      "section": 5,
+      "name": "Mid-Century Modern"
+    },
+    "24": {
+      "reference": "80'ler",
+      "description": "Mor gökyüzü, ızgara ufuk çizgisi, neon parlaması ve kaset nostaljisi.",
+      "keywords": [
+        "retro 80s sunset grid horizon",
+        "magenta and cyan neon glow",
+        "chrome type",
+        "VHS"
+      ],
+      "section": 6,
+      "name": "Vaporwave / Synthwave"
+    },
+    "25": {
+      "reference": "Japonya",
+      "description": "Çok geniş boşluk, tek nesne, doğal doku ve kusuru saklamayan sükûnet.",
+      "keywords": [
+        "japanese negative space",
+        "single object composition",
+        "natural imperfect texture"
+      ],
+      "section": 6,
+      "name": "Ma & Wabi-Sabi"
+    },
+    "26": {
+      "reference": "Çini",
+      "description": "Sekiz köşeli yıldız, sonsuz tekrar ve kobalt-zümrüt-mercan sistemi.",
+      "keywords": [
+        "islamic geometric tessellation",
+        "eight-point star",
+        "cobalt emerald coral on ivory"
+      ],
+      "section": 6,
+      "name": "Geometrik Motif"
+    },
+    "27": {
+      "reference": "Organik modernizm",
+      "description": "Yaprak biçimli köşeler, güneş sarısı vurgular ve iyimser çevre anlatısı.",
+      "keywords": [
+        "solarpunk optimism",
+        "leaf-shaped radii",
+        "green and solar yellow",
+        "natural materials"
+      ],
+      "section": 6,
+      "name": "Solarpunk"
+    },
+    "28": {
+      "reference": "2007—2013",
+      "description": "Deri, kâğıt ve fırçalanmış metal taklidi; arayüz gerçek nesneye benzer.",
+      "keywords": [
+        "realistic leather stitching",
+        "paper texture",
+        "glossy beveled buttons",
+        "drop shadows"
+      ],
+      "section": 7,
+      "name": "Skeuomorfizm"
+    },
+    "29": {
+      "reference": "Flat 2.0",
+      "description": "Tek düzlem, doygun renk blokları ve gölgesiz hiyerarşi; ölçeklenmesi kolay.",
+      "keywords": [
+        "flat design",
+        "saturated color blocks",
+        "no gradients or shadows",
+        "simple geometric icons"
+      ],
+      "section": 7,
+      "name": "Düz Tasarım"
+    },
+    "30": {
+      "reference": "Anti-minimal",
+      "description": "Desen üstüne desen, karışık tipografi ve kontrollü bir cömertlik.",
+      "keywords": [
+        "layered patterns",
+        "jewel tones",
+        "mixed serif and grotesk type",
+        "opulent density"
+      ],
+      "section": 7,
+      "name": "Maksimalizm"
+    },
+    "31": {
+      "reference": "WCAG 2.2",
+      "description": "Yüksek kontrast, büyük hedefler, görünür odak ve renge bağlı olmayan durumlar.",
+      "keywords": [
+        "accessible-first UI",
+        "4.5:1 contrast",
+        "thick focus outlines",
+        "large text",
+        "clear errors"
+      ],
+      "section": 8,
+      "name": "Erişilebilirlik Öncelikli"
+    },
+    "32": {
+      "reference": "Sade dil",
+      "description": "Tek sütun, görev odaklı akış, süslemesiz düzen ve anlaşılır resmî dil.",
+      "keywords": [
+        "government service page",
+        "single column",
+        "plain language",
+        "task-first",
+        "no decoration"
+      ],
+      "section": 8,
+      "name": "Kamu Hizmeti Tasarımı"
+    },
+    "33": {
+      "reference": "İçerik önce",
+      "description": "Tarayıcı varsayılanları, mavi bağlantılar, tek sütun ve sıfır süsleme.",
+      "keywords": [
+        "default browser styles",
+        "times new roman",
+        "blue underlined links",
+        "unstyled tables"
+      ],
+      "section": 8,
+      "name": "Ham HTML Brütalizmi"
+    },
+    "34": {
+      "reference": "Fitts",
+      "description": "Tek elle erişim haritası, alt navigasyon ve 44 px dokunma hedefi kuralı.",
+      "keywords": [
+        "one-handed thumb reach heat map",
+        "bottom tab bar",
+        "44px targets",
+        "Fitts's law study"
+      ],
+      "section": 9,
+      "name": "Baş Parmak Bölgesi"
+    },
+    "35": {
+      "reference": "Hick",
+      "description": "Tek karar, jest sözlüğü ve karar eşiği; hızın ne zaman zararlı olduğu.",
+      "keywords": [
+        "stacked swipe card deck",
+        "rotated top card",
+        "gesture dictionary",
+        "28% decision threshold"
+      ],
+      "section": 9,
+      "name": "Kart Destesi & Swipe"
+    },
+    "36": {
+      "reference": "IKEA etkisi",
+      "description": "Üç adımlık kurulum, sosyal çıpalı hedef seçimi ve gerekçeli izin isteme.",
+      "keywords": [
+        "three-step onboarding",
+        "segmented progress",
+        "social anchor goal slider",
+        "justified permission"
+      ],
+      "section": 9,
+      "name": "Onboarding Akışı"
+    },
+    "37": {
+      "reference": "Zeigarnik",
+      "description": "İlk açılış ekranı, yarım kalan kontrol listesi ve bahşedilmiş ilerleme.",
+      "keywords": [
+        "empty state with single action",
+        "half-complete checklist",
+        "endowed progress bar"
+      ],
+      "section": 9,
+      "name": "Boş Durum"
+    },
+    "38": {
+      "reference": "Doherty",
+      "description": "Bağlamı koruyan yarı katman ile yıkıcı eylemi durduran modal arasındaki fark.",
+      "keywords": [
+        "bottom sheet over blurred context",
+        "drag handle",
+        "destructive confirmation modal"
+      ],
+      "section": 9,
+      "name": "Alt Sayfa & Katman"
+    },
+    "39": {
+      "reference": "Değişken ödül",
+      "description": "En güçlü etkileşim deseni ve onu bağımlılıktan ayıran durma noktaları.",
+      "keywords": [
+        "social feed with explicit stopping point",
+        "variable reward",
+        "healthy vs exploitative table"
+      ],
+      "section": 9,
+      "name": "Sonsuz Akış"
+    },
+    "40": {
+      "reference": "Kayıp kaçınma",
+      "description": "İşaret–istek–eylem–ödül döngüsü, seri koruması ve geri kazanma yolu.",
+      "keywords": [
+        "84-day streak ring",
+        "weekly dot row",
+        "streak protection card",
+        "habit loop diagram"
+      ],
+      "section": 10,
+      "name": "Alışkanlık & Seri"
+    },
+    "41": {
+      "reference": "Hedef gradyanı",
+      "description": "İlerleme çubuğu, rozet sistemi, sıralama tablosu ve dışsal ödül tuzağı.",
+      "keywords": [
+        "level progress bar at 84%",
+        "badge grid with next locked badge",
+        "leaderboard row highlight"
+      ],
+      "section": 10,
+      "name": "Oyunlaştırma"
+    },
+    "42": {
+      "reference": "Cialdini",
+      "description": "Stok, sayaç ve yorum sinyalleri; doğrulanabilir olanla uydurulmuş olanın farkı.",
+      "keywords": [
+        "live viewer chip",
+        "low-stock bar",
+        "similarity-signalled review",
+        "verifiable vs fake table"
+      ],
+      "section": 10,
+      "name": "Sosyal Kanıt & Kıtlık"
+    },
+    "43": {
+      "reference": "Anchoring",
+      "description": "Fiyat sunumu, yem seçenek ve varsayılanın kullanıcı lehine ayarlanması.",
+      "keywords": [
+        "three pricing rows",
+        "pre-selected annual plan",
+        "decoy lifetime anchor",
+        "renewal transparency"
+      ],
+      "section": 10,
+      "name": "Varsayılan & Çapa"
+    },
+    "44": {
+      "reference": "Zirve–son",
+      "description": "Haptik dili, animasyon süre bütçesi ve hafızada kalan iki anın tasarımı.",
+      "keywords": [
+        "dark success peak moment",
+        "pulse ring checkmark",
+        "haptic note",
+        "timing budget chart"
+      ],
+      "section": 10,
+      "name": "Mikro Etkileşim"
+    },
+    "45": {
+      "reference": "uyarı",
+      "description": "Altı yaygın sömürücü desen, dürüst karşılıkları ve ekip için kontrol sorusu.",
+      "keywords": [
+        "dark pattern warning page",
+        "cancellation screen comparison",
+        "honest counterpart table"
+      ],
+      "section": 10,
+      "name": "Karanlık Desenler"
+    }
+  }
+}

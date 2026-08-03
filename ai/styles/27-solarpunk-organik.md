@@ -2,6 +2,7 @@
 id: 27
 slug: "27-solarpunk-organik"
 title: "Solarpunk"
+name: "Solarpunk"
 section: "06 — Kültürel ve retro-fütürist diller"
 reference: "Organik modernizm"
 palette: ["#f6faf0", "#2f6b45", "#f7cb5a", "#8dc27b"]

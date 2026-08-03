@@ -2,6 +2,7 @@
 id: 5
 slug: "05-fonksiyonel-endustriyel"
 title: "Fonksiyonel Endüstriyel"
+name: "Fonksiyonel Endüstriyel"
 section: "01 — Küratörsel ve bireysel ekoller"
 reference: "Dieter Rams"
 palette: ["#e6e4df", "#1c1c1a", "#e35205", "#b6bfb2"]

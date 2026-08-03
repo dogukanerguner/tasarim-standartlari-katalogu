@@ -1,6 +1,6 @@
 {
   "name": "Tasarım Standartları Kataloğu",
-  "description": "45 tasarım yaklaşımının AI kod üretiminde kullanılabilir prompt, palet ve kural seti. Kaynak: *.dc.html sayfalarının prompt blokları.",
+  "description": "45 tasarım yaklaşımının AI kod üretiminde kullanılabilir prompt, palet ve kural seti. Kaynak: *.dc.html sayfalarının prompt blokları + data/catalog-meta.json.",
   "sections": [
     {
       "id": 1,
@@ -78,7 +78,8 @@
         "bold black and white contrast",
         "organic spacing"
       ],
-      "section": 1
+      "section": 1,
+      "name": "Editoryal Minimalizm"
     },
     {
       "id": 2,
@@ -105,7 +106,8 @@
         "cinematic depth",
         "avant-garde agency"
       ],
-      "section": 1
+      "section": 1,
+      "name": "Akışkan & Sürükleyici"
     },
     {
       "id": 3,
@@ -132,7 +134,8 @@
         "3D webgl atmosphere",
         "premium cybernetic UI"
       ],
-      "section": 1
+      "section": 1,
+      "name": "Gelecekçi Cyber"
     },
     {
       "id": 4,
@@ -159,7 +162,8 @@
         "unconventional grid",
         "layered chaotic typography"
       ],
-      "section": 1
+      "section": 1,
+      "name": "Brütalist & Provokatif"
     },
     {
       "id": 5,
@@ -186,7 +190,8 @@
         "muted neutrals",
         "precise grid"
       ],
-      "section": 1
+      "section": 1,
+      "name": "Fonksiyonel Endüstriyel"
     },
     {
       "id": 6,
@@ -212,7 +217,8 @@
         "overlapping layouts",
         "deconstructivist UI"
       ],
-      "section": 1
+      "section": 1,
+      "name": "Grunge Tipografi"
     },
     {
       "id": 7,
@@ -239,7 +245,8 @@
         "elegant neon gradients",
         "crisp sans-serif"
       ],
-      "section": 2
+      "section": 2,
+      "name": "Karanlık SaaS"
     },
     {
       "id": 8,
@@ -265,7 +272,8 @@
         "clean content chunks",
         "hierarchy"
       ],
-      "section": 2
+      "section": 2,
+      "name": "Bento Grid"
     },
     {
       "id": 9,
@@ -293,7 +301,8 @@
         "hard block shadows",
         "raw typography"
       ],
-      "section": 2
+      "section": 2,
+      "name": "Neo-Brütalizm"
     },
     {
       "id": 10,
@@ -320,7 +329,8 @@
         "high-end white corporate layout",
         "financial app UI"
       ],
-      "section": 2
+      "section": 2,
+      "name": "B2B İskeletizm"
     },
     {
       "id": 11,
@@ -348,7 +358,8 @@
         "bold sans-serif",
         "asymmetrical functional grid"
       ],
-      "section": 3
+      "section": 3,
+      "name": "Bauhaus"
     },
     {
       "id": 12,
@@ -373,7 +384,8 @@
         "heavy sans-serif",
         "functional asymmetric structure"
       ],
-      "section": 3
+      "section": 3,
+      "name": "İsviçre Izgarası"
     },
     {
       "id": 13,
@@ -400,7 +412,8 @@
         "cyber-maximalism",
         "iridescent gradient UI"
       ],
-      "section": 3
+      "section": 3,
+      "name": "Y2K Saykodelik"
     },
     {
       "id": 14,
@@ -426,7 +439,8 @@
         "black and neon green palette",
         "ASCII accents"
       ],
-      "section": 3
+      "section": 3,
+      "name": "Retro Terminal"
     },
     {
       "id": 15,
@@ -452,7 +466,8 @@
         "blurry background pass-through",
         "multi-layered dashboard"
       ],
-      "section": 4
+      "section": 4,
+      "name": "Glassmorphism"
     },
     {
       "id": 16,
@@ -478,7 +493,8 @@
         "inner and outer soft shadows",
         "monochromatic"
       ],
-      "section": 4
+      "section": 4,
+      "name": "Neomorphism"
     },
     {
       "id": 17,
@@ -505,7 +521,8 @@
         "soft pastel colors",
         "bubbly playful interface"
       ],
-      "section": 4
+      "section": 4,
+      "name": "Claymorphism"
     },
     {
       "id": 18,
@@ -533,7 +550,8 @@
         "arched frames",
         "muted earthy palette"
       ],
-      "section": 5
+      "section": 5,
+      "name": "Art Nouveau"
     },
     {
       "id": 19,
@@ -558,7 +576,8 @@
         "gold linework on deep teal",
         "luxury poster type"
       ],
-      "section": 5
+      "section": 5,
+      "name": "Art Deco"
     },
     {
       "id": 20,
@@ -586,7 +605,8 @@
         "primary color blocks",
         "no diagonals"
       ],
-      "section": 5
+      "section": 5,
+      "name": "De Stijl"
     },
     {
       "id": 21,
@@ -612,7 +632,8 @@
         "photomontage",
         "condensed type"
       ],
-      "section": 5
+      "section": 5,
+      "name": "Konstrüktivizm"
     },
     {
       "id": 22,
@@ -639,7 +660,8 @@
         "squiggles and confetti patterns",
         "clashing bright colors"
       ],
-      "section": 5
+      "section": 5,
+      "name": "Memphis"
     },
     {
       "id": 23,
@@ -667,7 +689,8 @@
         "organic kidney forms",
         "walnut"
       ],
-      "section": 5
+      "section": 5,
+      "name": "Mid-Century Modern"
     },
     {
       "id": 24,
@@ -694,7 +717,8 @@
         "chrome type",
         "VHS"
       ],
-      "section": 6
+      "section": 6,
+      "name": "Vaporwave / Synthwave"
     },
     {
       "id": 25,
@@ -720,7 +744,8 @@
         "single object composition",
         "natural imperfect texture"
       ],
-      "section": 6
+      "section": 6,
+      "name": "Ma & Wabi-Sabi"
     },
     {
       "id": 26,
@@ -747,7 +772,8 @@
         "eight-point star",
         "cobalt emerald coral on ivory"
       ],
-      "section": 6
+      "section": 6,
+      "name": "Geometrik Motif"
     },
     {
       "id": 27,
@@ -774,7 +800,8 @@
         "green and solar yellow",
         "natural materials"
       ],
-      "section": 6
+      "section": 6,
+      "name": "Solarpunk"
     },
     {
       "id": 28,
@@ -801,7 +828,8 @@
         "glossy beveled buttons",
         "drop shadows"
       ],
-      "section": 7
+      "section": 7,
+      "name": "Skeuomorfizm"
     },
     {
       "id": 29,
@@ -829,7 +857,8 @@
         "no gradients or shadows",
         "simple geometric icons"
       ],
-      "section": 7
+      "section": 7,
+      "name": "Düz Tasarım"
     },
     {
       "id": 30,
@@ -857,7 +886,8 @@
         "mixed serif and grotesk type",
         "opulent density"
       ],
-      "section": 7
+      "section": 7,
+      "name": "Maksimalizm"
     },
     {
       "id": 31,
@@ -886,7 +916,8 @@
         "large text",
         "clear errors"
       ],
-      "section": 8
+      "section": 8,
+      "name": "Erişilebilirlik Öncelikli"
     },
     {
       "id": 32,
@@ -915,7 +946,8 @@
         "task-first",
         "no decoration"
       ],
-      "section": 8
+      "section": 8,
+      "name": "Kamu Hizmeti Tasarımı"
     },
     {
       "id": 33,
@@ -942,7 +974,8 @@
         "blue underlined links",
         "unstyled tables"
       ],
-      "section": 8
+      "section": 8,
+      "name": "Ham HTML Brütalizmi"
     },
     {
       "id": 34,
@@ -969,7 +1002,8 @@
         "44px targets",
         "Fitts's law study"
       ],
-      "section": 9
+      "section": 9,
+      "name": "Baş Parmak Bölgesi"
     },
     {
       "id": 35,
@@ -996,7 +1030,8 @@
         "gesture dictionary",
         "28% decision threshold"
       ],
-      "section": 9
+      "section": 9,
+      "name": "Kart Destesi & Swipe"
     },
     {
       "id": 36,
@@ -1023,7 +1058,8 @@
         "social anchor goal slider",
         "justified permission"
       ],
-      "section": 9
+      "section": 9,
+      "name": "Onboarding Akışı"
     },
     {
       "id": 37,
@@ -1049,7 +1085,8 @@
         "half-complete checklist",
         "endowed progress bar"
       ],
-      "section": 9
+      "section": 9,
+      "name": "Boş Durum"
     },
     {
       "id": 38,
@@ -1075,7 +1112,8 @@
         "drag handle",
         "destructive confirmation modal"
       ],
-      "section": 9
+      "section": 9,
+      "name": "Alt Sayfa & Katman"
     },
     {
       "id": 39,
@@ -1102,7 +1140,8 @@
         "variable reward",
         "healthy vs exploitative table"
       ],
-      "section": 9
+      "section": 9,
+      "name": "Sonsuz Akış"
     },
     {
       "id": 40,
@@ -1129,7 +1168,8 @@
         "streak protection card",
         "habit loop diagram"
       ],
-      "section": 10
+      "section": 10,
+      "name": "Alışkanlık & Seri"
     },
     {
       "id": 41,
@@ -1155,7 +1195,8 @@
         "badge grid with next locked badge",
         "leaderboard row highlight"
       ],
-      "section": 10
+      "section": 10,
+      "name": "Oyunlaştırma"
     },
     {
       "id": 42,
@@ -1183,7 +1224,8 @@
         "similarity-signalled review",
         "verifiable vs fake table"
       ],
-      "section": 10
+      "section": 10,
+      "name": "Sosyal Kanıt & Kıtlık"
     },
     {
       "id": 43,
@@ -1210,7 +1252,8 @@
         "decoy lifetime anchor",
         "renewal transparency"
       ],
-      "section": 10
+      "section": 10,
+      "name": "Varsayılan & Çapa"
     },
     {
       "id": 44,
@@ -1237,7 +1280,8 @@
         "haptic note",
         "timing budget chart"
       ],
-      "section": 10
+      "section": 10,
+      "name": "Mikro Etkileşim"
     },
     {
       "id": 45,
@@ -1263,7 +1307,8 @@
         "cancellation screen comparison",
         "honest counterpart table"
       ],
-      "section": 10
+      "section": 10,
+      "name": "Karanlık Desenler"
     }
   ]
 }

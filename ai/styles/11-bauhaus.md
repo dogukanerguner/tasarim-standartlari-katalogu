@@ -2,6 +2,7 @@
 id: 11
 slug: "11-bauhaus"
 title: "Bauhaus"
+name: "Bauhaus"
 section: "03 — Tarihsel ve sanatsal akımlar"
 reference: "1919 →"
 palette: ["#efe9dd", "#161513", "#1c4fd8", "#f2c400", "#d8232a"]

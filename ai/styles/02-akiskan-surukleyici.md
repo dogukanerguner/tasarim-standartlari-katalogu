@@ -2,6 +2,7 @@
 id: 2
 slug: "02-akiskan-surukleyici"
 title: "Akışkan & Sürükleyici"
+name: "Akışkan & Sürükleyici"
 section: "01 — Küratörsel ve bireysel ekoller"
 reference: "Locomotive"
 palette: ["#0e0d12", "#3d5cff", "#00c2a8", "#c14bff"]

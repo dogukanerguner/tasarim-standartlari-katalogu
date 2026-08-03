@@ -2,6 +2,7 @@
 id: 10
 slug: "10-b2b-gradient-iskeletizm"
 title: "B2B İskeletizm"
+name: "B2B İskeletizm"
 section: "02 — Çağdaş dijital ürün ve SaaS akımları"
 reference: "Stripe ekolü"
 palette: ["#eaf3ff", "#f4ecff", "#5a4bff", "#00c39a", "#0b1533"]

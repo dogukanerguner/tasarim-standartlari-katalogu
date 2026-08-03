@@ -2,6 +2,7 @@
 id: 18
 slug: "18-art-nouveau"
 title: "Art Nouveau"
+name: "Art Nouveau"
 section: "05 — Sanat akımlarının web karşılıkları"
 reference: "1890—1910"
 palette: ["#f0e9d8", "#8c5a2b", "#4a694a", "#c9a227", "#a8536b"]

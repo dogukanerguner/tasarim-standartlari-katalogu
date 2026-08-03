@@ -2,6 +2,7 @@
 id: 41
 slug: "41-oyunlastirma-ilerleme"
 title: "Oyunlaştırma"
+name: "Oyunlaştırma"
 section: "10 — Davranış tasarımı ve psikoloji"
 reference: "Hedef gradyanı"
 palette: ["#efece5", "#fbfaf7", "#17160f", "#a8442c"]

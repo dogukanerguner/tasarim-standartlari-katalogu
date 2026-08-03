@@ -2,6 +2,7 @@
 id: 39
 slug: "39-sonsuz-akis"
 title: "Sonsuz Akış"
+name: "Sonsuz Akış"
 section: "09 — Mobil arayüz yapıları"
 reference: "Değişken ödül"
 palette: ["#efece5", "#fbfaf7", "#17160f", "#2f6b45", "#b03428"]

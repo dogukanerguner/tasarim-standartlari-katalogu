@@ -2,6 +2,7 @@
 id: 28
 slug: "28-skeuomorfizm"
 title: "Skeuomorfizm"
+name: "Skeuomorfizm"
 section: "07 — Arayüz dönemleri ve yüzey dilleri"
 reference: "2007—2013"
 palette: ["#3a2f26", "#f6efdd", "#8a755a", "#b45a48"]

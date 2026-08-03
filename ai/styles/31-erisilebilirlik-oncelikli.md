@@ -2,6 +2,7 @@
 id: 31
 slug: "31-erisilebilirlik-oncelikli"
 title: "Erişilebilirlik Öncelikli"
+name: "Erişilebilirlik Öncelikli"
 section: "08 — İlke temelli standartlar"
 reference: "WCAG 2.2"
 palette: ["#ffffff", "#141414", "#0a4bd4", "#b3000f", "#ffd200"]

@@ -2,6 +2,7 @@
 id: 34
 slug: "34-basparmak-bolgesi"
 title: "Baş Parmak Bölgesi"
+name: "Baş Parmak Bölgesi"
 section: "09 — Mobil arayüz yapıları"
 reference: "Fitts"
 palette: ["#efece5", "#17160f", "#a8442c", "#4aa06e"]

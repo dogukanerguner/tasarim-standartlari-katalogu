@@ -2,6 +2,7 @@
 id: 42
 slug: "42-sosyal-kanit-kitlik"
 title: "Sosyal Kanıt & Kıtlık"
+name: "Sosyal Kanıt & Kıtlık"
 section: "10 — Davranış tasarımı ve psikoloji"
 reference: "Cialdini"
 palette: ["#efece5", "#fbfaf7", "#17160f", "#c67a1e", "#b03428"]

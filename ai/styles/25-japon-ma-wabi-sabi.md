@@ -2,6 +2,7 @@
 id: 25
 slug: "25-japon-ma-wabi-sabi"
 title: "Ma & Wabi-Sabi"
+name: "Ma & Wabi-Sabi"
 section: "06 — Kültürel ve retro-fütürist diller"
 reference: "Japonya"
 palette: ["#f5f2ec", "#2c2a26", "#8a7f6d", "#eae5db"]

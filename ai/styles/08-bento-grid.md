@@ -2,6 +2,7 @@
 id: 8
 slug: "08-bento-grid"
 title: "Bento Grid"
+name: "Bento Grid"
 section: "02 — Çağdaş dijital ürün ve SaaS akımları"
 reference: "Apple / Microsoft"
 palette: ["#f1f1f3", "#111114", "#0a6cff"]

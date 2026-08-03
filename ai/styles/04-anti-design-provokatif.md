@@ -2,6 +2,7 @@
 id: 4
 slug: "04-anti-design-provokatif"
 title: "Brütalist & Provokatif"
+name: "Brütalist & Provokatif"
 section: "01 — Küratörsel ve bireysel ekoller"
 reference: "Sagmeister"
 palette: ["#f2e8d5", "#141210", "#ff3b1f", "#ffd400"]

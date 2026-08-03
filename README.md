@@ -14,6 +14,8 @@ Klasik stil rehberleri insanlara anlatır; bu katalog aynı anda **makinelere de
 2. **Prompt kaynağı** — sayfanın altındaki blokta o stilin detaylı İngilizce üretim promptu, Türkçe brief'i, renk paleti, tipografisi, düzen/hareket kuralları ve **kaçınılacaklar** listesi bulunur; tek tıkla seçilip kopyalanır.
 3. **Makine katmanı** — aynı bilgi [`ai/catalog.json`](ai/catalog.json) ve stil başına [`ai/styles/*.md`](ai/styles) dosyalarında yapısal olarak da mevcuttur. Bir LLM'e ya da kod asistanına "07 numaralı stilde bir landing page yap" diyebilmeniz için.
 
+Katalog sayfasının kendisi de bu katmandan beslenir: arama (isim, ekol, anahtar kelime, hatta `#hex` kodu), bölüm filtreleri, palet noktaları ve **karttan tek tıkla prompt kopyalama** doğrudan `ai/catalog.json` üzerinden çalışır. Klavye kısayolları: `/` ara, `Esc` temizle, `↵` ilk sonucu aç, 🎲 rastgele stil.
+
 ## İçerik — 10 bölüm, 45 sayfa
 
 | Bölüm | Sayfalar | Kapsam |
@@ -69,7 +71,13 @@ python3 tools/extract_prompts.py
 
 ## Katkı
 
-Yeni bir stil eklemek = tek bir `NN-stil-adi.dc.html` dosyası + Katalog'a kart eklemek + `tools/extract_prompts.py` çalıştırmak. Kurallar: sayfa dili Türkçe, tüm stiller inline, görseller yer tutucu (telifli materyal yok), her sayfada prompt bloğu zorunlu.
+Yeni bir stil eklemek üç adımdır:
+
+1. `NN-stil-adi.dc.html` sayfasını yazın (sonunda prompt bloğu zorunlu).
+2. [`data/catalog-meta.json`](data/catalog-meta.json) dosyasına kaydı ekleyin (isim, ekol, açıklama, anahtar kelimeler, bölüm).
+3. `python3 tools/extract_prompts.py` çalıştırın — `ai/` katmanı ve dolayısıyla Katalog sayfası otomatik güncellenir.
+
+Kurallar: sayfa dili Türkçe, tüm stiller inline, görseller yer tutucu (telifli materyal yok).
 
 ## Lisans
 

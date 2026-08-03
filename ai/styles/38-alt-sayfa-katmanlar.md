@@ -2,6 +2,7 @@
 id: 38
 slug: "38-alt-sayfa-katmanlar"
 title: "Alt Sayfa & Katman"
+name: "Alt Sayfa & Katman"
 section: "09 — Mobil arayüz yapıları"
 reference: "Doherty"
 palette: ["#efece5", "#fbfaf7", "#17160f", "#b03428"]

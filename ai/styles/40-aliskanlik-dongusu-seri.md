@@ -2,6 +2,7 @@
 id: 40
 slug: "40-aliskanlik-dongusu-seri"
 title: "Alışkanlık & Seri"
+name: "Alışkanlık & Seri"
 section: "10 — Davranış tasarımı ve psikoloji"
 reference: "Kayıp kaçınma"
 palette: ["#efece5", "#0f1b16", "#f5a524", "#17160f"]

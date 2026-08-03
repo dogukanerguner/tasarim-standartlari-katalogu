@@ -2,6 +2,7 @@
 id: 7
 slug: "07-karanlik-saas"
 title: "Karanlık SaaS"
+name: "Karanlık SaaS"
 section: "02 — Çağdaş dijital ürün ve SaaS akımları"
 reference: "Linear / Vercel"
 palette: ["#08080b", "#e8e8ee", "#7e78ff", "#4ad9c0"]

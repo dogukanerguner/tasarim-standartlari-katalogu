@@ -2,6 +2,7 @@
 id: 37
 slug: "37-bos-durum-ilk-deneyim"
 title: "Boş Durum"
+name: "Boş Durum"
 section: "09 — Mobil arayüz yapıları"
 reference: "Zeigarnik"
 palette: ["#efece5", "#fbfaf7", "#17160f", "#a8442c"]

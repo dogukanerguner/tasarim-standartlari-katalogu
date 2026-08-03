@@ -2,6 +2,7 @@
 id: 24
 slug: "24-vaporwave-synthwave"
 title: "Vaporwave / Synthwave"
+name: "Vaporwave / Synthwave"
 section: "06 — Kültürel ve retro-fütürist diller"
 reference: "80'ler"
 palette: ["#0d0424", "#ff4fd8", "#4fd1ff", "#ffd76e"]

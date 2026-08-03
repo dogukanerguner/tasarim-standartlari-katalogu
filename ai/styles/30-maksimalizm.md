@@ -2,6 +2,7 @@
 id: 30
 slug: "30-maksimalizm"
 title: "Maksimalizm"
+name: "Maksimalizm"
 section: "07 — Arayüz dönemleri ve yüzey dilleri"
 reference: "Anti-minimal"
 palette: ["#1b0b2e", "#fdf6e3", "#e0245e", "#00b3a4", "#ffd166"]

@@ -2,6 +2,7 @@
 id: 36
 slug: "36-asamali-aciga-cikarma"
 title: "Onboarding Akışı"
+name: "Onboarding Akışı"
 section: "09 — Mobil arayüz yapıları"
 reference: "IKEA etkisi"
 palette: ["#efece5", "#fbfaf7", "#17160f", "#a8442c"]

@@ -2,6 +2,7 @@
 id: 13
 slug: "13-y2k-saykodelik"
 title: "Y2K Saykodelik"
+name: "Y2K Saykodelik"
 section: "03 — Tarihsel ve sanatsal akımlar"
 reference: "Milenyum"
 palette: ["#0a0620", "#ff7ae0", "#7ae8ff", "#c9ff6e", "#ffe27a"]
