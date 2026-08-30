@@ -8,6 +8,7 @@
     "render": "remotion render Reklam-TR-9x16 out/reklam-tr-9x16.mp4 --codec h264",
     "render:en": "remotion render Reklam-EN-9x16 out/reklam-en-9x16.mp4 --codec h264",
     "render:wide": "remotion render Reklam-TR-16x9 out/reklam-tr-16x9.mp4 --codec h264",
+    "render:en:wide": "remotion render Reklam-EN-16x9 out/reklam-en-16x9.mp4 --codec h264",
     "sfx": "python3 tools/make-sfx.py"
   },
   "dependencies": {
