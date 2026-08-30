@@ -2,3 +2,5 @@
 .thumbnail
 .vercel
 .env*
+*.png
+!brand/*.png
