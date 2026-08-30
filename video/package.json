@@ -1,0 +1,23 @@
+{
+  "name": "tasarim-katalogu-reklam",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Tasarım Standartları Kataloğu — sosyal medya reklam filmi (Remotion)",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render Reklam-TR-9x16 out/reklam-tr-9x16.mp4 --codec h264",
+    "render:en": "remotion render Reklam-EN-9x16 out/reklam-en-9x16.mp4 --codec h264",
+    "render:wide": "remotion render Reklam-TR-16x9 out/reklam-tr-16x9.mp4 --codec h264",
+    "sfx": "python3 tools/make-sfx.py"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "^4.0.0",
+    "@remotion/cli": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "typescript": "^5.6.0"
+  }
+}
