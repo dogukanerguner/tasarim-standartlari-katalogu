@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://design.asveas.com/sitemap.xml
+# LLM-friendly summaries: https://design.asveas.com/llms.txt and https://design.asveas.com/llms-full.txt

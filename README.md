@@ -1,3 +1,5 @@
+<p align="center"><img src="brand/logo.svg" width="72" alt="Tasarım Standartları Kataloğu"></p>
+
 # Tasarım Standartları Kataloğu
 
 **85 tasarım yaklaşımı — her biri hem çalışan canlı örnek, hem de AI kod üretiminde doğrudan kullanılabilir prompt ve kural seti.**
@@ -14,7 +16,7 @@ Klasik stil rehberleri insanlara anlatır; bu katalog aynı anda **makinelere de
 2. **Prompt kaynağı** — sayfanın altındaki blokta o stilin detaylı İngilizce üretim promptu, Türkçe brief'i, renk paleti, tipografisi, düzen/hareket kuralları ve **kaçınılacaklar** listesi bulunur; tek tıkla seçilip kopyalanır.
 3. **Makine katmanı** — aynı bilgi [`ai/catalog.json`](ai/catalog.json) ve stil başına [`ai/styles/*.md`](ai/styles) dosyalarında yapısal olarak da mevcuttur. Bir LLM'e ya da kod asistanına "07 numaralı stilde bir landing page yap" diyebilmeniz için.
 
-Katalog sayfasının kendisi de bu katmandan beslenir: arama (isim, ekol, anahtar kelime, hatta `#hex` kodu), bölüm filtreleri, palet noktaları ve **karttan tek tıkla prompt kopyalama** doğrudan `ai/catalog.json` üzerinden çalışır. Klavye kısayolları: `/` ara, `Esc` temizle, `↵` ilk sonucu aç, 🎲 rastgele stil. Arayüz **Türkçe/İngilizce** (sağ üstten EN/TR).
+Katalog sayfasının kendisi de bu katmandan beslenir: arama (isim, ekol, anahtar kelime, hatta `#hex` kodu), bölüm filtreleri, palet noktaları ve **karttan tek tıkla prompt kopyalama** doğrudan `ai/catalog.json` üzerinden çalışır. Klavye kısayolları: `/` ara, `Esc` temizle, `↵` ilk sonucu aç, 🎲 rastgele stil. Arayüz **tam Türkçe/İngilizce** — stil adları, bölümler, Galeri/Test/Mikser dahil (sağ üstten EN/TR ya da `?lang=en`).
 
 ## Keşfet
 
@@ -64,6 +66,10 @@ ai/
 
 Bu depo kök dizininde bir [`CLAUDE.md`](CLAUDE.md) de içerir; Claude Code bu klasörde açıldığında katalog kurallarını otomatik yükler.
 
+## SEO & GEO
+
+Her sayfa statik `<head>` katmanı taşır: iki dilli başlık/açıklama, `canonical` + `hreflang` (tr/en/x-default), Open Graph/Twitter kartı ve JSON-LD yapısal veri (Katalog'da `WebSite` + 85 öğeli `ItemList`, stil sayfalarında `WebPage`/`CreativeWork`). Kök dizinde `sitemap.xml`, `robots.txt` ve LLM tarayıcıları için [`llms.txt`](llms.txt) / [`llms-full.txt`](llms-full.txt) bulunur. Hepsi `python3 tools/inject_og.py && python3 tools/build_seo.py` ile yeniden üretilir.
+
 ## Nasıl çalışıyor?
 
 Sayfalar `*.dc.html` formatındadır: `<x-dc>` içindeki şablonu [`support.js`](support.js) (dc-runtime) React ile render eder. Şablon dili `{{ prop }}` interpolasyonu, `sc-if`/`sc-for`, `<helmet>` ve `style-hover="…"` gibi pseudo-class öznitelikleri destekler. Katalog sayfası, örnekleri `iframe + scale(.25)` ile canlı küçük önizleme olarak gösterir.
@@ -88,9 +94,13 @@ Yeni bir stil eklemek üç adımdır:
 1. `NN-stil-adi.dc.html` sayfasını yazın (sonunda prompt bloğu zorunlu).
 2. [`data/catalog-meta.json`](data/catalog-meta.json) dosyasına kaydı ekleyin (isim, ekol, açıklama, anahtar kelimeler, bölüm).
 3. `python3 tools/extract_prompts.py` çalıştırın — `ai/` katmanı ve dolayısıyla Katalog sayfası otomatik güncellenir.
-4. Paylaşım kartı için yerel sunucu açıkken `node tools/og_shots.js NN-slug` ve ardından `python3 tools/inject_og.py` çalıştırın. Galeri'ye de bir hücre ekleyin (`Galeri.dc.html`).
+4. Paylaşım kartı için yerel sunucu açıkken `node tools/og_shots.js NN-slug`, ardından `python3 tools/inject_og.py && python3 tools/build_seo.py` çalıştırın. Galeri'ye de bir hücre ekleyin (`Galeri.dc.html`).
 
 Kurallar: sayfa dili Türkçe, tüm stiller inline, görseller yer tutucu (telifli materyal yok).
+
+## Marka
+
+Logo, favicon seti ve renkler [`brand/`](brand/) altında (`logo.svg`, `logo-wordmark.svg`, PNG ikonlar, `site.webmanifest`). Mürekkep `#14120e` · kâğıt `#f2ede3` · terracotta `#e07a52`.
 
 ## Lisans
 

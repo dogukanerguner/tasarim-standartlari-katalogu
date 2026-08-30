@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 64" width="420" height="64" role="img" aria-label="Tasarım Standartları Kataloğu">
+  <rect width="64" height="64" rx="14" fill="#14120e"/>
+  <rect x="13" y="13" width="17" height="17" rx="4" fill="none" stroke="#f2ede3" stroke-opacity=".55" stroke-width="2"/>
+  <rect x="34" y="13" width="17" height="17" rx="4" fill="#e07a52"/>
+  <rect x="13" y="34" width="17" height="17" rx="4" fill="none" stroke="#f2ede3" stroke-opacity=".55" stroke-width="2"/>
+  <rect x="34" y="34" width="17" height="17" rx="4" fill="none" stroke="#f2ede3" stroke-opacity=".55" stroke-width="2"/>
+  <text x="82" y="30" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="12" letter-spacing="2.4" fill="#e07a52">TASARIM STANDARTLARI</text>
+  <text x="82" y="50" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="12" letter-spacing="2.4" fill="#14120e">KATALOĞU · design.asveas.com</text>
+</svg>

@@ -1,23 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- og:start -->
 <title>Stil Mikseri — Style Mixer</title>
-<meta name="description" content="Blend any two of 85 design styles into one AI-ready prompt.">
+<meta name="description" content="Blend any two of 85 design styles into one AI-ready prompt. İki stili tek prompt&#x27;ta harmanla.">
+<link rel="canonical" href="https://design.asveas.com/Mikser.dc.html">
+<link rel="alternate" hreflang="tr" href="https://design.asveas.com/Mikser.dc.html">
+<link rel="alternate" hreflang="en" href="https://design.asveas.com/Mikser.dc.html?lang=en">
+<link rel="alternate" hreflang="x-default" href="https://design.asveas.com/Mikser.dc.html">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Tasarım Standartları Kataloğu">
+<meta property="og:site_name" content="Tasarım Standartları Kataloğu · Design Standards Catalog">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:locale:alternate" content="en_US">
 <meta property="og:title" content="Stil Mikseri — Style Mixer">
-<meta property="og:description" content="Blend any two of 85 design styles into one AI-ready prompt.">
+<meta property="og:description" content="Blend any two of 85 design styles into one AI-ready prompt. İki stili tek prompt&#x27;ta harmanla.">
 <meta property="og:url" content="https://design.asveas.com/Mikser.dc.html">
 <meta property="og:image" content="https://design.asveas.com/og/katalog.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Stil Mikseri — Style Mixer">
-<meta name="twitter:description" content="Blend any two of 85 design styles into one AI-ready prompt.">
+<meta name="twitter:description" content="Blend any two of 85 design styles into one AI-ready prompt. İki stili tek prompt&#x27;ta harmanla.">
 <meta name="twitter:image" content="https://design.asveas.com/og/katalog.jpg">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/brand/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/brand/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#14120e">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Stil Mikseri — Style Mixer", "url": "https://design.asveas.com/Mikser.dc.html", "applicationCategory": "DesignApplication", "inLanguage": ["tr", "en"], "description": "Blend any two of 85 design styles into one AI-ready prompt. İki stili tek prompt'ta harmanla.", "isPartOf": {"@type": "WebSite", "name": "Tasarım Standartları Kataloğu", "alternateName": "Design Standards Catalog", "url": "https://design.asveas.com/", "inLanguage": ["tr", "en"]}}</script>
 <!-- og:end -->
 <script src="./support.js"></script>
 </head>
@@ -42,30 +54,30 @@ a{color:inherit;text-decoration:none}
 
   <div style="display:flex;justify-content:space-between;align-items:baseline;gap:20px;padding:20px 40px 0;font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.15em;text-transform:uppercase">
     <a href="Katalog.dc.html" style-hover="color:#e07a52">← Katalog</a>
-    <span style="color:#e07a52">Stil Mikseri</span>
+    <span style="display:flex;gap:18px;align-items:baseline"><button onclick="{{ onLang }}" style="background:none;border:1px solid rgba(242,237,227,.25);border-radius:5px;color:rgba(242,237,227,.65);font:inherit;letter-spacing:inherit;text-transform:inherit;padding:3px 8px;cursor:pointer">{{ langLabel }}</button><span style="color:#e07a52">{{ t.tag }}</span></span>
   </div>
 
   <div style="max-width:1000px;margin:0 auto;padding:36px 24px 0">
-    <h1 style="font-size:36px;font-weight:600;letter-spacing:-.02em;line-height:1.1;margin:0 0 10px;text-align:center">İki stili karıştır, tek prompt al</h1>
-    <p style="font-size:15px;line-height:1.6;color:rgba(242,237,227,.6);text-align:center;max-width:52ch;margin:0 auto 30px">Biri <b>görsel dili</b> verir, diğeri <b>uygulama iskeletini</b>. 85 stilden 7.140 farklı harman — Hokusai bir bankacılık uygulaması giydirsin, Bloomberg bir günlük tutsun.</p>
+    <h1 style="font-size:36px;font-weight:600;letter-spacing:-.02em;line-height:1.1;margin:0 0 10px;text-align:center">{{ t.h1 }}</h1>
+    <p style="font-size:15px;line-height:1.6;color:rgba(242,237,227,.6);text-align:center;max-width:52ch;margin:0 auto 30px">{{ t.p }}</p>
 
     <sc-if value="{{ hazir }}">
     <div class="mgrid" style="display:grid;grid-template-columns:minmax(0,1fr) 52px minmax(0,1fr);gap:14px;align-items:stretch">
       <div class="msec">
-        <div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#e07a52;margin-bottom:10px">Görsel dil — nasıl görünsün?</div>
+        <div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#e07a52;margin-bottom:10px">{{ t.a }}</div>
         {{ selA }}
         <div style="display:flex;gap:6px;margin-top:12px"><sc-for list="{{ aPal }}" as="hex"><span style="width:16px;height:16px;border-radius:50%;border:1px solid rgba(242,237,227,.3);background:{{ hex }}"></span></sc-for></div>
-        <div class="monizleme"><iframe src="{{ aFile }}" loading="lazy" scrolling="no" title="A önizleme"></iframe></div>
+        <div class="monizleme"><iframe src="{{ aFile }}" loading="lazy" scrolling="no" title="A"></iframe></div>
       </div>
       <div class="morta" style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px">
-        <button class="mbtn" onclick="{{ onSwap }}" title="İkisini yer değiştir" style="padding:11px 12px">⇄</button>
-        <button class="mbtn" onclick="{{ onRandom }}" title="Rastgele çift" style="padding:11px 12px">🎲</button>
+        <button class="mbtn" onclick="{{ onSwap }}" title="{{ t.swap }}" style="padding:11px 12px">⇄</button>
+        <button class="mbtn" onclick="{{ onRandom }}" title="{{ t.rnd }}" style="padding:11px 12px">🎲</button>
       </div>
       <div class="msec">
-        <div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#7fbf8e;margin-bottom:10px">İskelet — ne olsun?</div>
+        <div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#7fbf8e;margin-bottom:10px">{{ t.b }}</div>
         {{ selB }}
         <div style="display:flex;gap:6px;margin-top:12px"><sc-for list="{{ bPal }}" as="hex"><span style="width:16px;height:16px;border-radius:50%;border:1px solid rgba(242,237,227,.3);background:{{ hex }}"></span></sc-for></div>
-        <div class="monizleme"><iframe src="{{ bFile }}" loading="lazy" scrolling="no" title="B önizleme"></iframe></div>
+        <div class="monizleme"><iframe src="{{ bFile }}" loading="lazy" scrolling="no" title="B"></iframe></div>
       </div>
     </div>
 
@@ -81,15 +93,23 @@ a{color:inherit;text-decoration:none}
     </div>
     </sc-if>
 
-    <sc-if value="{{ yukleniyor }}"><div style="padding:100px 0;text-align:center;font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:rgba(242,237,227,.45)">stiller yükleniyor…</div></sc-if>
+    <sc-if value="{{ yukleniyor }}"><div style="padding:100px 0;text-align:center;font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:rgba(242,237,227,.45)">{{ t.loading }}</div></sc-if>
   </div>
 
   <div style="max-width:1000px;margin:40px auto 0;padding:16px 24px 0;border-top:1px solid rgba(242,237,227,.12);display:flex;justify-content:space-between;font-family:ui-monospace,Menlo,monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:rgba(242,237,227,.35)">
-    <span>design.asveas.com/Mikser</span><span>harmanı beğendiysen linkini paylaş</span>
+    <span>design.asveas.com/Mikser</span><span>{{ t.foot }}</span>
   </div>
 </div>
 </x-dc>
 <script type="text/x-dc" data-dc-script>
+const STR = {
+  tr: { tag:'Stil Mikseri', h1:'İki stili karıştır, tek prompt al', p:'Biri görsel dili verir, diğeri uygulama iskeletini. 85 stilden 7.140 farklı harman — Hokusai bir bankacılık uygulaması giydirsin, Bloomberg bir günlük tutsun.',
+        a:'Görsel dil — nasıl görünsün?', b:'İskelet — ne olsun?', swap:'İkisini yer değiştir', rnd:'Rastgele çift', loading:'stiller yükleniyor…',
+        kopya:'⧉ promptu kopyala', kopyaOk:'✓ kopyalandı', link:'🔗 harman linki', linkOk:'✓ link panoda', harman:'Harman', foot:'harmanı beğendiysen linkini paylaş' },
+  en: { tag:'Style Mixer', h1:'Mix two styles, get one prompt', p:'One gives the visual language, the other the app skeleton. 7,140 blends from 85 styles — let Hokusai dress a banking app, let Bloomberg keep a diary.',
+        a:'Visual language — how should it look?', b:'Skeleton — what should it be?', swap:'Swap the two', rnd:'Random pair', loading:'loading styles…',
+        kopya:'⧉ copy prompt', kopyaOk:'✓ copied', link:'🔗 blend link', linkOk:'✓ link copied', harman:'Blend', foot:'liked the blend? share its link' }
+};
 class Component extends DCLogic {
   constructor(props) {
     super(props);
@@ -98,7 +118,10 @@ class Component extends DCLogic {
       const m = (new URLSearchParams(location.search).get('mix') || '').split(/[+ ]/);
       if (m.length === 2) { a = parseInt(m[0], 10) || a; b = parseInt(m[1], 10) || b; }
     } catch (e) {}
-    this.state = { a, b, data: null, kopya: false, link: false };
+    let lang = 'tr';
+    try { const q = new URLSearchParams(location.search).get('lang'); lang = q === 'en' ? 'en' : q === 'tr' ? 'tr' : (localStorage.getItem('katalogLang') || 'tr'); } catch (e) {}
+    this.state = { a, b, data: null, kopya: false, link: false, lang: lang === 'en' ? 'en' : 'tr' };
+    this.onLang = () => this.setState(s => { const l = s.lang === 'tr' ? 'en' : 'tr'; try { localStorage.setItem('katalogLang', l); } catch (e) {} return { lang: l }; });
     this.onSelA = (e) => this._set(+e.target.value, this.state.b);
     this.onSelB = (e) => this._set(this.state.a, +e.target.value);
     this.onSwap = () => this._set(this.state.b, this.state.a);
@@ -134,37 +157,41 @@ class Component extends DCLogic {
     const A = this._stil(this.state.a), B = this._stil(this.state.b);
     if (!A || !B) return '';
     const ilkCumle = (B.prompt_en.split('. ')[0] || B.prompt_en) + '.';
-    return 'STYLE MASHUP — skeleton: "' + B.name + '" × skin: "' + A.name + '" (' + A.reference + ')\n\n'
-      + 'BASE APP / STRUCTURE — ' + B.name + ': ' + ilkCumle + ' Keep this app’s structure, modules and content.\n\n'
-      + 'VISUAL SKIN — ' + A.name + ': repaint every visual decision in this language.\n'
+    const an = A.name_en || A.name, bn = B.name_en || B.name;
+    return 'STYLE MASHUP — skeleton: "' + bn + '" × skin: "' + an + '" (' + A.reference + ')\n\n'
+      + 'BASE APP / STRUCTURE — ' + bn + ': ' + ilkCumle + ' Keep this app’s structure, modules and content.\n\n'
+      + 'VISUAL SKIN — ' + an + ': repaint every visual decision in this language.\n'
       + '- Palette: ' + (A.palette || []).join(', ') + '\n'
       + '- Typography: ' + A.typography + '\n'
       + '- Layout character: ' + A.layout + '\n'
       + '- Motion: ' + A.motion + '\n'
       + '- Avoid: ' + A.avoid + '\n\n'
-      + 'The result must function as "' + B.name + '" but read at first glance as "' + A.name + '".';
+      + 'The result must function as "' + bn + '" but read at first glance as "' + an + '".';
   }
   renderVals() {
     const st = this.state, d = st.data;
+    const L = STR[st.lang] || STR.tr, en = st.lang === 'en';
+    const adOf = (x) => en ? (x.name_en || x.name) : x.name;
     const base = {
+      t: L, langLabel: en ? 'TR' : 'EN', onLang: this.onLang,
       hazir: !!d, yukleniyor: !d,
       onSwap: this.onSwap, onRandom: this.onRandom,
       onKopyala: this.onKopyala, onLink: this.onLink,
-      kopyaLabel: st.kopya ? '✓ kopyalandı' : '⧉ promptu kopyala',
-      linkLabel: st.link ? '✓ link panoda' : '🔗 harman linki',
+      kopyaLabel: st.kopya ? L.kopyaOk : L.kopya,
+      linkLabel: st.link ? L.linkOk : L.link,
       selA: null, selB: null, aPal: [], bPal: [], aFile: '', bFile: '', baslik: '', prompt: ''
     };
     if (!d) return base;
     const A = this._stil(st.a), B = this._stil(st.b);
     const opt = (s) => React.createElement('option', { key: s.id, value: s.id },
-      String(s.id).padStart(2, '0') + ' — ' + s.name);
+      String(s.id).padStart(2, '0') + ' — ' + adOf(s));
     const sel = (val, onCh) => React.createElement('select',
       { className: 'msel', value: val, onChange: onCh }, d.styles.map(opt));
     return { ...base,
       selA: sel(st.a, this.onSelA), selB: sel(st.b, this.onSelB),
       aPal: A.palette || [], bPal: B.palette || [],
       aFile: A.file, bFile: B.file,
-      baslik: 'Harman ' + String(st.a).padStart(2, '0') + ' × ' + String(st.b).padStart(2, '0') + ' — ' + A.name + ' × ' + B.name,
+      baslik: L.harman + ' ' + String(st.a).padStart(2, '0') + ' × ' + String(st.b).padStart(2, '0') + ' — ' + adOf(A) + ' × ' + adOf(B),
       prompt: this._prompt()
     };
   }

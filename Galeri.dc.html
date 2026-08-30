@@ -1,23 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- og:start -->
 <title>Aynı uygulama, 85 stil — One app, 85 styles</title>
-<meta name="description" content="The exact same to-do screen redesigned in every style of the catalog.">
+<meta name="description" content="The exact same to-do screen redesigned in all 85 styles. Aynı yapılacaklar listesi, 85 tasarım dilinde.">
+<link rel="canonical" href="https://design.asveas.com/Galeri.dc.html">
+<link rel="alternate" hreflang="tr" href="https://design.asveas.com/Galeri.dc.html">
+<link rel="alternate" hreflang="en" href="https://design.asveas.com/Galeri.dc.html?lang=en">
+<link rel="alternate" hreflang="x-default" href="https://design.asveas.com/Galeri.dc.html">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Tasarım Standartları Kataloğu">
+<meta property="og:site_name" content="Tasarım Standartları Kataloğu · Design Standards Catalog">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:locale:alternate" content="en_US">
 <meta property="og:title" content="Aynı uygulama, 85 stil — One app, 85 styles">
-<meta property="og:description" content="The exact same to-do screen redesigned in every style of the catalog.">
+<meta property="og:description" content="The exact same to-do screen redesigned in all 85 styles. Aynı yapılacaklar listesi, 85 tasarım dilinde.">
 <meta property="og:url" content="https://design.asveas.com/Galeri.dc.html">
 <meta property="og:image" content="https://design.asveas.com/og/katalog.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Aynı uygulama, 85 stil — One app, 85 styles">
-<meta name="twitter:description" content="The exact same to-do screen redesigned in every style of the catalog.">
+<meta name="twitter:description" content="The exact same to-do screen redesigned in all 85 styles. Aynı yapılacaklar listesi, 85 tasarım dilinde.">
 <meta name="twitter:image" content="https://design.asveas.com/og/katalog.jpg">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/brand/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/brand/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#14120e">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Aynı uygulama, 85 stil — One app, 85 styles", "url": "https://design.asveas.com/Galeri.dc.html", "applicationCategory": "DesignApplication", "inLanguage": ["tr", "en"], "description": "The exact same to-do screen redesigned in all 85 styles. Aynı yapılacaklar listesi, 85 tasarım dilinde.", "isPartOf": {"@type": "WebSite", "name": "Tasarım Standartları Kataloğu", "alternateName": "Design Standards Catalog", "url": "https://design.asveas.com/", "inLanguage": ["tr", "en"]}}</script>
 <!-- og:end -->
 <script src="./support.js"></script>
 </head>
@@ -38,12 +50,12 @@ a{color:inherit;text-decoration:none}
 
   <div style="display:flex;justify-content:space-between;align-items:baseline;gap:20px;padding:20px 40px 0;font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.15em;text-transform:uppercase">
     <a href="Katalog.dc.html" style-hover="color:#e07a52">← Katalog</a>
-    <span style="color:#e07a52">Aynı uygulama · 85 stil</span>
+    <span style="display:flex;gap:18px;align-items:baseline"><button onclick="{{ onLang }}" style="background:none;border:1px solid rgba(242,237,227,.25);border-radius:5px;color:rgba(242,237,227,.65);font:inherit;letter-spacing:inherit;text-transform:inherit;padding:3px 8px;cursor:pointer">{{ langLabel }}</button><span style="color:#e07a52">{{ t.tag }}</span></span>
   </div>
 
   <div style="text-align:center;padding:44px 24px 8px">
-    <h1 style="font-size:44px;font-weight:600;letter-spacing:-.025em;line-height:1.05;margin:0 0 14px;text-wrap:balance">Aynı yapılacaklar listesi.<br /><span style="color:#e07a52">85 farklı dünya.</span></h1>
-    <p style="font-size:16px;line-height:1.65;color:rgba(242,237,227,.6);max-width:56ch;margin:0 auto">İçerik her kartta birebir aynı: "Bugün — Süt al, Koşuya çık, Anneyi ara." Değişen tek şey tasarım dili. Bauhaus'tan Bloomberg'e, Monet'den Material You'ya — karta tıklayınca stilin tam sayfası ve AI promptu açılır.</p>
+    <h1 style="font-size:44px;font-weight:600;letter-spacing:-.025em;line-height:1.05;margin:0 0 14px;text-wrap:balance">{{ t.h1a }}<br /><span style="color:#e07a52">{{ t.h1b }}</span></h1>
+    <p style="font-size:16px;line-height:1.65;color:rgba(242,237,227,.6);max-width:56ch;margin:0 auto">{{ t.p }}</p>
   </div>
 
   <div style="display:grid;grid-template-columns:repeat(auto-fill,230px);gap:30px 22px;justify-content:center;padding:40px 40px 0">
@@ -1583,10 +1595,49 @@ istek: 1</pre>
   </div>
 
   <div style="margin:64px 40px 0;border-top:1px solid rgba(242,237,227,.12);padding-top:20px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-family:ui-monospace,Menlo,monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:rgba(242,237,227,.35)">
-    <span>design.asveas.com · MIT</span>
-    <span>favorini alıntılayarak paylaş — biz 85'i seçemedik</span>
+    <span>{{ t.foot1 }}</span>
+    <span>{{ t.foot2 }}</span>
   </div>
 </div>
 </x-dc>
+<script type="text/x-dc" data-dc-script>
+const STR = {
+  tr: { tag:'Aynı uygulama · 85 stil', h1a:'Aynı yapılacaklar listesi.', h1b:'85 farklı dünya.',
+        p:'İçerik her kartta birebir aynı: "Bugün — Süt al, Koşuya çık, Anneyi ara." Değişen tek şey tasarım dili. Bauhaus\'tan Bloomberg\'e, Monet\'den Material You\'ya — karta tıklayınca stilin tam sayfası ve AI promptu açılır.',
+        foot1:'design.asveas.com · MIT', foot2:"favorini alıntılayarak paylaş — biz 85'i seçemedik" },
+  en: { tag:'One app · 85 styles', h1a:'The same to-do list.', h1b:'85 different worlds.',
+        p:'The content is identical on every card: "Today — Buy milk, Go for a run, Call mom." Only the design language changes. From Bauhaus to Bloomberg, from Monet to Material You — click a card to open the full style page and its AI prompt.',
+        foot1:'design.asveas.com · MIT', foot2:"quote-share your favourite — we couldn't pick one of 85" }
+};
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    let lang = 'tr';
+    try { const q = new URLSearchParams(location.search).get('lang'); lang = q === 'en' ? 'en' : q === 'tr' ? 'tr' : (localStorage.getItem('katalogLang') || 'tr'); } catch (e) {}
+    this.state = { lang: lang === 'en' ? 'en' : 'tr', data: null };
+    this.onLang = () => this.setState(s => { const l = s.lang === 'tr' ? 'en' : 'tr'; try { localStorage.setItem('katalogLang', l); } catch (e) {} return { lang: l }; });
+  }
+  componentDidMount() {
+    fetch('ai/catalog.json').then(r => r.json()).then(d => { this.setState({ data: d }); }).catch(() => {});
+  }
+  componentDidUpdate() { this._etiketle(); }
+  _etiketle() {
+    const d = this.state.data; if (!d) return;
+    const byFile = {}; d.styles.forEach(s => { byFile[s.file] = s; });
+    document.querySelectorAll('.gcell').forEach(a => {
+      const s = byFile[a.getAttribute('href')]; if (!s) return;
+      const lab = a.lastElementChild; if (!lab) return;
+      const ad = this.state.lang === 'en' ? (s.name_en || s.name) : s.name;
+      const no = lab.firstElementChild;
+      if (no) { while (no.nextSibling) lab.removeChild(no.nextSibling); lab.appendChild(document.createTextNode(' ' + ad)); }
+      a.setAttribute('title', String(s.id).padStart(2,'0') + ' · ' + ad);
+    });
+  }
+  renderVals() {
+    const L = STR[this.state.lang] || STR.tr;
+    return { t: L, langLabel: this.state.lang === 'tr' ? 'EN' : 'TR', onLang: this.onLang };
+  }
+}
+</script>
 </body>
 </html>

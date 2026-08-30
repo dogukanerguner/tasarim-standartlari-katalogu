@@ -1,0 +1,2808 @@
+# Tasarım Standartları Kataloğu — Design Standards Catalog
+
+> 85 design languages, each as a live HTML page plus a copy-paste AI generation prompt (English), palette, typography, layout, motion and an explicit avoid-list. Turkish/English UI. MIT licensed. Machine-readable data: https://design.asveas.com/ai/catalog.json — one Markdown file per style under https://design.asveas.com/ai/styles/.
+
+<!-- https://design.asveas.com/01-editorial-minimalizm.dc.html -->
+---
+id: 1
+slug: "01-editorial-minimalizm"
+title: "Editoryal Minimalizm"
+name: "Editoryal Minimalizm"
+section: "01 — Küratörsel ve bireysel ekoller"
+reference: "van Schneider"
+palette: ["#faf8f5", "#100f0d", "#ece7df"]
+keywords: ["editorial layout", "sophisticated typography", "bold black and white contrast", "organic spacing"]
+source: "01-editorial-minimalizm.dc.html"
+---
+
+# 01 — Editoryal Minimalizm
+
+Dergi estetiği, geniş boşluk, güçlü tipografi ve insan odaklı mikro metinler.
+
+## Prompt (EN)
+
+Design a slow, magazine-like studio website in an editorial minimalist style. Warm off-white paper background (#faf8f5) with near-black ink. Asymmetric two-column hero: an oversized italic serif headline at 100px+ with tight leading on the left, a tall 4:5 portrait image on the right. Hairline rules separate every section. Uppercase monospace eyebrows and captions at 11px with wide letter-spacing. Enormous margins, generous vertical rhythm, no shadows, no rounded corners, no gradients. One pull-quote set in large italic serif.
+
+## Brief (TR)
+
+Dergi sayfası gibi kurulmuş, boşluğu malzeme olarak kullanan, iki fontlu ve gölgesiz bir stüdyo sitesi.
+
+## Kurallar
+
+- **Tipografi:** Instrument Serif (başlık) + Helvetica Neue (metin) + monospace etiketler
+- **Düzen:** 12 kolon, asimetrik hiyerarşi, saç teli çizgiler
+- **Hareket:** Yok denecek kadar az; yalnızca opaklık geçişi
+- **Kaçınılacaklar:** Gradyan, gölge, yuvarlak köşe, ikon kalabalığı
+
+
+<!-- https://design.asveas.com/02-akiskan-surukleyici.dc.html -->
+---
+id: 2
+slug: "02-akiskan-surukleyici"
+title: "Akışkan & Sürükleyici"
+name: "Akışkan & Sürükleyici"
+section: "01 — Küratörsel ve bireysel ekoller"
+reference: "Locomotive"
+palette: ["#0e0d12", "#3d5cff", "#00c2a8", "#c14bff"]
+keywords: ["fluid WebGL elements", "liquid distortion", "cinematic depth", "avant-garde agency"]
+source: "02-akiskan-surukleyici.dc.html"
+---
+
+# 02 — Akışkan & Sürükleyici
+
+Sıvı geçişler, derinlik hissi ve harekete sanatsal tepki veren ajans estetiği.
+
+## Prompt (EN)
+
+Design an award-style creative agency landing page with a fluid, immersive feel. Near-black background (#0e0d12) with three huge blurred color orbs (electric blue, teal, violet) slowly drifting behind the content. Centered ultra-light display headline at 130px with one word in italic semibold. Frosted glass pill buttons with backdrop blur and thin light borders. A slow horizontal marquee strip of uppercase keywords. Full-bleed video placeholder with rounded 22px corners. Everything feels weighted, cinematic and continuously in motion.
+
+## Brief (TR)
+
+Sıvı gradyan bulutları, buzlu cam butonlar ve sinematik derinlik taşıyan ajans açılış sayfası.
+
+## Kurallar
+
+- **Tipografi:** Bricolage Grotesque 300/600, geniş harf aralıklı etiketler
+- **Düzen:** Ortalanmış kahraman bölüm + tam genişlik medya
+- **Hareket:** 18—28 sn'lik yavaş orb sürüklenmesi, 24 sn marquee
+- **Kaçınılacaklar:** Sert kenar, yüksek kontrastlı kutular, hızlı animasyon
+
+
+<!-- https://design.asveas.com/03-cyber-webgl.dc.html -->
+---
+id: 3
+slug: "03-cyber-webgl"
+title: "Gelecekçi Cyber"
+name: "Gelecekçi Cyber"
+section: "01 — Küratörsel ve bireysel ekoller"
+reference: "Active Theory"
+palette: ["#04060a", "#5ffbf1", "#7a5cff", "#dff6f4"]
+keywords: ["dark mode", "glowing neon particles", "3D webgl atmosphere", "premium cybernetic UI"]
+source: "03-cyber-webgl.dc.html"
+---
+
+# 03 — Gelecekçi Cyber
+
+Karanlık zemin, parlayan etkileşimli parçacıklar ve oyunsu 3D atmosfer.
+
+## Prompt (EN)
+
+Design a real-time 3D experience landing page with a cybernetic aesthetic. Very dark blue-black background (#04060a) with a faint 64px technical grid masked by a radial fade, plus a slow scanline sweep. Cyan (#5ffbf1) and violet (#7a5cff) glow accents. Heavy 96px uppercase headline with cyan text-shadow. A circular WebGL scene placeholder framed by two counter-rotating orbit rings. Live telemetry strip at the bottom: FPS, particle count, latency, scene number in monospace. Sharp 4px radii, technical labels everywhere.
+
+## Brief (TR)
+
+Karanlık zemin, neon parlama, dönen yörünge halkaları ve canlı telemetri şeridi olan 3D deneyim sayfası.
+
+## Kurallar
+
+- **Tipografi:** Space Grotesk 700 başlık, monospace teknik etiketler
+- **Düzen:** Sol metin + sağ dairesel sahne, altta 4'lü metrik ızgara
+- **Hareket:** Sonsuz dönen halkalar, 2.4 sn nabız, 9 sn tarama çizgisi
+- **Kaçınılacaklar:** Yumuşak pastel renk, yuvarlak dostane biçimler
+
+
+<!-- https://design.asveas.com/04-anti-design-provokatif.dc.html -->
+---
+id: 4
+slug: "04-anti-design-provokatif"
+title: "Brütalist & Provokatif"
+name: "Brütalist & Provokatif"
+section: "01 — Küratörsel ve bireysel ekoller"
+reference: "Sagmeister"
+palette: ["#f2e8d5", "#141210", "#ff3b1f", "#ffd400"]
+keywords: ["provocative UI", "raw emotions", "unconventional grid", "layered chaotic typography"]
+source: "04-anti-design-provokatif.dc.html"
+---
+
+# 04 — Brütalist & Provokatif
+
+Kuralları yıkan, ironiyi ve sanatsal kaosu öne çıkaran deneysel anti-tasarım.
+
+## Prompt (EN)
+
+Design a provocative anti-design poster page for a design studio. Warm paper background (#f2e8d5) with a visible halftone dot texture. Massive 130px Archivo Black uppercase headline where each line is rotated a few degrees, one word knocked out in a red block, one word set in outline-only text stroke. A yellow circular sticker rotated and wobbling that says the button does nothing. Struck-through nav items in italic. Hard 3px black borders, a black inverted column, deliberately mismatched baselines.
+
+## Brief (TR)
+
+Kuralları kasten bozan, döndürülmüş tipografi ve ironik mikro metinlerle kurulmuş provokatif afiş sayfası.
+
+## Kurallar
+
+- **Tipografi:** Archivo Black + Archivo italic karışımı
+- **Düzen:** Izgarasız, döndürülmüş bloklar, 3px sert çerçeveler
+- **Hareket:** 6 sn'lik hafif sallanma; jitter
+- **Kaçınılacaklar:** Düzgün hizalama, nazik mikro metin, yumuşak gölge
+
+
+<!-- https://design.asveas.com/05-fonksiyonel-endustriyel.dc.html -->
+---
+id: 5
+slug: "05-fonksiyonel-endustriyel"
+title: "Fonksiyonel Endüstriyel"
+name: "Fonksiyonel Endüstriyel"
+section: "01 — Küratörsel ve bireysel ekoller"
+reference: "Dieter Rams"
+palette: ["#e6e4df", "#1c1c1a", "#e35205", "#b6bfb2"]
+keywords: ["Braun industrial aesthetic", "functional layout", "muted neutrals", "precise grid"]
+source: "05-fonksiyonel-endustriyel.dc.html"
+---
+
+# 05 — Fonksiyonel Endüstriyel
+
+“Az ama daha iyi”: süssüz, rasyonel, matematiksel ve tamamen işlevsel düzen.
+
+## Prompt (EN)
+
+Design a product page for a desktop calculator in a rational industrial style. Cool light grey background (#e6e4df) with 1px cool grey rules and a technical toolbar header. A neutral product photo area with a faint 24px graph-paper grid. A physical keypad rendered as a 4-column grid of light keys with one orange (#e35205) and two dark function keys, plus a pale green LCD readout in monospace. A specification table with hairline dividers, and a five-cell strip of numbered design principles.
+
+## Brief (TR)
+
+Süsü tamamen elenmiş, ölçü tablosu ve fiziksel tuş takımıyla kurulmuş rasyonel ürün sayfası.
+
+## Kurallar
+
+- **Tipografi:** Helvetica Neue 400/500, dar aralık, düşük kontrast
+- **Düzen:** Sabit ızgara, 1px ayırıcılar, tablo mantığı
+- **Hareket:** Yok; yalnızca durum değişimi
+- **Kaçınılacaklar:** Dekoratif ikon, gradyan, gölge, marka jesti
+
+
+<!-- https://design.asveas.com/06-grunge-tipografi.dc.html -->
+---
+id: 6
+slug: "06-grunge-tipografi"
+title: "Grunge Tipografi"
+name: "Grunge Tipografi"
+section: "01 — Küratörsel ve bireysel ekoller"
+reference: "David Carson"
+palette: ["#dcd8cd", "#181613", "#b0281a"]
+keywords: ["messy typography", "distorted textures", "overlapping layouts", "deconstructivist UI"]
+source: "06-grunge-tipografi.dc.html"
+---
+
+# 06 — Grunge Tipografi
+
+Üst üste binen metinler, yırtık dokular ve okunabilirliği zorlayan dijital anarşi.
+
+## Prompt (EN)
+
+Design a chaotic music zine cover page in deconstructed grunge typography. Aged paper background (#dcd8cd) with heavy multiply-blended scratch and streak textures. Overlapping type layers: a 190px black Archivo Black word, a 150px red italic serif word rotated -4°, and a vertically stretched outline word. A photocopied concert photo rotated 3°, a taped monospace note box with a jitter animation, and one vertical rotated label. Text columns collide, baselines never align, readability is deliberately strained.
+
+## Brief (TR)
+
+Üst üste binen katmanlar, fotokopi dokusu ve okunabilirliği zorlayan yapıbozumcu dergi kapağı.
+
+## Kurallar
+
+- **Tipografi:** Archivo Black + Times New Roman italic + monospace
+- **Düzen:** Izgara yok; mutlak konumlandırılmış çakışan katmanlar
+- **Hareket:** 5 sn steps() jitter, mikro kaymalar
+- **Kaçınılacaklar:** Temiz hizalama, düzgün kolon, net hiyerarşi
+
+
+<!-- https://design.asveas.com/07-karanlik-saas.dc.html -->
+---
+id: 7
+slug: "07-karanlik-saas"
+title: "Karanlık SaaS"
+name: "Karanlık SaaS"
+section: "02 — Çağdaş dijital ürün ve SaaS akımları"
+reference: "Linear / Vercel"
+palette: ["#08080b", "#e8e8ee", "#7e78ff", "#4ad9c0"]
+keywords: ["sleek dark mode", "1px subtle borders", "elegant neon gradients", "crisp sans-serif"]
+source: "07-karanlik-saas.dc.html"
+---
+
+# 07 — Karanlık SaaS
+
+Keskin sans-serif, 1 piksel sınırlar ve hafif parlama efektleri; elit karanlık mod.
+
+## Prompt (EN)
+
+Design a developer-tool SaaS landing page in a sleek dark aesthetic. Near-black background (#08080b) with a wide violet radial glow behind the hero and faint 120px vertical guide lines. Gradient-clipped headline text fading from white to grey at 76px. Small pill announcement badge with a colored tag. A product screenshot mock: window chrome, a 180px sidebar and a dense issue list with colored status dots and small rounded status chips. Everything uses 1px rgba borders, 7—14px radii and 13px UI text.
+
+## Brief (TR)
+
+1px sınırlar, mor parlama ve yoğun ürün ekranıyla kurulmuş elit karanlık mod SaaS sayfası.
+
+## Kurallar
+
+- **Tipografi:** Space Grotesk 400/500, 13px arayüz metni
+- **Düzen:** Ortalanmış kahraman + tam genişlik ürün penceresi
+- **Hareket:** İnce parlama, 150ms hover geçişleri
+- **Kaçınılacaklar:** Yüksek doygunlukta renk, kalın çerçeve, büyük gölge
+
+
+<!-- https://design.asveas.com/08-bento-grid.dc.html -->
+---
+id: 8
+slug: "08-bento-grid"
+title: "Bento Grid"
+name: "Bento Grid"
+section: "02 — Çağdaş dijital ürün ve SaaS akımları"
+reference: "Apple / Microsoft"
+palette: ["#f1f1f3", "#111114", "#0a6cff"]
+keywords: ["modular rectangular cards", "rounded corners", "clean content chunks", "hierarchy"]
+source: "08-bento-grid.dc.html"
+---
+
+# 08 — Bento Grid
+
+Ekranın yuvarlak köşeli, farklı boyutlu hücrelere bölündüğü modüler bilgi mimarisi.
+
+## Prompt (EN)
+
+Design a consumer hardware product page built entirely from a bento grid. Light grey background (#f1f1f3), white cards with 26px radii and a barely-there shadow. A 4-column grid with 186px rows: one 2x2 hero cell with a 52px headline, one wide black stat cell with a huge 2.8x number, one gradient color-engine cell, one battery cell with three progress bars, and small cells for privacy and price. Each cell holds exactly one idea, generous internal padding, no card is decorative.
+
+## Brief (TR)
+
+Her hücrede tek bir fikir taşıyan, farklı boyutlu yuvarlak kartlardan kurulu modüler ürün sayfası.
+
+## Kurallar
+
+- **Tipografi:** Helvetica Neue 600 başlık, 13-16px metin
+- **Düzen:** 4 kolon × 186px satır bento ızgarası, 14px boşluk
+- **Hareket:** Kart hover'da 1-2px yükselme
+- **Kaçınılacaklar:** Kart içinde çok konu, dolgu amaçlı hücre
+
+
+<!-- https://design.asveas.com/09-neo-brutalizm.dc.html -->
+---
+id: 9
+slug: "09-neo-brutalizm"
+title: "Neo-Brütalizm"
+name: "Neo-Brütalizm"
+section: "02 — Çağdaş dijital ürün ve SaaS akımları"
+reference: "Figma / Gumroad"
+palette: ["#f5e9c9", "#0b0b0b", "#ffe94d", "#a1d4ff", "#ffb1d8"]
+keywords: ["high contrast pastels", "thick black borders", "hard block shadows", "raw typography"]
+source: "09-neo-brutalizm.dc.html"
+---
+
+# 09 — Neo-Brütalizm
+
+Pastel ve neon renkler, kalın siyah çizgiler, sert gölgeler; retro-modern çiğlik.
+
+## Prompt (EN)
+
+Design a creator-payments landing page in neo-brutalist style. Cream background (#f5e9c9), 3px pure black borders on everything, and hard offset shadows (6—10px, no blur) in black and accent colors. A yellow hero block with a 70px uppercase bold headline, plus stacked side cards in sky blue, pink and white. Pill nav chips in pastel colors with black borders. Buttons are chunky with colored drop shadows. Type is Space Grotesk 700, tight and loud, and nothing is subtle.
+
+## Brief (TR)
+
+Kalın siyah çerçeveler, sert ofset gölgeler ve pastel-neon bloklarla kurulmuş çiğ ve samimi ürün sayfası.
+
+## Kurallar
+
+- **Tipografi:** Space Grotesk 700, büyük harf, sıkı aralık
+- **Düzen:** Blok ızgara, 3px çerçeve, 5-10px sert gölge
+- **Hareket:** Hover'da gölge kayması (2-3px)
+- **Kaçınılacaklar:** Bulanık gölge, düşük kontrast, ince tipografi
+
+
+<!-- https://design.asveas.com/10-b2b-gradient-iskeletizm.dc.html -->
+---
+id: 10
+slug: "10-b2b-gradient-iskeletizm"
+title: "B2B İskeletizm"
+name: "B2B İskeletizm"
+section: "02 — Çağdaş dijital ürün ve SaaS akımları"
+reference: "Stripe ekolü"
+palette: ["#eaf3ff", "#f4ecff", "#5a4bff", "#00c39a", "#0b1533"]
+keywords: ["flawless clean gradients", "high-end white corporate layout", "financial app UI"]
+source: "10-b2b-gradient-iskeletizm.dc.html"
+---
+
+# 10 — B2B İskeletizm
+
+Kusursuz renk geçişleri, kod dokümantasyonu ve kurumsal güven veren temiz beyaz.
+
+## Prompt (EN)
+
+Design a payments-infrastructure landing page in a clean corporate B2B style. A soft multi-stop pastel gradient band (blue to lilac to mint to cream) behind the hero, pure white below. 62px semibold headline with tight tracking, 18px grey body copy, pill buttons. On the right, a dark code panel with tabs and syntax-highlighted API sample plus a success comment. Below: four feature columns each with a small 30px gradient icon tile, then a logo strip of neutral placeholder bars.
+
+## Brief (TR)
+
+Kusursuz pastel gradyan, kod paneli ve kurumsal güven veren beyaz alanla kurulmuş altyapı sayfası.
+
+## Kurallar
+
+- **Tipografi:** Helvetica Neue 600 başlık + monospace kod
+- **Düzen:** Gradyan kahraman bant, altında 4 kolon özellik
+- **Hareket:** Yumuşak hover, 200ms
+- **Kaçınılacaklar:** Ağır gölge, koyu zemin, agresif renk
+
+
+<!-- https://design.asveas.com/11-bauhaus.dc.html -->
+---
+id: 11
+slug: "11-bauhaus"
+title: "Bauhaus"
+name: "Bauhaus"
+section: "03 — Tarihsel ve sanatsal akımlar"
+reference: "1919 →"
+palette: ["#efe9dd", "#161513", "#1c4fd8", "#f2c400", "#d8232a"]
+keywords: ["geometric layout", "primary colors", "bold sans-serif", "asymmetrical functional grid"]
+source: "11-bauhaus.dc.html"
+---
+
+# 11 — Bauhaus
+
+Temel geometrik şekiller, ana renkler ve asimetrik ağır tipografi.
+
+## Prompt (EN)
+
+Design a design-school landing page in strict Bauhaus style. Warm off-white background (#efe9dd) with 2px black rules dividing everything. An 88px uppercase heavy headline stacked as three words, one in red. On the right, a 2x2 block of primary-color panels containing a white circle, a black triangle, a white square and a text tile. A four-cell principle strip with oversized numbers in blue, yellow, red and inverted black. Pure geometry, no imagery, no ornament.
+
+## Brief (TR)
+
+Daire-kare-üçgen, üç ana renk ve ağır grotesk tipografiyle kurulmuş form-işlev sayfası.
+
+## Kurallar
+
+- **Tipografi:** Archivo 700/800 büyük harf
+- **Düzen:** 2px çerçeveli modüler bloklar, asimetrik denge
+- **Hareket:** Yok
+- **Kaçınılacaklar:** Gradyan, gölge, fotoğraf dokusu, süsleme
+
+
+<!-- https://design.asveas.com/12-isvicre-izgara.dc.html -->
+---
+id: 12
+slug: "12-isvicre-izgara"
+title: "İsviçre Izgarası"
+name: "İsviçre Izgarası"
+section: "03 — Tarihsel ve sanatsal akımlar"
+reference: "Uluslararası"
+palette: ["#f4f4f2", "#0f0f0f", "#e8321e"]
+keywords: ["rigorous grid layout", "heavy sans-serif", "functional asymmetric structure"]
+source: "12-isvicre-izgara.dc.html"
+---
+
+# 12 — İsviçre Izgarası
+
+Rasyonel asimetri, Helvetica merkezli ve tipografik hiyerarşiyle yön bulma.
+
+## Prompt (EN)
+
+Design an exhibition page for a typography biennial in Swiss International Style. Neutral light background (#f4f4f2), a strict visible 12-column grid with 20px gutters, and hairline rules. A 96px bold Helvetica headline spanning seven columns, body text in two narrow columns beneath. A red 3:4 poster block on the right with thin white grid lines and a large white title inside. A schedule list where every row aligns to the same four column positions. All labels 11px uppercase.
+
+## Brief (TR)
+
+12 kolonluk katı ızgara, Helvetica hiyerarşisi ve tek kırmızı vurguyla kurulmuş sergi sayfası.
+
+## Kurallar
+
+- **Tipografi:** Helvetica 700/400, 11px büyük harf etiketler
+- **Düzen:** 12 kolon, 20px oluk, saç teli ayırıcılar
+- **Hareket:** Yok
+- **Kaçınılacaklar:** Merkezi hizalama, dekoratif font, gölge
+
+
+<!-- https://design.asveas.com/13-y2k-saykodelik.dc.html -->
+---
+id: 13
+slug: "13-y2k-saykodelik"
+title: "Y2K Saykodelik"
+name: "Y2K Saykodelik"
+section: "03 — Tarihsel ve sanatsal akımlar"
+reference: "Milenyum"
+palette: ["#0a0620", "#ff7ae0", "#7ae8ff", "#c9ff6e", "#ffe27a"]
+keywords: ["metallic and holographic textures", "cyber-maximalism", "iridescent gradient UI"]
+source: "13-y2k-saykodelik.dc.html"
+---
+
+# 13 — Y2K Saykodelik
+
+Metalik dokular, şişkin yazılar, holografik renkler ve nostaljik pencereler.
+
+## Prompt (EN)
+
+Design a millennium-era social portal homepage in Y2K style. Deep purple-to-black radial background with scanlines and a huge blurred conic rainbow blob. A chrome-bevelled OS-style toolbar with outset buttons. An 88px bubbly headline filled with an animated rainbow gradient and a hard drop shadow. A fake desktop window titled avatarim.exe with title bar buttons and inset panels. A rotating gradient NEW! sticker. Visitor counter, online count and 14.4k modem status in tiny bold type.
+
+## Brief (TR)
+
+Krom düğmeler, gökkuşağı gradyan yazı, sahte işletim sistemi penceresi ve ziyaretçi sayacıyla milenyum portalı.
+
+## Kurallar
+
+- **Tipografi:** Baloo 2 800 + Verdana; küçük kalın etiketler
+- **Düzen:** Pencere metaforu, outset/inset kenarlar
+- **Hareket:** 7 sn gradyan kayması, 5 sn sallanan rozet
+- **Kaçınılacaklar:** Sadelik, düz renk, modern tipografi
+
+
+<!-- https://design.asveas.com/14-retro-terminal.dc.html -->
+---
+id: 14
+slug: "14-retro-terminal"
+title: "Retro Terminal"
+name: "Retro Terminal"
+section: "03 — Tarihsel ve sanatsal akımlar"
+reference: "Monokrom"
+palette: ["#050a06", "#41ff7e", "#eaff6e"]
+keywords: ["monospace font", "command line layout", "black and neon green palette", "ASCII accents"]
+source: "14-retro-terminal.dc.html"
+---
+
+# 14 — Retro Terminal
+
+Komut satırı düzeni, tek renk paleti ve tamamen kod tabanlı geliştirici estetiği.
+
+## Prompt (EN)
+
+Design a developer deployment tool page as a monochrome terminal. Near-black green-tinted background (#050a06) with phosphor green text (#41ff7e), CRT scanlines and a soft radial glow. A large ASCII-art wordmark, a live command session with progress bars in amber, a bordered live log table of HTTP requests, an uptime panel and a bar chart made of solid blocks. Everything is IBM Plex Mono, all panels are 1px green rules, one blinking block cursor.
+
+## Brief (TR)
+
+ASCII logo, canlı komut oturumu ve fosfor yeşili tek renk paletiyle kurulmuş terminal arayüzü.
+
+## Kurallar
+
+- **Tipografi:** IBM Plex Mono 400/600, 14px, 1.7 satır yüksekliği
+- **Düzen:** Tek sütun konsol + sağda dar panel kolonu
+- **Hareket:** 1.1 sn imleç yanıp sönmesi
+- **Kaçınılacaklar:** Renkli ikon, yuvarlak köşe, gölge, resim
+
+
+<!-- https://design.asveas.com/15-glassmorphism.dc.html -->
+---
+id: 15
+slug: "15-glassmorphism"
+title: "Glassmorphism"
+name: "Glassmorphism"
+section: "04 — Mikro-görsel ve dokusal trendler"
+reference: "Buzlu cam"
+palette: ["#1b1035", "#ff5ea8", "#4b7bff", "#22d3b6"]
+keywords: ["frosted glass panels", "blurry background pass-through", "multi-layered dashboard"]
+source: "15-glassmorphism.dc.html"
+---
+
+# 15 — Glassmorphism
+
+Arkasını bulanık gösteren saydam katmanlar; derinlik gölgeden değil camdan gelir.
+
+## Prompt (EN)
+
+Design a personal finance dashboard in glassmorphism. A vivid dark purple base with four large blurred color blobs (pink, blue, teal, amber) drifting slowly behind everything. All UI is frosted glass: 14—26% white fills, 1px 30% white borders, 20—24px backdrop blur, 18—22px radii and soft deep shadows. A balance card with a big number and a bar chart of translucent bars, plus small glass tiles for card and monthly spend. Text is white with layered opacity levels.
+
+## Brief (TR)
+
+Renkli bulanık zemin üzerinde buzlu cam panellerle katman derinliği kuran finans panosu.
+
+## Kurallar
+
+- **Tipografi:** Helvetica Neue 600 başlık, saydamlık kademeli metin
+- **Düzen:** Cam kartlar, 16-22px boşluk, katmanlı z-derinliği
+- **Hareket:** 18—28 sn blob sürüklenmesi
+- **Kaçınılacaklar:** Düz gri zemin, opak kart, sert çizgi
+
+
+<!-- https://design.asveas.com/16-neomorphism.dc.html -->
+---
+id: 16
+slug: "16-neomorphism"
+title: "Neomorphism"
+name: "Neomorphism"
+section: "04 — Mikro-görsel ve dokusal trendler"
+reference: "Kabartma"
+palette: ["#e4e9f2", "#c5cbd8", "#fbffff", "#8fa4d6"]
+keywords: ["soft extruded plastic effect", "inner and outer soft shadows", "monochromatic"]
+source: "16-neomorphism.dc.html"
+---
+
+# 16 — Neomorphism
+
+Arka planla aynı renkte yüzeyler; ayrım yalnızca iç ve dış yumuşak gölgelerle.
+
+## Prompt (EN)
+
+Design a health tracking dashboard in soft neumorphism. Single background color (#e4e9f2) used for every surface. Elements are defined only by paired shadows: 8px 8px 18px #c5cbd8 and -8px -8px 18px #fbffff for raised, the same values inset for pressed. 18—28px radii everywhere. A circular progress ring built from an inset well plus a conic gradient, soft pill toggles, an inset track progress bar and a muted blue-grey accent (#8fa4d6). Type is dark slate blue, low contrast, calm.
+
+## Brief (TR)
+
+Tek renkli zemin ve çift yönlü yumuşak gölgelerle kabartılmış sakin sağlık panosu.
+
+## Kurallar
+
+- **Tipografi:** Helvetica Neue 600/400, koyu arduvaz mavi
+- **Düzen:** Kabartma kartlar, 20px boşluk, tek ışık yönü (sol üst)
+- **Hareket:** Basılı hâle 120ms geçiş
+- **Kaçınılacaklar:** Yüksek kontrast renk, keskin köşe, düz gölge
+
+
+<!-- https://design.asveas.com/17-claymorphism.dc.html -->
+---
+id: 17
+slug: "17-claymorphism"
+title: "Claymorphism"
+name: "Claymorphism"
+section: "04 — Mikro-görsel ve dokusal trendler"
+reference: "3D kil"
+palette: ["#f6efff", "#7c4dff", "#8ee6c8", "#ffd166", "#ff8db7"]
+keywords: ["3D clay-like rounded cards", "soft pastel colors", "bubbly playful interface"]
+source: "17-claymorphism.dc.html"
+---
+
+# 17 — Claymorphism
+
+Şişme oyuncak gibi duran, yoğun iç gölgeli, cana yakın ve çocuksu yüzeyler.
+
+## Prompt (EN)
+
+Design a children's learning app landing page in claymorphism. Soft pastel gradient background (lilac to blue to pink). Every element looks like inflated clay: 26—34px radii, an outer soft colored shadow, an inset dark lip on the bottom edge and an inset white highlight on top. Rounded 800-weight display type, chunky pill buttons, bouncing rounded squares and circles in mint, pink, blue and amber. Copy is warm and playful, targets are huge, nothing has sharp corners.
+
+## Brief (TR)
+
+Şişme kil gibi duran, çift iç gölgeli, pastel ve çocuk dostu öğrenme uygulaması sayfası.
+
+## Kurallar
+
+- **Tipografi:** Baloo 2 700/800, yuvarlak ve kalın
+- **Düzen:** Büyük yarıçaplı kartlar, 20px boşluk
+- **Hareket:** 4 sn zıplama, basınca 4px çökme
+- **Kaçınılacaklar:** Keskin köşe, düşük doygunluk, ince tipografi
+
+
+<!-- https://design.asveas.com/18-art-nouveau.dc.html -->
+---
+id: 18
+slug: "18-art-nouveau"
+title: "Art Nouveau"
+name: "Art Nouveau"
+section: "05 — Sanat akımlarının web karşılıkları"
+reference: "1890—1910"
+palette: ["#f0e9d8", "#8c5a2b", "#4a694a", "#c9a227", "#a8536b"]
+keywords: ["organic whiplash curves", "botanical ornament", "arched frames", "muted earthy palette"]
+source: "18-art-nouveau.dc.html"
+---
+
+# 18 — Art Nouveau
+
+Bitkisel kıvrımlar, kemerli çerçeveler ve süslemenin yapıya dönüştüğü organik hat.
+
+## Prompt (EN)
+
+Design a museum exhibition page in Art Nouveau style. Warm parchment background (#f0e9d8) with faint amber and moss radial washes. A 92px light serif headline with one word in italic moss green. An arched image frame with a 180px top radius and a 2px sienna border, flanked by organic leaf-shaped outline ornaments made from asymmetric border-radius. Pill buttons with one squared corner, uppercase wide-tracked labels, a four-swatch organic palette row and hairline sienna rules.
+
+## Brief (TR)
+
+Bitkisel kıvrımlar, kemerli çerçeve ve organik süslemeyle kurulmuş müze sergi sayfası.
+
+## Kurallar
+
+- **Tipografi:** Cormorant Garamond 300/600, italik vurgular
+- **Düzen:** Asimetrik iki kolon, kemerli görsel çerçevesi
+- **Hareket:** Yok; yalnızca yumuşak opaklık
+- **Kaçınılacaklar:** Sert dikdörtgen, teknik ızgara, neon renk
+
+
+<!-- https://design.asveas.com/19-art-deco.dc.html -->
+---
+id: 19
+slug: "19-art-deco"
+title: "Art Deco"
+name: "Art Deco"
+section: "05 — Sanat akımlarının web karşılıkları"
+reference: "1920—1939"
+palette: ["#0d1a1c", "#d4af5f", "#f2ead9"]
+keywords: ["symmetrical stepped geometry", "gold linework on deep teal", "luxury poster type"]
+source: "19-art-deco.dc.html"
+---
+
+# 19 — Art Deco
+
+Simetri, basamaklı geometri, altın çizgiler ve lüks bir sahne duygusu.
+
+## Prompt (EN)
+
+Design a 1928 grand hotel page in Art Deco style. Deep teal-black background (#0d1a1c) with thin vertical gold pinstripes and a large rotated gold diamond outline behind the hero. Perfectly centered composition: a stepped gold fan motif, a 112px Poiret One display name with the second line in gold, and a 0.42em-tracked uppercase subtitle. Three bordered suite cards with diagonal-hatch image areas. A centered statistics row with Roman numerals separated by thin gold rules.
+
+## Brief (TR)
+
+Simetrik kompozisyon, altın çizgiler ve basamaklı geometriyle kurulmuş lüks otel sayfası.
+
+## Kurallar
+
+- **Tipografi:** Poiret One başlık + Josefin Sans 300 metin
+- **Düzen:** Tam simetrik, ince altın çerçeveler
+- **Hareket:** Yok
+- **Kaçınılacaklar:** Asimetri, yuvarlak köşe, pastel renk
+
+
+<!-- https://design.asveas.com/20-de-stijl.dc.html -->
+---
+id: 20
+slug: "20-de-stijl"
+title: "De Stijl"
+name: "De Stijl"
+section: "05 — Sanat akımlarının web karşılıkları"
+reference: "Mondrian"
+palette: ["#f7f5f0", "#111111", "#d42618", "#1449b8", "#f2c500"]
+keywords: ["neoplasticism", "thick black grid lines", "primary color blocks", "no diagonals"]
+source: "20-de-stijl.dc.html"
+---
+
+# 20 — De Stijl
+
+Kalın siyah çizgiler, üç ana renk ve yalnızca yatay-dikey bölünmeler.
+
+## Prompt (EN)
+
+Design a design-magazine page in De Stijl / Neoplasticism. Off-white ground (#f7f5f0) divided by 8px pure black rules into an asymmetric grid of rectangles. Fill exactly three cells with primary red, blue and yellow, one with black, leave the rest white. A 74px uppercase bold headline sits in the largest cell. No diagonals, no curves, no gradients. A four-column colour-legend strip at the bottom, each with a 10px colour bar and a one-line rationale.
+
+## Brief (TR)
+
+Kalın siyah çizgiler, üç ana renk ve yalnızca dik bölünmelerle kurulmuş neoplastik dergi sayfası.
+
+## Kurallar
+
+- **Tipografi:** Helvetica 700 büyük harf
+- **Düzen:** 8px siyah çizgili asimetrik dikdörtgen ızgara
+- **Hareket:** Yok
+- **Kaçınılacaklar:** Köşegen, eğri, gradyan, gölge, fotoğraf
+
+
+<!-- https://design.asveas.com/21-konstruktivizm.dc.html -->
+---
+id: 21
+slug: "21-konstruktivizm"
+title: "Konstrüktivizm"
+name: "Konstrüktivizm"
+section: "05 — Sanat akımlarının web karşılıkları"
+reference: "Rodçenko"
+palette: ["#e8e3d9", "#141414", "#cc1f1a"]
+keywords: ["russian avant-garde poster", "diagonal red and black bands", "photomontage", "condensed type"]
+source: "21-konstruktivizm.dc.html"
+---
+
+# 21 — Konstrüktivizm
+
+Köşegen bantlar, kırmızı-siyah palet ve emir kipinde tipografi.
+
+## Prompt (EN)
+
+Design a theatre season poster page in Russian Constructivist style. Warm paper background (#e8e3d9) with two large red and black bands rotated -24° bleeding off the edges. A 104px uppercase condensed headline stacked in three lines, the middle word skewed and red. A photomontage placeholder with heavy diagonal hatching, a thick red outlined circle and a rotated black triangle. Imperative copy, a hard-edged two-tone button pair and a three-cell numbered principle strip with 6px black rules.
+
+## Brief (TR)
+
+Köşegen kırmızı-siyah bantlar, emir kipi tipografi ve fotomontaj alanıyla kurulmuş tiyatro afişi.
+
+## Kurallar
+
+- **Tipografi:** Oswald 500/700, sıkıştırılmış büyük harf
+- **Düzen:** Köşegen bantlar + 6px çerçeveli blok ızgara
+- **Hareket:** Yok
+- **Kaçınılacaklar:** Yatay sakinlik, pastel renk, süsleme
+
+
+<!-- https://design.asveas.com/22-memphis-postmodern.dc.html -->
+---
+id: 22
+slug: "22-memphis-postmodern"
+title: "Memphis"
+name: "Memphis"
+section: "05 — Sanat akımlarının web karşılıkları"
+reference: "Sottsass"
+palette: ["#f7f2e8", "#1a1a1a", "#e8354e", "#ffbf1f", "#2ec4b6"]
+keywords: ["80s postmodern shapes", "squiggles and confetti patterns", "clashing bright colors"]
+source: "22-memphis-postmodern.dc.html"
+---
+
+# 22 — Memphis
+
+Çakışan renkler, benek ve zikzak desenler; ciddiyeti reddeden postmodern neşe.
+
+## Prompt (EN)
+
+Design a furniture brand page in 1980s Memphis postmodern style. Cream background (#f7f2e8) with a black polka-dot pattern overlay and scattered geometric confetti: a thick teal ring, a rotated yellow triangle, a rotated red square. Cards use 4px black borders with mismatched corner radii (8px on one corner, 40px on the opposite). Clashing colours placed next to each other on purpose, a spinning four-colour conic disc, and a 86px 900-weight headline with a highlighted rotated word.
+
+## Brief (TR)
+
+Çakışan renkler, benek dokusu ve asimetrik yarıçaplı kartlarla kurulmuş postmodern mobilya sayfası.
+
+## Kurallar
+
+- **Tipografi:** Outfit 700/900
+- **Düzen:** Serbest yerleşim + 4px çerçeveli kartlar
+- **Hareket:** 22 sn dönen disk, hafif eğimler
+- **Kaçınılacaklar:** Uyumlu palet, tutarlı yarıçap, ciddi ton
+
+
+<!-- https://design.asveas.com/23-mid-century-modern.dc.html -->
+---
+id: 23
+slug: "23-mid-century-modern"
+title: "Mid-Century Modern"
+name: "Mid-Century Modern"
+section: "05 — Sanat akımlarının web karşılıkları"
+reference: "Eames"
+palette: ["#f2e8d5", "#c2542a", "#e3b23c", "#4a7c6f", "#7a5c3e"]
+keywords: ["atomic age shapes", "warm mustard teal terracotta", "organic kidney forms", "walnut"]
+source: "23-mid-century-modern.dc.html"
+---
+
+# 23 — Mid-Century Modern
+
+Organik elipsler, hardal-kiremit-avokado palet ve iyimser bir sadelik.
+
+## Prompt (EN)
+
+Design a furniture studio page in mid-century modern style. Warm cream background (#f2e8d5) with a large translucent mustard circle and a thick teal outline ring bleeding off the edges. An 80px DM Serif Display headline, warm body copy in Karla. The product image sits inside an organic kidney-shaped frame built from asymmetric border-radius with a thin dark border. A row of four fabric swatch dots, rounded 20px cards, and one solid teal card. Optimistic, warm, unhurried.
+
+## Brief (TR)
+
+Organik elipsler, hardal-kiremit-avokado paleti ve ince ahşap hissiyle kurulmuş mobilya sayfası.
+
+## Kurallar
+
+- **Tipografi:** DM Serif Display + Karla
+- **Düzen:** Organik çerçeveler, geniş boşluk, yumuşak kartlar
+- **Hareket:** Yok
+- **Kaçınılacaklar:** Neon renk, keskin köşe, teknik ızgara
+
+
+<!-- https://design.asveas.com/24-vaporwave-synthwave.dc.html -->
+---
+id: 24
+slug: "24-vaporwave-synthwave"
+title: "Vaporwave / Synthwave"
+name: "Vaporwave / Synthwave"
+section: "06 — Kültürel ve retro-fütürist diller"
+reference: "80'ler"
+palette: ["#0d0424", "#ff4fd8", "#4fd1ff", "#ffd76e"]
+keywords: ["retro 80s sunset grid horizon", "magenta and cyan neon glow", "chrome type", "VHS"]
+source: "24-vaporwave-synthwave.dc.html"
+---
+
+# 24 — Vaporwave / Synthwave
+
+Mor gökyüzü, ızgara ufuk çizgisi, neon parlaması ve kaset nostaljisi.
+
+## Prompt (EN)
+
+Design an album landing page in synthwave style. Purple-to-black vertical gradient sky with a striped gradient sun (amber to magenta to violet) cut by horizontal bands, and an animated perspective grid horizon in cyan at the bottom. A 96px Orbitron uppercase title with a pulsing magenta and cyan glow. Wide 0.5em-tracked subtitle. A bordered translucent tracklist panel, a cassette-loop status card, and a 'A E S T H E T I C' block with extreme letter spacing.
+
+## Brief (TR)
+
+Izgara ufuk çizgisi, çizgili gradyan güneş ve neon parlamayla kurulmuş 80'ler albüm sayfası.
+
+## Kurallar
+
+- **Tipografi:** Orbitron 500/800 + Space Mono
+- **Düzen:** Ortalanmış kompozisyon, perspektif zemin
+- **Hareket:** 3.4 sn kayan ızgara, 4.5 sn parlama nabzı
+- **Kaçınılacaklar:** Sıcak nötr palet, sade tipografi
+
+
+<!-- https://design.asveas.com/25-japon-ma-wabi-sabi.dc.html -->
+---
+id: 25
+slug: "25-japon-ma-wabi-sabi"
+title: "Ma & Wabi-Sabi"
+name: "Ma & Wabi-Sabi"
+section: "06 — Kültürel ve retro-fütürist diller"
+reference: "Japonya"
+palette: ["#f5f2ec", "#2c2a26", "#8a7f6d", "#eae5db"]
+keywords: ["japanese negative space", "single object composition", "natural imperfect texture"]
+source: "25-japon-ma-wabi-sabi.dc.html"
+---
+
+# 25 — Ma & Wabi-Sabi
+
+Çok geniş boşluk, tek nesne, doğal doku ve kusuru saklamayan sükûnet.
+
+## Prompt (EN)
+
+Design a Japanese ceramics shop page around ma (negative space) and wabi-sabi. Warm paper background (#f5f2ec), muted clay greys, and enormous empty space — content occupies less than half the page. A 52px light serif headline with 1.5 line-height, body text at 2.0 line-height. Single kanji characters as section markers. One hairline divider. Product images are plain 1:1 flat clay-toned blocks with tiny captions. No borders, no shadows, no accent colour, nothing centred loudly.
+
+## Brief (TR)
+
+Boşluğu asıl konu yapan, tek nesne kompozisyonlu ve doğal dokulu seramik mağazası sayfası.
+
+## Kurallar
+
+- **Tipografi:** Noto Serif JP 300/500, 2.0 satır yüksekliği
+- **Düzen:** Çok geniş kenar boşluğu, tek saç teli ayırıcı
+- **Hareket:** Yok
+- **Kaçınılacaklar:** Vurgu rengi, kalabalık ızgara, gölge, rozet
+
+
+<!-- https://design.asveas.com/26-cini-geometrik-motif.dc.html -->
+---
+id: 26
+slug: "26-cini-geometrik-motif"
+title: "Geometrik Motif"
+name: "Geometrik Motif"
+section: "06 — Kültürel ve retro-fütürist diller"
+reference: "Çini"
+palette: ["#f4efe4", "#1d5b8f", "#2e8b74", "#b8402f", "#e8dfc8"]
+keywords: ["islamic geometric tessellation", "eight-point star", "cobalt emerald coral on ivory"]
+source: "26-cini-geometrik-motif.dc.html"
+---
+
+# 26 — Geometrik Motif
+
+Sekiz köşeli yıldız, sonsuz tekrar ve kobalt-zümrüt-mercan sistemi.
+
+## Prompt (EN)
+
+Design a museum collection page built on traditional Iznik tile geometry. Ivory ground (#f4efe4) with a faint repeating conic star pattern overlay. An eight-point star motif rendered with conic gradients as the logo mark. An 82px light serif headline with one word in cobalt. A square tile panel filled with a tessellating eight-point star pattern that visibly continues past its frame. A four-column palette strip: cobalt, emerald, coral and ivory, each with a rationale.
+
+## Brief (TR)
+
+Sekiz köşeli yıldız, sonsuz tekrar eden desen sistemi ve kobalt-zümrüt-mercan paletli koleksiyon sayfası.
+
+## Kurallar
+
+- **Tipografi:** Cormorant 300/600 + Jost 300
+- **Düzen:** Simetrik kare paneller, kenardan taşan desen
+- **Hareket:** Yok
+- **Kaçınılacaklar:** Rastgele desen, gradyan, gölge, eğik hat
+
+
+<!-- https://design.asveas.com/27-solarpunk-organik.dc.html -->
+---
+id: 27
+slug: "27-solarpunk-organik"
+title: "Solarpunk"
+name: "Solarpunk"
+section: "06 — Kültürel ve retro-fütürist diller"
+reference: "Organik modernizm"
+palette: ["#f6faf0", "#2f6b45", "#f7cb5a", "#8dc27b"]
+keywords: ["solarpunk optimism", "leaf-shaped radii", "green and solar yellow", "natural materials"]
+source: "27-solarpunk-organik.dc.html"
+---
+
+# 27 — Solarpunk
+
+Yaprak biçimli köşeler, güneş sarısı vurgular ve iyimser çevre anlatısı.
+
+## Prompt (EN)
+
+Design a neighbourhood solar cooperative page in solarpunk style. Soft green-to-cream gradient background with a warm sun-glow radial in the corner. A 72px Fraunces serif headline, optimistic invitation-style copy. Images sit in leaf-shaped frames (180px radius on two opposite corners, 24px on the others). A floating solar-yellow stat badge overlapping the image. Rounded 26px cards, one solid forest green, natural material textures, four large statistics on thin green rules.
+
+## Brief (TR)
+
+Yaprak biçimli köşeler, güneş sarısı vurgular ve iyimser çevre anlatısıyla kurulmuş kooperatif sayfası.
+
+## Kurallar
+
+- **Tipografi:** Fraunces 600 başlık + Jost 300 metin
+- **Düzen:** Organik yarıçaplar, yumuşak kartlar, geniş boşluk
+- **Hareket:** Yumuşak hover, yavaş geçiş
+- **Kaçınılacaklar:** Kıyamet tonu, gri palet, keskin kutular
+
+
+<!-- https://design.asveas.com/28-skeuomorfizm.dc.html -->
+---
+id: 28
+slug: "28-skeuomorfizm"
+title: "Skeuomorfizm"
+name: "Skeuomorfizm"
+section: "07 — Arayüz dönemleri ve yüzey dilleri"
+reference: "2007—2013"
+palette: ["#3a2f26", "#f6efdd", "#8a755a", "#b45a48"]
+keywords: ["realistic leather stitching", "paper texture", "glossy beveled buttons", "drop shadows"]
+source: "28-skeuomorfizm.dc.html"
+---
+
+# 28 — Skeuomorfizm
+
+Deri, kâğıt ve fırçalanmış metal taklidi; arayüz gerçek nesneye benzer.
+
+## Prompt (EN)
+
+Design a note-taking app page in 2010-era skeuomorphism. Dark brushed leather background made from repeating linear gradients. A stitched wooden toolbar with beveled gradient buttons that have inset white highlights and outer drop shadows. The note area is real lined paper (repeating 27px blue rules) with a red vertical margin line and two glossy binder rings. Everything has a single top-light source, 6—10px radii, warm browns and creams, and physical depth.
+
+## Brief (TR)
+
+Deri, kâğıt ve pirinç taklidiyle kurulmuş, tek ışık yönlü fiziksel not defteri arayüzü.
+
+## Kurallar
+
+- **Tipografi:** Helvetica Neue 700 başlıklar, gerçekçi gölgeli metin
+- **Düzen:** Nesne metaforu, kabartılmış araç çubuğu
+- **Hareket:** Basınca içe çökme, 100ms
+- **Kaçınılacaklar:** Düz renk, sıfır gölge, soyut ikon
+
+
+<!-- https://design.asveas.com/29-duz-tasarim-flat.dc.html -->
+---
+id: 29
+slug: "29-duz-tasarim-flat"
+title: "Düz Tasarım"
+name: "Düz Tasarım"
+section: "07 — Arayüz dönemleri ve yüzey dilleri"
+reference: "Flat 2.0"
+palette: ["#fbfbfc", "#2d7ff9", "#00b58a", "#ff9f1c", "#1f2733"]
+keywords: ["flat design", "saturated color blocks", "no gradients or shadows", "simple geometric icons"]
+source: "29-duz-tasarim-flat.dc.html"
+---
+
+# 29 — Düz Tasarım
+
+Tek düzlem, doygun renk blokları ve gölgesiz hiyerarşi; ölçeklenmesi kolay.
+
+## Prompt (EN)
+
+Design a fleet-management dashboard in flat design 2.0. Near-white background (#fbfbfc), a solid blue app bar, and colour-block metric cards in blue, green, amber and light grey with white geometric icon shapes. Only 3—4px radii, 1px light borders and no gradients, no shadows, no texture. A data table with a light grey header row, hairline dividers and text-plus-colour status labels. Hierarchy comes entirely from colour, size and spacing.
+
+## Brief (TR)
+
+Gölgesiz, dokusuz, tek düzlemde duran renk blokları ve tablo hiyerarşisiyle kurulmuş yönetim panosu.
+
+## Kurallar
+
+- **Tipografi:** Helvetica Neue 600/400, 14-17px
+- **Düzen:** Renk bloklu kart ızgarası + veri tablosu
+- **Hareket:** 150ms renk geçişi
+- **Kaçınılacaklar:** Gradyan, gölge, doku, kabartma
+
+
+<!-- https://design.asveas.com/30-maksimalizm.dc.html -->
+---
+id: 30
+slug: "30-maksimalizm"
+title: "Maksimalizm"
+name: "Maksimalizm"
+section: "07 — Arayüz dönemleri ve yüzey dilleri"
+reference: "Anti-minimal"
+palette: ["#1b0b2e", "#fdf6e3", "#e0245e", "#00b3a4", "#ffd166"]
+keywords: ["layered patterns", "jewel tones", "mixed serif and grotesk type", "opulent density"]
+source: "30-maksimalizm.dc.html"
+---
+
+# 30 — Maksimalizm
+
+Desen üstüne desen, karışık tipografi ve kontrollü bir cömertlik.
+
+## Prompt (EN)
+
+Design a boutique perfume shop page in maximalism. Deep aubergine background layered with four large radial colour glows and a fine diagonal line texture. Mixed typography: a 82px Playfair Display serif headline with an italic word and a magenta highlight block. Cards use 2—3px borders in different accent colours, 16—18px radii and translucent tinted fills. A conic-striped pattern panel. Everything is layered, jewel-toned and dense — but one area is deliberately left quiet.
+
+## Brief (TR)
+
+Desen üstüne desen, karışık tipografi ve mücevher tonlarıyla kurulmuş yoğun ama kontrollü butik sayfası.
+
+## Kurallar
+
+- **Tipografi:** Playfair Display 700 + Jost 400/700
+- **Düzen:** Katmanlı bloklar, farklı renkli çerçeveler
+- **Hareket:** Yumuşak, yavaş; hareket az tutulur
+- **Kaçınılacaklar:** Tek renk sadelik, tutarlı çerçeve, boş kompozisyon
+
+
+<!-- https://design.asveas.com/31-erisilebilirlik-oncelikli.dc.html -->
+---
+id: 31
+slug: "31-erisilebilirlik-oncelikli"
+title: "Erişilebilirlik Öncelikli"
+name: "Erişilebilirlik Öncelikli"
+section: "08 — İlke temelli standartlar"
+reference: "WCAG 2.2"
+palette: ["#ffffff", "#141414", "#0a4bd4", "#b3000f", "#ffd200"]
+keywords: ["accessible-first UI", "4.5:1 contrast", "thick focus outlines", "large text", "clear errors"]
+source: "31-erisilebilirlik-oncelikli.dc.html"
+---
+
+# 31 — Erişilebilirlik Öncelikli
+
+Yüksek kontrast, büyük hedefler, görünür odak ve renge bağlı olmayan durumlar.
+
+## Prompt (EN)
+
+Design a public application form page that is accessibility-first. Pure white background, pure black text, 18px base font size and 1.65 line-height. A visible skip-to-content link as the first element. 3px black borders on every field and button, 44px+ hit areas, and a 4px amber focus outline offset from the field. Errors use a red border, a bold red message with an icon and explanatory text — never colour alone. A contrast sample panel showing ratios, and status indicators that pair a colour block with a text label.
+
+## Brief (TR)
+
+Yüksek kontrast, 18px taban metin, kalın odak halkası ve renge bağlı olmayan durum bildirimleriyle kamu formu.
+
+## Kurallar
+
+- **Tipografi:** Helvetica Neue, 18px taban, 17px etiket
+- **Düzen:** Tek ana sütun + dar yardım kolonu, 3px çerçeveler
+- **Hareket:** Yok; hareket azaltma tercihine saygı
+- **Kaçınılacaklar:** İnce gri metin, düşük kontrast, yalnız renkle anlam
+
+
+<!-- https://design.asveas.com/32-kamu-hizmeti-sade-dil.dc.html -->
+---
+id: 32
+slug: "32-kamu-hizmeti-sade-dil"
+title: "Kamu Hizmeti"
+name: "Kamu Hizmeti Tasarımı"
+section: "08 — İlke temelli standartlar"
+reference: "Sade dil"
+palette: ["#ffffff", "#0f4c81", "#00703c", "#ffbf47", "#f3f4f5"]
+keywords: ["government service page", "single column", "plain language", "task-first", "no decoration"]
+source: "32-kamu-hizmeti-sade-dil.dc.html"
+---
+
+# 32 — Kamu Hizmeti
+
+Tek sütun, görev odaklı akış, süslemesiz düzen ve anlaşılır resmî dil.
+
+## Prompt (EN)
+
+Design a government service page for renewing a driving licence, in plain-language public service style. White background, a solid navy header bar, a grey breadcrumb strip. A 42px task-focused headline, 19px lead paragraph, and a large green primary action button with a hard bottom shadow. Content is a single narrow column: what to prepare as a bulleted list, an amber left-bar warning callout, a bordered fee table, and a 'what happens next' section. A right rail holds an on-page contents list and a help box with a phone number and a last-updated date.
+
+## Brief (TR)
+
+Görev odaklı tek sütun, sade dil, ücret tablosu ve sonraki adım açıklamasıyla kurulmuş kamu hizmeti sayfası.
+
+## Kurallar
+
+- **Tipografi:** Helvetica Neue, 19px giriş paragrafı, 17-18px metin
+- **Düzen:** Tek dar sütun + sağ yardım rayı
+- **Hareket:** Yok
+- **Kaçınılacaklar:** Kahraman görsel, pazarlama dili, süsleme, ikon seti
+
+
+<!-- https://design.asveas.com/33-ham-html-brutalizmi.dc.html -->
+---
+id: 33
+slug: "33-ham-html-brutalizmi"
+title: "Ham HTML Brütalizmi"
+name: "Ham HTML Brütalizmi"
+section: "08 — İlke temelli standartlar"
+reference: "İçerik önce"
+palette: ["#ffffff", "#000000", "#0000ee", "#551a8b"]
+keywords: ["default browser styles", "times new roman", "blue underlined links", "unstyled tables"]
+source: "33-ham-html-brutalizmi.dc.html"
+---
+
+# 33 — Ham HTML Brütalizmi
+
+Tarayıcı varsayılanları, mavi bağlantılar, tek sütun ve sıfır süsleme.
+
+## Prompt (EN)
+
+Design a personal homepage using only default browser styling. White background, Times New Roman, 16px, a single 900px column. Blue underlined links, purple visited links. Horizontal rules as section dividers, an ordered list table of contents, a bordered HTML table of posts, a blockquote with a left border, and a monospace pre block listing page weight and request count. No custom fonts, no images, no JavaScript, no decoration of any kind.
+
+## Brief (TR)
+
+Tarayıcı varsayılanlarıyla yazılmış, tek sütunlu, mavi bağlantılı ve tamamen içerik odaklı kişisel sayfa.
+
+## Kurallar
+
+- **Tipografi:** Times New Roman 16px + Courier New (pre)
+- **Düzen:** Tek sütun, max 900px, hr ayırıcılar
+- **Hareket:** Yok
+- **Kaçınılacaklar:** Özel font, gradyan, ikon, animasyon, çerçeve
+
+
+<!-- https://design.asveas.com/34-basparmak-bolgesi.dc.html -->
+---
+id: 34
+slug: "34-basparmak-bolgesi"
+title: "Baş Parmak Bölgesi"
+name: "Baş Parmak Bölgesi"
+section: "09 — Mobil arayüz yapıları"
+reference: "Fitts"
+palette: ["#efece5", "#17160f", "#a8442c", "#4aa06e"]
+keywords: ["one-handed thumb reach heat map", "bottom tab bar", "44px targets", "Fitts's law study"]
+source: "34-basparmak-bolgesi.dc.html"
+---
+
+# 34 — Baş Parmak Bölgesi
+
+Tek elle erişim haritası, alt navigasyon ve 44 px dokunma hedefi kuralı.
+
+## Prompt (EN)
+
+Design a mobile UX case-study page about one-handed reach. Neutral study background (#efece5) with hairline rules and uppercase monospace annotation labels. Show two 300x640 phone mockups side by side: the first displays a thumb-reach heat map with three dashed zone cards (comfortable green at the bottom, stretch amber in the middle, hard red at the top); the second shows a real cart screen where the primary full-width action sits in the bottom safe zone above a blurred sticky bar. Add a left column explaining Fitts's law, Jakob's law and the 44px minimum target rule.
+
+## Brief (TR)
+
+Tek elle erişim ısı haritası ve uygulanmış sepet ekranıyla Fitts yasasını gösteren mobil vaka sayfası.
+
+## Kurallar
+
+- **Tipografi:** Helvetica Neue 600 + monospace etiketler
+- **Düzen:** Sol açıklama kolonu + sağda telefon sahnesi
+- **Hareket:** Yok; statik inceleme düzeni
+- **Kaçınılacaklar:** Üst köşede birincil eylem, 44px altı hedef
+
+
+<!-- https://design.asveas.com/35-kart-destesi-swipe.dc.html -->
+---
+id: 35
+slug: "35-kart-destesi-swipe"
+title: "Kart Destesi & Swipe"
+name: "Kart Destesi & Swipe"
+section: "09 — Mobil arayüz yapıları"
+reference: "Hick"
+palette: ["#efece5", "#14131a", "#4ade8a", "#a8442c"]
+keywords: ["stacked swipe card deck", "rotated top card", "gesture dictionary", "28% decision threshold"]
+source: "35-kart-destesi-swipe.dc.html"
+---
+
+# 35 — Kart Destesi & Swipe
+
+Tek karar, jest sözlüğü ve karar eşiği; hızın ne zaman zararlı olduğu.
+
+## Prompt (EN)
+
+Design a mobile pattern study page for swipe-deck decisions. Neutral light study background with a dark phone mockup showing a stacked card deck: three offset layers behind a rotated top card with a large cover area, a title, meta line, tag chips and a green 'İZLE' stamp rotated -12°. Below the deck, three circular action buttons with the accept button larger and filled. Beside the phone, a gesture dictionary table, a threshold panel with a 28% progress bar, and a note about when decks fail.
+
+## Brief (TR)
+
+Tek kararlık kart destesi, jest sözlüğü ve %28 karar eşiğiyle Hick yasasını gösteren desen sayfası.
+
+## Kurallar
+
+- **Tipografi:** Helvetica Neue 600 + monospace etiketler
+- **Düzen:** Sol açıklama + telefon + sağ jest tablosu
+- **Hareket:** Kart -4° eğim, sürükleme eşiği geri dönüşü
+- **Kaçınılacaklar:** Karşılaştırmalı kararlarda deste kullanmak
+
+
+<!-- https://design.asveas.com/36-asamali-aciga-cikarma.dc.html -->
+---
+id: 36
+slug: "36-asamali-aciga-cikarma"
+title: "Onboarding Akışı"
+name: "Onboarding Akışı"
+section: "09 — Mobil arayüz yapıları"
+reference: "IKEA etkisi"
+palette: ["#efece5", "#fbfaf7", "#17160f", "#a8442c"]
+keywords: ["three-step onboarding", "segmented progress", "social anchor goal slider", "justified permission"]
+source: "36-asamali-aciga-cikarma.dc.html"
+---
+
+# 36 — Onboarding Akışı
+
+Üç adımlık kurulum, sosyal çıpalı hedef seçimi ve gerekçeli izin isteme.
+
+## Prompt (EN)
+
+Design a three-screen mobile onboarding flow on a neutral study page. Three 280x600 phone mockups in a row sharing a segmented progress bar at the top. Screen one: a single question with four large selectable option rows, one selected with a 2px border. Screen two: a goal picker with a 52px value, a slider track with a round handle and a social anchor line ('çoğu kişi 7s 30dk ile başlıyor'). Screen three: an inverted dark permission screen with a circular icon, a plain-language justification and an equally visible decline option.
+
+## Brief (TR)
+
+Tek soruluk adımlar, sosyal çıpalı hedef seçimi ve gerekçeli izin ekranıyla üç adımlık kurulum akışı.
+
+## Kurallar
+
+- **Tipografi:** Helvetica Neue 600, 24px ekran başlığı
+- **Düzen:** Üç telefon yan yana + ortak ilerleme çubuğu
+- **Hareket:** Adımlar arası 250ms kaydırma
+- **Kaçınılacaklar:** Açılışta izin istemek, 4'ten fazla alan
+
+
+<!-- https://design.asveas.com/37-bos-durum-ilk-deneyim.dc.html -->
+---
+id: 37
+slug: "37-bos-durum-ilk-deneyim"
+title: "Boş Durum"
+name: "Boş Durum"
+section: "09 — Mobil arayüz yapıları"
+reference: "Zeigarnik"
+palette: ["#efece5", "#fbfaf7", "#17160f", "#a8442c"]
+keywords: ["empty state with single action", "half-complete checklist", "endowed progress bar"]
+source: "37-bos-durum-ilk-deneyim.dc.html"
+---
+
+# 37 — Boş Durum
+
+İlk açılış ekranı, yarım kalan kontrol listesi ve bahşedilmiş ilerleme.
+
+## Prompt (EN)
+
+Design a mobile empty-state study page. Two phone mockups: the first shows a true empty state — a dashed 120px placeholder tile, a non-blaming headline, one sentence of guidance, one primary button, one secondary text link, and a sticky setup progress bar showing 2 of 5 complete. The second shows a half-finished checklist where two items are struck through with filled check circles, the next item is bold with a '30 sn' time estimate, and remaining items are greyed. Side cards explain the three jobs of an empty state and time-to-first-value.
+
+## Brief (TR)
+
+Suçlamayan boş ekran ve yarım kalan kontrol listesiyle Zeigarnik etkisini gösteren ilk deneyim sayfası.
+
+## Kurallar
+
+- **Tipografi:** Helvetica Neue 600, 20px ekran başlığı
+- **Düzen:** İki telefon + sağda üç ilke kartı
+- **Hareket:** Yok
+- **Kaçınılacaklar:** Sahte örnek veri, suçlayıcı dil, sıfır ilerleme
+
+
+<!-- https://design.asveas.com/38-alt-sayfa-katmanlar.dc.html -->
+---
+id: 38
+slug: "38-alt-sayfa-katmanlar"
+title: "Alt Sayfa & Katman"
+name: "Alt Sayfa & Katman"
+section: "09 — Mobil arayüz yapıları"
+reference: "Doherty"
+palette: ["#efece5", "#fbfaf7", "#17160f", "#b03428"]
+keywords: ["bottom sheet over blurred context", "drag handle", "destructive confirmation modal"]
+source: "38-alt-sayfa-katmanlar.dc.html"
+---
+
+# 38 — Alt Sayfa & Katman
+
+Bağlamı koruyan yarı katman ile yıkıcı eylemi durduran modal arasındaki fark.
+
+## Prompt (EN)
+
+Design a mobile layering study page. Phone one shows a bottom sheet: the underlying map list is blurred and dimmed but still visible, and a 400px-tall sheet with a 26px top radius, a drag handle, a title row with a close button, filter chips, a price list and a sticky action row slides up from the bottom. Phone two shows a blocking destructive-confirmation modal centred over a dark scrim, with a red primary action and a neutral cancel. Side notes compare sheet, modal and full screen.
+
+## Brief (TR)
+
+Bağlamı koruyan yarı katman ile yıkıcı eylemi durduran modalı yan yana gösteren katman çalışması.
+
+## Kurallar
+
+- **Tipografi:** Helvetica Neue 600, 19px sayfa başlığı
+- **Düzen:** İki telefon + sağda kullanım kuralları
+- **Hareket:** 250—300ms yükselme, sürükleyerek kapatma
+- **Kaçınılacaklar:** İkiden fazla üst üste katman, gizli kapatma
+
+
+<!-- https://design.asveas.com/39-sonsuz-akis.dc.html -->
+---
+id: 39
+slug: "39-sonsuz-akis"
+title: "Sonsuz Akış"
+name: "Sonsuz Akış"
+section: "09 — Mobil arayüz yapıları"
+reference: "Değişken ödül"
+palette: ["#efece5", "#fbfaf7", "#17160f", "#2f6b45", "#b03428"]
+keywords: ["social feed with explicit stopping point", "variable reward", "healthy vs exploitative table"]
+source: "39-sonsuz-akis.dc.html"
+---
+
+# 39 — Sonsuz Akış
+
+En güçlü etkileşim deseni ve onu bağımlılıktan ayıran durma noktaları.
+
+## Prompt (EN)
+
+Design a mobile feed study page about variable reward. A phone mockup shows a social feed with avatar rows, an image post, a text post and a partially visible third post — and critically, a bottom 'buraya kadar okudun' stopping point card that ends the session kindly. Beside it, a two-column comparison table contrasting healthy patterns (finite feed, visible time, batched notifications) with exploitative ones (endless scroll, drip notifications, autoplay), plus four small cards on pull-to-refresh, skeleton loaders, session budgets and position memory.
+
+## Brief (TR)
+
+Değişken ödül mekanizmasını ve onu bağımlılıktan ayıran durma noktalarını gösteren akış çalışması.
+
+## Kurallar
+
+- **Tipografi:** Helvetica Neue 600 + monospace etiketler
+- **Düzen:** Telefon + sağda sağlıklı/sömürücü karşılaştırma
+- **Hareket:** İskelet yükleyici, aşağı çekip yenileme
+- **Kaçınılacaklar:** Sonsuz akış, otomatik oynatma, gizlenen süre
+
+
+<!-- https://design.asveas.com/40-aliskanlik-dongusu-seri.dc.html -->
+---
+id: 40
+slug: "40-aliskanlik-dongusu-seri"
+title: "Alışkanlık & Seri"
+name: "Alışkanlık & Seri"
+section: "10 — Davranış tasarımı ve psikoloji"
+reference: "Kayıp kaçınma"
+palette: ["#efece5", "#0f1b16", "#f5a524", "#17160f"]
+keywords: ["84-day streak ring", "weekly dot row", "streak protection card", "habit loop diagram"]
+source: "40-aliskanlik-dongusu-seri.dc.html"
+---
+
+# 40 — Alışkanlık & Seri
+
+İşaret–istek–eylem–ödül döngüsü, seri koruması ve geri kazanma yolu.
+
+## Prompt (EN)
+
+Design a mobile habit-streak study page. A dark green phone screen shows a large conic-gradient progress ring around an 84-day streak number, a seven-day dot row with amber checkmarks, one dashed 'today' circle and two empty future days, an amber-tinted 'streak protection' notice card, and a full-width primary action. Beside it, a four-step habit loop diagram (cue, craving, action, reward) and four cards on lowering the threshold, variable celebration, recovery paths and pause mode.
+
+## Brief (TR)
+
+İşaret–istek–eylem–ödül döngüsünü ve seri koruma mekanizmasını gösteren alışkanlık çalışması.
+
+## Kurallar
+
+- **Tipografi:** Helvetica Neue 600, 52px seri sayısı
+- **Düzen:** Telefon + 4 adımlı döngü şeması + kart ızgarası
+- **Hareket:** Halka dolum animasyonu ≤900ms
+- **Kaçınılacaklar:** Ceza mekaniği, duraklatmasız seri, sabit kutlama
+
+
+<!-- https://design.asveas.com/41-oyunlastirma-ilerleme.dc.html -->
+---
+id: 41
+slug: "41-oyunlastirma-ilerleme"
+title: "Oyunlaştırma"
+name: "Oyunlaştırma"
+section: "10 — Davranış tasarımı ve psikoloji"
+reference: "Hedef gradyanı"
+palette: ["#efece5", "#fbfaf7", "#17160f", "#a8442c"]
+keywords: ["level progress bar at 84%", "badge grid with next locked badge", "leaderboard row highlight"]
+source: "41-oyunlastirma-ilerleme.dc.html"
+---
+
+# 41 — Oyunlaştırma
+
+İlerleme çubuğu, rozet sistemi, sıralama tablosu ve dışsal ödül tuzağı.
+
+## Prompt (EN)
+
+Design a mobile gamification study page. A phone screen shows a level header with an XP chip, an 84% gradient progress bar with a '320 puan kaldı' nudge, a badge grid where earned badges are solid black, the next badge is a dashed accent-outlined tile and the rest are empty, plus a leaderboard where the user's own row is highlighted. Beside it, an A/B comparison of a 0/10 progress bar versus a 2/12 bar with two steps granted, and four cards on leaderboards, locked badges, extrinsic reward risk and season endings.
+
+## Brief (TR)
+
+Hedef gradyanını, bahşedilmiş ilerlemeyi ve rozet sistemini karşılaştırmalı gösteren oyunlaştırma çalışması.
+
+## Kurallar
+
+- **Tipografi:** Helvetica Neue 600, 20px ekran başlığı
+- **Düzen:** Telefon + A/B ilerleme karşılaştırması + kartlar
+- **Hareket:** İlerleme çubuğu dolumu 400ms
+- **Kaçınılacaklar:** Anlamsız puan, gizli rozet, herkese açık sıralama baskısı
+
+
+<!-- https://design.asveas.com/42-sosyal-kanit-kitlik.dc.html -->
+---
+id: 42
+slug: "42-sosyal-kanit-kitlik"
+title: "Sosyal Kanıt & Kıtlık"
+name: "Sosyal Kanıt & Kıtlık"
+section: "10 — Davranış tasarımı ve psikoloji"
+reference: "Cialdini"
+palette: ["#efece5", "#fbfaf7", "#17160f", "#c67a1e", "#b03428"]
+keywords: ["live viewer chip", "low-stock bar", "similarity-signalled review", "verifiable vs fake table"]
+source: "42-sosyal-kanit-kitlik.dc.html"
+---
+
+# 42 — Sosyal Kanıt & Kıtlık
+
+Stok, sayaç ve yorum sinyalleri; doğrulanabilir olanla uydurulmuş olanın farkı.
+
+## Prompt (EN)
+
+Design a mobile commerce study page about social proof and scarcity. A product screen shows a photo area with a live '34 kişi bakıyor' chip, a rating row with review count, price, an amber low-stock card with a 12% bar and a weekly purchase count, and a review with similarity signals (city, height). Beside it, a two-column table separating verifiable claims from fabricated ones, plus four cards on negative social proof, review diversity, FOMO cost and consumer-law exposure.
+
+## Brief (TR)
+
+Doğrulanabilir sosyal kanıt ile uydurulmuş kıtlık sinyalini karşılaştıran e-ticaret çalışması.
+
+## Kurallar
+
+- **Tipografi:** Helvetica Neue 600, 19px ürün başlığı
+- **Düzen:** Telefon + doğrulanabilir/uydurma karşılaştırması
+- **Hareket:** Yok
+- **Kaçınılacaklar:** Sahte sayaç, sıfırlanan geri sayım, yalnız 5 yıldız
+
+
+<!-- https://design.asveas.com/43-varsayilan-capa-fiyat.dc.html -->
+---
+id: 43
+slug: "43-varsayilan-capa-fiyat"
+title: "Varsayılan & Çapa"
+name: "Varsayılan & Çapa"
+section: "10 — Davranış tasarımı ve psikoloji"
+reference: "Anchoring"
+palette: ["#efece5", "#fbfaf7", "#17160f", "#a8442c"]
+keywords: ["three pricing rows", "pre-selected annual plan", "decoy lifetime anchor", "renewal transparency"]
+source: "43-varsayilan-capa-fiyat.dc.html"
+---
+
+# 43 — Varsayılan & Çapa
+
+Fiyat sunumu, yem seçenek ve varsayılanın kullanıcı lehine ayarlanması.
+
+## Prompt (EN)
+
+Design a mobile pricing study page. A phone shows three plan rows where the middle annual plan is pre-selected with a 2px border and an 'EN ÇOK SEÇİLEN' badge, the lifetime plan acts as a high anchor, and a transparent notice explains that a reminder email arrives two days before renewal. Beside it, a three-column anchor diagram labelling anchor, target and floor prices, plus four cards on monthly framing, drip pricing, symmetric cancellation and privacy defaults.
+
+## Brief (TR)
+
+Çapa etkisi, yem seçenek ve şeffaf varsayılanla kurulmuş fiyatlandırma ekranı çalışması.
+
+## Kurallar
+
+- **Tipografi:** Helvetica Neue 600, 23px ekran başlığı
+- **Düzen:** Telefon + üç kolonlu çapa şeması + kartlar
+- **Hareket:** Seçim geçişi 150ms
+- **Kaçınılacaklar:** Gizli otomatik yenileme, damla fiyatlama, önceden işaretli ek
+
+
+<!-- https://design.asveas.com/44-mikro-etkilesim-zirve-son.dc.html -->
+---
+id: 44
+slug: "44-mikro-etkilesim-zirve-son"
+title: "Mikro Etkileşim"
+name: "Mikro Etkileşim"
+section: "10 — Davranış tasarımı ve psikoloji"
+reference: "Zirve–son"
+palette: ["#12100e", "#f4f1ea", "#e8b93c", "#4ade8a"]
+keywords: ["dark success peak moment", "pulse ring checkmark", "haptic note", "timing budget chart"]
+source: "44-mikro-etkilesim-zirve-son.dc.html"
+---
+
+# 44 — Mikro Etkileşim
+
+Haptik dili, animasyon süre bütçesi ve hafızada kalan iki anın tasarımı.
+
+## Prompt (EN)
+
+Design a dark mobile study page about microinteractions. Ink background (#12100e) with amber annotation labels. A phone shows a transfer-success peak moment: a 120px green circle with a large checkmark, an expanding pulse ring behind it, a confirmation headline, amount and recipient, and a haptic note reading 'orta şiddette titreşim · 180 ms'. Beside it, a timing budget chart with four labelled bars (100ms tap, 250-300ms transition, 400ms system response, 900ms celebration) and four cards on optimistic UI, error moments, reduced motion and silent defaults.
+
+## Brief (TR)
+
+Zirve–son kuralını, haptik dilini ve animasyon süre bütçesini gösteren mikro etkileşim çalışması.
+
+## Kurallar
+
+- **Tipografi:** Helvetica Neue 600 + monospace etiketler
+- **Düzen:** Koyu sahne, telefon + süre bütçesi grafiği
+- **Hareket:** 2.6 sn nabız halkası, 180ms haptik
+- **Kaçınılacaklar:** 1 sn üstü atlanamayan kutlama, aşırı titreşim
+
+
+<!-- https://design.asveas.com/45-karanlik-desenler-etik.dc.html -->
+---
+id: 45
+slug: "45-karanlik-desenler-etik"
+title: "Karanlık Desenler"
+name: "Karanlık Desenler"
+section: "10 — Davranış tasarımı ve psikoloji"
+reference: "uyarı"
+palette: ["#1a0f0d", "#f6ece8", "#ff8a72", "#8fdda8"]
+keywords: ["dark pattern warning page", "cancellation screen comparison", "honest counterpart table"]
+source: "45-karanlik-desenler-etik.dc.html"
+---
+
+# 45 — Karanlık Desenler
+
+Altı yaygın sömürücü desen, dürüst karşılıkları ve ekip için kontrol sorusu.
+
+## Prompt (EN)
+
+Design a dark warning-style page cataloguing dark patterns. Deep maroon-black background (#1a0f0d) with a coral accent (#ff8a72) and an outlined 'this page is a warning' badge. A phone mockup contrasts a cancellation screen: a red-tinted card describing the manipulative version (confirmshaming, hidden button, six-step maze) directly above the honest version (clear end date, optional discount, one-tap confirm, equally weighted buttons). Beside it, a six-row table pairing each dark pattern with its honest counterpart, and a boxed ethics test question for the team.
+
+## Brief (TR)
+
+Altı yaygın sömürücü deseni dürüst karşılıklarıyla eşleştiren ve ekip için kontrol sorusu veren uyarı sayfası.
+
+## Kurallar
+
+- **Tipografi:** Helvetica Neue 600 + monospace etiketler
+- **Düzen:** Koyu sahne, telefon + 6 satırlık eşleştirme tablosu
+- **Hareket:** Yok
+- **Kaçınılacaklar:** Utandırma dili, asimetrik buton ağırlığı, zorlaştırılmış iptal
+
+
+<!-- https://design.asveas.com/46-macos-masaustu.dc.html -->
+---
+id: 46
+slug: "46-macos-masaustu"
+title: "macOS Masaüstü"
+name: "macOS Masaüstü"
+section: "11 — Masaüstü uygulama dilleri"
+reference: "Jony Ive · Apple HIG"
+palette: ["#e8eaf0", "#f5f5f7", "#1d1d1f", "#0a84ff", "#ff5f57", "#28c840"]
+keywords: ["macOS desktop app", "translucent sidebar", "traffic lights", "three-pane window", "vibrancy"]
+source: "46-macos-masaustu.dc.html"
+---
+
+# 46 — macOS Masaüstü
+
+Trafik ışıkları, yarı saydam kenar çubuğu ve üç panelli sükûnet; içerik önde, krom geride.
+
+## Prompt (EN)
+
+Design a calm macOS-style desktop mail app window in the Apple HIG language. Grey-blue gradient desktop (#e8eaf0), floating window (#f5f5f7) with 12px radius and one large soft shadow. Traffic lights (#ff5f57 #febc2e #28c840) on a unified toolbar with a search field and soft icon buttons. Three panes: a translucent sidebar with colored-dot folders, a 280px message list with sender, subject and two-line previews, and a white reading pane with an avatar header and a single #0a84ff Reply button. Use -apple-system at 13px for dense UI text, 600-weight headings, rgba(0,0,0,.08) hairline dividers. No sharp corners, no heavy shadows, no menu bar inside the window.
+
+## Brief (TR)
+
+Trafik ışıklı, yarı saydam kenar çubuklu, üç panelli sakin bir macOS posta penceresi; tek accent renk ve içerik-önce hiyerarşi.
+
+## Kurallar
+
+- **Tipografi:** -apple-system / BlinkMacSystemFont; 13px UI metni, 600 başlıklar
+- **Düzen:** Üç panelli pencere: kenar çubuğu + liste + okuma paneli, birleşik toolbar
+- **Hareket:** Yumuşak seçim geçişleri; abartısız, sistem hızında
+- **Kaçınılacaklar:** Keskin köşe, ağır gölge, Windows menü çubuğu, renk kalabalığı
+
+
+<!-- https://design.asveas.com/47-fluent-windows.dc.html -->
+---
+id: 47
+slug: "47-fluent-windows"
+title: "Fluent / Windows 11"
+name: "Fluent / Windows 11"
+section: "11 — Masaüstü uygulama dilleri"
+reference: "Albert Shum · Microsoft"
+palette: ["#f2f3f9", "#ffffff", "#0067c0", "#1b1b1b", "#616161"]
+keywords: ["Windows 11 Fluent", "mica background", "acrylic cards", "settings app layout", "nav rail"]
+source: "47-fluent-windows.dc.html"
+---
+
+# 47 — Fluent / Windows 11
+
+Mica dokusu, akrilik kartlar, ışık ve derinlik; Segoe diliyle yumuşak kurumsal masaüstü.
+
+## Prompt (EN)
+
+Design a Windows 11 Fluent-style Settings app. Soft mica background with a faint blue-lilac gradient (#f3f3f9 to #eef1f6), window with 8px-radius corners, minimal caption buttons and no traffic lights. Left 300px navigation of icon+label rows with a rounded search box; the selected row gets a subtle fill plus a 3px #0067c0 accent bar on its left edge. Right side: breadcrumb plus 26px 600-weight page title, then stacked white settings cards (#ffffff, 8px radius, 1px rgba border, faint shadow, hover lifts slightly) containing toggle switches, a dropdown and accent color swatches. Segoe UI throughout, text #1b1b1b, secondary #616161. Avoid pure black, sharp corners and heavy blur.
+
+## Brief (TR)
+
+Mica zeminli, sol navigasyonlu ve beyaz ayar kartlı bir Windows 11 Ayarlar uygulaması; ışık ve katman derinliğiyle Fluent dili.
+
+## Kurallar
+
+- **Tipografi:** Segoe UI / system-ui; 26px 600 sayfa başlığı, 13-14px UI metni
+- **Düzen:** 300px sol nav + breadcrumb başlık + dikey ayar kartı yığını
+- **Hareket:** Hover'da kart hafifçe yükselir; toggle yumuşak kayar
+- **Kaçınılacaklar:** Mac trafik ışıkları, tam siyah, köşesiz keskinlik, aşırı blur
+
+
+<!-- https://design.asveas.com/48-arac-merkezli-figma.dc.html -->
+---
+id: 48
+slug: "48-arac-merkezli-figma"
+title: "Araç-Merkezli Editör"
+name: "Araç-Merkezli Editör"
+section: "11 — Masaüstü uygulama dilleri"
+reference: "Rasmus Andersson"
+palette: ["#ffffff", "#e9e9e9", "#18a0fb", "#2c2c2c", "#333333"]
+keywords: ["design tool UI", "canvas-centric editor", "layers panel", "properties panel", "Inter typeface"]
+source: "48-arac-merkezli-figma.dc.html"
+---
+
+# 48 — Araç-Merkezli Editör
+
+Figma tarzı: sessiz UI kromu, yıldız olan canvas; Inter tipografisiyle piksel hassasiyeti.
+
+## Prompt (EN)
+
+Design a Figma-like vector editor where the chrome stays quiet and the canvas is the star. Top 48px dark toolbar (#2c2c2c) with tool icons, centered file name, share button and overlapping avatar circles. Left 240px layers panel: indented layer tree with eye icons, selected row tinted #18a0fb. Center: #e9e9e9 canvas holding a white artboard with a simple poster composition; the selected circle gets a #18a0fb selection frame, 8 square handles and a "164 × 164" size label. Right 240px properties panel with X/Y/W/H inputs, a fill row, an opacity slider. Inter font (designed by Rasmus Andersson for UI text) at 11-12px, text #333333, white panels. No ornament, no gradients in chrome, no big type, no showy shadows.
+
+## Brief (TR)
+
+Koyu toolbar, katman ağacı, artboard'lu canvas ve özellik paneliyle sessiz kromlu bir vektör editörü; tek accent #18a0fb, font Inter.
+
+## Kurallar
+
+- **Tipografi:** Inter 400/500/600; 11-12px yoğun UI metni, mono sayısal değerler
+- **Düzen:** 48px toolbar + 240px katman paneli + canvas + 240px özellik paneli
+- **Hareket:** Anlık seçim geri bildirimi; animasyon değil tepkisellik
+- **Kaçınılacaklar:** Süs, kromda gradyan, büyük tipografi, gölge şovu
+
+
+<!-- https://design.asveas.com/49-komut-paleti-raycast.dc.html -->
+---
+id: 49
+slug: "49-komut-paleti-raycast"
+title: "Komut Paleti"
+name: "Komut Paleti"
+section: "11 — Masaüstü uygulama dilleri"
+reference: "Raycast ekolü"
+palette: ["#1a1b23", "#12131a", "#1e1f26", "#ff6363", "#f2f2f5"]
+keywords: ["command palette", "launcher app", "keyboard-first", "floating panel", "shortcut badges"]
+source: "49-komut-paleti-raycast.dc.html"
+---
+
+# 49 — Komut Paleti
+
+Klavye-öncelikli launcher: tek yüzen panel, bölümlü sonuçlar, mono kısayol rozetleri.
+
+## Prompt (EN)
+
+Design a Raycast-style keyboard-first launcher. Dark desktop with a soft gradient (#1a1b23 to #12131a); centered 640px floating panel (#1e1f26, 12px radius, 1px rgba(255,255,255,.12) border, one wide soft shadow). Top: a large 18px search row with placeholder text and a blinking #ff6363 caret block. Below: a sectioned result list ("Commands", "Apps", "Files") where each row has a 30px rounded icon square, a name, and a right-aligned monospace shortcut badge like ⌘K in a bordered keycap chip; the selected row gets rgba(255,255,255,.08) fill plus a 3px left accent bar. Bottom action bar: "Open ↵ · Actions ⌘K". Inter for UI, ui-monospace for shortcuts, text #f2f2f5, secondary at 55% opacity. No window chrome, no multiple panes, no mouse-first menus.
+
+## Brief (TR)
+
+Koyu zemin ortasında tek floating panel: büyük arama satırı, bölümlü sonuç listesi, kısayol rozetleri ve alt eylem çubuğuyla klavye-öncelikli launcher.
+
+## Kurallar
+
+- **Tipografi:** Inter (UI) + ui-monospace kısayol rozetleri; 18px arama, 13.5px satırlar
+- **Düzen:** Ortalanmış 640px tek panel: arama + bölümlü liste + action bar
+- **Hareket:** Yanıp sönen imleç; sonuçlar tuş vuruşunda anında süzülür
+- **Kaçınılacaklar:** Pencere kromu, çoklu panel, renk kalabalığı, fare-öncelikli menüler
+
+
+<!-- https://design.asveas.com/50-blok-editor-notion.dc.html -->
+---
+id: 50
+slug: "50-blok-editor-notion"
+title: "Blok Editör Çalışma Alanı"
+name: "Blok Editör Çalışma Alanı"
+section: "12 — Web uygulama standartları"
+reference: "Ivan Zhao · Notion"
+palette: ["#ffffff", "#f7f6f3", "#37352f", "#787774", "#fbf3db"]
+keywords: ["block editor", "quiet workspace", "emoji icons", "slash command", "toggle blocks"]
+source: "50-blok-editor-notion.dc.html"
+---
+
+# 50 — Blok Editör Çalışma Alanı
+
+Her şey blok: kaybolan araç kromu, emoji ikonografi, sessiz gri kenar ve beyaz doküman.
+
+## Prompt (EN)
+
+Design a Notion-style block editor workspace for a fictional knowledge base. Left: a 260px quiet gray sidebar (#f7f6f3) with workspace name, a search row and an emoji-icon page tree with indentation. Right: a white document (#ffffff, text #37352f, secondary #787774) with page emoji, large bold title, breadcrumb, then blocks: paragraph, a to-do list (two checked, two empty), a toggle block, a light-yellow callout (#fbf3db) with 💡, a small three-column table, and a faint "Type / for commands" hint. Show a ⋮⋮ drag handle on one block. Font: ui-sans-serif/system-ui only. Chrome disappears; no toolbars, no shadows beyond a hairline, radius 4-6px.
+
+## Brief (TR)
+
+Kenar çubuğu sessiz gri, doküman bembeyaz; her içerik parçasının taşınabilir bir blok olduğu, kromun kaybolduğu bilgi tabanı arayüzü.
+
+## Kurallar
+
+- **Tipografi:** ui-sans-serif / system-ui; 38px kalın sayfa başlığı, 15–16px gövde
+- **Düzen:** 260px gri kenar çubuğu + beyaz doküman kolonu, bloklar dikey akışta
+- **Hareket:** Hover'da tutamaç ve kontroller belirir; başka animasyon yok
+- **Kaçınılacaklar:** Renk cümbüşü, kalın sınırlar, gölge, yoğun toolbar
+
+
+<!-- https://design.asveas.com/51-pazaryeri-airbnb.dc.html -->
+---
+id: 51
+slug: "51-pazaryeri-airbnb"
+title: "Pazaryeri Deneyimi"
+name: "Pazaryeri Deneyimi"
+section: "12 — Web uygulama standartları"
+reference: "Karri Saarinen · DLS"
+palette: ["#ffffff", "#222222", "#ff385c", "#717171", "#dddddd"]
+keywords: ["marketplace listing grid", "pill search bar", "photo-first cards", "rating stars", "coral accent"]
+source: "51-pazaryeri-airbnb.dc.html"
+---
+
+# 51 — Pazaryeri Deneyimi
+
+Fotoğraf önde arayüz arkada: hap arama, ilan kartları, puan ve güven sinyalleri.
+
+## Prompt (EN)
+
+Design a warm, trustworthy stay-marketplace homepage in the Airbnb DLS spirit. White background (#ffffff), text #222222, coral accent #ff385c, secondary gray #717171, hairline dividers #dddddd. Header: a simple coral wordmark and a centered pill search bar segmented into Where / Dates / Guests with a round coral search button. Below: a scrollable row of filter chips, then a 4-column grid of 8 listing cards — each a 4:3 warm-gradient photo placeholder with 12px radius, a heart top-right, then location, ★4.9 rating, dates and nightly price. Font: Plus Jakarta Sans 400-700. No dark theme, no sharp corners, no aggressive promo banners.
+
+## Brief (TR)
+
+Fotoğrafın önde, arayüzün arkada durduğu; hap biçimli arama ve güven sinyalleriyle sıcaklık kuran konaklama pazaryeri.
+
+## Kurallar
+
+- **Tipografi:** Plus Jakarta Sans 400–700 (Airbnb Cereal ruhu); 14–15px kart metinleri
+- **Düzen:** Hap arama başlığı + çip satırı + 4 sütunlu kart grid'i, 12px radius
+- **Hareket:** Kart hover'ında hafif ölçek/gölge, çip satırında yatay kaydırma
+- **Kaçınılacaklar:** Koyu tema, keskin köşe, yoğun tablo, agresif kampanya bantları
+
+
+<!-- https://design.asveas.com/52-medya-akis-spotify.dc.html -->
+---
+id: 52
+slug: "52-medya-akis-spotify"
+title: "Medya Akış Arayüzü"
+name: "Medya Akış Arayüzü"
+section: "12 — Web uygulama standartları"
+reference: "Encore ekolü"
+palette: ["#121212", "#181818", "#1db954", "#ffffff", "#b3b3b3"]
+keywords: ["dark music app", "gradient header", "playlist table", "player bar", "single action color"]
+source: "52-medya-akis-spotify.dc.html"
+---
+
+# 52 — Medya Akış Arayüzü
+
+Koyu sahne, kapaktan süzülen degrade başlık, tek yeşil eylem ve kalıcı player barı.
+
+## Prompt (EN)
+
+Design a dark music-streaming app in the Spotify Encore spirit for a fictional brand. Three regions: a 240px pure-black nav (Home / Search / Library plus a playlist list), a #121212 content area opening with a 200px purple-to-dark gradient header — gradient square playlist cover, "Playlist" label, 64px extra-bold title — followed by a green (#1db954) circular play button and a track table (# / title+artist / album / duration, hover row fill), with "Similar playlists" cards (#181818, 8px radius) on the right. Bottom: a 72px player bar with mini cover, transport controls and a green-filled progress bar. Text #ffffff, secondary #b3b3b3. Font: Figtree 400/600/800. Green is the only action color.
+
+## Brief (TR)
+
+Koyu sahnede kapak degradesinden renk alan, tek yeşil eylem rengi ve alt player barlı müzik akış arayüzü.
+
+## Kurallar
+
+- **Tipografi:** Figtree 400/600/800; 64px extra-bold liste başlığı, 13–14px tablo
+- **Düzen:** 240px nav + degrade başlıklı içerik + sağ kart kolonu + 72px player bar
+- **Hareket:** Satır hover dolgusu, ilerleme çubuğu akışı; sahne sakin kalır
+- **Kaçınılacaklar:** Açık zemin, çok renkli butonlar, gri-üstü-gri kontrastsızlık
+
+
+<!-- https://design.asveas.com/53-kurumsal-carbon.dc.html -->
+---
+id: 53
+slug: "53-kurumsal-carbon"
+title: "Kurumsal Veri Sistemi"
+name: "Kurumsal Veri Sistemi"
+section: "12 — Web uygulama standartları"
+reference: "IBM Carbon"
+palette: ["#f4f4f4", "#ffffff", "#0f62fe", "#161616", "#24a148", "#da1e28"]
+keywords: ["enterprise console", "zero radius", "data table", "IBM Plex", "status tags"]
+source: "53-kurumsal-carbon.dc.html"
+---
+
+# 53 — Kurumsal Veri Sistemi
+
+Paul Rand mirası: sıfır radius, 2x grid, IBM Plex ve ciddi veri tablosu düzeni.
+
+## Prompt (EN)
+
+Design an IBM Carbon-style cloud resource console. 48px black (#161616) header with white product name and square icon boxes; gray (#f4f4f4) page over white surfaces; a 256px white side nav with mono section labels and a blue-left-border selected item. Content: page title, a sharp-cornered blue (#0f62fe) primary button ("Create resource"), a blue left-border inline notification, then a large white data table with 48px rows, search + filter header, columns Name/Status/Region/Type/Date, status tags as 24px pills (green #defbe6/#0e6027 "Running", red "Error", gray "Stopped"), and pagination footer. Fonts: IBM Plex Sans + IBM Plex Mono. Everything at 0px radius except the pill tags. No shadows, gradients or emoji.
+
+## Brief (TR)
+
+Sıfır radius, 2x grid ve IBM Plex tipografisiyle keskin, ciddi bir bulut kaynak yönetim konsolu.
+
+## Kurallar
+
+- **Tipografi:** IBM Plex Sans (arayüz) + IBM Plex Mono (kaynak adları, etiketler)
+- **Düzen:** 48px siyah header + 256px nav + 48px satırlı veri tablosu, 2x grid
+- **Hareket:** Yalnızca satır hover'ı ve odak çerçevesi; süsleme animasyonu yok
+- **Kaçınılacaklar:** Yuvarlak köşe, gölge, degrade, emoji, dekoratif renk
+
+
+<!-- https://design.asveas.com/54-ios-hig-mobil.dc.html -->
+---
+id: 54
+slug: "54-ios-hig-mobil"
+title: "iOS İnsan Arayüzü"
+name: "iOS İnsan Arayüzü"
+section: "13 — Mobil uygulama standartları"
+reference: "Apple HIG"
+palette: ["#f2f2f7", "#007aff", "#34c759", "#1c1c1e"]
+keywords: ["iOS app screen", "large title", "inset grouped list", "tab bar", "SF system font"]
+source: "54-ios-hig-mobil.dc.html"
+---
+
+# 54 — iOS İnsan Arayüzü
+
+Large Title, inset-grouped listeler, yarı saydam tab bar; netlik ve içeriğe saygı.
+
+## Prompt (EN)
+
+Design an iOS app screen strictly following Apple's Human Interface Guidelines. Light gray #f2f2f7 background, -apple-system font, a bold 32px Large Title ("Today"), a rounded 10px search field, then inset-grouped white cards with 10px radius set 16px from the edges: settings-style rows with 28px colored rounded-square icons, labels, gray › chevrons, hairline separators, and one green #34c759 toggle. Bottom: a translucent 5-item tab bar with a thin top border, active icon in #007aff blue. Add a second 300x640 phone mockup showing the identical screen in dark mode (#000 background, #1c1c1e cards). No FAB, no sharp corners, no brand-colored surfaces.
+
+## Brief (TR)
+
+Large Title, inset-grouped listeler ve yarı saydam sekme çubuğuyla Apple HIG kurallarına harfiyen uyan, açık ve koyu modu yan yana gösteren iOS ekranı.
+
+## Kurallar
+
+- **Tipografi:** -apple-system / system-ui; 32px kalın Large Title, 14.5px satırlar
+- **Düzen:** Inset-grouped kartlar, 16px kenar boşluğu, altta 5 ikonlu tab bar
+- **Hareket:** Sistem geçişleri: kaydırınca küçülen başlık, yaylı anahtar
+- **Kaçınılacaklar:** FAB, Android geri oku, keskin köşe, aşırı marka rengi
+
+
+<!-- https://design.asveas.com/55-material-you.dc.html -->
+---
+id: 55
+slug: "55-material-you"
+title: "Material You (M3)"
+name: "Material You (M3)"
+section: "13 — Mobil uygulama standartları"
+reference: "Matías Duarte"
+palette: ["#fef7ff", "#6750a4", "#eaddff", "#e8def8", "#ffd8e4", "#1d1b20"]
+keywords: ["Material 3", "dynamic color", "tonal containers", "FAB", "pill nav indicator"]
+source: "55-material-you.dc.html"
+---
+
+# 55 — Material You (M3)
+
+Duvar kâğıdından türeyen tonal paletler, dev yuvarlaklıklar, FAB ve pill göstergeli nav.
+
+## Prompt (EN)
+
+Design a Material You (Material 3) mobile app screen in Roboto. Surface #fef7ff, primary #6750a4, text #1d1b20. Top: a 28px-radius pill search bar (#ece6f0) with hamburger, hint text and a circular avatar. Then a friendly greeting headline and tonal cards: a large hero card in lilac container #eaddff with 24px radius, title and chips; two medium cards in #e8def8 and #ffd8e4 with soft icon circles. Bottom right: a 56px FAB (#6750a4, 16px radius, plus icon, soft shadow). Bottom navigation bar with 3 destinations, the active one marked by a #e8def8 pill indicator with a label below. Show a second phone where a green wallpaper seed recolors every layer. No iOS tab bar, no pure black or white, no sharp corners.
+
+## Brief (TR)
+
+Duvar kâğıdından türeyen tonal paletler, dev yuvarlaklık, pill gösterge ve FAB ile Material 3 dilini iki farklı tohum renkte gösteren mobil ekran.
+
+## Kurallar
+
+- **Tipografi:** Roboto 400/500/700; başlıklar 400, etiketler 500
+- **Düzen:** Pill arama + hero kart + 2'li tonal kartlar + FAB + nav bar
+- **Hareket:** Container transform geçişleri; hap gösterge kayarak taşınır
+- **Kaçınılacaklar:** iOS tab bar, saf siyah/beyaz, keskin köşe, tek düze gri
+
+
+<!-- https://design.asveas.com/56-jest-fizik-paper.dc.html -->
+---
+id: 56
+slug: "56-jest-fizik-paper"
+title: "Jest & Fizik Arayüzü"
+name: "Jest & Fizik Arayüzü"
+section: "13 — Mobil uygulama standartları"
+reference: "Mike Matas · Paper"
+palette: ["#0a0a0c", "#ff6b35", "#7b2ff7", "#00d2ff", "#3a7bd5", "#ffffff"]
+keywords: ["gesture-driven UI", "full-screen cards", "physics animation", "card deck", "chrome-free"]
+source: "56-jest-fizik-paper.dc.html"
+---
+
+# 56 — Jest & Fizik Arayüzü
+
+Buton değil fizik: tam ekran içerik kartları, yay animasyonu hissi ve keşfedilen jestler.
+
+## Prompt (EN)
+
+Design a gesture-driven, physics-based mobile UI in the spirit of Mike Matas's Paper. Dark stage (#0a0a0c), Inter at light weights. Phone one: a full-bleed content card with a vivid sunset gradient (#ff6b35 to #7b2ff7), a large light-weight headline and short subtitle, almost no chrome — only a clock and a tiny dot. At the bottom edge, a deck of four mini gradient cards peeks up with slight tilts, the middle one pulled higher, plus an "swipe up" hint arrow. Phone two: the same card mid-fold, its top half tilted with perspective rotateX to illustrate an origami transition. Second gradient #00d2ff to #3a7bd5. No buttons, no static grids, no hard-cut transitions — everything springs at 60fps.
+
+## Brief (TR)
+
+Kromsuz tam ekran degrade kartlar, çekilebilir kart destesi ve origami katlanma anıyla Paper'ın jest-fizik dilini gösteren koyu mobil sahne.
+
+## Kurallar
+
+- **Tipografi:** Inter 300/400; büyük başlıklar hafif ağırlıkta
+- **Düzen:** Tam ekran kart + altta eğik mini kart destesi; krom yok
+- **Hareket:** Yay fiziği, origami katlanma, jestle sürülen 60fps geçişler
+- **Kaçınılacaklar:** Buton kalabalığı, statik grid, krom, sert kesme geçişler
+
+
+<!-- https://design.asveas.com/57-neo-fintech-mobil.dc.html -->
+---
+id: 57
+slug: "57-neo-fintech-mobil"
+title: "Neo-Fintech Mobil"
+name: "Neo-Fintech Mobil"
+section: "13 — Mobil uygulama standartları"
+reference: "Monzo · Revolut ekolü"
+palette: ["#0f1225", "#6a3df5", "#b84ffb", "#2ecc71", "#191d33"]
+keywords: ["neobank app", "gradient card hero", "big balance", "emoji transactions", "quick actions"]
+source: "57-neo-fintech-mobil.dc.html"
+---
+
+# 57 — Neo-Fintech Mobil
+
+Kahraman banka kartı, dev bakiye, emoji kategorili işlemler; ciddiyet + ürün sıcaklığı.
+
+## Prompt (EN)
+
+Design a neo-fintech mobile banking home screen in the Monzo/Revolut school. Dark navy #0f1225, Inter 400-700, all amounts bold tabular numerals. Top: greeting, a notification dot, a tiny CSS bar sparkline. Center: a huge 34px balance (₺12.480,50), then a tilted hero bank card (200x126px, 14px radius, #6a3df5 to #b84ffb gradient, chip square, last four digits, fictional "NOVA" brand). Below: four quick-action circles (Send, Request, FX, Freeze) on #191d33 surfaces, then a "Today" list with emoji category circles (🛒 ☕ 🚕), white amounts for spending, green #2ecc71 "+" for income, one faded upcoming-payment row. No bank gray, no dense tables, no tiny numbers.
+
+## Brief (TR)
+
+Dev bakiye, eğik degrade kart ve emoji kategorili işlem akışıyla Monzo/Revolut ekolünde koyu fintech ana ekranı.
+
+## Kurallar
+
+- **Tipografi:** Inter 400-700; rakamlar 700 ve tabular-nums
+- **Düzen:** Bakiye + kahraman kart + 4 hızlı eylem + işlem akışı
+- **Hareket:** Kart hafif parallax; işlem satırı bildirimle kayarak gelir
+- **Kaçınılacaklar:** Banka grisi, yoğun tablolar, küçük rakamlar, güven kıran süs
+
+
+<!-- https://design.asveas.com/58-veri-murekkep-tufte.dc.html -->
+---
+id: 58
+slug: "58-veri-murekkep-tufte"
+title: "Veri-Mürekkep Analitiği"
+name: "Veri-Mürekkep Analitiği"
+section: "14 — Dashboard & yönetim panelleri"
+reference: "Edward Tufte"
+palette: ["#ffffff", "#1a1a1a", "#9a9a9a", "#2563eb"]
+keywords: ["Tufte dashboard", "data-ink ratio", "sparklines", "small multiples", "direct labeling"]
+source: "58-veri-murekkep-tufte.dc.html"
+---
+
+# 58 — Veri-Mürekkep Analitiği
+
+Data-ink oranı: sparkline'lı KPI'lar, doğrudan etiketli çizgiler, küçük katlar; chartjunk sıfır.
+
+## Prompt (EN)
+
+Design a Tufte-style analytics report maximizing data-ink ratio. Pure white #ffffff, near-black ink #1a1a1a, gray #9a9a9a, one sparing blue accent #2563eb. Source Serif 4 report title; a 4-KPI row of thin 48px weight-300 Inter numbers, each with a 60x18 gray SVG sparkline ending in a blue dot. A wide line chart with three faint 6%-opacity gridlines, no axis strokes, no legend box — series labeled directly at line ends, one blue among grays. Below: six small-multiple area charts on one shared scale, and a table of right-aligned tabular figures bounded only by top and bottom rules. No 3D, shadows, chartjunk or icons.
+
+## Brief (TR)
+
+Beyaz kağıtta sparkline'lar, doğrudan etiketli çizgiler ve küçük katlarla kurulan Tufte usulü rapor.
+
+## Kurallar
+
+- **Tipografi:** Source Serif 4 (başlık + not) + Inter tabular rakamlar
+- **Düzen:** Rapor sayfası: KPI satırı, geniş çizgi, küçük katlar, yalın tablo
+- **Hareket:** Yok; kağıt gibi durağan
+- **Kaçınılacaklar:** 3D, gölge, ızgara kalabalığı, renkli dolgu, lejant kutusu, süslü ikon
+
+
+<!-- https://design.asveas.com/59-gozlemlenebilirlik-grafana.dc.html -->
+---
+id: 59
+slug: "59-gozlemlenebilirlik-grafana"
+title: "Gözlemlenebilirlik Paneli"
+name: "Gözlemlenebilirlik Paneli"
+section: "14 — Dashboard & yönetim panelleri"
+reference: "Grafana ekolü"
+palette: ["#111217", "#1b1d23", "#73bf69", "#f2cc0c", "#e02f44", "#5794f2"]
+keywords: ["observability dashboard", "dark ops panels", "threshold colors", "time series", "log stream"]
+source: "59-gozlemlenebilirlik-grafana.dc.html"
+---
+
+# 59 — Gözlemlenebilirlik Paneli
+
+Gece vardiyası ekranı: koyu paneller, eşik renkleri (yeşil/sarı/kırmızı) ve log akışı.
+
+## Prompt (EN)
+
+Design a Grafana-style observability dashboard for night-shift ops. Dark #111217 canvas, panels #1b1d23 with 2px radius, 8px gaps, 11px titles in #8e8e93, text #d8d9da, Inter plus ui-monospace values. Toolbar: "prod-cluster / overview", a "Last 6 hours" picker, refresh and a pulsing live dot. In a 12-column grid: four stat panels with big mono numbers colored by threshold (green #73bf69 uptime, yellow #f2cc0c disk 78%, red #e02f44 errors/min, blue #5794f2 requests), a wide 3-series CPU line chart with 10% fills, a memory area chart with dashed red limit, a semicircular conic-gradient gauge at 62%, and a 6-row log panel with colored INFO/WARN/ERROR levels. Every value carries a unit.
+
+## Brief (TR)
+
+Koyu zeminde eşik renkleriyle konuşan, sıkı gridli ve log panelli Grafana usulü ops ekranı.
+
+## Kurallar
+
+- **Tipografi:** Inter arayüz + ui-monospace değerler ve loglar
+- **Düzen:** Araç şeridi + 12 kolonlu panel grid'i, 8px boşluk, 2px köşe
+- **Hareket:** Yalnızca canlı nokta nabzı; paneller sakin
+- **Kaçınılacaklar:** Açık tema, dekorasyon, boşluk israfı, birimsiz değer
+
+
+<!-- https://design.asveas.com/60-ticaret-terminali.dc.html -->
+---
+id: 60
+slug: "60-ticaret-terminali"
+title: "Ticaret Terminali"
+name: "Ticaret Terminali"
+section: "14 — Dashboard & yönetim panelleri"
+reference: "Bloomberg yoğunluğu"
+palette: ["#000000", "#ff9800", "#00c853", "#ff1744", "#40c4ff", "#e0e0e0"]
+keywords: ["trading terminal", "amber command line", "watchlist ticks", "market depth", "F-key strip"]
+source: "60-ticaret-terminali.dc.html"
+---
+
+# 60 — Ticaret Terminali
+
+Siyah cam, amber komut satırı, kırmızı/yeşil tikler; yoğunluk bir özellik, hız bir erdem.
+
+## Prompt (EN)
+
+Design a Bloomberg-density trading terminal on pure black #000000. Everything is IBM Plex Mono at 10–12px with tight leading; regions split by 1px #333 rules, zero border-radius. Top: an amber #ff9800 command line "NVA <EQUITY> GO" with a blinking block cursor. Four quadrants: a watchlist of 8 fictional tickers with right-aligned prices, green #00c853 / red #ff1744 changes and ▲▼ ticks; an amber intraday SVG line chart with a last-price flag; a market-depth ladder with green bid and red ask bar fills; a mono news feed with one amber BREAKING line. Bottom: an F-key strip of amber chips (F1 HELP … F8). Cyan #40c4ff only for section headers.
+
+## Brief (TR)
+
+Siyah cam üzerinde amber komut satırı, dört bölgeli yoğun veri ekranı ve F-tuşu şeridiyle Bloomberg usulü terminal.
+
+## Kurallar
+
+- **Tipografi:** IBM Plex Mono her yerde, 10–12px, sıkı satır aralığı
+- **Düzen:** Komut satırı + 4 bölgeli ekran + F-tuşu şeridi, 1px ayraçlar
+- **Hareket:** Yalnızca yanıp sönen blok imleç
+- **Kaçınılacaklar:** Boşluk, yuvarlak köşe, pastel, ikon süsü, fare-öncelik
+
+
+<!-- https://design.asveas.com/61-yonetim-paneli-polaris.dc.html -->
+---
+id: 61
+slug: "61-yonetim-paneli-polaris"
+title: "Ürün Yönetim Paneli"
+name: "Ürün Yönetim Paneli"
+section: "14 — Dashboard & yönetim panelleri"
+reference: "Shopify Polaris"
+palette: ["#f6f6f7", "#ffffff", "#008060", "#202223", "#aee9d1", "#ffd79d"]
+keywords: ["admin panel", "merchant dashboard", "status badges", "metric cards", "task-oriented"]
+source: "61-yonetim-paneli-polaris.dc.html"
+---
+
+# 61 — Ürün Yönetim Paneli
+
+Esnaf paneli: sakin yüzeyler, yeşil birincil eylem, yumuşak durum badge'li sipariş tablosu.
+
+## Prompt (EN)
+
+Design a calm, task-focused merchant admin in Shopify Polaris style. Light #f6f6f7 canvas, Inter, text #202223, secondary #6d7175. A 56px dark #1a1a1a topbar holds the store name, centered search and an avatar. Left 240px light nav (Home, Orders with green badge "3", Products, Customers, Analytics); the selected item is a white card with a green left bar. Content: a "Good morning" greeting beside one green #008060 primary button, three white 12px-radius metric cards with soft shadows (sales with a mini bar sparkline, orders, conversion), then an orders table with soft pill badges (Paid #aee9d1/#003d2c, Fulfilling #ffd79d/#5e4200, Refund gray) and row hover. Right 280px column: checklist and tip cards. No dark theme, no aggressive red.
+
+## Brief (TR)
+
+Koyu topbar, açık nav, tek yeşil eylem ve yumuşak durum badge'leriyle Polaris usulü esnaf paneli.
+
+## Kurallar
+
+- **Tipografi:** Inter; 13–14px gövde, 600 ağırlıklı sakin başlıklar
+- **Düzen:** Koyu topbar + 240px nav + içerik + 280px yan kolon; 12px köşeli kartlar
+- **Hareket:** Yumuşak satır hover'ı; başka animasyon yok
+- **Kaçınılacaklar:** Koyu tema, yoğun çizgi, agresif kırmızı, veri kalabalığı
+
+
+<!-- https://design.asveas.com/62-da-vinci-kodeks.dc.html -->
+---
+id: 62
+slug: "62-da-vinci-kodeks"
+title: "Da Vinci · Kodeks"
+name: "Da Vinci · Kodeks"
+section: "15 — Ressamlar arayüz tasarlasaydı"
+reference: "Leonardo da Vinci"
+palette: ["#e8dcc4", "#5b4326", "#a0522d", "#8a7a5c", "#2f2416"]
+keywords: ["parchment codex UI", "sepia ink sketches", "marginalia notes", "mirror writing", "golden ratio grid"]
+source: "62-da-vinci-kodeks.dc.html"
+---
+
+# 62 — Da Vinci · Kodeks
+
+Parşömen, sepya mürekkep, marginalia ve ayna yazısı; mucit defteri bir araştırma uygulaması olur.
+
+## Prompt (EN)
+
+Design a web note-taking app for inventors styled as a Leonardo da Vinci codex. Parchment background #e8dcc4 with large soft radial-gradient stains, sepia ink #5b4326, sanguine red-chalk accent #a0522d. Two-page spread mockup: left page holds italic EB Garamond handwritten notes with numbered margin annotations; right page shows an inline SVG technical sketch of an ornithopter wing and gear train with dimension arrows, hatched shading and a faint golden-ratio spiral. Vertical page tabs on the spine, a round wax-seal "new sketch" button, and one heading mirrored with transform:scaleX(-1). No bright colors, no pure white, no photos, no rigid grid.
+
+## Brief (TR)
+
+Parşömen zeminli, sepya mürekkepli, sol sayfası el yazısı sağ sayfası SVG teknik eskiz olan Da Vinci kodeksi tarzı not defteri uygulaması.
+
+## Kurallar
+
+- **Tipografi:** EB Garamond italik el yazısı + normal; monospace folyo etiketleri
+- **Düzen:** Çift sayfa; solda metin ve marginalia, sağda eskiz, altın oran kılavuzu
+- **Hareket:** Yok denecek kadar az; yalnızca renkle vurgu
+- **Kaçınılacaklar:** Parlak renk, düz beyaz, fotoğraf, sert grid
+
+
+<!-- https://design.asveas.com/63-monet-isik.dc.html -->
+---
+id: 63
+slug: "63-monet-isik"
+title: "Monet · Işık"
+name: "Monet · Işık"
+section: "15 — Ressamlar arayüz tasarlasaydı"
+reference: "Claude Monet"
+palette: ["#f6d8c3", "#c9b8d8", "#a8c8e8", "#f2a65e", "#6b7fb3"]
+keywords: ["impressionist gradients", "no outlines", "same screen three lights", "soft color dabs", "haystack logic"]
+source: "63-monet-isik.dc.html"
+---
+
+# 63 — Monet · Işık
+
+Kontur yok, ışık var: aynı ekran üç ayrı saatin renginde; buğulu lekelerden hava durumu.
+
+## Prompt (EN)
+
+Design a mobile weather and morning-ritual app in Claude Monet's impressionist style. Show the same screen in three lights, like his haystack series: three 260x560 phone mockups side by side — dawn haze (#f6d8c3 to #c9b8d8), noon (#a8c8e8 to #f0dfa8), sunset (#f2a65e to #c96a8d). Identical layout in each: a huge Cormorant Garamond temperature numeral with glow, blurred cloud color blobs, a 24px+ radius ritual card, and a lily-pond bottom panel of small rounded color dabs. No outlines, no black strokes, no grey shadows — every edge is a color transition.
+
+## Brief (TR)
+
+Aynı hava durumu ekranını sabah, öğle ve gün batımı ışığında üç kez gösteren, kontursuz ve renk geçişli Monet tarzı mobil uygulama.
+
+## Kurallar
+
+- **Tipografi:** Cormorant Garamond başlık ve rakamlar + system sans gövde
+- **Düzen:** Yan yana üç telefon; her ekranda aynı düzen, farklı ışık paleti
+- **Hareket:** Yumuşak; yalnızca renk geçişleri ve buğu hissi
+- **Kaçınılacaklar:** Keskin kenar, siyah kontur, gri gölge, sert tipografi
+
+
+<!-- https://design.asveas.com/64-van-gogh-yildizli.dc.html -->
+---
+id: 64
+slug: "64-van-gogh-yildizli"
+title: "Van Gogh · Yıldızlı Gece"
+name: "Van Gogh · Yıldızlı Gece"
+section: "15 — Ressamlar arayüz tasarlasaydı"
+reference: "Vincent van Gogh"
+palette: ["#1a2a5e", "#f7d154", "#4a6db5", "#0f1a38", "#e8944a"]
+keywords: ["swirling night sky", "impasto texture", "brushstroke progress bar", "cobalt and yellow", "sleep app"]
+source: "64-van-gogh-yildizli.dc.html"
+---
+
+# 64 — Van Gogh · Yıldızlı Gece
+
+Girdaplı gökyüzü, impasto doku ve fırça vuruşu ilerleme çubuğuyla bir uyku uygulaması.
+
+## Prompt (EN)
+
+Design a mobile sleep-tracking app in Vincent van Gogh's Starry Night style. One 300x640 phone mockup on a dark swirling page (#0f1a38 with faint repeating-conic texture). Screen sky in deep blue #1a2a5e with nested rotated conic-gradient swirl rings in #4a6db5 and #7b9fd4, thick yellow stars #f7d154 with glowing halo rings, and a crescent moon in the corner. Center sleep score 87 in Fraunces 700 over an impasto patch of short slanted gradient stripes. Progress bar is 13 small skewed brush-dab divs, not a solid bar. Bottom panel: dark cypress silhouette #0f1a38 with an SVG wavy top edge holding a textured sleep-stage chart in layered blues, orange window-light accent #e8944a. Avoid flat fills, thin lines, cold greys and static feel.
+
+## Brief (TR)
+
+Girdaplı lacivert gökyüzü, sarı yıldız vurguları ve fırça darbesi ilerleme çubuğuyla Yıldızlı Gece tablosu gibi kurulmuş uyku takip uygulaması.
+
+## Kurallar
+
+- **Tipografi:** Fraunces 700 soft-serif başlıklar + system sans gövde
+- **Düzen:** Ortada telefon; solda ilkeler, sağda haftalık kartlar; zeminde girdap dokusu
+- **Hareket:** Akış hissi; parlayan yıldız haleleri, kıpırdayan doku
+- **Kaçınılacaklar:** Düz dolgular, ince çizgiler, soğuk gri, statik hissiyat
+
+
+<!-- https://design.asveas.com/65-picasso-kubist.dc.html -->
+---
+id: 65
+slug: "65-picasso-kubist"
+title: "Picasso · Kübist"
+name: "Picasso · Kübist"
+section: "15 — Ressamlar arayüz tasarlasaydı"
+reference: "Pablo Picasso"
+palette: ["#e8d8b8", "#c8a24a", "#b5502e", "#3e6b8c", "#1c1a17"]
+keywords: ["cubist fragmented portrait", "clip-path polygons", "rotated cards", "collage layout", "multiple perspectives"]
+source: "65-picasso-kubist.dc.html"
+---
+
+# 65 — Picasso · Kübist
+
+Portre çokgen parçalara bölünür, kartlar eğilir, grid kasıtla kırılır: tek bakış yetmez.
+
+## Prompt (EN)
+
+Design a web social profile app in a Picasso cubist style. Beige canvas #e8d8b8, earth ochre #c8a24a, brick #b5502e, blue-period #3e6b8c, near-black #1c1a17. The profile "portrait" is fractured into 5-6 flat clip-path polygons showing the same face from different angles at once: a frontal circle eye, a black profile nose triangle, offset mouth bars, all outlined with thick black divs. Cards are deliberately rotated (-2deg to 1.5deg) in an asymmetric grid with 3-4px black borders and hard offset box-shadows. Section headings in Archivo 800 uppercase sit on shifted color blocks like cut-and-paste collage; one card carries a newspaper texture strip of thin repeating lines. Avoid symmetry, photographic realism, soft gradients and single perspective.
+
+## Brief (TR)
+
+Profil portresini clip-path poligonlara bölen, kartları döndürülmüş, kalın siyah konturlu ve kolaj dokulu kübist sosyal uygulama.
+
+## Kurallar
+
+- **Tipografi:** Archivo 800 uppercase başlıklar + system sans gövde
+- **Düzen:** Asimetrik üç kolon; döndürülmüş kartlar, açılı kalın siyah ayraçlar
+- **Hareket:** Yok; gerilim statik açı farklarından gelir
+- **Kaçınılacaklar:** Simetri, fotoğrafik gerçeklik, yumuşak geçiş, tek perspektif
+
+
+<!-- https://design.asveas.com/66-dali-eriyen-saat.dc.html -->
+---
+id: 66
+slug: "66-dali-eriyen-saat"
+title: "Dalí · Eriyen Saat"
+name: "Dalí · Eriyen Saat"
+section: "15 — Ressamlar arayüz tasarlasaydı"
+reference: "Salvador Dalí"
+palette: ["#bfd8d2", "#d9b98a", "#8a5a3b", "#2e2620", "#c9542e"]
+keywords: ["melting clock UI", "surreal desert horizon", "dripping cards", "dream journal", "long shadows"]
+source: "66-dali-eriyen-saat.dc.html"
+---
+
+# 66 — Dalí · Eriyen Saat
+
+Saat kadranı erir, alarm kartları uzun bacaklar üstünde durur; sürreal bir zaman uygulaması.
+
+## Prompt (EN)
+
+Design a surrealist Dalí-inspired alarm and dream-journal mobile app page. Desert-horizon background: pale turquoise sky #bfd8d2 fading to sand #d9b98a, long skewed shadows. In a 300x640 phone mockup, a melting digital clock: Cormorant Garamond digits individually skewY-drooped toward the bottom edge, drip shapes hanging below the card. Alarm cards tilt at slight angles, one standing on two thin 26px legs. Add a cloud-shaped dream-journal card with italic handwriting, a curving trail of 3px ant dots, and a second melting clock draped over a table edge. Palette adds #8a5a3b, #2e2620, #c9542e.
+
+## Brief (TR)
+
+Dalí'nin eriyen saatlerini çöl ufkunda bir alarm ve rüya günlüğüne çeviren sürreal mobil sayfa.
+
+## Kurallar
+
+- **Tipografi:** Cormorant Garamond (eriyen rakamlar) + system sans + monospace etiketler
+- **Düzen:** Sol ilke kolonu + çöl sahnesi; telefon, masadan sarkan saat, upuzun gölgeler
+- **Hareket:** Statik; erime hissi skew ve damla radius'larla verilir
+- **Kaçınılacaklar:** Düz dikdörtgen saatler, simetrik grid, kurumsal ciddiyet, kalabalık ekran
+
+
+<!-- https://design.asveas.com/67-hokusai-dalga.dc.html -->
+---
+id: 67
+slug: "67-hokusai-dalga"
+title: "Hokusai · Büyük Dalga"
+name: "Hokusai · Büyük Dalga"
+section: "15 — Ressamlar arayüz tasarlasaydı"
+reference: "Katsushika Hokusai"
+palette: ["#f2e8d5", "#1b4470", "#8a9bb0", "#b5442c", "#2b2b2b"]
+keywords: ["ukiyo-e flat layers", "great wave gauge", "prussian blue", "foam claws", "red hanko seal"]
+source: "67-hokusai-dalga.dc.html"
+---
+
+# 67 — Hokusai · Büyük Dalga
+
+Ukiyo-e katmanları: Prusya mavisi dalga bizzat veri göstergesi, kırmızı mühür imza olur.
+
+## Prompt (EN)
+
+Design a Hokusai ukiyo-e surf-report app page. Paper background #f2e8d5 with faint print texture, strict flat color layers, no gradients or shadows; every box carries a 2px ink (#2b2b2b) woodblock contour. Hero: a Great Wave built in SVG — Prussian blue (#1b4470) curling crest, foam claws as rows of scallop circles, a small snow-capped Fuji triangle (#8a9bb0) behind. The wave IS the height gauge: show two states, a small 1.2m swell and a towering 3.4m wave. A 300x640 phone mockup lists wind, tide, period in contoured label boxes with one vertical-rl label, plus a square red hanko seal (#b5442c). Headings in Zen Antique.
+
+## Brief (TR)
+
+Hokusai'nin Büyük Dalga baskısını, dalga boyunu bizzat dalganın boyuyla gösteren bir sörf raporu uygulamasına çeviren ukiyo-e sayfası.
+
+## Kurallar
+
+- **Tipografi:** Zen Antique başlıklar + system sans veri satırları + monospace etiketler; bir etikette dikey yazı (vertical-rl)
+- **Düzen:** Sol ilke kolonu + telefon mockup + iki durumlu dalga panelleri; her kutu 2px konturlu düz katman
+- **Hareket:** Yok; baskı gibi statik, durumlar ayrı kareler
+- **Kaçınılacaklar:** Degrade, fotoğraf, gölge, renk kalabalığı
+
+
+<!-- https://design.asveas.com/68-klimt-altin.dc.html -->
+---
+id: 68
+slug: "68-klimt-altin"
+title: "Klimt · Altın"
+name: "Klimt · Altın"
+section: "15 — Ressamlar arayüz tasarlasaydı"
+reference: "Gustav Klimt"
+palette: ["#1c1710", "#c9a227", "#e8cf6a", "#7a5c1e", "#d8cfc0"]
+keywords: ["gold leaf mosaic", "dark opulence", "ornamental patterns", "spiral motifs", "private banking"]
+source: "68-klimt-altin.dc.html"
+---
+
+# 68 — Klimt · Altın
+
+Koyu zemin üzerinde mozaik desenli altın kartlar; varlık yönetimi Altın Dönem diliyle.
+
+## Prompt (EN)
+
+Design a Gustav Klimt Golden Period private-banking app page. Deep umber background #1c1710 with wide dark gaps between modules. Every gold surface is textured, never flat: gradient #c9a227 to #e8cf6a to #a8821c layered with CSS mosaics — repeating-linear square grids, repeating-conic spirals, repeating-radial almond eyes — one distinct motif per asset card. In a 300x640 phone mockup: an ornamental ring frieze strip, a large Cinzel gold total (₺48.2M), three mosaic asset cards, and a chart whose gold line dissolves into scattered tiny gold-leaf squares. A transfer panel shows two overlapping rotated cards embraced by a shared radial gold halo. Body text in Cormorant Garamond, accents #7a5c1e and #d8cfc0.
+
+## Brief (TR)
+
+Klimt'in altın varak ve mozaik desenlerini koyu zeminli bir özel bankacılık portföy arayüzüne çeviren Altın Dönem sayfası.
+
+## Kurallar
+
+- **Tipografi:** Cinzel (Roma kapitali başlık ve rakam) + Cormorant Garamond gövde + monospace etiketler
+- **Düzen:** Sol ilke kolonu + telefon portföyü + transfer paneli; modüller arası derin koyu boşluk
+- **Hareket:** Yok; ışıltı doku katmanlarıyla, statik verilir
+- **Kaçınılacaklar:** Gümüş/gri, dokusuz düz altın dolgu, beyaz zemin, ince zayıf tipografi
+
+
+<!-- https://design.asveas.com/69-frida-gunluk.dc.html -->
+---
+id: 69
+slug: "69-frida-gunluk"
+title: "Frida · Günlük"
+name: "Frida · Günlük"
+section: "15 — Ressamlar arayüz tasarlasaydı"
+reference: "Frida Kahlo"
+palette: ["#1f4bb5", "#f5ead8", "#d81b60", "#2e7d4f", "#ef6c00"]
+keywords: ["cobalt blue wall", "botanical frames", "ex-voto heart cards", "mexican folk palette", "emotion journal"]
+source: "69-frida-gunluk.dc.html"
+---
+
+# 69 — Frida · Günlük
+
+Kobalt duvar, botanik çerçeveler ve ex-voto kalp kartları; duygular saklanmaz, boyanır.
+
+## Prompt (EN)
+
+Design a Frida Kahlo emotion-journal mobile app page. Cobalt Casa Azul wall #1f4bb5 as page background. A 300x640 phone shows a cream #f5ead8 journal page framed by CSS botanicals: green #2e7d4f elliptic leaves and layered circle flowers in fuchsia #d81b60 and orange #ef6c00. Today's emotion is one big honest italic Fraunces word ("Ağır"). Replace the mood scale with ex-voto retablo heart cards — CSS hearts with flame, crack and flower variants. Add a Caveat handwritten entry with a votive date strip, a bead-necklace divider of colored dots, and a zigzag kilim repeating-linear-gradient strip instead of a bottom nav.
+
+## Brief (TR)
+
+Frida'nın kobalt duvarını ve ex-voto kalplerini bir duygu günlüğüne çeviren folk-art mobil sayfa.
+
+## Kurallar
+
+- **Tipografi:** Fraunces italik başlık + Caveat el yazısı vurgular + system sans gövde
+- **Düzen:** Sol ilke kolonu + krem defter sayfalı telefon; botanik çerçeve kenarlardan uzanır
+- **Hareket:** Yok; el işi nesne gibi statik durur
+- **Kaçınılacaklar:** Pastel soğukluk, minimalist boşluk, gri tonlar, duygusuz ikonlar
+
+
+<!-- https://design.asveas.com/70-kandinsky-senestezi.dc.html -->
+---
+id: 70
+slug: "70-kandinsky-senestezi"
+title: "Kandinsky · Senestezi"
+name: "Kandinsky · Senestezi"
+section: "15 — Ressamlar arayüz tasarlasaydı"
+reference: "Wassily Kandinsky"
+palette: ["#f4efe6", "#1d1b1a", "#d4462e", "#2660a4", "#e8a13c", "#3f7d3a"]
+keywords: ["synesthesia visualizer", "shapes as instruments", "composition VIII", "point line plane", "music as geometry"]
+source: "70-kandinsky-senestezi.dc.html"
+---
+
+# 70 — Kandinsky · Senestezi
+
+Her şekil bir enstrüman, kompozisyon bir partitur: müzik görselleştirici arayüzün kendisi.
+
+## Prompt (EN)
+
+Design a synesthetic music-visualizer web app as if painted by Kandinsky. Cream canvas (#f4efe6) with near-black ink (#1d1b1a) and accents #d4462e, #2660a4, #e8a13c, #3f7d3a. The main stage is a Composition VIII-style arrangement where every shape IS the interface: a large concentric bass circle in the corner, rotated black line bundles for strings, pulsing colored dots for note hits, a checkerboard strip and semicircles, each with tiny 9px monospace instrument labels. Below it a dark player bar with segmented colored progress; on the right a shape-to-instrument legend panel and a recording widget whose mic level is shown by growing circles. Work Sans, hard 2px borders, offset flat shadow, no gradients on the page chrome, no photos.
+
+## Brief (TR)
+
+Kandinsky'nin Composition VIII kompozisyonunu canlı müzik görselleştiricisine çeviren, her şeklin bir enstrüman kanalı olduğu krem sahneli kulak eğitimi uygulaması.
+
+## Kurallar
+
+- **Tipografi:** Work Sans 400–700 + monospace enstrüman etiketleri
+- **Düzen:** Sol ilke kolonu + orta kompozisyon sahnesi + sağ lejant paneli
+- **Hareket:** Nota daireleri ritimle nabız gibi büyüyüp küçülür
+- **Kaçınılacaklar:** Fotoğraf, degrade, simetrik grid, gri tekdüzelik
+
+
+<!-- https://design.asveas.com/71-rembrandt-isik-odasi.dc.html -->
+---
+id: 71
+slug: "71-rembrandt-isik-odasi"
+title: "Rembrandt · Işık Odası"
+name: "Rembrandt · Işık Odası"
+section: "15 — Ressamlar arayüz tasarlasaydı"
+reference: "Rembrandt van Rijn"
+palette: ["#171009", "#e8b25c", "#8a5a2b", "#d8c8a8", "#3a2a18"]
+keywords: ["chiaroscuro gallery", "single light source", "amber on dark", "portrait cards", "light direction study"]
+source: "71-rembrandt-isik-odasi.dc.html"
+---
+
+# 71 — Rembrandt · Işık Odası
+
+Tek sıcak ışık kaynağı, karanlıktan çıkan kartlar; chiaroscuro bir galeri uygulaması olur.
+
+## Prompt (EN)
+
+Design a chiaroscuro photographer-portfolio web app in Rembrandt's visual language. Deep umber stage (#171009) with one single light source: a huge soft radial gradient of warm amber (#e8b25c) falling from the top-left. Gallery cards emerge from darkness toward the light — near cards glow with amber-lit surfaces and thin gold borders, far cards sink to 40–60% brightness and lose detail. Build stylized CSS busts: amber face oval, white ruff collar, dark shoulders. Add a lighting-tutorial pair: the same portrait lit from left and from right, shadow flipping sides, plus a Night Watch group card where one figure stands fully lit among half-shadowed ones. Playfair Display headings, warm browns only (#8a5a2b, #d8c8a8, #3a2a18), never cold gray.
+
+## Brief (TR)
+
+Tek sıcak ışık kaynağından beslenen, kartların karanlıktan aydınlığa doğru belirdiği, ışık yönü eğitimli chiaroscuro portfolyo arayüzü.
+
+## Kurallar
+
+- **Tipografi:** Playfair Display başlıklar + sistem sans gövde + monospace etiketler
+- **Düzen:** Sol ilke kolonu + sağda ışığa göre kademelenen galeri ızgarası
+- **Hareket:** Yok denecek kadar az; parlaklık geçişleri hover ile yumuşar
+- **Kaçınılacaklar:** Düz aydınlatma, soğuk beyaz, çok ışık kaynağı, pastel
+
+
+<!-- https://design.asveas.com/72-osman-hamdi-sabir.dc.html -->
+---
+id: 72
+slug: "72-osman-hamdi-sabir"
+title: "Osman Hamdi · Sabır"
+name: "Osman Hamdi · Sabır"
+section: "15 — Ressamlar arayüz tasarlasaydı"
+reference: "Osman Hamdi Bey"
+palette: ["#3b2415", "#c96f2e", "#a8845a", "#1f6f5c", "#8a2f1f", "#e8d5b5"]
+keywords: ["tortoise trainer focus app", "ottoman arch light", "turtle pace progress ring", "iznik shell patterns", "patience over pressure"]
+source: "72-osman-hamdi-sabir.dc.html"
+---
+
+# 72 — Osman Hamdi · Sabır
+
+Kaplumbağa Terbiyecisi'nden bir odak uygulaması: kemerden süzülen ışık, kaplumbağa hızında ilerleme.
+
+## Prompt (EN)
+
+Design a focus-and-habit app landing born from Osman Hamdi's The Tortoise Trainer (1906). Dim plaster wall (#3b2415, #a8845a); all content sits inside a huge arch (border-radius 610px 610px 0 0) lit by a warm radial glow from the top, with ochre #c96f2e, Iznik #1f6f5c and robe-red #8a2f1f accents. Center a 300x640 phone on warm cream (#e8d5b5): the focus timer is a progress ring on which a tiny CSS tortoise crawls via a 90s rotation, plus a gentle no-urgency reminder card. Right column lists habits as baby tortoises whose shells grow richer at 3, 21 and 90 days. Spectral headings, monospace digits. No neon, no countdown anxiety, no gamification pressure.
+
+## Brief (TR)
+
+Kaplumbağa Terbiyecisi'nin kemer ışığında kurulan, sayacı kaplumbağa halkası olan, kabukları İznik motifine dönüşen aceleye kapalı odak uygulaması.
+
+## Kurallar
+
+- **Tipografi:** Spectral başlıklar + sistem sans gövde + mono sayaç rakamları
+- **Düzen:** Dev kemer içinde üç kolon: ilkeler, telefon, kaplumbağa yuvası
+- **Hareket:** Tek animasyon: kaplumbağa 90 saniyede halkayı dolaşır
+- **Kaçınılacaklar:** Neon, kırmızı geri sayım, soğuk minimalizm, oyunlaştırma baskısı
+
+
+<!-- https://design.asveas.com/73-saf-minimalizm.dc.html -->
+---
+id: 73
+slug: "73-saf-minimalizm"
+title: "Saf Minimalizm"
+name: "Saf Minimalizm"
+section: "07 — Arayüz dönemleri ve yüzey dilleri"
+reference: "Kenya Hara · John Pawson"
+palette: ["#fbfbfa", "#1a1a1a", "#f1f0ec", "#e6e4de", "#8a8a86"]
+keywords: ["pure minimalism", "no accent color", "hairline dividers", "single product page", "light-weight type"]
+source: "73-saf-minimalizm.dc.html"
+---
+
+# 73 — Saf Minimalizm
+
+Tek nesne, sıfır vurgu rengi, saç teli ayraçlar: boşluğun malzeme, çıkarmanın yöntem olduğu sayfa.
+
+## Prompt (EN)
+
+Design a pure-minimalist product page for a single ceramic cup, in the spirit of Kenya Hara and John Pawson. Off-white background (#fbfbfa) with near-black text (#1a1a1a) and warm grey neutrals (#f1f0ec, #e6e4de) — no accent color at all. A two-column hero split by a hairline: left, a square neutral product plate with the object centered in generous negative space; right, a tiny uppercase monospace eyebrow, a 40px light-weight (300) headline of one word, a 15px light paragraph capped at 34ch, a price row separated by a hairline, and one outlined uppercase button. Below, three principle columns and a four-item grid separated only by 1px gaps. Inter at two weights, no shadows, no radii, no icons, no decoration.
+
+## Brief (TR)
+
+Tek nesne, tek buton, sıfır vurgu rengi: boşluğun malzeme, çıkarmanın yöntem olduğu ürün sayfası.
+
+## Kurallar
+
+- **Tipografi:** Inter 300 (başlık ve gövde) + 500 (tek buton) + monospace etiketler; üç boyut, iki ağırlık
+- **Düzen:** İkiye bölünmüş hero, saç teli ayraçlar, 1px boşluklu ürün ızgarası; her şey sola hizalı
+- **Hareket:** Yalnızca opaklık geçişi; hiçbir şey kaymaz, büyümez
+- **Kaçınılacaklar:** Vurgu rengi, gölge, yuvarlak köşe, ikon, rozet, ikinci font, kalın ağırlık, dolgulu buton
+
+
+<!-- https://design.asveas.com/74-futuristik-hud.dc.html -->
+---
+id: 74
+slug: "74-futuristik-hud"
+title: "Fütüristik HUD"
+name: "Fütüristik HUD"
+section: "06 — Kültürel ve retro-fütürist diller"
+reference: "Syd Mead · Minority Report"
+palette: ["#070b16", "#5ef2ff", "#dff6ff", "#ff5c6c"]
+keywords: ["futuristic HUD", "sci-fi interface", "corner brackets", "orbital rings", "cyan telemetry"]
+source: "74-futuristik-hud.dc.html"
+---
+
+# 74 — Fütüristik HUD
+
+Tek ışık rengi, köşe braketli saydam paneller ve dönen yörünge halkalarıyla sinematik uçuş kontrolü.
+
+## Prompt (EN)
+
+Design a futuristic spacecraft flight-control HUD in the Syd Mead / Minority Report lineage. Deep navy stage (#070b16) with a faint 48px cyan grid and a soft radial glow, never pure black. A single luminous cyan (#5ef2ff) carries all information: 1px translucent panel borders held by two-corner L-brackets, concentric orbital rings (one dashed, two partial arcs slowly rotating, a glowing satellite dot), hairline crosshairs, and a 72px light-weight altitude readout with text glow. Side panels show energy bars, system status rows and a countdown; red (#ff5c6c) appears only on the one item needing attention. Exo 2 uppercase with wide tracking for titles, monospace for readouts; frosted panels at 4% white, no rounded corners, no gradients on UI elements.
+
+## Brief (TR)
+
+Tek ışık rengi, köşe braketli saydam paneller ve dönen yörünge halkalarıyla sinematik bir uçuş kontrol arayüzü.
+
+## Kurallar
+
+- **Tipografi:** Exo 2 (büyük harf, geniş aralık; 300 rakamlar, 700 başlık) + monospace okuma değerleri
+- **Düzen:** Üç kolon: sol anlatım, merkez halka sahnesi, sağ telemetri; köşe braketli paneller, artı nişangâh
+- **Hareket:** Yavaş dönen halkalar (9–60 sn), yanıp sönen durum noktası, başka hiçbir şey kıpırdamaz
+- **Kaçınılacaklar:** Saf siyah zemin, çoklu neon renk, yuvarlak köşe, parçacık yağmuru, kalın gölge, oyun HUD'ı kalabalığı
+
+
+<!-- https://design.asveas.com/75-vektor-sanati.dc.html -->
+---
+id: 75
+slug: "75-vektor-sanati"
+title: "Vektör Sanatı"
+name: "Vektör Sanatı"
+section: "05 — Sanat akımlarının web karşılıkları"
+reference: "Malika Favre"
+palette: ["#ff4f3d", "#14213d", "#fff1e0", "#f2b705"]
+keywords: ["flat vector illustration", "negative space", "limited palette", "bold silhouettes", "geometric cuts"]
+source: "75-vektor-sanati.dc.html"
+---
+
+# 75 — Vektör Sanatı
+
+Negatif alanla kurulan silüetler, dört düz renk, gradyansız keskin kesimler.
+
+## Prompt (EN)
+
+Design an independent film festival website in the flat vector language of Malika Favre. Exactly four flat colors: cream (#fff1e0) ground, coral (#ff4f3d), navy (#14213d) and a sparing yellow accent (#f2b705). Split hero: left, a 104px Archivo 900 uppercase headline with tight tracking, a short system-font paragraph and two solid rectangular buttons; right, a full-bleed inline SVG woman's profile built from positive/negative space — face is the cream ground, hair one navy block, eye a single circle, one yellow earring, no outlines. Film-strip bands via repeating-linear-gradient, 4px navy rules instead of borders, a six-card program grid of solid-color cards with two-shape icons. No gradients, shadows, photos or rounded corners.
+
+## Brief (TR)
+
+Dört düz renk, negatif alanla kesilmiş bir profil ve keskin geometrik bloklarla afiş gibi okunan bağımsız sinema festivali sitesi.
+
+## Kurallar
+
+- **Tipografi:** Archivo 900 (büyük harf, sıkı aralıklı başlıklar) + 700 (kart adları) + system-ui gövde + monospace etiketler
+- **Düzen:** İkiye bölünmüş hero (metin / SVG profil), film şeridi bantları, 4px lacivert kalın cetveller, altı hücreli düz renkli program ızgarası, üçlü fiyat şeridi
+- **Hareket:** Yalnızca hover'da renk takası (lacivert → mercan); animasyon yok, afiş sabittir
+- **Kaçınılacaklar:** Gradyan, gölge, ince çizgi illüstrasyon, fotoğraf, beşinci renk, yuvarlak köşe ve süs, kontur çizgisi, doku
+
+
+<!-- https://design.asveas.com/76-kolaj-sanati.dc.html -->
+---
+id: 76
+slug: "76-kolaj-sanati"
+title: "Kolaj Sanatı"
+name: "Kolaj Sanatı"
+section: "05 — Sanat akımlarının web karşılıkları"
+reference: "Hannah Höch · Dada"
+palette: ["#d9c7a3", "#f5f0e6", "#1a1a1a", "#d62828", "#f4c20d"]
+keywords: ["paper collage", "torn edges", "halftone texture", "cut-out typography", "dada zine"]
+source: "76-kolaj-sanati.dc.html"
+---
+
+# 76 — Kolaj Sanatı
+
+Yırtık kâğıt, bant, halftone ve kesik harfler: kes-yapıştır katmanlarıyla zine estetiği.
+
+## Prompt (EN)
+
+Design a cut-and-paste collage website for a fictional culture zine ("Makas") in the Hannah Höch / Dada lineage. Kraft-paper ground (#d9c7a3) with a fine dot grain; a 5–6 layer hero of torn off-white scraps (#f5f0e6, irregular clip-path edges, hard 5px offset shadows, rotated −5° to 9°), a ransom-note headline where every letter is its own span in Archivo Black, Georgia italic or monospace at 70–118px each rotated, some on yellow (#f4c20d) or red (#d62828) blocks, a red halftone circle, a grey photo placeholder with halftone overlay, translucent yellow and red tape strips, a ruled newspaper-column texture and a red handwritten note in Caveat. Three principle cards on torn paper, dashed rules, no rounded corners, no smooth gradients on UI.
+
+## Brief (TR)
+
+Kraft zemin üstüne yırtık kâğıt, bant, halftone ve kesik gazete harfleriyle kurulmuş, kasıtlı eğik bir zine sitesi: kusur yöntemdir.
+
+## Kurallar
+
+- **Tipografi:** Başlıkta harf harf karışık: Archivo Black + Georgia italik + monospace, her harf ayrı boyut ve açı; gövde Georgia 14–16px; notlar Caveat; etiketler monospace büyük harf
+- **Düzen:** Grid yok: 760px'lik mutlak konumlu kolaj sahnesi, üst üste binen yırtık parçalar; altta üç eğik ilke kartı, çift çizgili alt şerit
+- **Hareket:** Yok; hover'da bağlantı sarı bantla kaplanır, başka hiçbir şey kıpırdamaz
+- **Kaçınılacaklar:** Düz temiz kenar, hizalı grid, tek font, parlak gradyan, yuvarlak köşe, yumuşak gölge, kusursuzluk
+
+
+<!-- https://design.asveas.com/77-retro-yetmisler.dc.html -->
+---
+id: 77
+slug: "77-retro-yetmisler"
+title: "Retro 70'ler"
+name: "Retro 70'ler"
+section: "06 — Kültürel ve retro-fütürist diller"
+reference: "Reklam afişi · Groovy"
+palette: ["#f3e5c3", "#e8792b", "#d9a441", "#7a3e1f", "#a8352a"]
+keywords: ["70s retro", "groovy typography", "rainbow stripes", "sunburst arcs", "earth tones"]
+source: "77-retro-yetmisler.dc.html"
+---
+
+# 77 — Retro 70'ler
+
+Güneş yayları, gökkuşağı şeritler, kabarık tipografi ve sıcak toprak paleti; basılı reklam retrosu.
+
+## Prompt (EN)
+
+Design a 1970s print-advert / record-sleeve style website for a fictional coffee roaster and record shop. Cream paper background (#f3e5c3) with a faint dotted grain, warm earth palette: orange #e8792b, mustard #d9a441, coffee brown #7a3e1f, brick red #a8352a. Hero: a giant rising sun of nested concentric half-circle bands with subtle sunray stripes, a 132px Righteous headline with two-layer offset shadow in orange and mustard, a Fredoka subtitle, pill buttons with 4px brown borders and hard offset shadows, and a spinning starburst "YENİ!" badge. Below, a four-colour rainbow stripe divider curling at one corner, three principle boxes and four product cards with thick brown outlines and 24px radii. No neon, no black, no thin grids, no cool blues, no digital textures.
+
+## Brief (TR)
+
+Krem kâğıt üzerinde toprak renkli güneş yayları, gökkuşağı şerit ayraçlar ve şişkin yuvarlak tipografiyle basılı, sıcak, groovy bir 70'ler reklam afişi dili.
+
+## Kurallar
+
+- **Tipografi:** Righteous başlıklar (iki katlı ofset gölge) + Fredoka 500/600 alt başlık ve butonlar + sistem sans gövde + monospace etiketler
+- **Düzen:** Ortalanmış güneş hero, köşeden kıvrılan dört renkli şerit ayraç, üç ilke kutusu, dört kalın konturlu ürün kartı
+- **Hareket:** Yalnızca yıldız rozet döner (24 sn); başka hiçbir şey kıpırdamaz
+- **Kaçınılacaklar:** Neon, siyah zemin, ince ızgara, soğuk mavi, piksel/dijital doku, keskin köşe, cam/bulanıklık efekti
+
+
+<!-- https://design.asveas.com/78-cyberpunk.dc.html -->
+---
+id: 78
+slug: "78-cyberpunk"
+title: "Cyberpunk"
+name: "Cyberpunk"
+section: "06 — Kültürel ve retro-fütürist diller"
+reference: "Blade Runner · Neuromancer"
+palette: ["#0b0612", "#ff2a6d", "#05d9e8", "#f9f002", "#d1f7ff"]
+keywords: ["cyberpunk", "neon glitch", "scanlines", "hazard stripes", "magenta cyan"]
+source: "78-cyberpunk.dc.html"
+---
+
+# 78 — Cyberpunk
+
+Kirli neon, glitch başlık, tarama çizgileri ve sarı uyarı bantları: high tech, low life.
+
+## Prompt (EN)
+
+Design a cyberpunk night-market app page in the Blade Runner / Neuromancer "high tech, low life" register: dirty, crowded, street-level. Wet-asphalt background (#0b0612) lit by competing magenta (#ff2a6d) and cyan (#05d9e8) neon glows, a reversed gradient in the lower half for rain reflection, and a 3px repeating scanline overlay. Hero headline in Orbitron 900, 88px, stacked three times: base #d1f7ff, one copy magenta shifted 2px left, one cyan shifted 2px right, each clipped to horizontal slices via clip-path and twitching with keyframes. Vertical neon signage (writing-mode: vertical-rl) of ▮▯ block characters, yellow-black 45° hazard stripes (#f9f002/#000), dark product cards with 1px cyan borders and clipped corners, monospace yellow prices, a blinking "CONNECTION: UNSAFE" row. Body in Share Tech Mono.
+
+## Brief (TR)
+
+Yağmurlu megakentin karaborsa uygulaması: kirli neon, glitch başlık, dikey tabelalar ve uyarı bantlarıyla kalabalık, sokak kokan bir arayüz.
+
+## Kurallar
+
+- **Tipografi:** Orbitron 900/700 (büyük harf başlık ve buton) + Share Tech Mono gövde, etiket, fiyat ve gürültü satırları
+- **Düzen:** İki dikey tabela şeridi arasında hero + sağ ürün kolonu; sarı-siyah uyarı bantları, kesik köşeli kartlar, üst üste binen ışık katmanları
+- **Hareket:** Seyrek, ani glitch (steps ile kanal kayması), titreyen neon tabela, yanıp sönen durum noktası; yumuşak geçiş yok
+- **Kaçınılacaklar:** Temiz boşluk, pastel, yuvarlak dostluk, tek renk, steril simetri, parçacık yağmuru, temiz HUD braketleri
+
+
+<!-- https://design.asveas.com/79-pixel-art.dc.html -->
+---
+id: 79
+slug: "79-pixel-art"
+title: "Pixel Art"
+name: "Pixel Art"
+section: "06 — Kültürel ve retro-fütürist diller"
+reference: "8-bit · NES dönemi"
+palette: ["#1b1b3a", "#f8f8f8", "#ff6b6b", "#ffd93d", "#4ecdc4", "#2b2d42"]
+keywords: ["pixel art", "8-bit UI", "sprite", "block shadow", "retro game menu"]
+source: "79-pixel-art.dc.html"
+---
+
+# 79 — Pixel Art
+
+4px ızgara, sınırlı palet, blok gölgeler ve box-shadow ile çizilmiş sprite'lar; konsol nostaljisi.
+
+## Prompt (EN)
+
+Design an 8-bit NES-era pixel-art landing page for the indie game "Kule Kedisi". Everything snaps to a 4px grid: no anti-aliasing, gradients or border-radius. Six colors only: navy #1b1b3a, off-white #f8f8f8, coral #ff6b6b, yellow #ffd93d, teal #4ecdc4, ink #2b2d42. Hero: navy sky with 4px box-shadow stars, stepped clouds, staircase hills, teal ground, a 12×12 cat sprite drawn as one div with an 8px box-shadow list, pixel hearts for lives, a 44px 'Press Start 2P' title with hard 4px/8px offset shadows, and "PRESS START" blinking on step-end keyframes. Below: an RPG dialogue box (4px white border, ▼ cursor), a ► cursor main menu and a high-score table with XP bar, all with 8px block shadows. 'VT323' body at 22–26px.
+
+## Brief (TR)
+
+4px ızgaraya kilitli, altı renkli, blok gölgeli konsol dili: box-shadow ile çizilmiş sprite, yanıp sönen PRESS START ve RPG diyalog kutusuyla bağımsız oyun sayfası.
+
+## Kurallar
+
+- **Tipografi:** 'Press Start 2P' (başlık 44px, etiketler 9–14px, blok text-shadow) + 'VT323' gövde 22–26px; anti-aliasing'e ihtiyaç duymayan bitmap fontlar
+- **Düzen:** 620 oyun sahnesi (HUD köşelerde, sprite merkezde, zemin altta); altında menü / diyalog kutusu / skor tablosu üç kolonu; 4px kontur, 8px blok gölge
+- **Hareket:** Yalnızca step-end: PRESS START ve ► imleci 1 sn'de yanıp söner, sprite 8px zıplar, ▼ 4px iner; ease yok, kare atlar
+- **Kaçınılacaklar:** Yumuşatılmış kenar, gradyan, yuvarlak köşe, bulanık gerçek gölge, yüksek çözünürlüklü ikon, 4'ün katı olmayan ölçü, yedinci renk
+
+
+<!-- https://design.asveas.com/80-surreal-tasarim.dc.html -->
+---
+id: 80
+slug: "80-surreal-tasarim"
+title: "Sürreal Tasarım"
+name: "Sürreal Tasarım"
+section: "05 — Sanat akımlarının web karşılıkları"
+reference: "René Magritte"
+palette: ["#6fa8dc", "#dbe9f7", "#0f1b3d", "#f6f3ea", "#2e7d32"]
+keywords: ["surreal UI", "Magritte", "floating objects", "impossible scale", "cloud sky"]
+source: "80-surreal-tasarim.dc.html"
+---
+
+# 80 — Sürreal Tasarım
+
+Gündüz göğü ve gece kapısı, havada asılı nesneler, ters gölgeler: sakin ton, imkânsız içerik.
+
+## Prompt (EN)
+
+Design a Magritte-style surrealist landing page for a fictional sleep brand, "Bulut Odası". A 720px hero with a daytime sky gradient (#6fa8dc to #dbe9f7) and flat white cloud blobs made of overlapping border-radius shapes, above a night street strip (#0f1b3d) with one glowing lamp — day and night in one frame. Add a tall door filled with a starry night sky, a slowly floating bowler-hat silhouette, and an oversized green apple (#2e7d32) in front of a small card, defying scale. Headline in Cormorant Garamond italic at 74px with "This is not a headline" beneath; system-font body on cream (#f6f3ea). Pricing cards look ordinary, except one casts its shadow upward and one hovers 40px above a detached shadow. Flat, calm, clean — no melting or glitch.
+
+## Brief (TR)
+
+Gündüz göğü altında gece sokağı, havada asılı şapka, kart önünde dev elma: sakin tonla anlatılan imkânsız bir uyku markası.
+
+## Kurallar
+
+- **Tipografi:** Cormorant Garamond italik (74px başlık, 22–34px notlar ve fiyatlar) + sistem sans gövde + monospace etiketler
+- **Düzen:** Tam genişlik gök sahnesi + alt gece şeridi; sahneye mutlak konumlu kapı, şapka, elma ve kart; üç ilke kolonu, üç fiyat kartı
+- **Hareket:** Bulutlar 18–24 sn yavaş kayar, şapka 6 sn'de hafifçe iner kalkar; başka hiçbir şey kıpırdamaz
+- **Kaçınılacaklar:** Eriyen veya bozuk şekil, kaos, glitch, koyu korku havası, aşırı doku, fırça izi, çok sayıda şaka
+
+
+<!-- https://design.asveas.com/81-bohem.dc.html -->
+---
+id: 81
+slug: "81-bohem"
+title: "Bohem"
+name: "Bohem"
+section: "06 — Kültürel ve retro-fütürist diller"
+reference: "Boho · Anthropologie ekolü"
+palette: ["#efe3d0", "#c96f4a", "#6b7d4f", "#e9d8c0", "#3f2f25"]
+keywords: ["boho", "terracotta palette", "arch shapes", "woven texture", "botanical motifs"]
+source: "81-bohem.dc.html"
+---
+
+# 81 — Bohem
+
+Terracotta ve bej, kemerli çerçeveler, dokuma dokular ve botanik motifler; sıcak, gevşek, organik.
+
+## Prompt (EN)
+
+Design a bohemian, Anthropologie-style landing page for a fictional ceramics and weaving studio ("Toprak & Yün"). Warm beige ground (#efe3d0) with a faint 22px dot texture, a terracotta (#c96f4a) hero block on the right holding arch-topped image placeholders (border-radius 999px 999px 0 0) filled with soft vertical gradients and thin repeating-linear-gradient weave lines, a macramé fringe of uneven 2px vertical strands, olive (#6b7d4f) rotated-ellipse leaves, and a sun badge made of a circle with ray lines. Headline in Cormorant Garamond 78px medium with an italic olive word; handwritten Caveat accents rotated -3deg; pill-shaped terracotta button. Cards on sand (#e9d8c0) with 24px radius and dotted 1.5px borders; ink text #3f2f25. No sharp corners, no cool greys, no pure white.
+
+## Brief (TR)
+
+Toprak tonları, kemerli görseller, dokuma çizgileri, püskül ve yaprak detaylarıyla sıcak, gevşek, el işi hissinde bir atölye sayfası.
+
+## Kurallar
+
+- **Tipografi:** Cormorant Garamond 400–600 (başlık, gövde, italik vurgu) + Caveat 500–600 el yazısı vurgular + monospace etiketler
+- **Düzen:** Bej/terracotta ikiye bölünmüş hero, kemerli görsel yer tutucular, üç ilke kartı, dört ürün kartı; 24px kavis, noktalı ayraçlar
+- **Hareket:** Yaprağın 6 sn'lik hafif salınımı, bağlantılarda opaklık; başka hareket yok
+- **Kaçınılacaklar:** Keskin köşe, soğuk gri, parlak neon, kurumsal ızgara, saf beyaz
+
+
+<!-- https://design.asveas.com/82-viktorya.dc.html -->
+---
+id: 82
+slug: "82-viktorya"
+title: "Viktorya Dönemi"
+name: "Viktorya Dönemi"
+section: "03 — Tarihsel ve sanatsal akımlar"
+reference: "19. yy gravür · William Morris"
+palette: ["#f4ecd8", "#1e1a17", "#b08d3c", "#2f4f3a", "#7a1f2b"]
+keywords: ["victorian ornament", "double rule frame", "engraving texture", "fleuron", "centered serif"]
+source: "82-viktorya.dc.html"
+---
+
+# 82 — Viktorya Dönemi
+
+Çift çizgili çerçeveler, fleuron süsler, ortalı serif ve gravür dokusu; süs hiyerarşidir.
+
+## Prompt (EN)
+
+Design a Victorian tea house and apothecary website in the spirit of 19th-century engraved labels and William Morris. Cream parchment (#f4ecd8), near-black ink (#1e1a17), antique gold (#b08d3c), Morris green (#2f4f3a), claret (#7a1f2b). Everything centered. Hero framed by a 3px double border with a 1px inner rule and gold quarter-round corner flourishes; a double-ring medallion with ✦ inside, an "Established 1871" line with ❦ ❧ fleurons, a 78px Playfair Display 900 title, a Cinzel Decorative letterspaced subtitle, italic lead and double-bordered buttons. Product cards read as bottle labels: ivory ground, double rule, centered serif text, engraved placeholder images of 2px repeating horizontal lines, gold hairlines flanking a serif price. Leaf-pattern green bands between sections; no sans-serif, no single flat rules.
+
+## Brief (TR)
+
+Çift çizgili çerçeve, gravür dokulu görsel, madalyon amblem ve fleuron süslerle 1871 tarihli bir çay evi etiketi gibi kurgulanmış, tamamen ortalı Viktorya sayfası.
+
+## Kurallar
+
+- **Tipografi:** Playfair Display 900 (başlık, fiyat) + italik 400 (gövde) + Cinzel Decorative geniş aralıklı büyük harf etiket; Georgia yedek
+- **Düzen:** Ortalı tek sütun hero, çift çizgi + iç ince çizgi çerçeve, köşe kıvrımı, madalyon; üç etiket-kart; yaprak desenli yeşil bordür
+- **Hareket:** Yok; yalnızca bağlantı üzerinde bordoya dönen renk
+- **Kaçınılacaklar:** Sola hizalı sans-serif, düz tek çizgi, boşluk israfı (dönemin ruhu doludur), parlak/neon renk, yuvarlak köşeli kart, mono fiyat
+
+
+<!-- https://design.asveas.com/83-graffiti.dc.html -->
+---
+id: 83
+slug: "83-graffiti"
+title: "Graffiti"
+name: "Graffiti"
+section: "06 — Kültürel ve retro-fütürist diller"
+reference: "Sokak sanatı · Wildstyle"
+palette: ["#3a3a3a", "#5a4a44", "#ff3b3b", "#ffe600", "#00c2ff", "#ffffff"]
+keywords: ["graffiti", "bubble letters", "spray paint", "brick wall", "stickers"]
+source: "83-graffiti.dc.html"
+---
+
+# 83 — Graffiti
+
+Tuğla duvar, çok konturlu bubble harfler, sprey pusu ve damlalar; sokak enerjisi.
+
+## Prompt (EN)
+
+Design a graffiti / wildstyle streetwear sneaker-drop page for a fictional brand. Background is a CSS brick wall: #5a4a44 bricks with 6px #2a2a2a mortar lines from repeating-linear-gradients, darkened by radial vignettes, never a white page. Behind the hero sits spray haze: three blurred (70px) radial blobs in #ff3b3b, #00c2ff and #ffe600. The 230px 'Bangers' headline is rotated -4deg and filled #ff3b3b with a thick black multi-layer text-shadow outline, then a 6px #ffe600 offset shadow and a #00c2ff third layer; paint drips hang from the letters as thin rounded bars ending in circles. Add rotated white stickers with 4px black borders ("DROP 08.15"), yellow and cyan tape strips, CSS-triangle wildstyle arrows, tilted product cards with 8px hard black shadows and yellow price tags. 'Permanent Marker' for handwritten accents, system sans for body.
+
+## Brief (TR)
+
+Tuğla duvar, sprey pusu, çok katmanlı kontur ve sarkan damlalarla "throw-up" enerjisinde bir sokak giyim drop sayfası.
+
+## Kurallar
+
+- **Tipografi:** Bangers (230px başlık, ürün adı, buton) + Permanent Marker (vurgu, sticker, fiyat) + system sans gövde; çok katmanlı text-shadow kontur
+- **Düzen:** Tuğla duvar hero: sol dev başlık + damla + ok + sticker, sağ üç eğik ilke kutusu; altta 4 eğik ürün kartı; her şey ±1–9° dönük
+- **Hareket:** Damlaların yavaşça uzaması (3–4 sn scaleY), hover'da parlaklık artışı; başka hareket yok
+- **Kaçınılacaklar:** Temiz beyaz zemin, ince tipografi, hizalı ızgara, pastel, gölgesiz düz metin, yumuşak gri gölge
+
+
+<!-- https://design.asveas.com/84-aurora.dc.html -->
+---
+id: 84
+slug: "84-aurora"
+title: "Aurora"
+name: "Aurora"
+section: "04 — Mikro-görsel ve dokusal trendler"
+reference: "Kuzey ışıkları · Mesh gradient"
+palette: ["#050b1a", "#3ef2a8", "#8b5cf6", "#22d3ee", "#f5f7ff"]
+keywords: ["aurora gradient", "mesh blur", "northern lights", "dark premium", "glow"]
+source: "84-aurora.dc.html"
+---
+
+# 84 — Aurora
+
+Gece zemininde süzülen yeşil-mor-cyan ışık perdeleri, blur derinlik ve ince beyaz tipografi.
+
+## Prompt (EN)
+
+Design an aurora-style landing page for a premium sleep and focus sound app called "Işık". Deep night background (#050b1a) with four or five tall, slightly tilted elliptical light curtains in the upper half — radial gradients of green (#3ef2a8), violet (#8b5cf6) and cyan (#22d3ee) blurred 60–70px, drifting slowly with 14–20s translate/opacity keyframes, fading into the ground; a few box-shadow stars. Centered 84px Outfit headline in weight 300 with one word at 600, 18px light paragraph, a pill CTA with a 1px translucent white border and inner glow. Three feature cards at 4% white fill with 1px 10% borders, each with a small blurred glow of its own color in a corner. A waveform SVG with a green-to-violet-to-cyan stroke gradient. White text only; the light carries all color.
+
+## Brief (TR)
+
+Gece zemininde yavaşça süzülen yeşil-mor-cyan ışık perdeleri, ince beyaz tipografi ve ışık kenarlı buton: ışığın kendisinin içerik olduğu sakin, premium uygulama sayfası.
+
+## Kurallar
+
+- **Tipografi:** Outfit 300 (başlık ve gövde) + 600 (tek vurgu kelimesi) + monospace etiketler; her şey beyaz (#f5f7ff)
+- **Düzen:** Ortalanmış hero (ışık perdesi üst yarıda), üç saydam kart, iki kolonlu dalga formu bölümü, üç ilke sütunu
+- **Hareket:** Blob'lar 14–20 sn'de translate/opacity ile süzülür, yıldızlar 5 sn'de nefes alır; arayüz öğeleri kıpırdamaz
+- **Kaçınılacaklar:** Sert kenarlı gradyan, kirli neon, kalın outline, açık zemin, kalabalık, cam panel (glassmorphism), vaporwave ızgarası
+
+
+<!-- https://design.asveas.com/85-el-yazisi.dc.html -->
+---
+id: 85
+slug: "85-el-yazisi"
+title: "El Yazısı"
+name: "El Yazısı"
+section: "04 — Mikro-görsel ve dokusal trendler"
+reference: "Defter · Doodle"
+palette: ["#fdfbf5", "#2b2b2b", "#fff176", "#f48fb1", "#d7dce6"]
+keywords: ["handwritten", "notebook grid", "highlighter", "doodle arrows", "sticky notes"]
+source: "85-el-yazisi.dc.html"
+---
+
+# 85 — El Yazısı
+
+Kareli defter, el yazısı fontlar, fosforlu vurgu, karalama oklar ve yapışkan notlar; insan sıcaklığı.
+
+## Prompt (EN)
+
+Design a handwritten notebook-style landing page for a personal learning and planning app called "Defterim". Cream paper (#fdfbf5) with a 24px graph-paper grid drawn in thin blue-grey lines (#d7dce6), a red margin rule on the left and a column of spiral punch holes. Headline in Caveat 700 at 92px, slightly rotated, with one word circled by a hand-drawn SVG ellipse (2.4px stroke, #2b2b2b); body in Patrick Hand at 21px. Highlight key phrases with a translucent yellow marker (#fff176, skew -2deg, bold). Add doodle SVG arrows, a to-do list with hand-drawn checkmarks and strikethroughs, a yellow and a pink (#f48fb1) sticky note with a folded corner, a white-framed "photo" card held by a paperclip, and a faint coffee ring (6px rgba(120,80,40,.25) border). No sharp grid, no geometric sans, no corporate blue, no glossy buttons.
+
+## Brief (TR)
+
+Kareli defter sayfası, el yazısı fontlar, fosforlu vurgu, yapışkan not ve karalama oklarıyla insan sıcaklığı taşıyan öğrenme/planlama uygulaması.
+
+## Kurallar
+
+- **Tipografi:** Caveat 700 (başlık, 92px, hafif eğik) + Patrick Hand (gövde 21px, liste) + monospace küçük etiketler; fosforlu kalın vurgu
+- **Düzen:** Kareli sayfa, sol marj çizgisi ve spiral delikler; solda başlık + yapılacaklar, sağda dağınık kolaj (fotoğraf, iki yapışkan not, oklar); üç elle çizilmiş ilke kutusu
+- **Hareket:** Yapışkan not 6 sn'de hafifçe sallanır; bağlantıda fosforlu arka plan belirir; başka animasyon yok
+- **Kaçınılacaklar:** Geometrik sans, keskin ızgara, kurumsal mavi, gölgeli butonlar, mükemmel hizalama, dördüncü fosfor vurgusu
+

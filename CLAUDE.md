@@ -17,6 +17,8 @@ kullanılabilir prompt/kural seti olarak sunan katalog.
 - `ai/` — üretilmiş katman (`catalog.json` + `styles/*.md`): stil sayfalarının
   prompt blokları + `data/catalog-meta.json` birleşimi. Elle düzenlenmez.
 - `tools/extract_prompts.py` — `ai/` katmanını yeniden üretir.
+- `tools/inject_og.py` — tüm sayfalara statik SEO/OG/JSON-LD head katmanı; `tools/build_seo.py` — sitemap/robots/llms.txt. Sayfa eklenince ikisi de çalıştırılır.
+- Yerelleştirme: `data/catalog-meta.json` içinde `name_en`/`description_en`/`title_en`; Katalog, Galeri, Test, Mikser TR/EN düğmeli (`?lang=en`, localStorage `katalogLang`).
 
 ## Kurallar
 

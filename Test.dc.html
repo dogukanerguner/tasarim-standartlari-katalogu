@@ -1,23 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- og:start -->
 <title>Hangi tasarım stili sensin? — Which design style are you?</title>
-<meta name="description" content="Answer 6 questions and find your design style among 85.">
+<meta name="description" content="Answer 6 questions and find your design style among 85. 6 soru, 85 stilden biri sensin.">
+<link rel="canonical" href="https://design.asveas.com/Test.dc.html">
+<link rel="alternate" hreflang="tr" href="https://design.asveas.com/Test.dc.html">
+<link rel="alternate" hreflang="en" href="https://design.asveas.com/Test.dc.html?lang=en">
+<link rel="alternate" hreflang="x-default" href="https://design.asveas.com/Test.dc.html">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Tasarım Standartları Kataloğu">
+<meta property="og:site_name" content="Tasarım Standartları Kataloğu · Design Standards Catalog">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:locale:alternate" content="en_US">
 <meta property="og:title" content="Hangi tasarım stili sensin? — Which design style are you?">
-<meta property="og:description" content="Answer 6 questions and find your design style among 85.">
+<meta property="og:description" content="Answer 6 questions and find your design style among 85. 6 soru, 85 stilden biri sensin.">
 <meta property="og:url" content="https://design.asveas.com/Test.dc.html">
 <meta property="og:image" content="https://design.asveas.com/og/katalog.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Hangi tasarım stili sensin? — Which design style are you?">
-<meta name="twitter:description" content="Answer 6 questions and find your design style among 85.">
+<meta name="twitter:description" content="Answer 6 questions and find your design style among 85. 6 soru, 85 stilden biri sensin.">
 <meta name="twitter:image" content="https://design.asveas.com/og/katalog.jpg">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/brand/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/brand/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#14120e">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Hangi tasarım stili sensin? — Which design style are you?", "url": "https://design.asveas.com/Test.dc.html", "applicationCategory": "DesignApplication", "inLanguage": ["tr", "en"], "description": "Answer 6 questions and find your design style among 85. 6 soru, 85 stilden biri sensin.", "isPartOf": {"@type": "WebSite", "name": "Tasarım Standartları Kataloğu", "alternateName": "Design Standards Catalog", "url": "https://design.asveas.com/", "inLanguage": ["tr", "en"]}}</script>
 <!-- og:end -->
 <script src="./support.js"></script>
 </head>
@@ -40,7 +52,7 @@ a{color:inherit;text-decoration:none}
 
   <div style="display:flex;justify-content:space-between;align-items:baseline;gap:20px;padding:20px 40px 0;font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:11px;letter-spacing:.15em;text-transform:uppercase">
     <a href="Katalog.dc.html" style-hover="color:#e07a52">← Katalog</a>
-    <span style="color:#e07a52">Hangi tasarım stili sensin?</span>
+    <span style="display:flex;gap:18px;align-items:baseline"><button onclick="{{ onLang }}" style="background:none;border:1px solid rgba(242,237,227,.25);border-radius:5px;color:rgba(242,237,227,.65);font:inherit;letter-spacing:inherit;text-transform:inherit;padding:3px 8px;cursor:pointer">{{ langLabel }}</button><span style="color:#e07a52">{{ t.tag }}</span></span>
   </div>
 
   <div style="flex:1;display:flex;align-items:center;justify-content:center;padding:40px 20px 70px">
@@ -49,9 +61,9 @@ a{color:inherit;text-decoration:none}
       <sc-if value="{{ giris }}">
         <div style="text-align:center">
           <div style="font-size:52px;margin-bottom:18px">🎨</div>
-          <h1 style="font-size:38px;font-weight:600;letter-spacing:-.02em;line-height:1.1;margin:0 0 14px">Hangi tasarım stili sensin?</h1>
-          <p style="font-size:16px;line-height:1.65;color:rgba(242,237,227,.6);max-width:44ch;margin:0 auto 30px">6 soru, 60 saniye. Sonunda 85 stil arasından seninkini söylüyoruz — Bauhaus çıkarsa şaşırma.</p>
-          <button class="tbtn dolu" onclick="{{ onBasla }}">Başla →</button>
+          <h1 style="font-size:38px;font-weight:600;letter-spacing:-.02em;line-height:1.1;margin:0 0 14px">{{ t.h1 }}</h1>
+          <p style="font-size:16px;line-height:1.65;color:rgba(242,237,227,.6);max-width:44ch;margin:0 auto 30px">{{ t.intro }}</p>
+          <button class="tbtn dolu" onclick="{{ onBasla }}">{{ t.basla }}</button>
         </div>
       </sc-if>
 
@@ -60,7 +72,7 @@ a{color:inherit;text-decoration:none}
           <div style="display:flex;gap:6px;margin-bottom:26px;justify-content:center">
             <sc-for list="{{ noktalar }}" as="n"><span style="{{ n.stil }}"></span></sc-for>
           </div>
-          <div style="font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#e07a52;margin-bottom:10px;text-align:center">Soru {{ soruNo }} / 6</div>
+          <div style="font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#e07a52;margin-bottom:10px;text-align:center">{{ t.soru }} {{ soruNo }} / 6</div>
           <h2 style="font-size:26px;font-weight:600;letter-spacing:-.015em;line-height:1.25;margin:0 0 24px;text-align:center;text-wrap:balance">{{ soru.q }}</h2>
           <div style="display:flex;flex-direction:column;gap:10px">
             <sc-for list="{{ soru.opts }}" as="o">
@@ -84,12 +96,12 @@ a{color:inherit;text-decoration:none}
             <div style="font-size:14px;color:rgba(242,237,227,.55)">{{ yuzdeSatiri }}</div>
           </div>
           <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-            <a class="tbtn dolu" href="{{ sonuc.file }}">Stilini gör →</a>
-            <a class="tbtn" href="{{ xUrl }}" target="_blank" rel="noopener">𝕏 Paylaş</a>
+            <a class="tbtn dolu" href="{{ sonuc.file }}">{{ t.gor }}</a>
+            <a class="tbtn" href="{{ xUrl }}" target="_blank" rel="noopener">{{ t.paylas }}</a>
             <button class="tbtn" onclick="{{ onKopyala }}">{{ kopyaLabel }}</button>
-            <button class="tbtn" onclick="{{ onTekrar }}">↺ Tekrar</button>
+            <button class="tbtn" onclick="{{ onTekrar }}">{{ t.tekrar }}</button>
           </div>
-          <sc-if value="{{ misafir }}"><div style="margin-top:22px;font-size:14px;color:rgba(242,237,227,.55)">Bu bir arkadaşının sonucu. <button class="tbtn" onclick="{{ onBasla }}" style="margin-left:8px">Sen de çöz →</button></div></sc-if>
+          <sc-if value="{{ misafir }}"><div style="margin-top:22px;font-size:14px;color:rgba(242,237,227,.55)">{{ t.misafirNot }} <button class="tbtn" onclick="{{ onBasla }}" style="margin-left:8px">{{ t.senDe }}</button></div></sc-if>
         </div>
       </sc-if>
 
@@ -97,7 +109,7 @@ a{color:inherit;text-decoration:none}
   </div>
 
   <div style="padding:16px 40px 26px;display:flex;justify-content:space-between;font-family:ui-monospace,Menlo,monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:rgba(242,237,227,.35)">
-    <span>design.asveas.com</span><span>85 stil · bilimsellik iddiası yoktur 🙂</span>
+    <span>design.asveas.com</span><span>{{ t.foot }}</span>
   </div>
 </div>
 </x-dc>
@@ -135,12 +147,45 @@ const SORULAR = [
             { h:'D', t:'Bir şiirdir; biraz tuhaf olmalı', w:{66:2,64:3,63:2} } ] }
 ];
 
+const SORULAR_EN = [
+  { q: 'Your first feeling when you see a completely blank page?',
+    opts: [ { h:'A', t:'Breathing room — nobody touch it' }, { h:'B', t:'A canvas waiting to be filled' },
+            { h:'C', t:'I grid it first, then we talk' }, { h:'D', t:'I want to throw something neon at it' } ] },
+  { q: 'What would your palette look like?',
+    opts: [ { h:'A', t:'Black & white plus one accent' }, { h:'B', t:'The more colors, the better' },
+            { h:'C', t:'Earth, ochre and gold' }, { h:'D', t:'Black screen, phosphor green' } ] },
+  { q: 'How do you feel about shadows?',
+    opts: [ { h:'A', t:"Shadows lie — keep everything flat" }, { h:'B', t:'Hard, black and offset' },
+            { h:'C', t:'Soft, hazy, dreamlike' }, { h:'D', t:'One light source, the rest is drama' } ] },
+  { q: 'Ideal Saturday afternoon?',
+    opts: [ { h:'A', t:'A museum or gallery, alone' }, { h:'B', t:'A side project in the terminal' },
+            { h:'C', t:'Flea market, records, odd objects' }, { h:'D', t:'A hike, phone off' } ] },
+  { q: 'Deadline is tomorrow. You?',
+    opts: [ { h:'A', t:'My system is ready; the grid works, I watch' }, { h:'B', t:'Chaos is fertile — my best work happens at 3am' },
+            { h:'C', t:'Calm. Turtle pace, but never stopping' }, { h:'D', t:"I'll sleep; it gets solved in a dream" } ] },
+  { q: 'A good interface is…',
+    opts: [ { h:'A', t:'Invisible — the content speaks' }, { h:'B', t:'A stage show' },
+            { h:'C', t:'A cockpit full of data' }, { h:'D', t:'A poem; it should be a little strange' } ] }
+];
+const STR = {
+  tr: { tag:'Hangi tasarım stili sensin?', h1:'Hangi tasarım stili sensin?', intro:'6 soru, 60 saniye. Sonunda 85 stil arasından seninkini söylüyoruz — Bauhaus çıkarsa şaşırma.',
+        basla:'Başla →', soru:'Soru', gor:'Stilini gör →', paylas:'𝕏 Paylaş', tekrar:'↺ Tekrar', kopya:'⧉ linki kopyala', kopyaOk:'✓ kopyalandı',
+        misafirNot:'Bu bir arkadaşının sonucu.', senDe:'Sen de çöz →', foot:'85 stil · bilimsellik iddiası yoktur 🙂',
+        senin:'Senin stilin', arkadas:'Bir arkadaşının stili', yuzde:'oranında bu stilsin', x:'Tasarım stilimi buldum: ' },
+  en: { tag:'Which design style are you?', h1:'Which design style are you?', intro:"6 questions, 60 seconds. We'll name your style among 85 — don't be surprised if it's Bauhaus.",
+        basla:'Start →', soru:'Question', gor:'See your style →', paylas:'𝕏 Share', tekrar:'↺ Again', kopya:'⧉ copy link', kopyaOk:'✓ copied',
+        misafirNot:"This is a friend's result.", senDe:'Take the quiz →', foot:'85 styles · no scientific claims 🙂',
+        senin:'Your style', arkadas:"A friend's style", yuzde:'match with this style', x:'I found my design style: ' }
+};
 class Component extends DCLogic {
   constructor(props) {
     super(props);
     let misafirId = 0;
     try { misafirId = parseInt(new URLSearchParams(location.search).get('s') || '0', 10) || 0; } catch (e) {}
-    this.state = { adim: misafirId ? 99 : -1, skor: {}, data: null, misafirId, kopya: false };
+    let lang = 'tr';
+    try { const q = new URLSearchParams(location.search).get('lang'); lang = q === 'en' ? 'en' : q === 'tr' ? 'tr' : (localStorage.getItem('katalogLang') || 'tr'); } catch (e) {}
+    this.state = { adim: misafirId ? 99 : -1, skor: {}, data: null, misafirId, kopya: false, lang: lang === 'en' ? 'en' : 'tr' };
+    this.onLang = () => this.setState(s => { const l = s.lang === 'tr' ? 'en' : 'tr'; try { localStorage.setItem('katalogLang', l); } catch (e) {} return { lang: l }; });
     this.onBasla = () => this.setState({ adim: 0, skor: {}, misafirId: 0 });
     this.onTekrar = this.onBasla;
     this.onCevap = (e) => {
@@ -184,12 +229,16 @@ class Component extends DCLogic {
     const bitti = st.adim >= SORULAR.length;
     const misafir = st.adim === 99;
     const sonucta = (bitti || misafir) && !!this.state.data;
+    const L = STR[st.lang] || STR.tr;
+    const en = st.lang === 'en';
+    const soruSeti = SORULAR.map((q, i) => en ? { q: SORULAR_EN[i].q, opts: q.opts.map((o, j) => ({ ...o, t: SORULAR_EN[i].opts[j].t })) } : q);
     const base = {
+      t: L, langLabel: en ? 'TR' : 'EN', onLang: this.onLang,
       giris: st.adim === -1, soruda: st.adim >= 0 && st.adim < SORULAR.length,
       sonucta, misafir,
       onBasla: this.onBasla, onCevap: this.onCevap, onTekrar: this.onTekrar, onKopyala: this.onKopyala,
-      kopyaLabel: st.kopya ? '✓ kopyalandı' : '⧉ linki kopyala',
-      soru: SORULAR[Math.min(Math.max(st.adim, 0), SORULAR.length - 1)],
+      kopyaLabel: st.kopya ? L.kopyaOk : L.kopya,
+      soru: soruSeti[Math.min(Math.max(st.adim, 0), SORULAR.length - 1)],
       soruNo: Math.min(st.adim + 1, 6),
       noktalar: SORULAR.map((_, i) => ({
         stil: 'width:9px;height:9px;border-radius:50%;background:' + (i < st.adim ? '#e07a52' : i === st.adim ? '#f2ede3' : 'rgba(242,237,227,.2)')
@@ -201,15 +250,16 @@ class Component extends DCLogic {
     const s = this._sonucStil();
     if (!s) return base;
     const kz = misafir ? { pay: 0 } : this._kazanan();
-    const yuzde = misafir ? '' : '%' + kz.pay + ' oranında bu stilsin';
-    const metin = misafir ? 'Bir arkadaşının stili' : 'Senin stilin';
-    const xText = encodeURIComponent('Tasarım stilimi buldum: ' + s.id + ' — ' + s.name + ' 🎨 Sen hangisisin?');
-    const xU = encodeURIComponent('https://design.asveas.com/Test.dc.html');
+    const ad = en ? (s.name_en || s.name) : s.name;
+    const yuzde = misafir ? '' : (en ? kz.pay + '% ' + L.yuzde : '%' + kz.pay + ' ' + L.yuzde);
+    const metin = misafir ? L.arkadas : L.senin;
+    const xText = encodeURIComponent(L.x + s.id + ' — ' + ad + (en ? ' 🎨 Which one are you?' : ' 🎨 Sen hangisisin?'));
+    const xU = encodeURIComponent('https://design.asveas.com/Test.dc.html' + (en ? '?lang=en' : ''));
     return { ...base,
       sonucEtiket: metin,
       sonuc: { no: String(s.id).padStart(2, '0') + ' · ' + (s.reference || ''),
-               name: s.name, reference: '', palette: s.palette || [],
-               description: s.description, file: s.file },
+               name: ad, reference: '', palette: s.palette || [],
+               description: en ? (s.description_en || s.description) : s.description, file: s.file },
       yuzdeSatiri: yuzde,
       xUrl: 'https://twitter.com/intent/tweet?text=' + xText + '&url=' + xU
     };

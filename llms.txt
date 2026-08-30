@@ -1,0 +1,160 @@
+# Tasarım Standartları Kataloğu — Design Standards Catalog
+
+> 85 design languages, each as a live HTML page plus a copy-paste AI generation prompt (English), palette, typography, layout, motion and an explicit avoid-list. Turkish/English UI. MIT licensed. Machine-readable data: https://design.asveas.com/ai/catalog.json — one Markdown file per style under https://design.asveas.com/ai/styles/.
+
+How to use with an AI coding tool: pick a style, read its `prompt_en` as the core prompt, use `palette`/`typography`/`layout` as concrete values and `avoid` as negative constraints, then compare the result with the live page. MCP server available in the repo (`mcp/`).
+
+## Tools
+- [Gallery — one to-do app in 85 styles](https://design.asveas.com/Galeri.dc.html)
+- [Quiz — which design style are you?](https://design.asveas.com/Test.dc.html)
+- [Mixer — blend two styles into one prompt](https://design.asveas.com/Mikser.dc.html)
+- [Catalog JSON](https://design.asveas.com/ai/catalog.json)
+
+## Curatorial schools (Küratörsel ve bireysel ekoller)
+
+- [01 — Editorial Minimalism / Editoryal Minimalizm](https://design.asveas.com/01-editorial-minimalizm.dc.html): Editorial minimalism: magazine-like calm, oversized serif type, hairline rules and generous whitespace. [md](https://design.asveas.com/ai/styles/01-editorial-minimalizm.md)
+- [02 — Fluid & Immersive / Akışkan & Sürükleyici](https://design.asveas.com/02-akiskan-surukleyici.dc.html): Fluid immersive agency style: liquid transitions, cinematic depth and art-directed motion. [md](https://design.asveas.com/ai/styles/02-akiskan-surukleyici.md)
+- [03 — Futuristic Cyber / Gelecekçi Cyber](https://design.asveas.com/03-cyber-webgl.dc.html): Futuristic cyber immersion: dark stage, glowing particles and playful 3D atmosphere. [md](https://design.asveas.com/ai/styles/03-cyber-webgl.md)
+- [04 — Brutalist & Provocative / Brütalist & Provokatif](https://design.asveas.com/04-anti-design-provokatif.dc.html): Anti-design provocation: broken grids, layered chaos and rule-breaking typography. [md](https://design.asveas.com/ai/styles/04-anti-design-provokatif.md)
+- [05 — Functional Industrial / Fonksiyonel Endüstriyel](https://design.asveas.com/05-fonksiyonel-endustriyel.dc.html): Functional industrial rationalism: 'less but better', muted neutrals and precise grids. [md](https://design.asveas.com/ai/styles/05-fonksiyonel-endustriyel.md)
+- [06 — Grunge Typography / Grunge Tipografi](https://design.asveas.com/06-grunge-tipografi.dc.html): Grunge typography: distressed textures, overlapping type and deliberate visual noise. [md](https://design.asveas.com/ai/styles/06-grunge-tipografi.md)
+
+## Contemporary SaaS currents (Çağdaş dijital ürün ve SaaS akımları)
+
+- [07 — Dark SaaS / Karanlık SaaS](https://design.asveas.com/07-karanlik-saas.dc.html): Dark SaaS elegance: crisp sans, 1px borders and subtle neon glows on near-black. [md](https://design.asveas.com/ai/styles/07-karanlik-saas.md)
+- [08 — Bento Grid / Bento Grid](https://design.asveas.com/08-bento-grid.dc.html): Bento grid: modular rounded cells of mixed sizes organizing content at a glance. [md](https://design.asveas.com/ai/styles/08-bento-grid.md)
+- [09 — Neo-Brutalism / Neo-Brütalizm](https://design.asveas.com/09-neo-brutalizm.dc.html): Neo-brutalism: loud pastels, thick black outlines and hard offset shadows. [md](https://design.asveas.com/ai/styles/09-neo-brutalizm.md)
+- [10 — B2B Skeletal / B2B İskeletizm](https://design.asveas.com/10-b2b-gradient-iskeletizm.dc.html): B2B skeletal minimalism: flawless gradients and trustworthy clean white layouts. [md](https://design.asveas.com/ai/styles/10-b2b-gradient-iskeletizm.md)
+
+## Historical art movements (Tarihsel ve sanatsal akımlar)
+
+- [11 — Bauhaus / Bauhaus](https://design.asveas.com/11-bauhaus.dc.html): Bauhaus: primary colors, elemental geometry and form-follows-function order. [md](https://design.asveas.com/ai/styles/11-bauhaus.md)
+- [12 — Swiss Grid / İsviçre Izgarası](https://design.asveas.com/12-isvicre-izgara.dc.html): Swiss grid: objective typography, mathematical layout and disciplined hierarchy. [md](https://design.asveas.com/ai/styles/12-isvicre-izgara.md)
+- [13 — Y2K Psychedelic / Y2K Saykodelik](https://design.asveas.com/13-y2k-saykodelik.dc.html): Y2K psychedelia: chrome gradients, bubble shapes and glossy retro-future excess. [md](https://design.asveas.com/ai/styles/13-y2k-saykodelik.md)
+- [14 — Retro Terminal / Retro Terminal](https://design.asveas.com/14-retro-terminal.dc.html): Retro terminal: phosphor green on black, monospace everything and CRT flavor. [md](https://design.asveas.com/ai/styles/14-retro-terminal.md)
+## Micro-visual texture trends (Mikro-görsel ve dokusal trendler)
+
+- [15 — Glassmorphism / Glassmorphism](https://design.asveas.com/15-glassmorphism.dc.html): Glassmorphism: frosted translucent panels floating over vivid blurred color. [md](https://design.asveas.com/ai/styles/15-glassmorphism.md)
+- [16 — Neumorphism / Neomorphism](https://design.asveas.com/16-neomorphism.dc.html): Neumorphism: soft extruded surfaces with delicate inner and outer shadows. [md](https://design.asveas.com/ai/styles/16-neomorphism.md)
+- [17 — Claymorphism / Claymorphism](https://design.asveas.com/17-claymorphism.dc.html): Claymorphism: chubby 3D clay shapes, cheerful colors and rounded softness. [md](https://design.asveas.com/ai/styles/17-claymorphism.md)
+## Art movements on the web (Sanat akımlarının web karşılıkları)
+
+- [18 — Art Nouveau / Art Nouveau](https://design.asveas.com/18-art-nouveau.dc.html): Art Nouveau: organic whiplash curves, botanical ornament and elegant flow. [md](https://design.asveas.com/ai/styles/18-art-nouveau.md)
+- [19 — Art Deco / Art Deco](https://design.asveas.com/19-art-deco.dc.html): Art Deco: gilded geometry, fan motifs and glamorous vertical rhythm. [md](https://design.asveas.com/ai/styles/19-art-deco.md)
+- [20 — De Stijl / De Stijl](https://design.asveas.com/20-de-stijl.dc.html): De Stijl: primary color planes locked in an asymmetric black grid. [md](https://design.asveas.com/ai/styles/20-de-stijl.md)
+- [21 — Constructivism / Konstrüktivizm](https://design.asveas.com/21-konstruktivizm.dc.html): Constructivism: diagonal red-and-black agitation, bold propaganda energy. [md](https://design.asveas.com/ai/styles/21-konstruktivizm.md)
+- [22 — Memphis Postmodern / Memphis](https://design.asveas.com/22-memphis-postmodern.dc.html): Memphis postmodern: playful clashing patterns, squiggles and pastel confetti. [md](https://design.asveas.com/ai/styles/22-memphis-postmodern.md)
+- [23 — Mid-Century Modern / Mid-Century Modern](https://design.asveas.com/23-mid-century-modern.dc.html): Mid-century modern: warm optimism, organic shapes and tasteful restraint. [md](https://design.asveas.com/ai/styles/23-mid-century-modern.md)
+## Cultural & retro-futurist languages (Kültürel ve retro-fütürist diller)
+
+- [24 — Vaporwave / Synthwave / Vaporwave / Synthwave](https://design.asveas.com/24-vaporwave-synthwave.dc.html): Vaporwave: neon sunset gradients, perspective grids and nostalgic haze. [md](https://design.asveas.com/ai/styles/24-vaporwave-synthwave.md)
+- [25 — Japanese Ma & Wabi-Sabi / Ma & Wabi-Sabi](https://design.asveas.com/25-japon-ma-wabi-sabi.dc.html): Japanese Ma & wabi-sabi: emptiness as material, imperfection as beauty. [md](https://design.asveas.com/ai/styles/25-japon-ma-wabi-sabi.md)
+- [26 — Iznik Geometric Motif / Geometrik Motif](https://design.asveas.com/26-cini-geometrik-motif.dc.html): Iznik tile geometry: cobalt and turquoise interlaced Ottoman patterns. [md](https://design.asveas.com/ai/styles/26-cini-geometrik-motif.md)
+- [27 — Solarpunk / Solarpunk](https://design.asveas.com/27-solarpunk-organik.dc.html): Solarpunk: hopeful green futures, organic curves and sunlit warmth. [md](https://design.asveas.com/ai/styles/27-solarpunk-organik.md)
+## Interface eras & surface languages (Arayüz dönemleri ve yüzey dilleri)
+
+- [28 — Skeuomorphism / Skeuomorfizm](https://design.asveas.com/28-skeuomorfizm.dc.html): Skeuomorphism: tactile leather, stitches and real-world material metaphors. [md](https://design.asveas.com/ai/styles/28-skeuomorfizm.md)
+- [29 — Flat Design / Düz Tasarım](https://design.asveas.com/29-duz-tasarim-flat.dc.html): Flat design: pure color planes, zero depth and confident simplicity. [md](https://design.asveas.com/ai/styles/29-duz-tasarim-flat.md)
+- [30 — Maximalism / Maksimalizm](https://design.asveas.com/30-maksimalizm.dc.html): Maximalism: more is more — dense pattern, saturated color, joyful excess. [md](https://design.asveas.com/ai/styles/30-maksimalizm.md)
+## Principle-based standards (İlke temelli standartlar)
+
+- [31 — Accessibility First / Erişilebilirlik Öncelikli](https://design.asveas.com/31-erisilebilirlik-oncelikli.dc.html): Accessibility-first: high contrast, big targets and clarity for everyone. [md](https://design.asveas.com/ai/styles/31-erisilebilirlik-oncelikli.md)
+- [32 — Public Service Plain Language / Kamu Hizmeti Tasarımı](https://design.asveas.com/32-kamu-hizmeti-sade-dil.dc.html): Plain-language public service: task-first single column, zero decoration. [md](https://design.asveas.com/ai/styles/32-kamu-hizmeti-sade-dil.md)
+- [33 — Raw HTML Brutalism / Ham HTML Brütalizmi](https://design.asveas.com/33-ham-html-brutalizmi.dc.html): Raw HTML brutalism: default styles, blue links and honest structure. [md](https://design.asveas.com/ai/styles/33-ham-html-brutalizmi.md)
+
+## Mobile interface structures (Mobil arayüz yapıları)
+
+- [34 — Thumb Zone / Baş Parmak Bölgesi](https://design.asveas.com/34-basparmak-bolgesi.dc.html): Thumb-zone mobile layout: primary actions where one hand can reach. [md](https://design.asveas.com/ai/styles/34-basparmak-bolgesi.md)
+- [35 — Swipe Card Deck / Kart Destesi & Swipe](https://design.asveas.com/35-kart-destesi-swipe.dc.html): Swipeable card deck: one decision per card, tilt and commit. [md](https://design.asveas.com/ai/styles/35-kart-destesi-swipe.md)
+- [36 — Progressive Disclosure / Onboarding Akışı](https://design.asveas.com/36-asamali-aciga-cikarma.dc.html): Progressive disclosure onboarding: one focused question at a time. [md](https://design.asveas.com/ai/styles/36-asamali-aciga-cikarma.md)
+- [37 — Empty States & First Run / Boş Durum](https://design.asveas.com/37-bos-durum-ilk-deneyim.dc.html): Empty states & first-run: the screen that teaches, not scolds. [md](https://design.asveas.com/ai/styles/37-bos-durum-ilk-deneyim.md)
+- [38 — Bottom Sheets & Layers / Alt Sayfa & Katman](https://design.asveas.com/38-alt-sayfa-katmanlar.dc.html): Bottom sheets & layers: stacked contexts sliding from below. [md](https://design.asveas.com/ai/styles/38-alt-sayfa-katmanlar.md)
+- [39 — Infinite Feed / Sonsuz Akış](https://design.asveas.com/39-sonsuz-akis.dc.html): Infinite feed mechanics: endless scroll, loading rhythm and restraint. [md](https://design.asveas.com/ai/styles/39-sonsuz-akis.md)
+
+## Behavioral design & psychology (Davranış tasarımı ve psikoloji)
+
+- [40 — Habit Loop & Streaks / Alışkanlık & Seri](https://design.asveas.com/40-aliskanlik-dongusu-seri.dc.html): Hook habit loop: trigger, action, variable reward, investment. [md](https://design.asveas.com/ai/styles/40-aliskanlik-dongusu-seri.md)
+- [41 — Gamified Progress / Oyunlaştırma](https://design.asveas.com/41-oyunlastirma-ilerleme.dc.html): Gamified progress: XP bars, streaks and badges without pressure. [md](https://design.asveas.com/ai/styles/41-oyunlastirma-ilerleme.md)
+- [42 — Social Proof & Scarcity / Sosyal Kanıt & Kıtlık](https://design.asveas.com/42-sosyal-kanit-kitlik.dc.html): Social proof & scarcity: verifiable signals versus fabricated urgency. [md](https://design.asveas.com/ai/styles/42-sosyal-kanit-kitlik.md)
+- [43 — Defaults & Anchoring / Varsayılan & Çapa](https://design.asveas.com/43-varsayilan-capa-fiyat.dc.html): Defaults & anchoring: price framing and pre-selected honest choices. [md](https://design.asveas.com/ai/styles/43-varsayilan-capa-fiyat.md)
+- [44 — Micro-interactions & Peak-End / Mikro Etkileşim](https://design.asveas.com/44-mikro-etkilesim-zirve-son.dc.html): Micro-interactions & peak-end: the two moments memory keeps. [md](https://design.asveas.com/ai/styles/44-mikro-etkilesim-zirve-son.md)
+- [45 — Dark Patterns (Warning) / Karanlık Desenler](https://design.asveas.com/45-karanlik-desenler-etik.dc.html): Dark patterns exposed: six manipulations and their honest counterparts. [md](https://design.asveas.com/ai/styles/45-karanlik-desenler-etik.md)
+
+## Desktop application languages (Masaüstü uygulama dilleri)
+
+- [46 — macOS Desktop / macOS Masaüstü](https://design.asveas.com/46-macos-masaustu.dc.html): macOS desktop language: traffic lights, translucent sidebar, three-pane calm. [md](https://design.asveas.com/ai/styles/46-macos-masaustu.md)
+- [47 — Fluent / Windows 11 / Fluent / Windows 11](https://design.asveas.com/47-fluent-windows.dc.html): Fluent / Windows 11: mica texture, acrylic cards, light and depth. [md](https://design.asveas.com/ai/styles/47-fluent-windows.md)
+- [48 — Tool-Centric Editor / Araç-Merkezli Editör](https://design.asveas.com/48-arac-merkezli-figma.dc.html): Tool-centric editor: quiet chrome, star canvas, pixel-precise panels. [md](https://design.asveas.com/ai/styles/48-arac-merkezli-figma.md)
+- [49 — Command Palette / Komut Paleti](https://design.asveas.com/49-komut-paleti-raycast.dc.html): Command palette launcher: keyboard-first floating panel with shortcut badges. [md](https://design.asveas.com/ai/styles/49-komut-paleti-raycast.md)
+
+## Web application standards (Web uygulama standartları)
+
+- [50 — Block Editor Workspace / Blok Editör Çalışma Alanı](https://design.asveas.com/50-blok-editor-notion.dc.html): Block editor workspace: invisible chrome, emoji icons, everything is a block. [md](https://design.asveas.com/ai/styles/50-blok-editor-notion.md)
+- [51 — Marketplace Experience / Pazaryeri Deneyimi](https://design.asveas.com/51-pazaryeri-airbnb.dc.html): Marketplace experience: photo-first cards, pill search and trust signals. [md](https://design.asveas.com/ai/styles/51-pazaryeri-airbnb.md)
+- [52 — Media Streaming UI / Medya Akış Arayüzü](https://design.asveas.com/52-medya-akis-spotify.dc.html): Media streaming UI: dark stage, cover-derived gradients, one green action. [md](https://design.asveas.com/ai/styles/52-medya-akis-spotify.md)
+- [53 — Enterprise Data System / Kurumsal Veri Sistemi](https://design.asveas.com/53-kurumsal-carbon.dc.html): Enterprise data system: zero radius, 2x grid and serious data tables. [md](https://design.asveas.com/ai/styles/53-kurumsal-carbon.md)
+
+## Mobile application standards (Mobil uygulama standartları)
+
+- [54 — iOS Human Interface / iOS İnsan Arayüzü](https://design.asveas.com/54-ios-hig-mobil.dc.html): iOS Human Interface: large titles, inset grouped lists, translucent tab bar. [md](https://design.asveas.com/ai/styles/54-ios-hig-mobil.md)
+- [55 — Material You (M3) / Material You (M3)](https://design.asveas.com/55-material-you.dc.html): Material You: wallpaper-derived tonal palettes, huge radii and FABs. [md](https://design.asveas.com/ai/styles/55-material-you.md)
+- [56 — Gesture & Physics UI / Jest & Fizik Arayüzü](https://design.asveas.com/56-jest-fizik-paper.dc.html): Gesture & physics UI: full-screen cards, spring motion, discoverable gestures. [md](https://design.asveas.com/ai/styles/56-jest-fizik-paper.md)
+- [57 — Neo-Fintech Mobile / Neo-Fintech Mobil](https://design.asveas.com/57-neo-fintech-mobil.dc.html): Neo-fintech mobile: hero gradient card, big balance, emoji transactions. [md](https://design.asveas.com/ai/styles/57-neo-fintech-mobil.md)
+
+## Dashboards & admin panels (Dashboard & yönetim panelleri)
+
+- [58 — Data-Ink Analytics / Veri-Mürekkep Analitiği](https://design.asveas.com/58-veri-murekkep-tufte.dc.html): Data-ink analytics: sparkline KPIs, direct labels, small multiples, zero chartjunk. [md](https://design.asveas.com/ai/styles/58-veri-murekkep-tufte.md)
+- [59 — Observability Dashboard / Gözlemlenebilirlik Paneli](https://design.asveas.com/59-gozlemlenebilirlik-grafana.dc.html): Observability dashboard: dark panels where threshold colors do the talking. [md](https://design.asveas.com/ai/styles/59-gozlemlenebilirlik-grafana.md)
+- [60 — Trading Terminal / Ticaret Terminali](https://design.asveas.com/60-ticaret-terminali.dc.html): Trading terminal: black glass, amber command line, red/green ticks, density as virtue. [md](https://design.asveas.com/ai/styles/60-ticaret-terminali.md)
+- [61 — Merchant Admin Panel / Ürün Yönetim Paneli](https://design.asveas.com/61-yonetim-paneli-polaris.dc.html): Merchant admin panel: calm surfaces, green primary action, soft status badges. [md](https://design.asveas.com/ai/styles/61-yonetim-paneli-polaris.md)
+
+## If painters designed interfaces (Ressamlar arayüz tasarlasaydı)
+
+- [62 — Da Vinci · Codex / Da Vinci · Kodeks](https://design.asveas.com/62-da-vinci-kodeks.dc.html): Da Vinci's codex: parchment, sepia ink sketches, marginalia and mirror writing. [md](https://design.asveas.com/ai/styles/62-da-vinci-kodeks.md)
+- [63 — Monet · Light / Monet · Işık](https://design.asveas.com/63-monet-isik.dc.html): Monet's light: no outlines — the same screen painted at three times of day. [md](https://design.asveas.com/ai/styles/63-monet-isik.md)
+- [64 — Van Gogh · Starry Night / Van Gogh · Yıldızlı Gece](https://design.asveas.com/64-van-gogh-yildizli.dc.html): Van Gogh's starry night: swirling skies, impasto texture, brushstroke progress. [md](https://design.asveas.com/ai/styles/64-van-gogh-yildizli.md)
+- [65 — Picasso · Cubist / Picasso · Kübist](https://design.asveas.com/65-picasso-kubist.dc.html): Picasso's cubism: a portrait split into planes, seen from every angle at once. [md](https://design.asveas.com/ai/styles/65-picasso-kubist.md)
+- [66 — Dalí · Melting Clock / Dalí · Eriyen Saat](https://design.asveas.com/66-dali-eriyen-saat.dc.html): Dalí's melting clock: a surreal alarm app where time literally drips. [md](https://design.asveas.com/ai/styles/66-dali-eriyen-saat.md)
+- [67 — Hokusai · Great Wave / Hokusai · Büyük Dalga](https://design.asveas.com/67-hokusai-dalga.dc.html): Hokusai's great wave: ukiyo-e flat layers where the wave itself is the gauge. [md](https://design.asveas.com/ai/styles/67-hokusai-dalga.md)
+- [68 — Klimt · Gold / Klimt · Altın](https://design.asveas.com/68-klimt-altin.dc.html): Klimt's gold: mosaic-textured golden cards glowing on darkness. [md](https://design.asveas.com/ai/styles/68-klimt-altin.md)
+- [69 — Frida · Diary / Frida · Günlük](https://design.asveas.com/69-frida-gunluk.dc.html): Frida's diary: cobalt walls, botanical frames and ex-voto hearts for feelings. [md](https://design.asveas.com/ai/styles/69-frida-gunluk.md)
+- [70 — Kandinsky · Synesthesia / Kandinsky · Senestezi](https://design.asveas.com/70-kandinsky-senestezi.dc.html): Kandinsky's synesthesia: shapes as instruments, composition as score. [md](https://design.asveas.com/ai/styles/70-kandinsky-senestezi.md)
+- [71 — Rembrandt · Light Room / Rembrandt · Işık Odası](https://design.asveas.com/71-rembrandt-isik-odasi.dc.html): Rembrandt's chiaroscuro: one warm light, cards emerging from darkness. [md](https://design.asveas.com/ai/styles/71-rembrandt-isik-odasi.md)
+- [72 — Osman Hamdi · Patience / Osman Hamdi · Sabır](https://design.asveas.com/72-osman-hamdi-sabir.dc.html): Osman Hamdi's patience: a focus app born from The Tortoise Trainer — light through the arch, progress at turtle pace. [md](https://design.asveas.com/ai/styles/72-osman-hamdi-sabir.md)
+
+## Interface eras & surface languages (Arayüz dönemleri ve yüzey dilleri)
+
+- [73 — Pure Minimalism / Saf Minimalizm](https://design.asveas.com/73-saf-minimalizm.dc.html): Pure minimalism: one object, zero accent color, hairline dividers — whitespace as material, subtraction as method. [md](https://design.asveas.com/ai/styles/73-saf-minimalizm.md)
+
+## Cultural & retro-futurist languages (Kültürel ve retro-fütürist diller)
+
+- [74 — Futuristic HUD / Fütüristik HUD](https://design.asveas.com/74-futuristik-hud.dc.html): Futuristic HUD: one luminous cyan, corner-bracket panels and slowly rotating orbital rings on deep navy. [md](https://design.asveas.com/ai/styles/74-futuristik-hud.md)
+## Art movements on the web (Sanat akımlarının web karşılıkları)
+
+- [75 — Vector Art / Vektör Sanatı](https://design.asveas.com/75-vektor-sanati.dc.html): Vector art: negative-space silhouettes, four flat colors, sharp gradient-free cuts. [md](https://design.asveas.com/ai/styles/75-vektor-sanati.md)
+- [76 — Collage Art / Kolaj Sanatı](https://design.asveas.com/76-kolaj-sanati.dc.html): Collage art: torn paper, tape strips, halftone dots and cut-out letters layered zine-style. [md](https://design.asveas.com/ai/styles/76-kolaj-sanati.md)
+## Cultural & retro-futurist languages (Kültürel ve retro-fütürist diller)
+
+- [77 — Retro 70s / Retro 70'ler](https://design.asveas.com/77-retro-yetmisler.dc.html): Retro 70s: sunburst arcs, rainbow stripes, bubbly type and a warm earthy palette from print ads. [md](https://design.asveas.com/ai/styles/77-retro-yetmisler.md)
+- [78 — Cyberpunk / Cyberpunk](https://design.asveas.com/78-cyberpunk.dc.html): Cyberpunk: dirty neon, glitch headlines, scanlines and hazard stripes — high tech, low life. [md](https://design.asveas.com/ai/styles/78-cyberpunk.md)
+- [79 — Pixel Art / Pixel Art](https://design.asveas.com/79-pixel-art.dc.html): Pixel art: 4px grid, limited palette, block shadows and CSS-drawn sprites — console nostalgia. [md](https://design.asveas.com/ai/styles/79-pixel-art.md)
+## Art movements on the web (Sanat akımlarının web karşılıkları)
+
+- [80 — Surreal Design / Sürreal Tasarım](https://design.asveas.com/80-surreal-tasarim.dc.html): Surreal design: day sky and night doorway, floating objects, wrong-way shadows — calm tone, impossible content. [md](https://design.asveas.com/ai/styles/80-surreal-tasarim.md)
+
+## Cultural & retro-futurist languages (Kültürel ve retro-fütürist diller)
+
+- [81 — Bohemian / Bohem](https://design.asveas.com/81-bohem.dc.html): Bohemian: terracotta and beige, arched frames, woven textures and botanical motifs — warm and organic. [md](https://design.asveas.com/ai/styles/81-bohem.md)
+## Historical art movements (Tarihsel ve sanatsal akımlar)
+
+- [82 — Victorian Era / Viktorya Dönemi](https://design.asveas.com/82-viktorya.dc.html): Victorian: double-rule frames, fleurons, centered serifs and engraving textures — ornament as hierarchy. [md](https://design.asveas.com/ai/styles/82-viktorya.md)
+
+## Cultural & retro-futurist languages (Kültürel ve retro-fütürist diller)
+
+- [83 — Graffiti / Graffiti](https://design.asveas.com/83-graffiti.dc.html): Graffiti: brick wall, multi-outline bubble letters, spray haze and drips — street energy. [md](https://design.asveas.com/ai/styles/83-graffiti.md)
+
+## Micro-visual texture trends (Mikro-görsel ve dokusal trendler)
+
+- [84 — Aurora / Aurora](https://design.asveas.com/84-aurora.dc.html): Aurora: drifting green-violet-cyan light curtains on night, blurred depth and thin white type. [md](https://design.asveas.com/ai/styles/84-aurora.md)
+- [85 — Handwritten / El Yazısı](https://design.asveas.com/85-el-yazisi.dc.html): Handwritten: grid notebook, script fonts, highlighter marks, doodle arrows and sticky notes — human warmth. [md](https://design.asveas.com/ai/styles/85-el-yazisi.md)
+

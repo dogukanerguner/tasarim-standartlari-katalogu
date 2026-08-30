@@ -103,7 +103,8 @@
       ],
       "section": 1,
       "name": "Editoryal Minimalizm",
-      "description_en": "Editorial minimalism: magazine-like calm, oversized serif type, hairline rules and generous whitespace."
+      "description_en": "Editorial minimalism: magazine-like calm, oversized serif type, hairline rules and generous whitespace.",
+      "name_en": "Editorial Minimalism"
     },
     "2": {
       "reference": "Locomotive",
@@ -116,7 +117,8 @@
       ],
       "section": 1,
       "name": "Akışkan & Sürükleyici",
-      "description_en": "Fluid immersive agency style: liquid transitions, cinematic depth and art-directed motion."
+      "description_en": "Fluid immersive agency style: liquid transitions, cinematic depth and art-directed motion.",
+      "name_en": "Fluid & Immersive"
     },
     "3": {
       "reference": "Active Theory",
@@ -129,7 +131,8 @@
       ],
       "section": 1,
       "name": "Gelecekçi Cyber",
-      "description_en": "Futuristic cyber immersion: dark stage, glowing particles and playful 3D atmosphere."
+      "description_en": "Futuristic cyber immersion: dark stage, glowing particles and playful 3D atmosphere.",
+      "name_en": "Futuristic Cyber"
     },
     "4": {
       "reference": "Sagmeister",
@@ -142,7 +145,8 @@
       ],
       "section": 1,
       "name": "Brütalist & Provokatif",
-      "description_en": "Anti-design provocation: broken grids, layered chaos and rule-breaking typography."
+      "description_en": "Anti-design provocation: broken grids, layered chaos and rule-breaking typography.",
+      "name_en": "Brutalist & Provocative"
     },
     "5": {
       "reference": "Dieter Rams",
@@ -155,7 +159,8 @@
       ],
       "section": 1,
       "name": "Fonksiyonel Endüstriyel",
-      "description_en": "Functional industrial rationalism: 'less but better', muted neutrals and precise grids."
+      "description_en": "Functional industrial rationalism: 'less but better', muted neutrals and precise grids.",
+      "name_en": "Functional Industrial"
     },
     "6": {
       "reference": "David Carson",
@@ -168,7 +173,8 @@
       ],
       "section": 1,
       "name": "Grunge Tipografi",
-      "description_en": "Grunge typography: distressed textures, overlapping type and deliberate visual noise."
+      "description_en": "Grunge typography: distressed textures, overlapping type and deliberate visual noise.",
+      "name_en": "Grunge Typography"
     },
     "7": {
       "reference": "Linear / Vercel",
@@ -181,7 +187,8 @@
       ],
       "section": 2,
       "name": "Karanlık SaaS",
-      "description_en": "Dark SaaS elegance: crisp sans, 1px borders and subtle neon glows on near-black."
+      "description_en": "Dark SaaS elegance: crisp sans, 1px borders and subtle neon glows on near-black.",
+      "name_en": "Dark SaaS"
     },
     "8": {
       "reference": "Apple / Microsoft",
@@ -194,7 +201,8 @@
       ],
       "section": 2,
       "name": "Bento Grid",
-      "description_en": "Bento grid: modular rounded cells of mixed sizes organizing content at a glance."
+      "description_en": "Bento grid: modular rounded cells of mixed sizes organizing content at a glance.",
+      "name_en": "Bento Grid"
     },
     "9": {
       "reference": "Figma / Gumroad",
@@ -207,7 +215,8 @@
       ],
       "section": 2,
       "name": "Neo-Brütalizm",
-      "description_en": "Neo-brutalism: loud pastels, thick black outlines and hard offset shadows."
+      "description_en": "Neo-brutalism: loud pastels, thick black outlines and hard offset shadows.",
+      "name_en": "Neo-Brutalism"
     },
     "10": {
       "reference": "Stripe ekolü",
@@ -219,7 +228,8 @@
       ],
       "section": 2,
       "name": "B2B İskeletizm",
-      "description_en": "B2B skeletal minimalism: flawless gradients and trustworthy clean white layouts."
+      "description_en": "B2B skeletal minimalism: flawless gradients and trustworthy clean white layouts.",
+      "name_en": "B2B Skeletal"
     },
     "11": {
       "reference": "1919 →",
@@ -232,7 +242,8 @@
       ],
       "section": 3,
       "name": "Bauhaus",
-      "description_en": "Bauhaus: primary colors, elemental geometry and form-follows-function order."
+      "description_en": "Bauhaus: primary colors, elemental geometry and form-follows-function order.",
+      "name_en": "Bauhaus"
     },
     "12": {
       "reference": "Uluslararası",
@@ -244,7 +255,8 @@
       ],
       "section": 3,
       "name": "İsviçre Izgarası",
-      "description_en": "Swiss grid: objective typography, mathematical layout and disciplined hierarchy."
+      "description_en": "Swiss grid: objective typography, mathematical layout and disciplined hierarchy.",
+      "name_en": "Swiss Grid"
     },
     "13": {
       "reference": "Milenyum",
@@ -256,7 +268,8 @@
       ],
       "section": 3,
       "name": "Y2K Saykodelik",
-      "description_en": "Y2K psychedelia: chrome gradients, bubble shapes and glossy retro-future excess."
+      "description_en": "Y2K psychedelia: chrome gradients, bubble shapes and glossy retro-future excess.",
+      "name_en": "Y2K Psychedelic"
     },
     "14": {
       "reference": "Monokrom",
@@ -269,7 +282,8 @@
       ],
       "section": 3,
       "name": "Retro Terminal",
-      "description_en": "Retro terminal: phosphor green on black, monospace everything and CRT flavor."
+      "description_en": "Retro terminal: phosphor green on black, monospace everything and CRT flavor.",
+      "name_en": "Retro Terminal"
     },
     "15": {
       "reference": "Buzlu cam",
@@ -281,7 +295,8 @@
       ],
       "section": 4,
       "name": "Glassmorphism",
-      "description_en": "Glassmorphism: frosted translucent panels floating over vivid blurred color."
+      "description_en": "Glassmorphism: frosted translucent panels floating over vivid blurred color.",
+      "name_en": "Glassmorphism"
     },
     "16": {
       "reference": "Kabartma",
@@ -293,7 +308,8 @@
       ],
       "section": 4,
       "name": "Neomorphism",
-      "description_en": "Neumorphism: soft extruded surfaces with delicate inner and outer shadows."
+      "description_en": "Neumorphism: soft extruded surfaces with delicate inner and outer shadows.",
+      "name_en": "Neumorphism"
     },
     "17": {
       "reference": "3D kil",
@@ -305,7 +321,8 @@
       ],
       "section": 4,
       "name": "Claymorphism",
-      "description_en": "Claymorphism: chubby 3D clay shapes, cheerful colors and rounded softness."
+      "description_en": "Claymorphism: chubby 3D clay shapes, cheerful colors and rounded softness.",
+      "name_en": "Claymorphism"
     },
     "18": {
       "reference": "1890—1910",
@@ -318,7 +335,8 @@
       ],
       "section": 5,
       "name": "Art Nouveau",
-      "description_en": "Art Nouveau: organic whiplash curves, botanical ornament and elegant flow."
+      "description_en": "Art Nouveau: organic whiplash curves, botanical ornament and elegant flow.",
+      "name_en": "Art Nouveau"
     },
     "19": {
       "reference": "1920—1939",
@@ -330,7 +348,8 @@
       ],
       "section": 5,
       "name": "Art Deco",
-      "description_en": "Art Deco: gilded geometry, fan motifs and glamorous vertical rhythm."
+      "description_en": "Art Deco: gilded geometry, fan motifs and glamorous vertical rhythm.",
+      "name_en": "Art Deco"
     },
     "20": {
       "reference": "Mondrian",
@@ -343,7 +362,8 @@
       ],
       "section": 5,
       "name": "De Stijl",
-      "description_en": "De Stijl: primary color planes locked in an asymmetric black grid."
+      "description_en": "De Stijl: primary color planes locked in an asymmetric black grid.",
+      "name_en": "De Stijl"
     },
     "21": {
       "reference": "Rodçenko",
@@ -356,7 +376,8 @@
       ],
       "section": 5,
       "name": "Konstrüktivizm",
-      "description_en": "Constructivism: diagonal red-and-black agitation, bold propaganda energy."
+      "description_en": "Constructivism: diagonal red-and-black agitation, bold propaganda energy.",
+      "name_en": "Constructivism"
     },
     "22": {
       "reference": "Sottsass",
@@ -368,7 +389,8 @@
       ],
       "section": 5,
       "name": "Memphis",
-      "description_en": "Memphis postmodern: playful clashing patterns, squiggles and pastel confetti."
+      "description_en": "Memphis postmodern: playful clashing patterns, squiggles and pastel confetti.",
+      "name_en": "Memphis Postmodern"
     },
     "23": {
       "reference": "Eames",
@@ -381,7 +403,8 @@
       ],
       "section": 5,
       "name": "Mid-Century Modern",
-      "description_en": "Mid-century modern: warm optimism, organic shapes and tasteful restraint."
+      "description_en": "Mid-century modern: warm optimism, organic shapes and tasteful restraint.",
+      "name_en": "Mid-Century Modern"
     },
     "24": {
       "reference": "80'ler",
@@ -394,7 +417,8 @@
       ],
       "section": 6,
       "name": "Vaporwave / Synthwave",
-      "description_en": "Vaporwave: neon sunset gradients, perspective grids and nostalgic haze."
+      "description_en": "Vaporwave: neon sunset gradients, perspective grids and nostalgic haze.",
+      "name_en": "Vaporwave / Synthwave"
     },
     "25": {
       "reference": "Japonya",
@@ -406,7 +430,8 @@
       ],
       "section": 6,
       "name": "Ma & Wabi-Sabi",
-      "description_en": "Japanese Ma & wabi-sabi: emptiness as material, imperfection as beauty."
+      "description_en": "Japanese Ma & wabi-sabi: emptiness as material, imperfection as beauty.",
+      "name_en": "Japanese Ma & Wabi-Sabi"
     },
     "26": {
       "reference": "Çini",
@@ -418,7 +443,8 @@
       ],
       "section": 6,
       "name": "Geometrik Motif",
-      "description_en": "Iznik tile geometry: cobalt and turquoise interlaced Ottoman patterns."
+      "description_en": "Iznik tile geometry: cobalt and turquoise interlaced Ottoman patterns.",
+      "name_en": "Iznik Geometric Motif"
     },
     "27": {
       "reference": "Organik modernizm",
@@ -431,7 +457,8 @@
       ],
       "section": 6,
       "name": "Solarpunk",
-      "description_en": "Solarpunk: hopeful green futures, organic curves and sunlit warmth."
+      "description_en": "Solarpunk: hopeful green futures, organic curves and sunlit warmth.",
+      "name_en": "Solarpunk"
     },
     "28": {
       "reference": "2007—2013",
@@ -444,7 +471,8 @@
       ],
       "section": 7,
       "name": "Skeuomorfizm",
-      "description_en": "Skeuomorphism: tactile leather, stitches and real-world material metaphors."
+      "description_en": "Skeuomorphism: tactile leather, stitches and real-world material metaphors.",
+      "name_en": "Skeuomorphism"
     },
     "29": {
       "reference": "Flat 2.0",
@@ -457,7 +485,8 @@
       ],
       "section": 7,
       "name": "Düz Tasarım",
-      "description_en": "Flat design: pure color planes, zero depth and confident simplicity."
+      "description_en": "Flat design: pure color planes, zero depth and confident simplicity.",
+      "name_en": "Flat Design"
     },
     "30": {
       "reference": "Anti-minimal",
@@ -470,7 +499,8 @@
       ],
       "section": 7,
       "name": "Maksimalizm",
-      "description_en": "Maximalism: more is more — dense pattern, saturated color, joyful excess."
+      "description_en": "Maximalism: more is more — dense pattern, saturated color, joyful excess.",
+      "name_en": "Maximalism"
     },
     "31": {
       "reference": "WCAG 2.2",
@@ -484,7 +514,8 @@
       ],
       "section": 8,
       "name": "Erişilebilirlik Öncelikli",
-      "description_en": "Accessibility-first: high contrast, big targets and clarity for everyone."
+      "description_en": "Accessibility-first: high contrast, big targets and clarity for everyone.",
+      "name_en": "Accessibility First"
     },
     "32": {
       "reference": "Sade dil",
@@ -498,7 +529,8 @@
       ],
       "section": 8,
       "name": "Kamu Hizmeti Tasarımı",
-      "description_en": "Plain-language public service: task-first single column, zero decoration."
+      "description_en": "Plain-language public service: task-first single column, zero decoration.",
+      "name_en": "Public Service Plain Language"
     },
     "33": {
       "reference": "İçerik önce",
@@ -511,7 +543,8 @@
       ],
       "section": 8,
       "name": "Ham HTML Brütalizmi",
-      "description_en": "Raw HTML brutalism: default styles, blue links and honest structure."
+      "description_en": "Raw HTML brutalism: default styles, blue links and honest structure.",
+      "name_en": "Raw HTML Brutalism"
     },
     "34": {
       "reference": "Fitts",
@@ -524,7 +557,8 @@
       ],
       "section": 9,
       "name": "Baş Parmak Bölgesi",
-      "description_en": "Thumb-zone mobile layout: primary actions where one hand can reach."
+      "description_en": "Thumb-zone mobile layout: primary actions where one hand can reach.",
+      "name_en": "Thumb Zone"
     },
     "35": {
       "reference": "Hick",
@@ -537,7 +571,8 @@
       ],
       "section": 9,
       "name": "Kart Destesi & Swipe",
-      "description_en": "Swipeable card deck: one decision per card, tilt and commit."
+      "description_en": "Swipeable card deck: one decision per card, tilt and commit.",
+      "name_en": "Swipe Card Deck"
     },
     "36": {
       "reference": "IKEA etkisi",
@@ -550,7 +585,8 @@
       ],
       "section": 9,
       "name": "Onboarding Akışı",
-      "description_en": "Progressive disclosure onboarding: one focused question at a time."
+      "description_en": "Progressive disclosure onboarding: one focused question at a time.",
+      "name_en": "Progressive Disclosure"
     },
     "37": {
       "reference": "Zeigarnik",
@@ -562,7 +598,8 @@
       ],
       "section": 9,
       "name": "Boş Durum",
-      "description_en": "Empty states & first-run: the screen that teaches, not scolds."
+      "description_en": "Empty states & first-run: the screen that teaches, not scolds.",
+      "name_en": "Empty States & First Run"
     },
     "38": {
       "reference": "Doherty",
@@ -574,7 +611,8 @@
       ],
       "section": 9,
       "name": "Alt Sayfa & Katman",
-      "description_en": "Bottom sheets & layers: stacked contexts sliding from below."
+      "description_en": "Bottom sheets & layers: stacked contexts sliding from below.",
+      "name_en": "Bottom Sheets & Layers"
     },
     "39": {
       "reference": "Değişken ödül",
@@ -586,7 +624,8 @@
       ],
       "section": 9,
       "name": "Sonsuz Akış",
-      "description_en": "Infinite feed mechanics: endless scroll, loading rhythm and restraint."
+      "description_en": "Infinite feed mechanics: endless scroll, loading rhythm and restraint.",
+      "name_en": "Infinite Feed"
     },
     "40": {
       "reference": "Kayıp kaçınma",
@@ -599,7 +638,8 @@
       ],
       "section": 10,
       "name": "Alışkanlık & Seri",
-      "description_en": "Hook habit loop: trigger, action, variable reward, investment."
+      "description_en": "Hook habit loop: trigger, action, variable reward, investment.",
+      "name_en": "Habit Loop & Streaks"
     },
     "41": {
       "reference": "Hedef gradyanı",
@@ -611,7 +651,8 @@
       ],
       "section": 10,
       "name": "Oyunlaştırma",
-      "description_en": "Gamified progress: XP bars, streaks and badges without pressure."
+      "description_en": "Gamified progress: XP bars, streaks and badges without pressure.",
+      "name_en": "Gamified Progress"
     },
     "42": {
       "reference": "Cialdini",
@@ -624,7 +665,8 @@
       ],
       "section": 10,
       "name": "Sosyal Kanıt & Kıtlık",
-      "description_en": "Social proof & scarcity: verifiable signals versus fabricated urgency."
+      "description_en": "Social proof & scarcity: verifiable signals versus fabricated urgency.",
+      "name_en": "Social Proof & Scarcity"
     },
     "43": {
       "reference": "Anchoring",
@@ -637,7 +679,8 @@
       ],
       "section": 10,
       "name": "Varsayılan & Çapa",
-      "description_en": "Defaults & anchoring: price framing and pre-selected honest choices."
+      "description_en": "Defaults & anchoring: price framing and pre-selected honest choices.",
+      "name_en": "Defaults & Anchoring"
     },
     "44": {
       "reference": "Zirve–son",
@@ -650,7 +693,8 @@
       ],
       "section": 10,
       "name": "Mikro Etkileşim",
-      "description_en": "Micro-interactions & peak-end: the two moments memory keeps."
+      "description_en": "Micro-interactions & peak-end: the two moments memory keeps.",
+      "name_en": "Micro-interactions & Peak-End"
     },
     "45": {
       "reference": "uyarı",
@@ -662,7 +706,8 @@
       ],
       "section": 10,
       "name": "Karanlık Desenler",
-      "description_en": "Dark patterns exposed: six manipulations and their honest counterparts."
+      "description_en": "Dark patterns exposed: six manipulations and their honest counterparts.",
+      "name_en": "Dark Patterns (Warning)"
     },
     "46": {
       "name": "macOS Masaüstü",
@@ -676,7 +721,8 @@
         "three-pane window",
         "vibrancy"
       ],
-      "description_en": "macOS desktop language: traffic lights, translucent sidebar, three-pane calm."
+      "description_en": "macOS desktop language: traffic lights, translucent sidebar, three-pane calm.",
+      "name_en": "macOS Desktop"
     },
     "47": {
       "name": "Fluent / Windows 11",
@@ -690,7 +736,8 @@
         "settings app layout",
         "nav rail"
       ],
-      "description_en": "Fluent / Windows 11: mica texture, acrylic cards, light and depth."
+      "description_en": "Fluent / Windows 11: mica texture, acrylic cards, light and depth.",
+      "name_en": "Fluent / Windows 11"
     },
     "48": {
       "name": "Araç-Merkezli Editör",
@@ -704,7 +751,8 @@
         "properties panel",
         "Inter typeface"
       ],
-      "description_en": "Tool-centric editor: quiet chrome, star canvas, pixel-precise panels."
+      "description_en": "Tool-centric editor: quiet chrome, star canvas, pixel-precise panels.",
+      "name_en": "Tool-Centric Editor"
     },
     "49": {
       "name": "Komut Paleti",
@@ -718,7 +766,8 @@
         "floating panel",
         "shortcut badges"
       ],
-      "description_en": "Command palette launcher: keyboard-first floating panel with shortcut badges."
+      "description_en": "Command palette launcher: keyboard-first floating panel with shortcut badges.",
+      "name_en": "Command Palette"
     },
     "50": {
       "name": "Blok Editör Çalışma Alanı",
@@ -732,7 +781,8 @@
         "slash command",
         "toggle blocks"
       ],
-      "description_en": "Block editor workspace: invisible chrome, emoji icons, everything is a block."
+      "description_en": "Block editor workspace: invisible chrome, emoji icons, everything is a block.",
+      "name_en": "Block Editor Workspace"
     },
     "51": {
       "name": "Pazaryeri Deneyimi",
@@ -746,7 +796,8 @@
         "rating stars",
         "coral accent"
       ],
-      "description_en": "Marketplace experience: photo-first cards, pill search and trust signals."
+      "description_en": "Marketplace experience: photo-first cards, pill search and trust signals.",
+      "name_en": "Marketplace Experience"
     },
     "52": {
       "name": "Medya Akış Arayüzü",
@@ -760,7 +811,8 @@
         "player bar",
         "single action color"
       ],
-      "description_en": "Media streaming UI: dark stage, cover-derived gradients, one green action."
+      "description_en": "Media streaming UI: dark stage, cover-derived gradients, one green action.",
+      "name_en": "Media Streaming UI"
     },
     "53": {
       "name": "Kurumsal Veri Sistemi",
@@ -774,7 +826,8 @@
         "IBM Plex",
         "status tags"
       ],
-      "description_en": "Enterprise data system: zero radius, 2x grid and serious data tables."
+      "description_en": "Enterprise data system: zero radius, 2x grid and serious data tables.",
+      "name_en": "Enterprise Data System"
     },
     "54": {
       "name": "iOS İnsan Arayüzü",
@@ -788,7 +841,8 @@
         "tab bar",
         "SF system font"
       ],
-      "description_en": "iOS Human Interface: large titles, inset grouped lists, translucent tab bar."
+      "description_en": "iOS Human Interface: large titles, inset grouped lists, translucent tab bar.",
+      "name_en": "iOS Human Interface"
     },
     "55": {
       "name": "Material You (M3)",
@@ -802,7 +856,8 @@
         "FAB",
         "pill nav indicator"
       ],
-      "description_en": "Material You: wallpaper-derived tonal palettes, huge radii and FABs."
+      "description_en": "Material You: wallpaper-derived tonal palettes, huge radii and FABs.",
+      "name_en": "Material You (M3)"
     },
     "56": {
       "name": "Jest & Fizik Arayüzü",
@@ -816,7 +871,8 @@
         "card deck",
         "chrome-free"
       ],
-      "description_en": "Gesture & physics UI: full-screen cards, spring motion, discoverable gestures."
+      "description_en": "Gesture & physics UI: full-screen cards, spring motion, discoverable gestures.",
+      "name_en": "Gesture & Physics UI"
     },
     "57": {
       "name": "Neo-Fintech Mobil",
@@ -830,7 +886,8 @@
         "emoji transactions",
         "quick actions"
       ],
-      "description_en": "Neo-fintech mobile: hero gradient card, big balance, emoji transactions."
+      "description_en": "Neo-fintech mobile: hero gradient card, big balance, emoji transactions.",
+      "name_en": "Neo-Fintech Mobile"
     },
     "58": {
       "name": "Veri-Mürekkep Analitiği",
@@ -844,7 +901,8 @@
         "small multiples",
         "direct labeling"
       ],
-      "description_en": "Data-ink analytics: sparkline KPIs, direct labels, small multiples, zero chartjunk."
+      "description_en": "Data-ink analytics: sparkline KPIs, direct labels, small multiples, zero chartjunk.",
+      "name_en": "Data-Ink Analytics"
     },
     "59": {
       "name": "Gözlemlenebilirlik Paneli",
@@ -858,7 +916,8 @@
         "time series",
         "log stream"
       ],
-      "description_en": "Observability dashboard: dark panels where threshold colors do the talking."
+      "description_en": "Observability dashboard: dark panels where threshold colors do the talking.",
+      "name_en": "Observability Dashboard"
     },
     "60": {
       "name": "Ticaret Terminali",
@@ -872,7 +931,8 @@
         "market depth",
         "F-key strip"
       ],
-      "description_en": "Trading terminal: black glass, amber command line, red/green ticks, density as virtue."
+      "description_en": "Trading terminal: black glass, amber command line, red/green ticks, density as virtue.",
+      "name_en": "Trading Terminal"
     },
     "61": {
       "name": "Ürün Yönetim Paneli",
@@ -886,7 +946,8 @@
         "metric cards",
         "task-oriented"
       ],
-      "description_en": "Merchant admin panel: calm surfaces, green primary action, soft status badges."
+      "description_en": "Merchant admin panel: calm surfaces, green primary action, soft status badges.",
+      "name_en": "Merchant Admin Panel"
     },
     "62": {
       "name": "Da Vinci · Kodeks",
@@ -900,7 +961,8 @@
         "mirror writing",
         "golden ratio grid"
       ],
-      "description_en": "Da Vinci's codex: parchment, sepia ink sketches, marginalia and mirror writing."
+      "description_en": "Da Vinci's codex: parchment, sepia ink sketches, marginalia and mirror writing.",
+      "name_en": "Da Vinci · Codex"
     },
     "63": {
       "name": "Monet · Işık",
@@ -914,7 +976,8 @@
         "soft color dabs",
         "haystack logic"
       ],
-      "description_en": "Monet's light: no outlines — the same screen painted at three times of day."
+      "description_en": "Monet's light: no outlines — the same screen painted at three times of day.",
+      "name_en": "Monet · Light"
     },
     "64": {
       "name": "Van Gogh · Yıldızlı Gece",
@@ -928,7 +991,8 @@
         "cobalt and yellow",
         "sleep app"
       ],
-      "description_en": "Van Gogh's starry night: swirling skies, impasto texture, brushstroke progress."
+      "description_en": "Van Gogh's starry night: swirling skies, impasto texture, brushstroke progress.",
+      "name_en": "Van Gogh · Starry Night"
     },
     "65": {
       "name": "Picasso · Kübist",
@@ -942,7 +1006,8 @@
         "collage layout",
         "multiple perspectives"
       ],
-      "description_en": "Picasso's cubism: a portrait split into planes, seen from every angle at once."
+      "description_en": "Picasso's cubism: a portrait split into planes, seen from every angle at once.",
+      "name_en": "Picasso · Cubist"
     },
     "66": {
       "name": "Dalí · Eriyen Saat",
@@ -956,7 +1021,8 @@
         "dream journal",
         "long shadows"
       ],
-      "description_en": "Dalí's melting clock: a surreal alarm app where time literally drips."
+      "description_en": "Dalí's melting clock: a surreal alarm app where time literally drips.",
+      "name_en": "Dalí · Melting Clock"
     },
     "67": {
       "name": "Hokusai · Büyük Dalga",
@@ -970,7 +1036,8 @@
         "foam claws",
         "red hanko seal"
       ],
-      "description_en": "Hokusai's great wave: ukiyo-e flat layers where the wave itself is the gauge."
+      "description_en": "Hokusai's great wave: ukiyo-e flat layers where the wave itself is the gauge.",
+      "name_en": "Hokusai · Great Wave"
     },
     "68": {
       "name": "Klimt · Altın",
@@ -984,7 +1051,8 @@
         "spiral motifs",
         "private banking"
       ],
-      "description_en": "Klimt's gold: mosaic-textured golden cards glowing on darkness."
+      "description_en": "Klimt's gold: mosaic-textured golden cards glowing on darkness.",
+      "name_en": "Klimt · Gold"
     },
     "69": {
       "name": "Frida · Günlük",
@@ -998,7 +1066,8 @@
         "mexican folk palette",
         "emotion journal"
       ],
-      "description_en": "Frida's diary: cobalt walls, botanical frames and ex-voto hearts for feelings."
+      "description_en": "Frida's diary: cobalt walls, botanical frames and ex-voto hearts for feelings.",
+      "name_en": "Frida · Diary"
     },
     "70": {
       "name": "Kandinsky · Senestezi",
@@ -1012,7 +1081,8 @@
         "point line plane",
         "music as geometry"
       ],
-      "description_en": "Kandinsky's synesthesia: shapes as instruments, composition as score."
+      "description_en": "Kandinsky's synesthesia: shapes as instruments, composition as score.",
+      "name_en": "Kandinsky · Synesthesia"
     },
     "71": {
       "name": "Rembrandt · Işık Odası",
@@ -1026,7 +1096,8 @@
         "portrait cards",
         "light direction study"
       ],
-      "description_en": "Rembrandt's chiaroscuro: one warm light, cards emerging from darkness."
+      "description_en": "Rembrandt's chiaroscuro: one warm light, cards emerging from darkness.",
+      "name_en": "Rembrandt · Light Room"
     },
     "72": {
       "name": "Osman Hamdi · Sabır",
@@ -1040,7 +1111,8 @@
         "iznik shell patterns",
         "patience over pressure"
       ],
-      "description_en": "Osman Hamdi's patience: a focus app born from The Tortoise Trainer — light through the arch, progress at turtle pace."
+      "description_en": "Osman Hamdi's patience: a focus app born from The Tortoise Trainer — light through the arch, progress at turtle pace.",
+      "name_en": "Osman Hamdi · Patience"
     },
     "73": {
       "name": "Saf Minimalizm",
@@ -1054,7 +1126,8 @@
         "hairline dividers",
         "single product page",
         "light-weight type"
-      ]
+      ],
+      "name_en": "Pure Minimalism"
     },
     "74": {
       "name": "Fütüristik HUD",
@@ -1068,7 +1141,8 @@
         "corner brackets",
         "orbital rings",
         "cyan telemetry"
-      ]
+      ],
+      "name_en": "Futuristic HUD"
     },
     "75": {
       "name": "Vektör Sanatı",
@@ -1082,7 +1156,8 @@
         "limited palette",
         "bold silhouettes",
         "geometric cuts"
-      ]
+      ],
+      "name_en": "Vector Art"
     },
     "76": {
       "name": "Kolaj Sanatı",
@@ -1096,7 +1171,8 @@
         "halftone texture",
         "cut-out typography",
         "dada zine"
-      ]
+      ],
+      "name_en": "Collage Art"
     },
     "77": {
       "name": "Retro 70'ler",
@@ -1110,7 +1186,8 @@
         "rainbow stripes",
         "sunburst arcs",
         "earth tones"
-      ]
+      ],
+      "name_en": "Retro 70s"
     },
     "78": {
       "name": "Cyberpunk",
@@ -1124,7 +1201,8 @@
         "scanlines",
         "hazard stripes",
         "magenta cyan"
-      ]
+      ],
+      "name_en": "Cyberpunk"
     },
     "79": {
       "name": "Pixel Art",
@@ -1138,7 +1216,8 @@
         "sprite",
         "block shadow",
         "retro game menu"
-      ]
+      ],
+      "name_en": "Pixel Art"
     },
     "80": {
       "name": "Sürreal Tasarım",
@@ -1152,7 +1231,8 @@
         "floating objects",
         "impossible scale",
         "cloud sky"
-      ]
+      ],
+      "name_en": "Surreal Design"
     },
     "81": {
       "name": "Bohem",
@@ -1166,7 +1246,8 @@
         "arch shapes",
         "woven texture",
         "botanical motifs"
-      ]
+      ],
+      "name_en": "Bohemian"
     },
     "82": {
       "name": "Viktorya Dönemi",
@@ -1180,7 +1261,8 @@
         "engraving texture",
         "fleuron",
         "centered serif"
-      ]
+      ],
+      "name_en": "Victorian Era"
     },
     "83": {
       "name": "Graffiti",
@@ -1194,7 +1276,8 @@
         "spray paint",
         "brick wall",
         "stickers"
-      ]
+      ],
+      "name_en": "Graffiti"
     },
     "84": {
       "name": "Aurora",
@@ -1208,7 +1291,8 @@
         "northern lights",
         "dark premium",
         "glow"
-      ]
+      ],
+      "name_en": "Aurora"
     },
     "85": {
       "name": "El Yazısı",
@@ -1222,7 +1306,8 @@
         "highlighter",
         "doodle arrows",
         "sticky notes"
-      ]
+      ],
+      "name_en": "Handwritten"
     }
   }
 }
