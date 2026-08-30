@@ -185,7 +185,8 @@ class Component extends DCLogic {
     let lang = 'tr';
     try { const q = new URLSearchParams(location.search).get('lang'); lang = q === 'en' ? 'en' : q === 'tr' ? 'tr' : (localStorage.getItem('katalogLang') || 'tr'); } catch (e) {}
     this.state = { adim: misafirId ? 99 : -1, skor: {}, data: null, misafirId, kopya: false, lang: lang === 'en' ? 'en' : 'tr' };
-    this.onLang = () => this.setState(s => { const l = s.lang === 'tr' ? 'en' : 'tr'; try { localStorage.setItem('katalogLang', l); } catch (e) {} return { lang: l }; });
+    try { document.documentElement.lang = this.state.lang; } catch (e) {}
+    this.onLang = () => this.setState(s => { const l = s.lang === 'tr' ? 'en' : 'tr'; try { localStorage.setItem('katalogLang', l); } catch (e) {} try { document.documentElement.lang = l; } catch (e) {} return { lang: l }; });
     this.onBasla = () => this.setState({ adim: 0, skor: {}, misafirId: 0 });
     this.onTekrar = this.onBasla;
     this.onCevap = (e) => {

@@ -159,10 +159,11 @@ class Component extends DCLogic {
       lang = q === 'en' ? 'en' : q === 'tr' ? 'tr' : (localStorage.getItem('katalogLang') || 'tr');
     } catch (e) {}
     this.state = { q: '', sec: 0, data: null, err: false, copied: 0, lang: lang === 'en' ? 'en' : 'tr' };
+    try { document.documentElement.lang = this.state.lang; } catch (e) {}
     this.onLang = () => {
       this.setState(s => {
         const l = s.lang === 'tr' ? 'en' : 'tr';
-        try { localStorage.setItem('katalogLang', l); } catch (e) {}
+        try { localStorage.setItem('katalogLang', l); } catch (e) {} try { document.documentElement.lang = l; } catch (e) {}
         return { lang: l };
       });
     };
