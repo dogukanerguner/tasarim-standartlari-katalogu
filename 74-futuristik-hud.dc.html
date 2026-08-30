@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- og:start -->
+<title>74 — Fütüristik HUD · Tasarım Standartları Kataloğu</title>
+<meta name="description" content="Futuristic HUD: one luminous cyan, corner-bracket panels and slowly rotating orbital rings on deep navy.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Tasarım Standartları Kataloğu">
+<meta property="og:title" content="74 — Fütüristik HUD · Tasarım Standartları Kataloğu">
+<meta property="og:description" content="Futuristic HUD: one luminous cyan, corner-bracket panels and slowly rotating orbital rings on deep navy.">
+<meta property="og:url" content="https://design.asveas.com/74-futuristik-hud.dc.html">
+<meta property="og:image" content="https://design.asveas.com/og/74-futuristik-hud.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="74 — Fütüristik HUD · Tasarım Standartları Kataloğu">
+<meta name="twitter:description" content="Futuristic HUD: one luminous cyan, corner-bracket panels and slowly rotating orbital rings on deep navy.">
+<meta name="twitter:image" content="https://design.asveas.com/og/74-futuristik-hud.jpg">
+<!-- og:end -->
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;500;700&display=swap" rel="stylesheet" />
+<style>
+html,body{margin:0;padding:0;background:#070b16}
+a{color:inherit;text-decoration:none}
+a:hover{color:#5ef2ff}
+@keyframes hudspin{to{transform:rotate(360deg)}}
+@keyframes hudspinr{to{transform:rotate(-360deg)}}
+@keyframes hudblink{0%,100%{opacity:1}50%{opacity:.25}}
+</style>
+</helmet>
+<div style="background:#070b16;color:#dff6ff;font-family:'Exo 2','Helvetica Neue',Helvetica,Arial,sans-serif;min-height:100vh;padding-bottom:56px;position:relative;overflow:hidden">
+  <div style="position:absolute;inset:0;background-image:linear-gradient(rgba(94,242,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(94,242,255,.045) 1px,transparent 1px);background-size:48px 48px;pointer-events:none"></div>
+  <div style="position:absolute;left:50%;top:44%;width:900px;height:900px;transform:translate(-50%,-50%);background:radial-gradient(circle,rgba(94,242,255,.12),rgba(94,242,255,0) 60%);pointer-events:none"></div>
+
+  <div style="position:relative;display:flex;align-items:center;justify-content:space-between;padding:16px 44px;border-bottom:1px solid rgba(94,242,255,.18)">
+    <a href="Katalog.dc.html" style="font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase">← Katalog</a>
+    <span style="font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#5ef2ff">74 · Kültürel ve retro-fütürist diller</span>
+  </div>
+
+  <div style="position:relative;display:grid;grid-template-columns:300px 1fr 300px;gap:32px;padding:34px 44px 0;align-items:start">
+    <div>
+      <div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#5ef2ff;margin-bottom:12px">Yörünge · uçuş kontrol</div>
+      <h1 style="font-size:36px;font-weight:700;line-height:1.08;letter-spacing:.02em;text-transform:uppercase;margin:0 0 16px">Veri ışıkla<br />konuşur</h1>
+      <p style="font-size:14px;line-height:1.65;color:rgba(223,246,255,.62);margin:0 0 26px;font-weight:300">Syd Mead'in gelecek tasavvuru: yüzeyler saydam, çizgiler ince, her rakamın bir yeri var. Karanlık boşluk değil, sahnedir.</p>
+
+      <div style="position:relative;border:1px solid rgba(94,242,255,.28);padding:14px 16px;margin-bottom:12px">
+        <span style="position:absolute;left:-1px;top:-1px;width:10px;height:10px;border-top:2px solid #5ef2ff;border-left:2px solid #5ef2ff"></span><span style="position:absolute;right:-1px;bottom:-1px;width:10px;height:10px;border-bottom:2px solid #5ef2ff;border-right:2px solid #5ef2ff"></span>
+        <div style="font-family:ui-monospace,Menlo,monospace;font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:#5ef2ff;margin-bottom:6px">Köşe braketi</div>
+        <div style="font-size:13.5px;line-height:1.55;color:rgba(223,246,255,.85)">Her panel dört köşesinden değil, iki köşesinden tutulur; kutu hissi vermeden alanı tanımlar.</div>
+      </div>
+      <div style="position:relative;border:1px solid rgba(94,242,255,.28);padding:14px 16px;margin-bottom:12px">
+        <span style="position:absolute;left:-1px;top:-1px;width:10px;height:10px;border-top:2px solid #5ef2ff;border-left:2px solid #5ef2ff"></span><span style="position:absolute;right:-1px;bottom:-1px;width:10px;height:10px;border-bottom:2px solid #5ef2ff;border-right:2px solid #5ef2ff"></span>
+        <div style="font-family:ui-monospace,Menlo,monospace;font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:#5ef2ff;margin-bottom:6px">Işık = bilgi</div>
+        <div style="font-size:13.5px;line-height:1.55;color:rgba(223,246,255,.85)">Tek renk: cyan. Parlaklık önemi, soluklaşma geçmişi, yanıp sönme dikkati anlatır. Kırmızı yalnızca tehlikede.</div>
+      </div>
+      <div style="position:relative;border:1px solid rgba(94,242,255,.28);padding:14px 16px">
+        <span style="position:absolute;left:-1px;top:-1px;width:10px;height:10px;border-top:2px solid #5ef2ff;border-left:2px solid #5ef2ff"></span><span style="position:absolute;right:-1px;bottom:-1px;width:10px;height:10px;border-bottom:2px solid #5ef2ff;border-right:2px solid #5ef2ff"></span>
+        <div style="font-family:ui-monospace,Menlo,monospace;font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:#5ef2ff;margin-bottom:6px">Geniş aralık</div>
+        <div style="font-size:13.5px;line-height:1.55;color:rgba(223,246,255,.85)">Büyük harf, geniş harf aralığı, geometrik sans (Exo 2): metin de bir enstrüman panelidir.</div>
+      </div>
+    </div>
+
+    <div style="position:relative;height:560px;display:flex;align-items:center;justify-content:center">
+      <div style="position:absolute;width:520px;height:520px;border-radius:50%;border:1px solid rgba(94,242,255,.16)"></div>
+      <div style="position:absolute;width:440px;height:440px;border-radius:50%;border:1px dashed rgba(94,242,255,.28);animation:hudspin 60s linear infinite"></div>
+      <div style="position:absolute;width:360px;height:360px;border-radius:50%;border:2px solid transparent;border-top-color:#5ef2ff;border-right-color:rgba(94,242,255,.5);animation:hudspin 9s linear infinite"></div>
+      <div style="position:absolute;width:300px;height:300px;border-radius:50%;border:1px solid transparent;border-bottom-color:#5ef2ff;border-left-color:rgba(94,242,255,.35);animation:hudspinr 14s linear infinite"></div>
+      <div style="position:absolute;width:440px;height:440px;border-radius:50%;animation:hudspin 60s linear infinite"><span style="position:absolute;left:50%;top:-5px;width:9px;height:9px;margin-left:-4px;border-radius:50%;background:#5ef2ff;box-shadow:0 0 14px #5ef2ff"></span></div>
+      <div style="position:absolute;width:1px;height:560px;background:linear-gradient(transparent,rgba(94,242,255,.35),transparent)"></div>
+      <div style="position:absolute;width:560px;height:1px;background:linear-gradient(90deg,transparent,rgba(94,242,255,.35),transparent)"></div>
+      <div style="position:relative;text-align:center">
+        <div style="font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:#5ef2ff;margin-bottom:6px">Yörünge yüksekliği</div>
+        <div style="font-size:72px;font-weight:300;line-height:1;letter-spacing:.02em;text-shadow:0 0 24px rgba(94,242,255,.45)">408<span style="font-size:22px;letter-spacing:.1em;margin-left:6px;color:rgba(223,246,255,.6)">KM</span></div>
+        <div style="font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.14em;color:rgba(223,246,255,.55);margin-top:12px">HIZ 27.580 km/sa · EĞİM 51.6°</div>
+        <div style="display:inline-flex;align-items:center;gap:8px;margin-top:18px;border:1px solid rgba(94,242,255,.45);padding:8px 16px;font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.18em;text-transform:uppercase"><span style="width:6px;height:6px;border-radius:50%;background:#5ef2ff;box-shadow:0 0 8px #5ef2ff;animation:hudblink 1.4s ease infinite"></span>Bağlantı sabit</div>
+      </div>
+      <div style="position:absolute;left:0;top:18px;font-family:ui-monospace,Menlo,monospace;font-size:9.5px;letter-spacing:.14em;color:rgba(94,242,255,.6)">SEKTÖR 07-A</div>
+      <div style="position:absolute;right:0;top:18px;font-family:ui-monospace,Menlo,monospace;font-size:9.5px;letter-spacing:.14em;color:rgba(94,242,255,.6)">T+04:12:33</div>
+      <div style="position:absolute;left:0;bottom:18px;font-family:ui-monospace,Menlo,monospace;font-size:9.5px;letter-spacing:.14em;color:rgba(94,242,255,.6)">LAT 41.01 · LON 28.97</div>
+      <div style="position:absolute;right:0;bottom:18px;font-family:ui-monospace,Menlo,monospace;font-size:9.5px;letter-spacing:.14em;color:rgba(94,242,255,.6)">SİNYAL ▮▮▮▮▯</div>
+    </div>
+
+    <div style="display:flex;flex-direction:column;gap:12px">
+      <div style="position:relative;background:rgba(94,242,255,.04);border:1px solid rgba(94,242,255,.22);padding:14px 16px">
+        <span style="position:absolute;right:-1px;top:-1px;width:10px;height:10px;border-top:2px solid #5ef2ff;border-right:2px solid #5ef2ff"></span>
+        <div style="display:flex;justify-content:space-between;font-family:ui-monospace,Menlo,monospace;font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:#5ef2ff;margin-bottom:10px"><span>Enerji</span><span>%84</span></div>
+        <div style="height:4px;background:rgba(94,242,255,.12)"><div style="width:84%;height:100%;background:#5ef2ff;box-shadow:0 0 10px #5ef2ff"></div></div>
+        <div style="display:flex;justify-content:space-between;font-family:ui-monospace,Menlo,monospace;font-size:10.5px;color:rgba(223,246,255,.6);margin-top:8px"><span>Güneş paneli</span><span>+2.1 kW</span></div>
+      </div>
+      <div style="position:relative;background:rgba(94,242,255,.04);border:1px solid rgba(94,242,255,.22);padding:14px 16px">
+        <span style="position:absolute;right:-1px;top:-1px;width:10px;height:10px;border-top:2px solid #5ef2ff;border-right:2px solid #5ef2ff"></span>
+        <div style="font-family:ui-monospace,Menlo,monospace;font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:#5ef2ff;margin-bottom:10px">Sistemler</div>
+        <div style="display:flex;justify-content:space-between;font-size:13px;padding:6px 0;border-bottom:1px solid rgba(94,242,255,.12)"><span>Yaşam desteği</span><span style="color:#5ef2ff">NOMİNAL</span></div>
+        <div style="display:flex;justify-content:space-between;font-size:13px;padding:6px 0;border-bottom:1px solid rgba(94,242,255,.12)"><span>Isı kontrolü</span><span style="color:#5ef2ff">NOMİNAL</span></div>
+        <div style="display:flex;justify-content:space-between;font-size:13px;padding:6px 0;border-bottom:1px solid rgba(94,242,255,.12)"><span>İletişim</span><span style="color:rgba(223,246,255,.5)">GECİKME 0.4s</span></div>
+        <div style="display:flex;justify-content:space-between;font-size:13px;padding:6px 0"><span>Bağlantı kapısı</span><span style="color:#ff5c6c">KONTROL</span></div>
+      </div>
+      <div style="position:relative;background:rgba(94,242,255,.04);border:1px solid rgba(94,242,255,.22);padding:14px 16px">
+        <span style="position:absolute;right:-1px;top:-1px;width:10px;height:10px;border-top:2px solid #5ef2ff;border-right:2px solid #5ef2ff"></span>
+        <div style="font-family:ui-monospace,Menlo,monospace;font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:#5ef2ff;margin-bottom:10px">Sonraki manevra</div>
+        <div style="font-size:26px;font-weight:300;letter-spacing:.04em">00:18:42</div>
+        <div style="font-size:12px;color:rgba(223,246,255,.55);margin-top:4px">Yörünge yükseltme · Δv 3.2 m/s</div>
+        <div style="display:flex;gap:8px;margin-top:12px"><span style="flex:1;text-align:center;border:1px solid #5ef2ff;color:#5ef2ff;padding:8px 0;font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.16em;text-transform:uppercase">Onayla</span><span style="flex:1;text-align:center;border:1px solid rgba(94,242,255,.3);padding:8px 0;font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:rgba(223,246,255,.6)">Ertele</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div style="position:relative;margin:30px 44px 0;border-top:1px solid rgba(94,242,255,.18);padding-top:16px;display:flex;justify-content:space-between;font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase">
+    <span>Fütüristik HUD</span>
+    <span style="color:rgba(223,246,255,.5)">Syd Mead · Minority Report ekolü</span>
+  </div>
+</div>
+
+<div data-prompt-block="1" style="background:#17160f;color:#f4f1ea;font-family:ui-monospace,'SF Mono',Menlo,monospace;padding:40px 44px 46px">
+  <div style="display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid rgba(244,241,234,.3);padding-bottom:12px;margin-bottom:26px">
+    <span style="font-size:12px;letter-spacing:.18em;text-transform:uppercase">Tasarım promptu — 74 — Fütüristik HUD</span>
+    <span style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;opacity:.45">seçip kopyalayın</span>
+  </div>
+  <div style="display:grid;grid-template-columns:1.5fr 1fr;gap:40px;align-items:start">
+    <div>
+      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:10px">İngilizce prompt · detaylı</div>
+      <div style="font-size:13.5px;line-height:1.9;background:rgba(244,241,234,.06);border:1px solid rgba(244,241,234,.22);padding:20px;user-select:all">Design a futuristic spacecraft flight-control HUD in the Syd Mead / Minority Report lineage. Deep navy stage (#070b16) with a faint 48px cyan grid and a soft radial glow, never pure black. A single luminous cyan (#5ef2ff) carries all information: 1px translucent panel borders held by two-corner L-brackets, concentric orbital rings (one dashed, two partial arcs slowly rotating, a glowing satellite dot), hairline crosshairs, and a 72px light-weight altitude readout with text glow. Side panels show energy bars, system status rows and a countdown; red (#ff5c6c) appears only on the one item needing attention. Exo 2 uppercase with wide tracking for titles, monospace for readouts; frosted panels at 4% white, no rounded corners, no gradients on UI elements.</div>
+      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin:22px 0 8px">Türkçe brief</div>
+      <div style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;line-height:1.7;opacity:.85">Tek ışık rengi, köşe braketli saydam paneller ve dönen yörünge halkalarıyla sinematik bir uçuş kontrol arayüzü.</div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:16px">
+      <div>
+        <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:10px">Palet</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px"><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#070b16;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#070b16</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#5ef2ff;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#5ef2ff</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#dff6ff;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#dff6ff</span></div><div style="display:flex;align-items:center;gap:8px"><span style="width:20px;height:20px;border:1px solid rgba(244,241,234,.35);background:#ff5c6c;flex-shrink:0"></span><span style="font-size:11.5px;letter-spacing:.06em;opacity:.75">#ff5c6c</span></div></div>
+      </div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Tipografi</div><div style="font-size:13px;line-height:1.6;opacity:.9">Exo 2 (büyük harf, geniş aralık; 300 rakamlar, 700 başlık) + monospace okuma değerleri</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Düzen</div><div style="font-size:13px;line-height:1.6;opacity:.9">Üç kolon: sol anlatım, merkez halka sahnesi, sağ telemetri; köşe braketli paneller, artı nişangâh</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Hareket</div><div style="font-size:13px;line-height:1.6;opacity:.9">Yavaş dönen halkalar (9–60 sn), yanıp sönen durum noktası, başka hiçbir şey kıpırdamaz</div></div>
+      <div style="border-top:1px solid rgba(244,241,234,.18);padding-top:10px"><div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;opacity:.5;margin-bottom:5px">Kaçınılacaklar</div><div style="font-size:13px;line-height:1.6;opacity:.9">Saf siyah zemin, çoklu neon renk, yuvarlak köşe, parçacık yağmuru, kalın gölge, oyun HUD'ı kalabalığı</div></div>
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

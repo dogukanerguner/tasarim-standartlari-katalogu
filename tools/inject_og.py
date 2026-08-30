@@ -62,14 +62,14 @@ def main() -> None:
                  f"{BASE}/", f"{BASE}/og/katalog.jpg"))
 
     extras = {
-        "Galeri.dc.html": ("Aynı uygulama, 72 stil — One app, 72 styles",
+        "Galeri.dc.html": (f"Aynı uygulama, {n} stil — One app, {n} styles",
                            "The exact same to-do screen redesigned in every style of the catalog.",
                            "og/katalog.jpg"),
         "Test.dc.html": ("Hangi tasarım stili sensin? — Which design style are you?",
-                         "Answer 6 questions and find your design style among 72.",
+                         f"Answer 6 questions and find your design style among {n}.",
                          "og/katalog.jpg"),
         "Mikser.dc.html": ("Stil Mikseri — Style Mixer",
-                           "Blend any two of 72 design styles into one AI-ready prompt.",
+                           f"Blend any two of {n} design styles into one AI-ready prompt.",
                            "og/katalog.jpg"),
     }
     for fname, (t, d, img) in extras.items():

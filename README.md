@@ -1,6 +1,6 @@
 # Tasarım Standartları Kataloğu
 
-**73 tasarım yaklaşımı — her biri hem çalışan canlı örnek, hem de AI kod üretiminde doğrudan kullanılabilir prompt ve kural seti.**
+**85 tasarım yaklaşımı — her biri hem çalışan canlı örnek, hem de AI kod üretiminde doğrudan kullanılabilir prompt ve kural seti.**
 
 🔗 **Canlı demo:** [design.asveas.com](https://design.asveas.com)
 
@@ -18,21 +18,21 @@ Katalog sayfasının kendisi de bu katmandan beslenir: arama (isim, ekol, anahta
 
 ## Keşfet
 
-- 🖼 **[Galeri — Aynı uygulama, 73 stil](https://design.asveas.com/Galeri.dc.html)** · aynı yapılacaklar listesi, 73 tasarım dilinde. Favorinizi alıntılayıp paylaşın.
-- 🎨 **[Test — Hangi tasarım stili sensin?](https://design.asveas.com/Test.dc.html)** · 6 soru, 73 stilden biri sizsiniz; sonucu tek linkle paylaşın.
-- 🎛 **[Mikser — İki stili karıştır](https://design.asveas.com/Mikser.dc.html)** · biri görsel dil, biri iskelet: 5.256 harman, tek AI promptu (`?mix=67+57`).
-- 🔌 **[MCP sunucusu](mcp/)** · 73 stili Claude Code / Cursor'a araç olarak bağlar: `stil_ara`, `stil_getir`, `stil_listele`.
+- 🖼 **[Galeri — Aynı uygulama, 85 stil](https://design.asveas.com/Galeri.dc.html)** · aynı yapılacaklar listesi, 85 tasarım dilinde. Favorinizi alıntılayıp paylaşın.
+- 🎨 **[Test — Hangi tasarım stili sensin?](https://design.asveas.com/Test.dc.html)** · 6 soru, 85 stilden biri sizsiniz; sonucu tek linkle paylaşın.
+- 🎛 **[Mikser — İki stili karıştır](https://design.asveas.com/Mikser.dc.html)** · biri görsel dil, biri iskelet: 7.140 harman, tek AI promptu (`?mix=67+57`).
+- 🔌 **[MCP sunucusu](mcp/)** · 85 stili Claude Code / Cursor'a araç olarak bağlar: `stil_ara`, `stil_getir`, `stil_listele`.
 
-## İçerik — 15 bölüm, 73 sayfa
+## İçerik — 15 bölüm, 85 sayfa
 
 | Bölüm | Sayfalar | Kapsam |
 |---|---|---|
 | 01 · Küratörsel ekoller | 01–06 | Editoryal minimalizm, akışkan ajans, cyber-WebGL, anti-design, endüstriyel, grunge |
 | 02 · SaaS akımları | 07–10 | Karanlık SaaS (Linear/Vercel), Bento grid, neo-brütalizm, B2B iskeletizm (Stripe) |
-| 03 · Tarihsel akımlar | 11–14 | Bauhaus, İsviçre ızgarası, Y2K, retro terminal |
-| 04 · Dokusal trendler | 15–17 | Glassmorphism, neomorphism, claymorphism |
-| 05 · Sanat akımları | 18–23 | Art Nouveau, Art Deco, De Stijl, konstruktivizm, Memphis, mid-century |
-| 06 · Kültürel diller | 24–27 | Vaporwave, Japon Ma / wabi-sabi, çini geometrik motif, solarpunk |
+| 03 · Tarihsel akımlar | 11–14, 82 | Bauhaus, İsviçre ızgarası, Y2K, retro terminal, Viktorya dönemi |
+| 04 · Dokusal trendler | 15–17, 84–85 | Glassmorphism, neomorphism, claymorphism, aurora, el yazısı |
+| 05 · Sanat akımları | 18–23, 75–76, 80 | Art Nouveau, Art Deco, De Stijl, konstruktivizm, Memphis, mid-century, vektör (Malika Favre), kolaj (Höch), sürreal (Magritte) |
+| 06 · Kültürel diller | 24–27, 74, 77–79, 81, 83 | Vaporwave, Japon Ma, çini motif, solarpunk, fütüristik HUD, retro 70'ler, cyberpunk, pixel art, bohem, graffiti |
 | 07 · Arayüz dönemleri | 28–30, 73 | Skeuomorfizm, flat design, maksimalizm, saf minimalizm |
 | 08 · İlke temelli | 31–33 | Erişilebilirlik öncelikli, kamu hizmeti sade dili, ham HTML brütalizmi |
 | 09 · Mobil yapılar | 34–39 | Başparmak bölgesi, swipe destesi, aşamalı açığa çıkarma, boş durumlar, alt sayfalar, sonsuz akış |
@@ -49,7 +49,7 @@ Katalog sayfasının kendisi de bu katmandan beslenir: arama (isim, ekol, anahta
 
 ```
 ai/
-├── catalog.json     # 73 stilin tamamı: prompt_en, brief_tr, palette,
+├── catalog.json     # 85 stilin tamamı: prompt_en, brief_tr, palette,
 │                    # typography, layout, motion, avoid, keywords, section
 └── styles/          # stil başına frontmatter'lı markdown (tek stil = tek bağlam)
     ├── 01-editorial-minimalizm.md

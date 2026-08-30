@@ -1,6 +1,6 @@
 # tasarim-katalogu-mcp
 
-[design.asveas.com](https://design.asveas.com) kataloğundaki **73 tasarım stilini**
+[design.asveas.com](https://design.asveas.com) kataloğundaki **85 tasarım stilini**
 (canlı örnek + AI üretim promptu) MCP destekleyen araçlara bağlar.
 Sıfır bağımlılık, Node ≥ 18.
 
@@ -8,7 +8,7 @@ Sıfır bağımlılık, Node ≥ 18.
 
 | Araç | Ne yapar |
 |---|---|
-| `stil_listele` | 73 stili listeler; `bolum` (1–15) ile filtrelenir |
+| `stil_listele` | 85 stili listeler; `bolum` (1–15) ile filtrelenir |
 | `stil_ara` | Türkçe karakter duyarsız arama — isim, ekol, anahtar kelime, `#hex` |
 | `stil_getir` | Bir stilin tam kaydı: `prompt_en`, palet, tipografi, düzen, kaçınılacaklar, canlı örnek URL'si |
 

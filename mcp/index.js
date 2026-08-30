@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Tasarım Standartları Kataloğu — MCP sunucusu (stdio, sıfır bağımlılık).
- * 73 tasarım stilini (canlı örnek + AI promptu) Claude Code, Cursor gibi
+ * 85 tasarım stilini (canlı örnek + AI promptu) Claude Code, Cursor gibi
  * MCP destekleyen araçlara üç araçla açar: stil_listele, stil_ara, stil_getir.
  *
  * Veri kaynağı: https://design.asveas.com/ai/catalog.json
@@ -60,7 +60,7 @@ const TOOLS = [
   {
     name: "stil_listele",
     description:
-      "Katalogdaki 73 tasarım stilini listeler (id, isim, ekol, bölüm, kısa açıklama). " +
+      "Katalogdaki 85 tasarım stilini listeler (id, isim, ekol, bölüm, kısa açıklama). " +
       "İsteğe bağlı `bolum` (1-15) ile filtrelenir. Bölümler: 1-10 görsel/UX stilleri, " +
       "11 masaüstü, 12 web app, 13 mobil, 14 dashboard, 15 ressamlar.",
     inputSchema: {
@@ -87,7 +87,7 @@ const TOOLS = [
       "avoid'u negatif kısıt olarak kullan.",
     inputSchema: {
       type: "object",
-      properties: { id: { type: "number", description: "Stil no (1-73)" } },
+      properties: { id: { type: "number", description: "Stil no (1-85)" } },
       required: ["id"],
     },
   },

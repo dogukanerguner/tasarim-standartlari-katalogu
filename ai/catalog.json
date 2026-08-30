@@ -1,6 +1,6 @@
 {
   "name": "Tasarım Standartları Kataloğu",
-  "description": "73 tasarım yaklaşımının AI kod üretiminde kullanılabilir prompt, palet ve kural seti. Kaynak: *.dc.html sayfalarının prompt blokları + data/catalog-meta.json.",
+  "description": "85 tasarım yaklaşımının AI kod üretiminde kullanılabilir prompt, palet ve kural seti. Kaynak: *.dc.html sayfalarının prompt blokları + data/catalog-meta.json.",
   "sections": [
     {
       "id": 1,
@@ -2268,6 +2268,378 @@
         "hairline dividers",
         "single product page",
         "light-weight type"
+      ]
+    },
+    {
+      "id": 74,
+      "slug": "74-futuristik-hud",
+      "file": "74-futuristik-hud.dc.html",
+      "title": "Fütüristik HUD",
+      "prompt_en": "Design a futuristic spacecraft flight-control HUD in the Syd Mead / Minority Report lineage. Deep navy stage (#070b16) with a faint 48px cyan grid and a soft radial glow, never pure black. A single luminous cyan (#5ef2ff) carries all information: 1px translucent panel borders held by two-corner L-brackets, concentric orbital rings (one dashed, two partial arcs slowly rotating, a glowing satellite dot), hairline crosshairs, and a 72px light-weight altitude readout with text glow. Side panels show energy bars, system status rows and a countdown; red (#ff5c6c) appears only on the one item needing attention. Exo 2 uppercase with wide tracking for titles, monospace for readouts; frosted panels at 4% white, no rounded corners, no gradients on UI elements.",
+      "brief_tr": "Tek ışık rengi, köşe braketli saydam paneller ve dönen yörünge halkalarıyla sinematik bir uçuş kontrol arayüzü.",
+      "palette": [
+        "#070b16",
+        "#5ef2ff",
+        "#dff6ff",
+        "#ff5c6c"
+      ],
+      "typography": "Exo 2 (büyük harf, geniş aralık; 300 rakamlar, 700 başlık) + monospace okuma değerleri",
+      "layout": "Üç kolon: sol anlatım, merkez halka sahnesi, sağ telemetri; köşe braketli paneller, artı nişangâh",
+      "motion": "Yavaş dönen halkalar (9–60 sn), yanıp sönen durum noktası, başka hiçbir şey kıpırdamaz",
+      "avoid": "Saf siyah zemin, çoklu neon renk, yuvarlak köşe, parçacık yağmuru, kalın gölge, oyun HUD'ı kalabalığı",
+      "name": "Fütüristik HUD",
+      "reference": "Syd Mead · Minority Report",
+      "section": 6,
+      "description": "Tek ışık rengi, köşe braketli saydam paneller ve dönen yörünge halkalarıyla sinematik uçuş kontrolü.",
+      "description_en": "Futuristic HUD: one luminous cyan, corner-bracket panels and slowly rotating orbital rings on deep navy.",
+      "keywords": [
+        "futuristic HUD",
+        "sci-fi interface",
+        "corner brackets",
+        "orbital rings",
+        "cyan telemetry"
+      ]
+    },
+    {
+      "id": 75,
+      "slug": "75-vektor-sanati",
+      "file": "75-vektor-sanati.dc.html",
+      "title": "Vektör Sanatı",
+      "prompt_en": "Design an independent film festival website in the flat vector language of Malika Favre. Exactly four flat colors: cream (#fff1e0) ground, coral (#ff4f3d), navy (#14213d) and a sparing yellow accent (#f2b705). Split hero: left, a 104px Archivo 900 uppercase headline with tight tracking, a short system-font paragraph and two solid rectangular buttons; right, a full-bleed inline SVG woman's profile built from positive/negative space — face is the cream ground, hair one navy block, eye a single circle, one yellow earring, no outlines. Film-strip bands via repeating-linear-gradient, 4px navy rules instead of borders, a six-card program grid of solid-color cards with two-shape icons. No gradients, shadows, photos or rounded corners.",
+      "brief_tr": "Dört düz renk, negatif alanla kesilmiş bir profil ve keskin geometrik bloklarla afiş gibi okunan bağımsız sinema festivali sitesi.",
+      "palette": [
+        "#ff4f3d",
+        "#14213d",
+        "#fff1e0",
+        "#f2b705"
+      ],
+      "typography": "Archivo 900 (büyük harf, sıkı aralıklı başlıklar) + 700 (kart adları) + system-ui gövde + monospace etiketler",
+      "layout": "İkiye bölünmüş hero (metin / SVG profil), film şeridi bantları, 4px lacivert kalın cetveller, altı hücreli düz renkli program ızgarası, üçlü fiyat şeridi",
+      "motion": "Yalnızca hover'da renk takası (lacivert → mercan); animasyon yok, afiş sabittir",
+      "avoid": "Gradyan, gölge, ince çizgi illüstrasyon, fotoğraf, beşinci renk, yuvarlak köşe ve süs, kontur çizgisi, doku",
+      "name": "Vektör Sanatı",
+      "reference": "Malika Favre",
+      "section": 5,
+      "description": "Negatif alanla kurulan silüetler, dört düz renk, gradyansız keskin kesimler.",
+      "description_en": "Vector art: negative-space silhouettes, four flat colors, sharp gradient-free cuts.",
+      "keywords": [
+        "flat vector illustration",
+        "negative space",
+        "limited palette",
+        "bold silhouettes",
+        "geometric cuts"
+      ]
+    },
+    {
+      "id": 76,
+      "slug": "76-kolaj-sanati",
+      "file": "76-kolaj-sanati.dc.html",
+      "title": "Kolaj Sanatı",
+      "prompt_en": "Design a cut-and-paste collage website for a fictional culture zine (\"Makas\") in the Hannah Höch / Dada lineage. Kraft-paper ground (#d9c7a3) with a fine dot grain; a 5–6 layer hero of torn off-white scraps (#f5f0e6, irregular clip-path edges, hard 5px offset shadows, rotated −5° to 9°), a ransom-note headline where every letter is its own span in Archivo Black, Georgia italic or monospace at 70–118px each rotated, some on yellow (#f4c20d) or red (#d62828) blocks, a red halftone circle, a grey photo placeholder with halftone overlay, translucent yellow and red tape strips, a ruled newspaper-column texture and a red handwritten note in Caveat. Three principle cards on torn paper, dashed rules, no rounded corners, no smooth gradients on UI.",
+      "brief_tr": "Kraft zemin üstüne yırtık kâğıt, bant, halftone ve kesik gazete harfleriyle kurulmuş, kasıtlı eğik bir zine sitesi: kusur yöntemdir.",
+      "palette": [
+        "#d9c7a3",
+        "#f5f0e6",
+        "#1a1a1a",
+        "#d62828",
+        "#f4c20d"
+      ],
+      "typography": "Başlıkta harf harf karışık: Archivo Black + Georgia italik + monospace, her harf ayrı boyut ve açı; gövde Georgia 14–16px; notlar Caveat; etiketler monospace büyük harf",
+      "layout": "Grid yok: 760px'lik mutlak konumlu kolaj sahnesi, üst üste binen yırtık parçalar; altta üç eğik ilke kartı, çift çizgili alt şerit",
+      "motion": "Yok; hover'da bağlantı sarı bantla kaplanır, başka hiçbir şey kıpırdamaz",
+      "avoid": "Düz temiz kenar, hizalı grid, tek font, parlak gradyan, yuvarlak köşe, yumuşak gölge, kusursuzluk",
+      "name": "Kolaj Sanatı",
+      "reference": "Hannah Höch · Dada",
+      "section": 5,
+      "description": "Yırtık kâğıt, bant, halftone ve kesik harfler: kes-yapıştır katmanlarıyla zine estetiği.",
+      "description_en": "Collage art: torn paper, tape strips, halftone dots and cut-out letters layered zine-style.",
+      "keywords": [
+        "paper collage",
+        "torn edges",
+        "halftone texture",
+        "cut-out typography",
+        "dada zine"
+      ]
+    },
+    {
+      "id": 77,
+      "slug": "77-retro-yetmisler",
+      "file": "77-retro-yetmisler.dc.html",
+      "title": "Retro 70'ler",
+      "prompt_en": "Design a 1970s print-advert / record-sleeve style website for a fictional coffee roaster and record shop. Cream paper background (#f3e5c3) with a faint dotted grain, warm earth palette: orange #e8792b, mustard #d9a441, coffee brown #7a3e1f, brick red #a8352a. Hero: a giant rising sun of nested concentric half-circle bands with subtle sunray stripes, a 132px Righteous headline with two-layer offset shadow in orange and mustard, a Fredoka subtitle, pill buttons with 4px brown borders and hard offset shadows, and a spinning starburst \"YENİ!\" badge. Below, a four-colour rainbow stripe divider curling at one corner, three principle boxes and four product cards with thick brown outlines and 24px radii. No neon, no black, no thin grids, no cool blues, no digital textures.",
+      "brief_tr": "Krem kâğıt üzerinde toprak renkli güneş yayları, gökkuşağı şerit ayraçlar ve şişkin yuvarlak tipografiyle basılı, sıcak, groovy bir 70'ler reklam afişi dili.",
+      "palette": [
+        "#f3e5c3",
+        "#e8792b",
+        "#d9a441",
+        "#7a3e1f",
+        "#a8352a"
+      ],
+      "typography": "Righteous başlıklar (iki katlı ofset gölge) + Fredoka 500/600 alt başlık ve butonlar + sistem sans gövde + monospace etiketler",
+      "layout": "Ortalanmış güneş hero, köşeden kıvrılan dört renkli şerit ayraç, üç ilke kutusu, dört kalın konturlu ürün kartı",
+      "motion": "Yalnızca yıldız rozet döner (24 sn); başka hiçbir şey kıpırdamaz",
+      "avoid": "Neon, siyah zemin, ince ızgara, soğuk mavi, piksel/dijital doku, keskin köşe, cam/bulanıklık efekti",
+      "name": "Retro 70'ler",
+      "reference": "Reklam afişi · Groovy",
+      "section": 6,
+      "description": "Güneş yayları, gökkuşağı şeritler, kabarık tipografi ve sıcak toprak paleti; basılı reklam retrosu.",
+      "description_en": "Retro 70s: sunburst arcs, rainbow stripes, bubbly type and a warm earthy palette from print ads.",
+      "keywords": [
+        "70s retro",
+        "groovy typography",
+        "rainbow stripes",
+        "sunburst arcs",
+        "earth tones"
+      ]
+    },
+    {
+      "id": 78,
+      "slug": "78-cyberpunk",
+      "file": "78-cyberpunk.dc.html",
+      "title": "Cyberpunk",
+      "prompt_en": "Design a cyberpunk night-market app page in the Blade Runner / Neuromancer \"high tech, low life\" register: dirty, crowded, street-level. Wet-asphalt background (#0b0612) lit by competing magenta (#ff2a6d) and cyan (#05d9e8) neon glows, a reversed gradient in the lower half for rain reflection, and a 3px repeating scanline overlay. Hero headline in Orbitron 900, 88px, stacked three times: base #d1f7ff, one copy magenta shifted 2px left, one cyan shifted 2px right, each clipped to horizontal slices via clip-path and twitching with keyframes. Vertical neon signage (writing-mode: vertical-rl) of ▮▯ block characters, yellow-black 45° hazard stripes (#f9f002/#000), dark product cards with 1px cyan borders and clipped corners, monospace yellow prices, a blinking \"CONNECTION: UNSAFE\" row. Body in Share Tech Mono.",
+      "brief_tr": "Yağmurlu megakentin karaborsa uygulaması: kirli neon, glitch başlık, dikey tabelalar ve uyarı bantlarıyla kalabalık, sokak kokan bir arayüz.",
+      "palette": [
+        "#0b0612",
+        "#ff2a6d",
+        "#05d9e8",
+        "#f9f002",
+        "#d1f7ff"
+      ],
+      "typography": "Orbitron 900/700 (büyük harf başlık ve buton) + Share Tech Mono gövde, etiket, fiyat ve gürültü satırları",
+      "layout": "İki dikey tabela şeridi arasında hero + sağ ürün kolonu; sarı-siyah uyarı bantları, kesik köşeli kartlar, üst üste binen ışık katmanları",
+      "motion": "Seyrek, ani glitch (steps ile kanal kayması), titreyen neon tabela, yanıp sönen durum noktası; yumuşak geçiş yok",
+      "avoid": "Temiz boşluk, pastel, yuvarlak dostluk, tek renk, steril simetri, parçacık yağmuru, temiz HUD braketleri",
+      "name": "Cyberpunk",
+      "reference": "Blade Runner · Neuromancer",
+      "section": 6,
+      "description": "Kirli neon, glitch başlık, tarama çizgileri ve sarı uyarı bantları: high tech, low life.",
+      "description_en": "Cyberpunk: dirty neon, glitch headlines, scanlines and hazard stripes — high tech, low life.",
+      "keywords": [
+        "cyberpunk",
+        "neon glitch",
+        "scanlines",
+        "hazard stripes",
+        "magenta cyan"
+      ]
+    },
+    {
+      "id": 79,
+      "slug": "79-pixel-art",
+      "file": "79-pixel-art.dc.html",
+      "title": "Pixel Art",
+      "prompt_en": "Design an 8-bit NES-era pixel-art landing page for the indie game \"Kule Kedisi\". Everything snaps to a 4px grid: no anti-aliasing, gradients or border-radius. Six colors only: navy #1b1b3a, off-white #f8f8f8, coral #ff6b6b, yellow #ffd93d, teal #4ecdc4, ink #2b2d42. Hero: navy sky with 4px box-shadow stars, stepped clouds, staircase hills, teal ground, a 12×12 cat sprite drawn as one div with an 8px box-shadow list, pixel hearts for lives, a 44px 'Press Start 2P' title with hard 4px/8px offset shadows, and \"PRESS START\" blinking on step-end keyframes. Below: an RPG dialogue box (4px white border, ▼ cursor), a ► cursor main menu and a high-score table with XP bar, all with 8px block shadows. 'VT323' body at 22–26px.",
+      "brief_tr": "4px ızgaraya kilitli, altı renkli, blok gölgeli konsol dili: box-shadow ile çizilmiş sprite, yanıp sönen PRESS START ve RPG diyalog kutusuyla bağımsız oyun sayfası.",
+      "palette": [
+        "#1b1b3a",
+        "#f8f8f8",
+        "#ff6b6b",
+        "#ffd93d",
+        "#4ecdc4",
+        "#2b2d42"
+      ],
+      "typography": "'Press Start 2P' (başlık 44px, etiketler 9–14px, blok text-shadow) + 'VT323' gövde 22–26px; anti-aliasing'e ihtiyaç duymayan bitmap fontlar",
+      "layout": "620 oyun sahnesi (HUD köşelerde, sprite merkezde, zemin altta); altında menü / diyalog kutusu / skor tablosu üç kolonu; 4px kontur, 8px blok gölge",
+      "motion": "Yalnızca step-end: PRESS START ve ► imleci 1 sn'de yanıp söner, sprite 8px zıplar, ▼ 4px iner; ease yok, kare atlar",
+      "avoid": "Yumuşatılmış kenar, gradyan, yuvarlak köşe, bulanık gerçek gölge, yüksek çözünürlüklü ikon, 4'ün katı olmayan ölçü, yedinci renk",
+      "name": "Pixel Art",
+      "reference": "8-bit · NES dönemi",
+      "section": 6,
+      "description": "4px ızgara, sınırlı palet, blok gölgeler ve box-shadow ile çizilmiş sprite'lar; konsol nostaljisi.",
+      "description_en": "Pixel art: 4px grid, limited palette, block shadows and CSS-drawn sprites — console nostalgia.",
+      "keywords": [
+        "pixel art",
+        "8-bit UI",
+        "sprite",
+        "block shadow",
+        "retro game menu"
+      ]
+    },
+    {
+      "id": 80,
+      "slug": "80-surreal-tasarim",
+      "file": "80-surreal-tasarim.dc.html",
+      "title": "Sürreal Tasarım",
+      "prompt_en": "Design a Magritte-style surrealist landing page for a fictional sleep brand, \"Bulut Odası\". A 720px hero with a daytime sky gradient (#6fa8dc to #dbe9f7) and flat white cloud blobs made of overlapping border-radius shapes, above a night street strip (#0f1b3d) with one glowing lamp — day and night in one frame. Add a tall door filled with a starry night sky, a slowly floating bowler-hat silhouette, and an oversized green apple (#2e7d32) in front of a small card, defying scale. Headline in Cormorant Garamond italic at 74px with \"This is not a headline\" beneath; system-font body on cream (#f6f3ea). Pricing cards look ordinary, except one casts its shadow upward and one hovers 40px above a detached shadow. Flat, calm, clean — no melting or glitch.",
+      "brief_tr": "Gündüz göğü altında gece sokağı, havada asılı şapka, kart önünde dev elma: sakin tonla anlatılan imkânsız bir uyku markası.",
+      "palette": [
+        "#6fa8dc",
+        "#dbe9f7",
+        "#0f1b3d",
+        "#f6f3ea",
+        "#2e7d32"
+      ],
+      "typography": "Cormorant Garamond italik (74px başlık, 22–34px notlar ve fiyatlar) + sistem sans gövde + monospace etiketler",
+      "layout": "Tam genişlik gök sahnesi + alt gece şeridi; sahneye mutlak konumlu kapı, şapka, elma ve kart; üç ilke kolonu, üç fiyat kartı",
+      "motion": "Bulutlar 18–24 sn yavaş kayar, şapka 6 sn'de hafifçe iner kalkar; başka hiçbir şey kıpırdamaz",
+      "avoid": "Eriyen veya bozuk şekil, kaos, glitch, koyu korku havası, aşırı doku, fırça izi, çok sayıda şaka",
+      "name": "Sürreal Tasarım",
+      "reference": "René Magritte",
+      "section": 5,
+      "description": "Gündüz göğü ve gece kapısı, havada asılı nesneler, ters gölgeler: sakin ton, imkânsız içerik.",
+      "description_en": "Surreal design: day sky and night doorway, floating objects, wrong-way shadows — calm tone, impossible content.",
+      "keywords": [
+        "surreal UI",
+        "Magritte",
+        "floating objects",
+        "impossible scale",
+        "cloud sky"
+      ]
+    },
+    {
+      "id": 81,
+      "slug": "81-bohem",
+      "file": "81-bohem.dc.html",
+      "title": "Bohem",
+      "prompt_en": "Design a bohemian, Anthropologie-style landing page for a fictional ceramics and weaving studio (\"Toprak & Yün\"). Warm beige ground (#efe3d0) with a faint 22px dot texture, a terracotta (#c96f4a) hero block on the right holding arch-topped image placeholders (border-radius 999px 999px 0 0) filled with soft vertical gradients and thin repeating-linear-gradient weave lines, a macramé fringe of uneven 2px vertical strands, olive (#6b7d4f) rotated-ellipse leaves, and a sun badge made of a circle with ray lines. Headline in Cormorant Garamond 78px medium with an italic olive word; handwritten Caveat accents rotated -3deg; pill-shaped terracotta button. Cards on sand (#e9d8c0) with 24px radius and dotted 1.5px borders; ink text #3f2f25. No sharp corners, no cool greys, no pure white.",
+      "brief_tr": "Toprak tonları, kemerli görseller, dokuma çizgileri, püskül ve yaprak detaylarıyla sıcak, gevşek, el işi hissinde bir atölye sayfası.",
+      "palette": [
+        "#efe3d0",
+        "#c96f4a",
+        "#6b7d4f",
+        "#e9d8c0",
+        "#3f2f25"
+      ],
+      "typography": "Cormorant Garamond 400–600 (başlık, gövde, italik vurgu) + Caveat 500–600 el yazısı vurgular + monospace etiketler",
+      "layout": "Bej/terracotta ikiye bölünmüş hero, kemerli görsel yer tutucular, üç ilke kartı, dört ürün kartı; 24px kavis, noktalı ayraçlar",
+      "motion": "Yaprağın 6 sn'lik hafif salınımı, bağlantılarda opaklık; başka hareket yok",
+      "avoid": "Keskin köşe, soğuk gri, parlak neon, kurumsal ızgara, saf beyaz",
+      "name": "Bohem",
+      "reference": "Boho · Anthropologie ekolü",
+      "section": 6,
+      "description": "Terracotta ve bej, kemerli çerçeveler, dokuma dokular ve botanik motifler; sıcak, gevşek, organik.",
+      "description_en": "Bohemian: terracotta and beige, arched frames, woven textures and botanical motifs — warm and organic.",
+      "keywords": [
+        "boho",
+        "terracotta palette",
+        "arch shapes",
+        "woven texture",
+        "botanical motifs"
+      ]
+    },
+    {
+      "id": 82,
+      "slug": "82-viktorya",
+      "file": "82-viktorya.dc.html",
+      "title": "Viktorya Dönemi",
+      "prompt_en": "Design a Victorian tea house and apothecary website in the spirit of 19th-century engraved labels and William Morris. Cream parchment (#f4ecd8), near-black ink (#1e1a17), antique gold (#b08d3c), Morris green (#2f4f3a), claret (#7a1f2b). Everything centered. Hero framed by a 3px double border with a 1px inner rule and gold quarter-round corner flourishes; a double-ring medallion with ✦ inside, an \"Established 1871\" line with ❦ ❧ fleurons, a 78px Playfair Display 900 title, a Cinzel Decorative letterspaced subtitle, italic lead and double-bordered buttons. Product cards read as bottle labels: ivory ground, double rule, centered serif text, engraved placeholder images of 2px repeating horizontal lines, gold hairlines flanking a serif price. Leaf-pattern green bands between sections; no sans-serif, no single flat rules.",
+      "brief_tr": "Çift çizgili çerçeve, gravür dokulu görsel, madalyon amblem ve fleuron süslerle 1871 tarihli bir çay evi etiketi gibi kurgulanmış, tamamen ortalı Viktorya sayfası.",
+      "palette": [
+        "#f4ecd8",
+        "#1e1a17",
+        "#b08d3c",
+        "#2f4f3a",
+        "#7a1f2b"
+      ],
+      "typography": "Playfair Display 900 (başlık, fiyat) + italik 400 (gövde) + Cinzel Decorative geniş aralıklı büyük harf etiket; Georgia yedek",
+      "layout": "Ortalı tek sütun hero, çift çizgi + iç ince çizgi çerçeve, köşe kıvrımı, madalyon; üç etiket-kart; yaprak desenli yeşil bordür",
+      "motion": "Yok; yalnızca bağlantı üzerinde bordoya dönen renk",
+      "avoid": "Sola hizalı sans-serif, düz tek çizgi, boşluk israfı (dönemin ruhu doludur), parlak/neon renk, yuvarlak köşeli kart, mono fiyat",
+      "name": "Viktorya Dönemi",
+      "reference": "19. yy gravür · William Morris",
+      "section": 3,
+      "description": "Çift çizgili çerçeveler, fleuron süsler, ortalı serif ve gravür dokusu; süs hiyerarşidir.",
+      "description_en": "Victorian: double-rule frames, fleurons, centered serifs and engraving textures — ornament as hierarchy.",
+      "keywords": [
+        "victorian ornament",
+        "double rule frame",
+        "engraving texture",
+        "fleuron",
+        "centered serif"
+      ]
+    },
+    {
+      "id": 83,
+      "slug": "83-graffiti",
+      "file": "83-graffiti.dc.html",
+      "title": "Graffiti",
+      "prompt_en": "Design a graffiti / wildstyle streetwear sneaker-drop page for a fictional brand. Background is a CSS brick wall: #5a4a44 bricks with 6px #2a2a2a mortar lines from repeating-linear-gradients, darkened by radial vignettes, never a white page. Behind the hero sits spray haze: three blurred (70px) radial blobs in #ff3b3b, #00c2ff and #ffe600. The 230px 'Bangers' headline is rotated -4deg and filled #ff3b3b with a thick black multi-layer text-shadow outline, then a 6px #ffe600 offset shadow and a #00c2ff third layer; paint drips hang from the letters as thin rounded bars ending in circles. Add rotated white stickers with 4px black borders (\"DROP 08.15\"), yellow and cyan tape strips, CSS-triangle wildstyle arrows, tilted product cards with 8px hard black shadows and yellow price tags. 'Permanent Marker' for handwritten accents, system sans for body.",
+      "brief_tr": "Tuğla duvar, sprey pusu, çok katmanlı kontur ve sarkan damlalarla \"throw-up\" enerjisinde bir sokak giyim drop sayfası.",
+      "palette": [
+        "#3a3a3a",
+        "#5a4a44",
+        "#ff3b3b",
+        "#ffe600",
+        "#00c2ff",
+        "#ffffff"
+      ],
+      "typography": "Bangers (230px başlık, ürün adı, buton) + Permanent Marker (vurgu, sticker, fiyat) + system sans gövde; çok katmanlı text-shadow kontur",
+      "layout": "Tuğla duvar hero: sol dev başlık + damla + ok + sticker, sağ üç eğik ilke kutusu; altta 4 eğik ürün kartı; her şey ±1–9° dönük",
+      "motion": "Damlaların yavaşça uzaması (3–4 sn scaleY), hover'da parlaklık artışı; başka hareket yok",
+      "avoid": "Temiz beyaz zemin, ince tipografi, hizalı ızgara, pastel, gölgesiz düz metin, yumuşak gri gölge",
+      "name": "Graffiti",
+      "reference": "Sokak sanatı · Wildstyle",
+      "section": 6,
+      "description": "Tuğla duvar, çok konturlu bubble harfler, sprey pusu ve damlalar; sokak enerjisi.",
+      "description_en": "Graffiti: brick wall, multi-outline bubble letters, spray haze and drips — street energy.",
+      "keywords": [
+        "graffiti",
+        "bubble letters",
+        "spray paint",
+        "brick wall",
+        "stickers"
+      ]
+    },
+    {
+      "id": 84,
+      "slug": "84-aurora",
+      "file": "84-aurora.dc.html",
+      "title": "Aurora",
+      "prompt_en": "Design an aurora-style landing page for a premium sleep and focus sound app called \"Işık\". Deep night background (#050b1a) with four or five tall, slightly tilted elliptical light curtains in the upper half — radial gradients of green (#3ef2a8), violet (#8b5cf6) and cyan (#22d3ee) blurred 60–70px, drifting slowly with 14–20s translate/opacity keyframes, fading into the ground; a few box-shadow stars. Centered 84px Outfit headline in weight 300 with one word at 600, 18px light paragraph, a pill CTA with a 1px translucent white border and inner glow. Three feature cards at 4% white fill with 1px 10% borders, each with a small blurred glow of its own color in a corner. A waveform SVG with a green-to-violet-to-cyan stroke gradient. White text only; the light carries all color.",
+      "brief_tr": "Gece zemininde yavaşça süzülen yeşil-mor-cyan ışık perdeleri, ince beyaz tipografi ve ışık kenarlı buton: ışığın kendisinin içerik olduğu sakin, premium uygulama sayfası.",
+      "palette": [
+        "#050b1a",
+        "#3ef2a8",
+        "#8b5cf6",
+        "#22d3ee",
+        "#f5f7ff"
+      ],
+      "typography": "Outfit 300 (başlık ve gövde) + 600 (tek vurgu kelimesi) + monospace etiketler; her şey beyaz (#f5f7ff)",
+      "layout": "Ortalanmış hero (ışık perdesi üst yarıda), üç saydam kart, iki kolonlu dalga formu bölümü, üç ilke sütunu",
+      "motion": "Blob'lar 14–20 sn'de translate/opacity ile süzülür, yıldızlar 5 sn'de nefes alır; arayüz öğeleri kıpırdamaz",
+      "avoid": "Sert kenarlı gradyan, kirli neon, kalın outline, açık zemin, kalabalık, cam panel (glassmorphism), vaporwave ızgarası",
+      "name": "Aurora",
+      "reference": "Kuzey ışıkları · Mesh gradient",
+      "section": 4,
+      "description": "Gece zemininde süzülen yeşil-mor-cyan ışık perdeleri, blur derinlik ve ince beyaz tipografi.",
+      "description_en": "Aurora: drifting green-violet-cyan light curtains on night, blurred depth and thin white type.",
+      "keywords": [
+        "aurora gradient",
+        "mesh blur",
+        "northern lights",
+        "dark premium",
+        "glow"
+      ]
+    },
+    {
+      "id": 85,
+      "slug": "85-el-yazisi",
+      "file": "85-el-yazisi.dc.html",
+      "title": "El Yazısı",
+      "prompt_en": "Design a handwritten notebook-style landing page for a personal learning and planning app called \"Defterim\". Cream paper (#fdfbf5) with a 24px graph-paper grid drawn in thin blue-grey lines (#d7dce6), a red margin rule on the left and a column of spiral punch holes. Headline in Caveat 700 at 92px, slightly rotated, with one word circled by a hand-drawn SVG ellipse (2.4px stroke, #2b2b2b); body in Patrick Hand at 21px. Highlight key phrases with a translucent yellow marker (#fff176, skew -2deg, bold). Add doodle SVG arrows, a to-do list with hand-drawn checkmarks and strikethroughs, a yellow and a pink (#f48fb1) sticky note with a folded corner, a white-framed \"photo\" card held by a paperclip, and a faint coffee ring (6px rgba(120,80,40,.25) border). No sharp grid, no geometric sans, no corporate blue, no glossy buttons.",
+      "brief_tr": "Kareli defter sayfası, el yazısı fontlar, fosforlu vurgu, yapışkan not ve karalama oklarıyla insan sıcaklığı taşıyan öğrenme/planlama uygulaması.",
+      "palette": [
+        "#fdfbf5",
+        "#2b2b2b",
+        "#fff176",
+        "#f48fb1",
+        "#d7dce6"
+      ],
+      "typography": "Caveat 700 (başlık, 92px, hafif eğik) + Patrick Hand (gövde 21px, liste) + monospace küçük etiketler; fosforlu kalın vurgu",
+      "layout": "Kareli sayfa, sol marj çizgisi ve spiral delikler; solda başlık + yapılacaklar, sağda dağınık kolaj (fotoğraf, iki yapışkan not, oklar); üç elle çizilmiş ilke kutusu",
+      "motion": "Yapışkan not 6 sn'de hafifçe sallanır; bağlantıda fosforlu arka plan belirir; başka animasyon yok",
+      "avoid": "Geometrik sans, keskin ızgara, kurumsal mavi, gölgeli butonlar, mükemmel hizalama, dördüncü fosfor vurgusu",
+      "name": "El Yazısı",
+      "reference": "Defter · Doodle",
+      "section": 4,
+      "description": "Kareli defter, el yazısı fontlar, fosforlu vurgu, karalama oklar ve yapışkan notlar; insan sıcaklığı.",
+      "description_en": "Handwritten: grid notebook, script fonts, highlighter marks, doodle arrows and sticky notes — human warmth.",
+      "keywords": [
+        "handwritten",
+        "notebook grid",
+        "highlighter",
+        "doodle arrows",
+        "sticky notes"
       ]
     }
   ]
