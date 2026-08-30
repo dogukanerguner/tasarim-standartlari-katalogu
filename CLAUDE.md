@@ -1,11 +1,11 @@
 # Tasarım Standartları Kataloğu
 
-72 tasarım yaklaşımını hem canlı örnek sayfa hem de AI kod üretiminde
+73 tasarım yaklaşımını hem canlı örnek sayfa hem de AI kod üretiminde
 kullanılabilir prompt/kural seti olarak sunan katalog.
 
 ## Yapı
 
-- `NN-stil-adi.dc.html` — 72 stil sayfası. Her biri stilin çalışan örneği +
+- `NN-stil-adi.dc.html` — 73 stil sayfası. Her biri stilin çalışan örneği +
   sayfa sonunda `data-prompt-block="1"` içinde detaylı İngilizce prompt,
   Türkçe brief, palet, tipografi, düzen, hareket ve kaçınılacaklar.
 - `Katalog.dc.html` — aramalı, canlı iframe önizlemeli index. Veri odaklıdır:

@@ -6,7 +6,7 @@ okunabilir hâlidir. **Elle düzenlemeyin** — kaynak HTML değiştiğinde
 
 ## İçerik
 
-- `catalog.json` — 72 stilin ve 15 bölümün tamamı tek dosyada.
+- `catalog.json` — 73 stilin ve 15 bölümün tamamı tek dosyada.
   Her stil kaydı: `id`, `slug`, `title`, `section`, `reference` (ekol/kaynak),
   `description`, `keywords`, `prompt_en`, `brief_tr`, `palette` (hex listesi),
   `typography`, `layout`, `motion`, `avoid`, `file` (kaynak sayfa).

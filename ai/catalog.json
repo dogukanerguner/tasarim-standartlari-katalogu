@@ -1,6 +1,6 @@
 {
   "name": "Tasarım Standartları Kataloğu",
-  "description": "72 tasarım yaklaşımının AI kod üretiminde kullanılabilir prompt, palet ve kural seti. Kaynak: *.dc.html sayfalarının prompt blokları + data/catalog-meta.json.",
+  "description": "73 tasarım yaklaşımının AI kod üretiminde kullanılabilir prompt, palet ve kural seti. Kaynak: *.dc.html sayfalarının prompt blokları + data/catalog-meta.json.",
   "sections": [
     {
       "id": 1,
@@ -2238,6 +2238,37 @@
         "patience over pressure"
       ],
       "description_en": "Osman Hamdi's patience: a focus app born from The Tortoise Trainer — light through the arch, progress at turtle pace."
+    },
+    {
+      "id": 73,
+      "slug": "73-saf-minimalizm",
+      "file": "73-saf-minimalizm.dc.html",
+      "title": "Saf Minimalizm",
+      "prompt_en": "Design a pure-minimalist product page for a single ceramic cup, in the spirit of Kenya Hara and John Pawson. Off-white background (#fbfbfa) with near-black text (#1a1a1a) and warm grey neutrals (#f1f0ec, #e6e4de) — no accent color at all. A two-column hero split by a hairline: left, a square neutral product plate with the object centered in generous negative space; right, a tiny uppercase monospace eyebrow, a 40px light-weight (300) headline of one word, a 15px light paragraph capped at 34ch, a price row separated by a hairline, and one outlined uppercase button. Below, three principle columns and a four-item grid separated only by 1px gaps. Inter at two weights, no shadows, no radii, no icons, no decoration.",
+      "brief_tr": "Tek nesne, tek buton, sıfır vurgu rengi: boşluğun malzeme, çıkarmanın yöntem olduğu ürün sayfası.",
+      "palette": [
+        "#fbfbfa",
+        "#1a1a1a",
+        "#f1f0ec",
+        "#e6e4de",
+        "#8a8a86"
+      ],
+      "typography": "Inter 300 (başlık ve gövde) + 500 (tek buton) + monospace etiketler; üç boyut, iki ağırlık",
+      "layout": "İkiye bölünmüş hero, saç teli ayraçlar, 1px boşluklu ürün ızgarası; her şey sola hizalı",
+      "motion": "Yalnızca opaklık geçişi; hiçbir şey kaymaz, büyümez",
+      "avoid": "Vurgu rengi, gölge, yuvarlak köşe, ikon, rozet, ikinci font, kalın ağırlık, dolgulu buton",
+      "name": "Saf Minimalizm",
+      "reference": "Kenya Hara · John Pawson",
+      "section": 7,
+      "description": "Tek nesne, sıfır vurgu rengi, saç teli ayraçlar: boşluğun malzeme, çıkarmanın yöntem olduğu sayfa.",
+      "description_en": "Pure minimalism: one object, zero accent color, hairline dividers — whitespace as material, subtraction as method.",
+      "keywords": [
+        "pure minimalism",
+        "no accent color",
+        "hairline dividers",
+        "single product page",
+        "light-weight type"
+      ]
     }
   ]
 }

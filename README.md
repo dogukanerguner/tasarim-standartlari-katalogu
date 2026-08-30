@@ -1,6 +1,6 @@
 # Tasarım Standartları Kataloğu
 
-**72 tasarım yaklaşımı — her biri hem çalışan canlı örnek, hem de AI kod üretiminde doğrudan kullanılabilir prompt ve kural seti.**
+**73 tasarım yaklaşımı — her biri hem çalışan canlı örnek, hem de AI kod üretiminde doğrudan kullanılabilir prompt ve kural seti.**
 
 🔗 **Canlı demo:** [design.asveas.com](https://design.asveas.com)
 
@@ -18,12 +18,12 @@ Katalog sayfasının kendisi de bu katmandan beslenir: arama (isim, ekol, anahta
 
 ## Keşfet
 
-- 🖼 **[Galeri — Aynı uygulama, 72 stil](https://design.asveas.com/Galeri.dc.html)** · aynı yapılacaklar listesi, 72 tasarım dilinde. Favorinizi alıntılayıp paylaşın.
-- 🎨 **[Test — Hangi tasarım stili sensin?](https://design.asveas.com/Test.dc.html)** · 6 soru, 72 stilden biri sizsiniz; sonucu tek linkle paylaşın.
-- 🎛 **[Mikser — İki stili karıştır](https://design.asveas.com/Mikser.dc.html)** · biri görsel dil, biri iskelet: 5.112 harman, tek AI promptu (`?mix=67+57`).
-- 🔌 **[MCP sunucusu](mcp/)** · 72 stili Claude Code / Cursor'a araç olarak bağlar: `stil_ara`, `stil_getir`, `stil_listele`.
+- 🖼 **[Galeri — Aynı uygulama, 73 stil](https://design.asveas.com/Galeri.dc.html)** · aynı yapılacaklar listesi, 73 tasarım dilinde. Favorinizi alıntılayıp paylaşın.
+- 🎨 **[Test — Hangi tasarım stili sensin?](https://design.asveas.com/Test.dc.html)** · 6 soru, 73 stilden biri sizsiniz; sonucu tek linkle paylaşın.
+- 🎛 **[Mikser — İki stili karıştır](https://design.asveas.com/Mikser.dc.html)** · biri görsel dil, biri iskelet: 5.256 harman, tek AI promptu (`?mix=67+57`).
+- 🔌 **[MCP sunucusu](mcp/)** · 73 stili Claude Code / Cursor'a araç olarak bağlar: `stil_ara`, `stil_getir`, `stil_listele`.
 
-## İçerik — 15 bölüm, 72 sayfa
+## İçerik — 15 bölüm, 73 sayfa
 
 | Bölüm | Sayfalar | Kapsam |
 |---|---|---|
@@ -33,7 +33,7 @@ Katalog sayfasının kendisi de bu katmandan beslenir: arama (isim, ekol, anahta
 | 04 · Dokusal trendler | 15–17 | Glassmorphism, neomorphism, claymorphism |
 | 05 · Sanat akımları | 18–23 | Art Nouveau, Art Deco, De Stijl, konstruktivizm, Memphis, mid-century |
 | 06 · Kültürel diller | 24–27 | Vaporwave, Japon Ma / wabi-sabi, çini geometrik motif, solarpunk |
-| 07 · Arayüz dönemleri | 28–30 | Skeuomorfizm, flat design, maksimalizm |
+| 07 · Arayüz dönemleri | 28–30, 73 | Skeuomorfizm, flat design, maksimalizm, saf minimalizm |
 | 08 · İlke temelli | 31–33 | Erişilebilirlik öncelikli, kamu hizmeti sade dili, ham HTML brütalizmi |
 | 09 · Mobil yapılar | 34–39 | Başparmak bölgesi, swipe destesi, aşamalı açığa çıkarma, boş durumlar, alt sayfalar, sonsuz akış |
 | 10 · Davranış & psikoloji | 40–45 | Alışkanlık döngüsü, oyunlaştırma, sosyal kanıt, çapa fiyatlama, zirve–son kuralı, **karanlık desenler (etik uyarı)** |
@@ -49,7 +49,7 @@ Katalog sayfasının kendisi de bu katmandan beslenir: arama (isim, ekol, anahta
 
 ```
 ai/
-├── catalog.json     # 72 stilin tamamı: prompt_en, brief_tr, palette,
+├── catalog.json     # 73 stilin tamamı: prompt_en, brief_tr, palette,
 │                    # typography, layout, motion, avoid, keywords, section
 └── styles/          # stil başına frontmatter'lı markdown (tek stil = tek bağlam)
     ├── 01-editorial-minimalizm.md
@@ -88,6 +88,7 @@ Yeni bir stil eklemek üç adımdır:
 1. `NN-stil-adi.dc.html` sayfasını yazın (sonunda prompt bloğu zorunlu).
 2. [`data/catalog-meta.json`](data/catalog-meta.json) dosyasına kaydı ekleyin (isim, ekol, açıklama, anahtar kelimeler, bölüm).
 3. `python3 tools/extract_prompts.py` çalıştırın — `ai/` katmanı ve dolayısıyla Katalog sayfası otomatik güncellenir.
+4. Paylaşım kartı için yerel sunucu açıkken `node tools/og_shots.js NN-slug` ve ardından `python3 tools/inject_og.py` çalıştırın. Galeri'ye de bir hücre ekleyin (`Galeri.dc.html`).
 
 Kurallar: sayfa dili Türkçe, tüm stiller inline, görseller yer tutucu (telifli materyal yok).
 
